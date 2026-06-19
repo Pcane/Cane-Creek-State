@@ -1,19 +1,17 @@
 # Cane Creek Studio — System Map
-**Last updated:** 2026-06-18  
-**Updated by:** Overseer  
+**Last updated:** 2026-06-19
+**Updated by:** Overseer
 **Version:** 1.2
 
 ---
 
 ## HOW TO START A NEW OVERSEER SESSION
 
-At the start of every session, before doing anything else, fetch both documents below. Do not respond to Peter until you have read both.
-
 Fetch this document:
-`https://raw.githubusercontent.com/Pcane/Cane-Creek-State/refs/heads/main/SYSTEM_MAP.md`
+`https://raw.githubusercontent.com/Pcane/cane-creek-state/refs/heads/main/SYSTEM_MAP.md`
 
 Then fetch the overseer state:
-`https://raw.githubusercontent.com/Pcane/Cane-Creek-State/refs/heads/main/OVERSEER_STATE.md`
+`https://raw.githubusercontent.com/Pcane/cane-creek-state/refs/heads/main/OVERSEER_STATE.md`
 
 Confirm you are up to speed before proceeding.
 
@@ -23,15 +21,15 @@ Confirm you are up to speed before proceeding.
 
 Cane Creek Tile Co. is a sole-maker handmade ceramic raised-line art tile studio in Alamance County, NC. Peter Cane is the sole maker — every tile made by one pair of hands, start to finish. Suzie Cane handles billing and administration. Pre-launch, targeting architects and interior designers. Direct sales only, no wholesale.
 
-The digital suite consists of two GitHub repos, two Netlify deployments, and a set of HTML/JS apps. All apps are single-file HTML with embedded CSS and JS. No build step. No framework. Vanilla JS only.
+The digital suite consists of three GitHub repos, two Netlify deployments, and a set of HTML/JS apps. All apps are single-file HTML with embedded CSS and JS. No build step. No framework. Vanilla JS only.
 
 ---
 
 ## 2. REPOSITORIES
 
 ### `Pcane/cane-creek-app` (private)
-**Live at:** cane-creek-app.netlify.app  
-**Purpose:** Internal studio and business tools  
+**Live at:** cane-creek-app.netlify.app
+**Purpose:** Internal studio and business tools
 **Auto-deploys:** Yes, from main branch via Netlify
 
 | File | Purpose | Status |
@@ -42,28 +40,36 @@ The digital suite consists of two GitHub repos, two Netlify deployments, and a s
 | `glaze_studio.html` | Glaze calculator and session tracking | Live |
 | `design_v2.html` | Fireplace surround tile layout calculator | Live |
 | `pattern.html` | Pattern Studio — SVG pattern generator | Live |
-| `tile_record.html` | Tile lab notebook — not yet built | Pending |
-| `glazes.json` | Shared glaze library — not yet extracted | Pending |
+| `tile_technical_data.html` | Tile Technical Data app | In development |
+| `glazes.json` | Shared glaze library — single source of truth | Live |
 | `netlify/functions` | Serverless functions | Live |
 | `netlify.toml` | Netlify configuration | Live |
 | `manifest.json` | PWA manifest | Live |
 | `sw.js` | Service worker | Live |
 | `README.md` | Repo documentation | Live |
+
+### `Pcane/cane-creek-state` (private)
+**Purpose:** State documents for all Claude projects
+**Auto-deploys:** No — documents only
+
+| File | Purpose | Status |
+|------|---------|--------|
 | `SYSTEM_MAP.md` | This file | Live |
 | `OVERSEER_STATE.md` | Overseer session state | Live |
 | `MARKETING_STATE.md` | Marketing Claude session state | Live |
 | `GLAZE_STATE.md` | Glaze Studio Claude session state | Live |
 | `STUDIO_STATE.md` | Studio tools Claude session state | Live |
+| `TILE_RECORD_STATE.md` | Tile Technical Data Claude session state | Live |
+| `WEBSITE_STATE.md` | Website Claude session state | Pending creation |
 
 ### `Pcane/cane-creek-website` (private)
-**Live at:** thehandmadetile.com  
-**Purpose:** Public-facing marketing website  
+**Live at:** thehandmadetile.com
+**Purpose:** Public-facing marketing website
 **Auto-deploys:** Yes, from main branch via Netlify
 
 | File | Purpose | Status |
 |------|---------|--------|
 | `index.html` | Homepage | Live, content pending update |
-| `WEBSITE_STATE.md` | Website Claude session state | Pending creation |
 
 ---
 
@@ -89,8 +95,8 @@ The digital suite consists of two GitHub repos, two Netlify deployments, and a s
 ## 4. DEV WORKFLOW — NEVER DEVIATE
 
 1. Coding Claude writes patch script
-2. Peter runs `perl patch_vX_X.pl app.js` in Terminal from `~/Downloads/cane-creek-patch/`
-3. Peter uploads patched file AND updated state document to GitHub in same commit
+2. Peter runs `perl patch_vX_X.pl [filename]` in Terminal from `~/Downloads/cane-creek-patch/`
+3. Peter uploads patched file to `cane-creek-app` AND updated state document to `cane-creek-state` in same commit to each repo
 4. Netlify auto-deploys (~30 seconds)
 5. Peter tests in browser via JS console script
 6. Peter uploads result JSON to Claude for analysis before any full re-assess
@@ -103,29 +109,32 @@ The digital suite consists of two GitHub repos, two Netlify deployments, and a s
 - Always use model string `claude-sonnet-4-5` — no other string ever
 - One focused change set per conversation
 - Always read relevant code section before changing it
-- Update changelog header in app.js every session
+- Update changelog header in app file every session
 - Update state document every session — this is not optional
 
 ---
 
 ## 5. STATE DOCUMENTS — HOW THEY WORK
 
-Each project has its own state document in GitHub. When a conversation gets long or a new Claude starts, it fetches the state document and picks up exactly where the last session left off.
+Each project has its own state document in the `cane-creek-state` repo. When a conversation gets long or a new Claude starts, it fetches the state document and picks up exactly where the last session left off.
+
+**IMPORTANT: All state documents live in `Pcane/cane-creek-state`, NOT in `cane-creek-app`.**
 
 | Document | Project | Fetch URL |
 |----------|---------|-----------|
-| `SYSTEM_MAP.md` | Overseer | `https://raw.githubusercontent.com/Pcane/Cane-Creek-State/refs/heads/main/SYSTEM_MAP.md` |
-| `OVERSEER_STATE.md` | Overseer | `https://raw.githubusercontent.com/Pcane/Cane-Creek-State/refs/heads/main/OVERSEER_STATE.md` |
-| `MARKETING_STATE.md` | Marketing | `https://raw.githubusercontent.com/Pcane/Cane-Creek-State/refs/heads/main/MARKETING_STATE.md` |
-| `GLAZE_STATE.md` | Glaze Studio | `https://raw.githubusercontent.com/Pcane/Cane-Creek-State/refs/heads/main/GLAZE_STATE.md` |
-| `STUDIO_STATE.md` | Studio tools | `https://raw.githubusercontent.com/Pcane/Cane-Creek-State/refs/heads/main/STUDIO_STATE.md` |
-| `WEBSITE_STATE.md` | Website | `https://raw.githubusercontent.com/Pcane/cane-creek-website/refs/heads/main/WEBSITE_STATE.md` |
+| `SYSTEM_MAP.md` | Overseer | `https://raw.githubusercontent.com/Pcane/cane-creek-state/refs/heads/main/SYSTEM_MAP.md` |
+| `OVERSEER_STATE.md` | Overseer | `https://raw.githubusercontent.com/Pcane/cane-creek-state/refs/heads/main/OVERSEER_STATE.md` |
+| `MARKETING_STATE.md` | Marketing | `https://raw.githubusercontent.com/Pcane/cane-creek-state/refs/heads/main/MARKETING_STATE.md` |
+| `GLAZE_STATE.md` | Glaze Studio | `https://raw.githubusercontent.com/Pcane/cane-creek-state/refs/heads/main/GLAZE_STATE.md` |
+| `STUDIO_STATE.md` | Studio tools | `https://raw.githubusercontent.com/Pcane/cane-creek-state/refs/heads/main/STUDIO_STATE.md` |
+| `TILE_RECORD_STATE.md` | Tile Technical Data | `https://raw.githubusercontent.com/Pcane/cane-creek-state/refs/heads/main/TILE_RECORD_STATE.md` |
+| `WEBSITE_STATE.md` | Website | `https://raw.githubusercontent.com/Pcane/cane-creek-state/refs/heads/main/WEBSITE_STATE.md` |
 
 **At the end of every session** the coding Claude delivers:
-- Patched code file(s)
-- Updated state document
+- Patched code file(s) → Peter uploads to `cane-creek-app`
+- Updated state document → Peter uploads to `cane-creek-state`
 
-Peter uploads both to GitHub in the same commit.
+Both uploads happen in the same commit to their respective repos.
 
 ---
 
@@ -222,11 +231,9 @@ These are the confirmed production standards for all new molds. All derived valu
 | Colorant method | Direct-weigh with pre-wet |
 
 ### G-series glazes
-Glazes G25–G43 established. Full nomenclature system: OX/MX/MS/HC.
+Glazes G1–G43+ established. Full nomenclature system: OX/MX/MS/HC.
 
-**Data location:** Currently hardcoded as `GLAZES` array in `glaze_studio.html`.
-
-**Pending architectural decision:** Extract `GLAZES` array to shared `glazes.json` in repo root. Both `glaze_studio.html` and the tile record app read from this single source. M-series (matte) glazes added later — shared file handles this cleanly. **This must happen before tile record app glaze integration is built.**
+**Data location:** `glazes.json` in root of `cane-creek-app` repo. Both `glaze_studio.html` and `tile_technical_data.html` fetch from this single file at runtime via `./glazes.json`. Never duplicate glaze data in any app.
 
 **Glazing method:** Wax all backs → water submersion → bulb-apply colors into recesses → fast clear dip.
 
@@ -235,230 +242,50 @@ Glazes G25–G43 established. Full nomenclature system: OX/MX/MS/HC.
 ## 9. APP MAP
 
 ### Business App (`index.html` + `app.js`)
-**Purpose:** CRM, billing, marketing, production tracking  
-**Data:** localStorage + Netlify Blob  
-**Model:** `claude-sonnet-4-5` always  
-**Current version:** v8.12  
-**Managed by:** Cane Creek Marketing project  
-**State document:** `MARKETING_STATE.md`
+**Purpose:** CRM, billing, marketing, production tracking
+**Data:** localStorage + Netlify Blob
+**Model:** `claude-sonnet-4-5` always
+**Current version:** v8.12
+**Managed by:** Cane Creek Marketing project
+**State document:** `MARKETING_STATE.md` in `cane-creek-state`
 
 ### Glaze Studio (`glaze_studio.html`)
-**Purpose:** Glaze calculation, session tracking, G-series library  
-**Data:** localStorage + Netlify Blob  
-**Pending:** Glaze session feedback/journal tab  
-**Pending:** Extract GLAZES to glazes.json  
-**State document:** `GLAZE_STATE.md`
+**Purpose:** Glaze calculation, session tracking, G-series library
+**Data:** localStorage + Netlify Blob
+**Glaze data:** Fetches from `./glazes.json` at runtime
+**Pending:** Glaze session feedback/journal tab
+**State document:** `GLAZE_STATE.md` in `cane-creek-state`
 
 ### Fireplace Designer (`design_v2.html`)
-**Purpose:** Fireplace surround tile layout calculator  
-**Data:** localStorage  
-**Status:** Stable, 36-test debug suite passing  
+**Purpose:** Fireplace surround tile layout calculator
+**Data:** localStorage
+**Status:** Stable, 36-test debug suite passing
 
 ### Pattern Studio (`pattern.html`)
-**Purpose:** Tile pattern generator with SVG export  
-**Data:** localStorage  
-**Pending Stage 2:** Seed import, transform stack, overlap modes, validation, recipe library  
-**Blocker:** Confirm Illustrator SVG export flavor before Stage 2  
-**State document:** `STUDIO_STATE.md`
+**Purpose:** Tile pattern generator with SVG export
+**Data:** localStorage
+**Pending Stage 2:** Seed import, transform stack, overlap modes, validation, recipe library
+**Blocker:** Confirm Illustrator SVG export flavor before Stage 2
+**State document:** `STUDIO_STATE.md` in `cane-creek-state`
 
 ### Hub (`hub.html`)
-**Purpose:** Studio tools launcher  
-**Pending:** Add Pattern Studio card  
+**Purpose:** Studio tools launcher
+**Pending:** Add Tile Technical Data card (after app is working)
+
+### Tile Technical Data (`tile_technical_data.html`)
+**Purpose:** Permanent structured record for every tile — design through fired result
+**Data:** Netlify Blob primary, localStorage cache
+**Glaze data:** Fetches from `./glazes.json` at runtime
+**Status:** In development
+**Key features:** Printable one-page CNC reference sheet, live glaze data pull, Google Drive file links
+**State document:** `TILE_RECORD_STATE.md` in `cane-creek-state`
+**Managed by:** Cane Creek Tile Technical Data project (separate Claude project)
 
 ### Public Website (`index.html` in cane-creek-website)
-**Purpose:** Public marketing site  
-**Status:** Live, content pending full update  
-**Pending:** Formspree contact form, inner pages  
-**State document:** `WEBSITE_STATE.md` (pending creation)
-
-### Tile Record App (`tile_record.html`) — NOT YET BUILT
-**Purpose:** Complete lifecycle lab notebook for every tile from design intent through fired result. Serves both as production record and experimental notebook. Primary navigation is by tile, not by process or version tree.  
-**Data:** localStorage + Netlity Blob (records and small files); Google Drive links (large files)  
-**Blocker:** glazes.json must exist first  
-**Build order:** Stage 1 first — do not attempt full build in one session  
-**State document:** `TILE_RECORD_STATE.md` (created when app is built)
-
-#### TILE RECORD APP — FULL SPEC
-
-##### UI Layout — Three Screens
-
-**Screen 1 — Dashboard (Today view)**
-- Top section: current active standards at a glance — current line spec, active CNC profiles, current clay body. Flags recent changes.
-- Below: tile records grid/list, most recent first. Each card shows tile ID, design name, date, tile type, status, thumbnail if photo exists.
-- Filter bar: filter by status, glaze, size, tile type, date range, customer.
-
-**Screen 2 — Tile Record (This Tile view)**
-- Single tile, all eleven process layers flat on one scrollable page.
-- Collapsible sections per layer. Key parameters visible collapsed, full detail on expand.
-- Top: tile ID, design name, tile type, status, date, intent (what you were trying to achieve).
-- File attachments inline: SVG, G-code files, in-process photos accessible directly. Drive links for AI source and R5 final photos.
-- Bottom: result section — photos, outcome notes, rating, what to change next time.
-- Required fields enforced — cannot mark tile complete without them.
-- Print button generates clean one-page summary.
-
-**Screen 3 — Compare view**
-- Select two tiles or two profile versions.
-- Side by side. Parameters highlighted where they differ. Results shown below each column.
-- **Build last — most complex view.**
-
-##### Data Layers — Eleven Process Layers Per Tile Record
-
-**1. Identity**
-- Tile ID (auto-generated, e.g. T001)
-- Date created
-- Tile type: square field tile / art tile / liner / border / corner / other
-- Status: experiment / production / retired
-- Customer reference (optional — links to customer ID in business app)
-- Design name
-- Illustrator source file link (Google Drive)
-- What you were trying to achieve (required)
-
-**2. Mold**
-- Mold ID
-- Shape: square / rectangle / other
-- Green face size
-- Pocket depth
-- Safety margin
-- Mold generation / version number
-
-**3. Size**
-- Target fired face size
-- Target fired thickness
-- Shrinkage factor used
-- Actual measured fired face size
-- Actual measured fired thickness
-- Actual shrinkage (calculated from measured values)
-- Notes on size deviation
-
-**4. CNC Pass 1 — Roughing**
-- Profile reference (e.g. "CNC-Pass1-6x6-v2") — must be size-tagged
-- Any deviations from profile (free text)
-- Notes
-
-**5. CNC Pass 2 — Finish**
-- Profile reference — must be size-tagged
-- Any deviations from profile
-- Notes
-
-**6. CNC Pass 3 — Line Grooves**
-- Profile reference — must be size-tagged
-- Target line depth
-- Actual measured line height post-cut
-- Actual measured line base width post-cut
-- Any deviations from profile
-- Notes
-
-**7. Clay**
-- Clay body
-- Green slab thickness
-- Pressing method
-- Green face size measured (confirm matches mold)
-
-**8. Drying**
-- Duration
-- Conditions
-- Notes
-
-**9. Bisque Firing**
-- Date
-- Cone
-- Schedule used (references firing profile)
-- Kiln position
-- Notes / result
-
-**10. Glazing — repeated per glaze applied**
-- Glaze ID + version (pulled from glazes.json)
-- Actual SG on application day
-- Bisque pre-wet: yes/no, duration in seconds
-- Application method: dip / pour / spray / brush / bulb
-- Coat count
-- Sequence order (1st, 2nd, 3rd applied)
-- Notes
-
-**11. Glaze Firing**
-- Date
-- Cone
-- Schedule used (references firing profile)
-- Kiln position
-- Notes
-
-**12. Result**
-- In-process photos (phone snaps, stored in Netlify Blob)
-- Final photos (Canon R5, Google Drive link)
-- What actually happened (required)
-- Rating: keeper / experiment / retire (required)
-- What you would change next time (required)
-- Recipe or profile change triggered: yes / no — if yes, note which profile and new version number
-
-##### File Storage Per Tile Record
-
-| File | Size | Storage | Notes |
-|------|------|---------|-------|
-| Illustrator source (.ai) | Large | Google Drive | Link stored in tile record |
-| SVG for Carvco | Small | Netlify Blob | Uploaded directly into tile record |
-| G-code Pass 1 (.nc) | Tiny | Netlify Blob | Uploaded directly into tile record |
-| G-code Pass 2 (.nc) | Tiny | Netlify Blob | Uploaded directly into tile record |
-| G-code Pass 3 (.nc) | Tiny | Netlify Blob | Uploaded directly into tile record |
-| In-process photos | Medium | Netlify Blob | Uploaded directly into tile record |
-| Final photos (R5) | Large | Google Drive | Link stored in tile record |
-
-Carvco project files are ephemeral — not stored. G-code is the permanent CNC record.
-
-##### Versioned Process Profiles
-
-CNC parameters, firing schedules are captured as versioned profiles — not re-entered per tile. Each CNC profile is size-tagged. Profiles live in localStorage + Blob alongside tile records.
-
-Profile naming convention: `[type]-[size]-v[n]`
-Examples: `CNC-Pass1-6x6-v1`, `CNC-Pass3-4x4-v2`, `Bisque-v1`, `GlazeFire-v1`
-
-When a profile changes:
-- Old version retired with required reason field and date
-- New version created and becomes active
-- Every tile record references the specific profile version used at time of making
-- Compare view can show tiles made with v1 vs v2 side by side
-
-Profile types:
-- CNC Pass 1 (size-tagged)
-- CNC Pass 2 (size-tagged)
-- CNC Pass 3 / line spec (size-tagged)
-- Bisque firing schedule
-- Glaze firing schedule
-
-##### Navigation Views
-
-1. **Today** — current active profile versions for every process, current active glazes. What you are working with right now. Recent changes flagged.
-2. **This Tile** — complete flat record for one tile. Every layer, every parameter, every result. Printable one-page summary.
-3. **Compare** — select two tiles or two profile versions, see results side by side with differences highlighted. Build this last.
-
-##### Integration Points
-- Reads `glazes.json` for active glaze library — read only, never writes to glazes.json
-- Links to Google Drive for Illustrator source files and R5 final photos
-- Links to Pattern Studio seeds (pending Pattern Studio Stage 2)
-- Customer reference field links to customer ID in business app CRM — optional, neither app breaks if empty
-- Business app order records may reference tile ID — connection is optional in both directions
-
-##### Build Stages — Do Not Deviate From This Order
-
-**Stage 1 — Core record (build first)**
-Identity, Mold, Size, Result fields only. Get data entry, storage, and retrieval working. Dashboard view with tile cards. No file uploads yet. No CNC layers yet. No glaze integration yet.
-Confirm Stage 1 is working before proceeding.
-
-**Stage 2 — CNC and clay layers**
-Add process layers 4–8 (CNC passes, clay, drying, bisque). Add versioned process profiles. Add profile reference fields to tile record.
-Confirm Stage 2 before proceeding.
-
-**Stage 3 — Glaze integration**
-Add glazing layer (layer 10). Pull active glazes from glazes.json. Add glaze firing layer (layer 11).
-Requires glazes.json to exist first — hard blocker.
-Confirm Stage 3 before proceeding.
-
-**Stage 4 — File storage**
-Add SVG and G-code upload to Netlify Blob. Add in-process photo upload. Add Drive link fields for large files.
-Test Blob upload behavior carefully — known throttling risk at scale.
-Confirm Stage 4 before proceeding.
-
-**Stage 5 — Compare view**
-Build compare view last. Most complex. Two-tile and two-profile comparison with diff highlighting.
+**Purpose:** Public marketing site
+**Status:** Live, content pending full update
+**Pending:** Formspree contact form, inner pages
+**State document:** `WEBSITE_STATE.md` in `cane-creek-state` (pending creation)
 
 ---
 
@@ -467,15 +294,13 @@ Build compare view last. Most complex. Two-tile and two-profile comparison with 
 | Data | Owner | Location | Shared with |
 |------|-------|----------|-------------|
 | Prospect records | app.js | localStorage + Blob | Nothing yet |
-| Glaze library | glaze_studio.html → glazes.json | localStorage + Blob → repo root | Tile record app (read only) |
-| Glaze sessions / mix log | glaze_studio.html | localStorage + Blob | Nothing |
-| Tile records | tile_record.html | localStorage + Blob | Business app (customer ref, read only) |
-| Process profiles | tile_record.html | localStorage + Blob | Nothing |
-| CNC standards | SYSTEM_MAP.md | GitHub | All apps (read only) |
-| Tile standards | SYSTEM_MAP.md | GitHub | All apps (read only) |
-| Design files (.ai, R5 photos) | Google Drive | Drive | Tile record app links to them |
-| SVG + G-code files | tile_record.html | Netlify Blob | Nothing |
-| Pattern seeds | pattern.html | localStorage | Tile record app (pending) |
+| Glaze library | glazes.json | cane-creek-app repo | glaze_studio.html + tile_technical_data.html |
+| Glaze sessions | glaze_studio.html | localStorage + Blob | Nothing |
+| Tile records | tile_technical_data.html | localStorage + Blob | Nothing yet |
+| CNC standards | SYSTEM_MAP.md | cane-creek-state | All apps (read only) |
+| Tile standards | SYSTEM_MAP.md | cane-creek-state | All apps (read only) |
+| Design files | Google Drive | Drive | tile_technical_data.html links to them |
+| Pattern seeds | pattern.html | localStorage | tile_technical_data.html (pending) |
 
 ---
 
@@ -483,15 +308,12 @@ Build compare view last. Most complex. Two-tile and two-profile comparison with 
 
 | Decision | Priority | Notes |
 |----------|----------|-------|
-| Extract GLAZES to glazes.json | High | Blocks tile record app Stage 3 glaze integration |
-| Tile record app Stage 1 build | High | After glazes.json extraction — see build stages above |
-| Netlify Blob file upload proof of concept | High | Test before Stage 4 — known throttling risk |
 | Pattern Studio Stage 2 | Medium | Confirm Illustrator SVG flavor first |
-| Standardize date format across all apps | Medium | Use ISO 8601 everywhere |
-| Pattern Studio card in hub.html | Low | Simple add, low effort |
+| Standardize date format across all apps | Medium | Use ISO 8601 everywhere — glaze studio and business app currently inconsistent |
 | Glaze journal tab in glaze_studio | Medium | Build after firing assessment |
 | Website inner pages | Medium | Fireplaces, Backsplash, Dados, About, How It's Made |
 | Formspree contact form on website | Low | Wire when content is ready |
+| Pattern Studio card in hub.html | Low | Simple add, low effort — do alongside Tile Technical Data hub card |
 
 ---
 
@@ -499,8 +321,8 @@ Build compare view last. Most complex. Two-tile and two-profile comparison with 
 
 | Item | Location | Priority |
 |------|----------|----------|
-| GLAZES array hardcoded in glaze_studio.html | glaze_studio.html | High |
 | Pattern Studio card missing from hub.html | hub.html | Low |
+| Tile Technical Data card missing from hub.html | hub.html | Low — add when app is working |
 | GRBL ALARM:3 false limit-switch triggers | CNC hardware | Medium — permanent capacitor fix needed (`$21=0` is current workaround) |
 | Date format inconsistency across apps | Multiple | Medium |
 
@@ -522,8 +344,8 @@ Build compare view last. Most complex. Two-tile and two-profile comparison with 
 | Never add Motawi, Heath, Fireclay etc. as prospects | These are competitor signal markers only, not prospects |
 | Never fabricate contact emails | Apollo owns verified email enrichment — guessed emails are not a substitute |
 | Never skip the test cycle before re-assess | Previous attempt throttled Netlify blob after ~12 records |
-| Never build tile record app all at once | Too complex — follow the five stage build order in section 9 |
-| Never build tile record Stage 3 without glazes.json existing | Hard dependency — glaze integration will not work without it |
+| Never put state documents in cane-creek-app | State documents live in cane-creek-state — no exceptions |
+| Never hardcode glaze data in any app | glazes.json is the single source of truth — all apps fetch from it |
 
 ---
 
@@ -537,13 +359,10 @@ Build compare view last. Most complex. Two-tile and two-profile comparison with 
 | 2026-06-17 | Finish pass stepover set to 0.016" as test | Original 0.008" produced ~5hr run time — halving to assess surface quality tradeoff | Keep at 0.008" |
 | 2026-06-17 | Store design files in Google Drive, not in app | SVG and AI files too large for app storage — app stores link only | Upload files directly to app |
 | 2026-06-17 | Colorant method switched to direct-weigh with pre-wet | Stock solutions determined impractical | Stock solution system |
-| 2026-06-18 | Tile record app framed as experimental lab notebook, not just production record | Peter is still in discovery phase — system must serve experimentation first, production second | Production-only record |
-| 2026-06-18 | CNC process profiles versioned and size-tagged | Different tile sizes need different CNC parameters — profiles must be size-specific | Single profile per pass type |
-| 2026-06-18 | G-code stored in Netlify Blob, Carvco files discarded | G-code is ground truth of what machine ran — Carvco files are ephemeral tooling, not archive | Store Carvco project files |
-| 2026-06-18 | SVG stored in Netlify Blob, not Google Drive | Small file, needs to be directly in tile record for reliability — Drive links can rot | Drive link only |
-| 2026-06-18 | Large files (AI source, R5 photos) stay in Google Drive with links | Too large for Blob — Drive handles large files cleanly | Upload everything to Blob |
-| 2026-06-18 | Tile record built in five stages | Too complex to build at once — staged build is testable and lower risk | Single build session |
-| 2026-06-18 | Business app and tile record connected via optional customer reference | Tiles sold to customers need reproducibility lookup — connection must be optional so neither app breaks without the other | Tight coupling between apps |
+| 2026-06-19 | State documents moved to separate cane-creek-state repo | Clean separation between app code and session state — avoids confusion | Keep state docs in cane-creek-app |
+| 2026-06-19 | glazes.json extracted from glaze_studio.html | Tile Technical Data app needs glaze data — single source of truth, no duplication | Keep hardcoded in glaze_studio.html |
+| 2026-06-19 | Tile Technical Data app gets its own Claude project | App is substantial — separate from Studio Claude to keep contexts clean | Add to Studio Claude project |
+| 2026-06-19 | Tile Technical Data storage: Netlify Blob primary, localStorage cache | Tile records are permanent artifacts — must survive laptop wipe | localStorage only |
 
 ---
 
@@ -565,10 +384,10 @@ The Cane Creek Studio Overseer does not write application code. It thinks at the
 Include: which project/chat to use, which files to upload first, the exact change required, the data format expected, any constraints from other apps, what to include in the state document update.
 
 **At the start of every overseer session:**
-Fetch this document and OVERSEER_STATE.md from GitHub raw URLs above.
+Fetch SYSTEM_MAP.md and OVERSEER_STATE.md from `cane-creek-state` using the URLs in section 5.
 
 **At the end of every overseer session:**
-Deliver updated SYSTEM_MAP.md and OVERSEER_STATE.md for Peter to upload to GitHub.
+Deliver updated SYSTEM_MAP.md and OVERSEER_STATE.md for Peter to upload to `cane-creek-state`.
 
 **Model string:** Always `claude-sonnet-4-5` — no other string ever.
 
