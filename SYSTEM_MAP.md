@@ -61,6 +61,7 @@ The digital suite consists of three GitHub repos, two Netlify deployments, and a
 | `STUDIO_STATE.md` | Studio tools Claude session state | Live |
 | `TILE_RECORD_STATE.md` | Tile Technical Data Claude session state | Live |
 | `WEBSITE_STATE.md` | Website Claude session state | Pending creation |
+| `STUDIO_NOTEBOOK.md` | Studio Master Notebook — clay, glaze, CNC, kiln reference | Live |
 
 ### `Pcane/cane-creek-website` (private)
 **Live at:** thehandmadetile.com
@@ -129,6 +130,7 @@ Each project has its own state document in the `cane-creek-state` repo. When a c
 | `STUDIO_STATE.md` | Studio tools | `https://raw.githubusercontent.com/Pcane/cane-creek-state/refs/heads/main/STUDIO_STATE.md` |
 | `TILE_RECORD_STATE.md` | Tile Technical Data | `https://raw.githubusercontent.com/Pcane/cane-creek-state/refs/heads/main/TILE_RECORD_STATE.md` |
 | `WEBSITE_STATE.md` | Website | `https://raw.githubusercontent.com/Pcane/cane-creek-state/refs/heads/main/WEBSITE_STATE.md` |
+| `STUDIO_NOTEBOOK.md` | All Claudes | `https://raw.githubusercontent.com/Pcane/cane-creek-state/refs/heads/main/STUDIO_NOTEBOOK.md` |
 
 **At the end of every session** the coding Claude delivers:
 - Patched code file(s) → Peter uploads to `cane-creek-app`
