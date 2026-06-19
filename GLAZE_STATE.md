@@ -1,12 +1,19 @@
 # GLAZE_STATE.md — Cane Creek Glaze Studio
 
-Last updated: June 2026 — founding document
+Last updated: June 2026 — glazes.json extraction complete
 
-## Current file
-glaze_studio.html — deployed at cane-creek-app.netlify.app/glaze_studio.html
+## Current files
+- glaze_studio.html — deployed at cane-creek-app.netlify.app/glaze_studio.html
+- glazes.json — deployed at cane-creek-app.netlify.app/glazes.json ✓ NEW
 
 ## What the app is
 Five-tab studio calculator. Tab 1: Clay batch directions (30 lb only — no 60 lb). Tab 2: Glaze slurry directions by gallons (1–5 gal). Tab 3: Stock color mixing directions for all G-series glazes. Tab 4: SG & CMC adjuster. Tab 5: Materials list.
+
+## Architecture
+- glazes.json lives in cane-creek-app repo root, served by Netlify alongside the app files
+- glaze_studio.html fetches it as ./glazes.json on DOMContentLoaded (async)
+- tile_record.html will fetch the same ./glazes.json when built — this was the blocker, now unblocked
+- GLAZE_STATE.md lives in Cane-Creek-State repo (state documents only, not app data)
 
 ## Glaze system
 - Base slurry: SG 1.33, f=0.404, CMC 0.20%, Veegum 0.15%
@@ -38,10 +45,11 @@ MS glazes (G3, G7–G10, G13–G15, G19–G20, G22–G23) are retirement candida
 - G11: solid dark green, no variation
 - Most MS stains: opaque and flat
 
-## Pending work — HIGH PRIORITY
-1. **Extract GLAZES array to glazes.json** — currently hardcoded in glaze_studio.html. This is the single most important task — it unblocks the Tile Record app entirely.
-2. Add glaze journal tab — deferred until after next firing assessment
-3. Firing assessment coming soon — 9 new G-series glazes being poured and fired
+## Pending work
+1. ~~Extract GLAZES array to glazes.json~~ ✓ COMPLETE — June 2026
+2. Firing assessment coming — 9 new G-series glazes being poured and fired
+3. Add glaze journal tab — deferred until after next firing assessment
+4. Tile Record app — now unblocked, glazes.json is available at ./glazes.json
 
 ## Materials to order
 - Titanium Dioxide (TiO2) — for G43 ★
