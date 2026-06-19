@@ -1,17 +1,17 @@
 # Cane Creek Studio — System Map
-**Last updated:** 2026-06-17  
-**Updated by:** Overseer (founding document)  
-**Version:** 1.1
+**Last updated:** 2026-06-18  
+**Updated by:** Overseer  
+**Version:** 1.2
 
 ---
 
 ## HOW TO START A NEW OVERSEER SESSION
 
 Fetch this document:
-`https://raw.githubusercontent.com/Pcane/cane-creek-app/refs/heads/main/SYSTEM_MAP.md`
+`https://raw.githubusercontent.com/Pcane/Cane-Creek-State/refs/heads/main/SYSTEM_MAP.md`
 
 Then fetch the overseer state:
-`https://raw.githubusercontent.com/Pcane/cane-creek-app/refs/heads/main/OVERSEER_STATE.md`
+`https://raw.githubusercontent.com/Pcane/Cane-Creek-State/refs/heads/main/OVERSEER_STATE.md`
 
 Confirm you are up to speed before proceeding.
 
@@ -40,6 +40,8 @@ The digital suite consists of two GitHub repos, two Netlify deployments, and a s
 | `glaze_studio.html` | Glaze calculator and session tracking | Live |
 | `design_v2.html` | Fireplace surround tile layout calculator | Live |
 | `pattern.html` | Pattern Studio — SVG pattern generator | Live |
+| `tile_record.html` | Tile lab notebook — not yet built | Pending |
+| `glazes.json` | Shared glaze library — not yet extracted | Pending |
 | `netlify/functions` | Serverless functions | Live |
 | `netlify.toml` | Netlify configuration | Live |
 | `manifest.json` | PWA manifest | Live |
@@ -110,11 +112,11 @@ Each project has its own state document in GitHub. When a conversation gets long
 
 | Document | Project | Fetch URL |
 |----------|---------|-----------|
-| `SYSTEM_MAP.md` | Overseer | `https://raw.githubusercontent.com/Pcane/cane-creek-app/refs/heads/main/SYSTEM_MAP.md` |
-| `OVERSEER_STATE.md` | Overseer | `https://raw.githubusercontent.com/Pcane/cane-creek-app/refs/heads/main/OVERSEER_STATE.md` |
-| `MARKETING_STATE.md` | Marketing | `https://raw.githubusercontent.com/Pcane/cane-creek-app/refs/heads/main/MARKETING_STATE.md` |
-| `GLAZE_STATE.md` | Glaze Studio | `https://raw.githubusercontent.com/Pcane/cane-creek-app/refs/heads/main/GLAZE_STATE.md` |
-| `STUDIO_STATE.md` | Studio tools | `https://raw.githubusercontent.com/Pcane/cane-creek-app/refs/heads/main/STUDIO_STATE.md` |
+| `SYSTEM_MAP.md` | Overseer | `https://raw.githubusercontent.com/Pcane/Cane-Creek-State/refs/heads/main/SYSTEM_MAP.md` |
+| `OVERSEER_STATE.md` | Overseer | `https://raw.githubusercontent.com/Pcane/Cane-Creek-State/refs/heads/main/OVERSEER_STATE.md` |
+| `MARKETING_STATE.md` | Marketing | `https://raw.githubusercontent.com/Pcane/Cane-Creek-State/refs/heads/main/MARKETING_STATE.md` |
+| `GLAZE_STATE.md` | Glaze Studio | `https://raw.githubusercontent.com/Pcane/Cane-Creek-State/refs/heads/main/GLAZE_STATE.md` |
+| `STUDIO_STATE.md` | Studio tools | `https://raw.githubusercontent.com/Pcane/Cane-Creek-State/refs/heads/main/STUDIO_STATE.md` |
 | `WEBSITE_STATE.md` | Website | `https://raw.githubusercontent.com/Pcane/cane-creek-website/refs/heads/main/WEBSITE_STATE.md` |
 
 **At the end of every session** the coding Claude delivers:
@@ -267,11 +269,194 @@ Glazes G25–G43 established. Full nomenclature system: OX/MX/MS/HC.
 **Pending:** Formspree contact form, inner pages  
 **State document:** `WEBSITE_STATE.md` (pending creation)
 
-### Tile Record App (not yet built)
-**Purpose:** Complete tile birth certificate from design through fired result  
+### Tile Record App (`tile_record.html`) — NOT YET BUILT
+**Purpose:** Complete lifecycle lab notebook for every tile from design intent through fired result. Serves both as production record and experimental notebook. Primary navigation is by tile, not by process or version tree.  
+**Data:** localStorage + Netlity Blob (records and small files); Google Drive links (large files)  
 **Blocker:** glazes.json must exist first  
-**Key features:** Printable one-page CNC reference sheet, SVG download for Carvco, live glaze data pull, Google Drive file links  
+**Build order:** Stage 1 first — do not attempt full build in one session  
 **State document:** `TILE_RECORD_STATE.md` (created when app is built)
+
+#### TILE RECORD APP — FULL SPEC
+
+##### UI Layout — Three Screens
+
+**Screen 1 — Dashboard (Today view)**
+- Top section: current active standards at a glance — current line spec, active CNC profiles, current clay body. Flags recent changes.
+- Below: tile records grid/list, most recent first. Each card shows tile ID, design name, date, tile type, status, thumbnail if photo exists.
+- Filter bar: filter by status, glaze, size, tile type, date range, customer.
+
+**Screen 2 — Tile Record (This Tile view)**
+- Single tile, all eleven process layers flat on one scrollable page.
+- Collapsible sections per layer. Key parameters visible collapsed, full detail on expand.
+- Top: tile ID, design name, tile type, status, date, intent (what you were trying to achieve).
+- File attachments inline: SVG, G-code files, in-process photos accessible directly. Drive links for AI source and R5 final photos.
+- Bottom: result section — photos, outcome notes, rating, what to change next time.
+- Required fields enforced — cannot mark tile complete without them.
+- Print button generates clean one-page summary.
+
+**Screen 3 — Compare view**
+- Select two tiles or two profile versions.
+- Side by side. Parameters highlighted where they differ. Results shown below each column.
+- **Build last — most complex view.**
+
+##### Data Layers — Eleven Process Layers Per Tile Record
+
+**1. Identity**
+- Tile ID (auto-generated, e.g. T001)
+- Date created
+- Tile type: square field tile / art tile / liner / border / corner / other
+- Status: experiment / production / retired
+- Customer reference (optional — links to customer ID in business app)
+- Design name
+- Illustrator source file link (Google Drive)
+- What you were trying to achieve (required)
+
+**2. Mold**
+- Mold ID
+- Shape: square / rectangle / other
+- Green face size
+- Pocket depth
+- Safety margin
+- Mold generation / version number
+
+**3. Size**
+- Target fired face size
+- Target fired thickness
+- Shrinkage factor used
+- Actual measured fired face size
+- Actual measured fired thickness
+- Actual shrinkage (calculated from measured values)
+- Notes on size deviation
+
+**4. CNC Pass 1 — Roughing**
+- Profile reference (e.g. "CNC-Pass1-6x6-v2") — must be size-tagged
+- Any deviations from profile (free text)
+- Notes
+
+**5. CNC Pass 2 — Finish**
+- Profile reference — must be size-tagged
+- Any deviations from profile
+- Notes
+
+**6. CNC Pass 3 — Line Grooves**
+- Profile reference — must be size-tagged
+- Target line depth
+- Actual measured line height post-cut
+- Actual measured line base width post-cut
+- Any deviations from profile
+- Notes
+
+**7. Clay**
+- Clay body
+- Green slab thickness
+- Pressing method
+- Green face size measured (confirm matches mold)
+
+**8. Drying**
+- Duration
+- Conditions
+- Notes
+
+**9. Bisque Firing**
+- Date
+- Cone
+- Schedule used (references firing profile)
+- Kiln position
+- Notes / result
+
+**10. Glazing — repeated per glaze applied**
+- Glaze ID + version (pulled from glazes.json)
+- Actual SG on application day
+- Bisque pre-wet: yes/no, duration in seconds
+- Application method: dip / pour / spray / brush / bulb
+- Coat count
+- Sequence order (1st, 2nd, 3rd applied)
+- Notes
+
+**11. Glaze Firing**
+- Date
+- Cone
+- Schedule used (references firing profile)
+- Kiln position
+- Notes
+
+**12. Result**
+- In-process photos (phone snaps, stored in Netlify Blob)
+- Final photos (Canon R5, Google Drive link)
+- What actually happened (required)
+- Rating: keeper / experiment / retire (required)
+- What you would change next time (required)
+- Recipe or profile change triggered: yes / no — if yes, note which profile and new version number
+
+##### File Storage Per Tile Record
+
+| File | Size | Storage | Notes |
+|------|------|---------|-------|
+| Illustrator source (.ai) | Large | Google Drive | Link stored in tile record |
+| SVG for Carvco | Small | Netlify Blob | Uploaded directly into tile record |
+| G-code Pass 1 (.nc) | Tiny | Netlify Blob | Uploaded directly into tile record |
+| G-code Pass 2 (.nc) | Tiny | Netlify Blob | Uploaded directly into tile record |
+| G-code Pass 3 (.nc) | Tiny | Netlify Blob | Uploaded directly into tile record |
+| In-process photos | Medium | Netlify Blob | Uploaded directly into tile record |
+| Final photos (R5) | Large | Google Drive | Link stored in tile record |
+
+Carvco project files are ephemeral — not stored. G-code is the permanent CNC record.
+
+##### Versioned Process Profiles
+
+CNC parameters, firing schedules are captured as versioned profiles — not re-entered per tile. Each CNC profile is size-tagged. Profiles live in localStorage + Blob alongside tile records.
+
+Profile naming convention: `[type]-[size]-v[n]`
+Examples: `CNC-Pass1-6x6-v1`, `CNC-Pass3-4x4-v2`, `Bisque-v1`, `GlazeFire-v1`
+
+When a profile changes:
+- Old version retired with required reason field and date
+- New version created and becomes active
+- Every tile record references the specific profile version used at time of making
+- Compare view can show tiles made with v1 vs v2 side by side
+
+Profile types:
+- CNC Pass 1 (size-tagged)
+- CNC Pass 2 (size-tagged)
+- CNC Pass 3 / line spec (size-tagged)
+- Bisque firing schedule
+- Glaze firing schedule
+
+##### Navigation Views
+
+1. **Today** — current active profile versions for every process, current active glazes. What you are working with right now. Recent changes flagged.
+2. **This Tile** — complete flat record for one tile. Every layer, every parameter, every result. Printable one-page summary.
+3. **Compare** — select two tiles or two profile versions, see results side by side with differences highlighted. Build this last.
+
+##### Integration Points
+- Reads `glazes.json` for active glaze library — read only, never writes to glazes.json
+- Links to Google Drive for Illustrator source files and R5 final photos
+- Links to Pattern Studio seeds (pending Pattern Studio Stage 2)
+- Customer reference field links to customer ID in business app CRM — optional, neither app breaks if empty
+- Business app order records may reference tile ID — connection is optional in both directions
+
+##### Build Stages — Do Not Deviate From This Order
+
+**Stage 1 — Core record (build first)**
+Identity, Mold, Size, Result fields only. Get data entry, storage, and retrieval working. Dashboard view with tile cards. No file uploads yet. No CNC layers yet. No glaze integration yet.
+Confirm Stage 1 is working before proceeding.
+
+**Stage 2 — CNC and clay layers**
+Add process layers 4–8 (CNC passes, clay, drying, bisque). Add versioned process profiles. Add profile reference fields to tile record.
+Confirm Stage 2 before proceeding.
+
+**Stage 3 — Glaze integration**
+Add glazing layer (layer 10). Pull active glazes from glazes.json. Add glaze firing layer (layer 11).
+Requires glazes.json to exist first — hard blocker.
+Confirm Stage 3 before proceeding.
+
+**Stage 4 — File storage**
+Add SVG and G-code upload to Netlify Blob. Add in-process photo upload. Add Drive link fields for large files.
+Test Blob upload behavior carefully — known throttling risk at scale.
+Confirm Stage 4 before proceeding.
+
+**Stage 5 — Compare view**
+Build compare view last. Most complex. Two-tile and two-profile comparison with diff highlighting.
 
 ---
 
@@ -280,12 +465,14 @@ Glazes G25–G43 established. Full nomenclature system: OX/MX/MS/HC.
 | Data | Owner | Location | Shared with |
 |------|-------|----------|-------------|
 | Prospect records | app.js | localStorage + Blob | Nothing yet |
-| Glaze library | glaze_studio.html | localStorage + Blob | Tile record app (pending glazes.json) |
-| Glaze sessions | glaze_studio.html | localStorage + Blob | Nothing |
-| Tile records | tile_record.html | TBD | Glaze studio (pending) |
+| Glaze library | glaze_studio.html → glazes.json | localStorage + Blob → repo root | Tile record app (read only) |
+| Glaze sessions / mix log | glaze_studio.html | localStorage + Blob | Nothing |
+| Tile records | tile_record.html | localStorage + Blob | Business app (customer ref, read only) |
+| Process profiles | tile_record.html | localStorage + Blob | Nothing |
 | CNC standards | SYSTEM_MAP.md | GitHub | All apps (read only) |
 | Tile standards | SYSTEM_MAP.md | GitHub | All apps (read only) |
-| Design files | Google Drive | Drive | Tile record app links to them |
+| Design files (.ai, R5 photos) | Google Drive | Drive | Tile record app links to them |
+| SVG + G-code files | tile_record.html | Netlify Blob | Nothing |
 | Pattern seeds | pattern.html | localStorage | Tile record app (pending) |
 
 ---
@@ -294,10 +481,11 @@ Glazes G25–G43 established. Full nomenclature system: OX/MX/MS/HC.
 
 | Decision | Priority | Notes |
 |----------|----------|-------|
-| Extract GLAZES to glazes.json | High | Blocks tile record app glaze integration |
-| Tile record app data storage | Medium | localStorage + Blob likely, confirm before building |
+| Extract GLAZES to glazes.json | High | Blocks tile record app Stage 3 glaze integration |
+| Tile record app Stage 1 build | High | After glazes.json extraction — see build stages above |
+| Netlify Blob file upload proof of concept | High | Test before Stage 4 — known throttling risk |
 | Pattern Studio Stage 2 | Medium | Confirm Illustrator SVG flavor first |
-| Standardize date format across all apps | Medium | Use ISO 8601 everywhere — glaze studio and business app currently inconsistent |
+| Standardize date format across all apps | Medium | Use ISO 8601 everywhere |
 | Pattern Studio card in hub.html | Low | Simple add, low effort |
 | Glaze journal tab in glaze_studio | Medium | Build after firing assessment |
 | Website inner pages | Medium | Fireplaces, Backsplash, Dados, About, How It's Made |
@@ -332,6 +520,8 @@ Glazes G25–G43 established. Full nomenclature system: OX/MX/MS/HC.
 | Never add Motawi, Heath, Fireclay etc. as prospects | These are competitor signal markers only, not prospects |
 | Never fabricate contact emails | Apollo owns verified email enrichment — guessed emails are not a substitute |
 | Never skip the test cycle before re-assess | Previous attempt throttled Netlify blob after ~12 records |
+| Never build tile record app all at once | Too complex — follow the five stage build order in section 9 |
+| Never build tile record Stage 3 without glazes.json existing | Hard dependency — glaze integration will not work without it |
 
 ---
 
@@ -345,6 +535,13 @@ Glazes G25–G43 established. Full nomenclature system: OX/MX/MS/HC.
 | 2026-06-17 | Finish pass stepover set to 0.016" as test | Original 0.008" produced ~5hr run time — halving to assess surface quality tradeoff | Keep at 0.008" |
 | 2026-06-17 | Store design files in Google Drive, not in app | SVG and AI files too large for app storage — app stores link only | Upload files directly to app |
 | 2026-06-17 | Colorant method switched to direct-weigh with pre-wet | Stock solutions determined impractical | Stock solution system |
+| 2026-06-18 | Tile record app framed as experimental lab notebook, not just production record | Peter is still in discovery phase — system must serve experimentation first, production second | Production-only record |
+| 2026-06-18 | CNC process profiles versioned and size-tagged | Different tile sizes need different CNC parameters — profiles must be size-specific | Single profile per pass type |
+| 2026-06-18 | G-code stored in Netlify Blob, Carvco files discarded | G-code is ground truth of what machine ran — Carvco files are ephemeral tooling, not archive | Store Carvco project files |
+| 2026-06-18 | SVG stored in Netlify Blob, not Google Drive | Small file, needs to be directly in tile record for reliability — Drive links can rot | Drive link only |
+| 2026-06-18 | Large files (AI source, R5 photos) stay in Google Drive with links | Too large for Blob — Drive handles large files cleanly | Upload everything to Blob |
+| 2026-06-18 | Tile record built in five stages | Too complex to build at once — staged build is testable and lower risk | Single build session |
+| 2026-06-18 | Business app and tile record connected via optional customer reference | Tiles sold to customers need reproducibility lookup — connection must be optional so neither app breaks without the other | Tight coupling between apps |
 
 ---
 
