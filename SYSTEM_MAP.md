@@ -7,6 +7,8 @@
 
 ## HOW TO START A NEW OVERSEER SESSION
 
+At the start of every session, before doing anything else, fetch both documents below. Do not respond to Peter until you have read both.
+
 Fetch this document:
 `https://raw.githubusercontent.com/Pcane/Cane-Creek-State/refs/heads/main/SYSTEM_MAP.md`
 
