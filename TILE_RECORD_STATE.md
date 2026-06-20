@@ -1,7 +1,7 @@
 # Tile Technical Data — Session State
 **Last updated:** 2026-06-19
-**Session:** Founding document
-**Updated by:** Overseer
+**Session:** v1.1 build session
+**Updated by:** Studio Claude (Tile Record app)
 
 ---
 
@@ -10,123 +10,142 @@
 Fetch this document:
 `https://raw.githubusercontent.com/Pcane/cane-creek-state/refs/heads/main/TILE_RECORD_STATE.md`
 
-Read it fully before doing anything else. Then ask Peter for the current `tile_technical_data.html` before writing any code.
+Read it fully before doing anything else. Then ask Peter for the current
+`tile_technical_data.html` before writing any code.
 
 ---
 
 ## CURRENT STATE
 
-**Version:** v0.1 (not yet built)
-**Last change:** Founding document created by Overseer — app not yet built
+**Version:** v1.1
+**Last change:** AKA field, mold size selector, molds.json, glaze section
+rewrite (tile type: Art/Field/Liner), Cloudinary photo upload in Results
+and glaze map for art tiles.
+
 **Files in play:**
-- `tile_technical_data.html` — to be created in `cane-creek-app`
-- `glazes.json` — exists in `cane-creek-app` root, fetch at runtime via `./glazes.json`
-- `hub.html` — needs a card added after main app is working
+- `tile_technical_data.html` — live in `cane-creek-app`, v1.1
+- `glazes.json` — live in `cane-creek-app` root
+- `molds.json` — live in `cane-creek-app` root (new in v1.1)
+- `hub.html` — hub card NOT YET added (do after v1.1 confirmed working)
 - `TILE_RECORD_STATE.md` — this file, lives in `cane-creek-state`
 
 ---
 
-## WHAT WAS DONE LAST SESSION
+## WHAT WAS DONE LAST SESSION (v1.1 — 2026-06-19)
 
-Overseer founding session 2026-06-19:
-- App named: Tile Technical Data
-- Storage confirmed: Netlify Blob primary, localStorage cache
-- Glaze data confirmed: fetch from `./glazes.json` at runtime — do not hardcode
-- File confirmed: `tile_technical_data.html` in `cane-creek-app` repo
-- Hub card: add to `hub.html` after main app is working
-- State document: this file in `cane-creek-state`
-- New Claude project created for this app — separate from Studio Claude
+- Added AKA / Client Name field to Identity section (optional rename;
+  shows in topbar under design name; canonical design name unchanged)
+- Mold section: added Mold Size dropdown, fetches from ./molds.json
+- Design & CNC: mold size drives standard GCode info block (Pass 1 & 2
+  show standard file name + Drive link for that size); Pass 3 always
+  manual (design-specific)
+- Glaze section rewritten: tile type selector (Art / Field / Liner)
+  - Art tile: syringe zones (bulb syringe only) + field coat block
+    (any method except syringe) + glaze map photo upload (Cloudinary)
+  - Field / Liner tile: single glaze + method (no syringe option)
+- Results section: replaced Google Drive photo link with Cloudinary
+  upload — inline preview in record
+- molds.json created with _readme block; seeds 6x6 (GCode filenames
+  present, Drive links blank until Peter adds them), 4x4, 3x3
+  (no GCode yet)
+- Clay body autofill confirmed blocked pending standards.json
 
 ---
 
 ## IN PROGRESS
 
-Nothing yet — app not built.
+- Peter to add 6x6 rough/finish Drive links to molds.json in GitHub
+- Peter to confirm v1.1 is working in browser
+- Hub card for tile_technical_data not yet done — next after v1.1 confirmed
 
 ---
 
 ## NEXT STEPS
 
-1. Peter opens this project and pastes the project brief to Claude
-2. Claude reads brief and this state document
-3. Ask Peter: "What would you like to tackle first — the record structure and data model, or the UI layout?" Let Peter lead.
-4. Suggested first build: core record structure, create/edit/list UI, localStorage save — get data flowing before worrying about Blob storage or the printable sheet
-5. Blob storage integration second
-6. Printable CNC reference sheet third
-7. Hub card last (separate small patch to hub.html)
+1. Peter tests v1.1 — report back before any further changes
+2. Add Drive links for 6x6 GCode files into molds.json
+3. Hub card — separate small patch to hub.html
+4. Clay body autofill — wire up when standards.json is built
+   (fetch ./standards.json on newRecord(), prefill clayRecipeVersion
+   and optionally kilnProgram; same runtime fetch pattern as glazes.json)
+5. Blob storage activation — when Netlify functions are deployed
 
 ---
 
-## RECORD DATA STRUCTURE
-
-Each tile record:
+## RECORD DATA STRUCTURE (current — v1.1)
 
 **Identity**
-- Tile ID (auto-generated: CCT-001, CCT-002 etc.)
-- Tile / design name
-- Date created
-- Status: In Progress / Bisque Ready / Glaze Testing / Production Ready / Archived
+- tileId (auto: CCT-001 etc.)
+- tileName (canonical design name — used in all file names)
+- akaName (optional client/display rename)
+- dateCreated
+- status: In Progress / Bisque Ready / Glaze Testing / Production Ready / Archived
 
 **Mold**
-- Mold ID
-- Face size (working dimensions)
-- Pocket depth
-- Date poured
-- Google Drive link — mold design files
+- moldId
+- moldSize (from molds.json dropdown)
+- moldFaceSize (working dimensions)
+- moldPocketDepth
+- moldDatePoured
+- moldDriveLink (Google Drive — mold design files)
 
 **Design & CNC**
-- Design name
-- SVG file — Google Drive link
-- Pass 1: bit, depth, stepover, feed rate, plunge rate, RPM
-- Pass 2: bit, depth, stepover, feed rate, plunge rate, RPM
-- Pass 3 (line grooves): bit, final depth, feed rate, plunge rate, RPM
-- Raised line depth target (from standard spec table: 0.021 / 0.025 / 0.028 / 0.030 / 0.035")
-- CNC notes
+- designName
+- svgDriveLink
+- cnc1: bit, depth, stepover, feed, plunge, rpm (standard — ref molds.json)
+- cnc2: bit, depth, stepover, feed, plunge, rpm (standard — ref molds.json)
+- cnc3: bit, depth, feed, plunge, rpm (design-specific, always manual)
+- raisedLineTarget
+- cncNotes
 
-**Clay Body**
-- Recipe version
-- Batch date
-- Batch size
-- Deviations from standard
+**Clay Body** (manual until standards.json exists)
+- clayRecipeVersion
+- clayBatchDate
+- clayBatchSize
+- clayNotes
 
 **Glaze**
-- Glaze(s) applied — pulled live from ./glazes.json, do not hardcode
-- Application method per zone (bulb syringe / dip / brush)
-- Application notes
+- tileType: 'Art' | 'Field' | 'Liner'
+- Art tile fields:
+  - glazeZones: [{glazeId, method:'Bulb syringe', notes}]
+  - fieldCoatGlazeId, fieldCoatMethod, fieldCoatNotes
+  - glazeMapUrl (Cloudinary)
+- Field/Liner tile fields:
+  - singleGlazeId, singleMethod, singleNotes
 
 **Firing**
-- Kiln (Kiln 1 / Kiln 2)
-- Program (User 1 / User 2 / User 3)
-- Fire date
-- Peak temp reached
-- Firing notes
+- kilnUsed: Kiln 1 / Kiln 2
+- kilnProgram: User 1 / User 2 / User 3
+- fireDate
+- peakTemp
+- firingNotes
 
 **Results**
-- Surface result (free text)
-- Color accuracy (free text)
-- Glaze defects (free text)
-- Overall assessment
-- Photo link — Google Drive
-- Approved for production: Yes / No / Conditional
+- surfaceResult
+- colorAccuracy
+- glazeDefects
+- overallAssess
+- photoUrl (Cloudinary — uploaded in app, shows inline)
+- approvedForProd: Yes / No / Conditional
 
 **Experimental**
-- Experimental: Yes / No
-- What was being tested
-- Outcome
+- isExperiment: Yes / No
+- experimentTest
+- experimentOutcome
 
 ---
 
-## PRINTABLE CNC REFERENCE SHEET
+## SERVICES IN USE
 
-One-page printable output per tile record containing:
-- Tile ID and name
-- Mold dimensions
-- All three CNC passes with full parameters
-- Raised line depth target
-- Google Drive links
-- Date
-
-Must be clean, readable, print well on standard letter paper. Goes on the wall next to the CNC when cutting that mold.
+| Service | Purpose | Credentials |
+|---------|---------|-------------|
+| Netlify Blob | Primary record storage | Auto via Netlify (stub — not yet activated) |
+| Cloudinary | Photo storage and serving | Cloud: dmnkvz4k8 / Preset: cane_creek_tiles |
+| Google Fonts | Typography | Public CDN — no key |
+| glazes.json | Glaze data | ./glazes.json in cane-creek-app root |
+| molds.json | Mold size / GCode library | ./molds.json in cane-creek-app root |
+| standards.json | Studio-wide standards (PLANNED) | ./standards.json — not yet built |
+| Google Drive | Linked files (URLs only, no API) | None |
 
 ---
 
@@ -134,35 +153,41 @@ Must be clean, readable, print well on standard letter paper. Goes on the wall n
 
 | Decision | Reasoning |
 |----------|-----------|
-| Netlify Blob primary, localStorage cache | Tile records are permanent — must survive laptop wipe |
-| Fetch glazes from ./glazes.json at runtime | Single source of truth — no duplicate glaze data in this app |
-| Separate Claude project from Studio Claude | App is substantial — keep contexts clean |
-| Same repo as all other apps (cane-creek-app) | One Netlify deployment, clean file organization |
-| State doc in cane-creek-state | All state documents live in cane-creek-state, not cane-creek-app |
+| Netlify Blob primary, localStorage cache | Tile records are permanent |
+| Fetch glazes from ./glazes.json | Single source of truth |
+| Fetch molds from ./molds.json | Same pattern — never hardcode mold data |
+| standards.json planned for clay/kiln defaults | Overseer confirmed pattern |
+| Cloudinary for photos | Already in use across studio apps — shared account |
+| AKA field not rename — additive | Canonical name stays in file names; AKA is display only |
+| Tile type drives glaze UI | Art/Field/Liner have meaningfully different glaze workflows |
+| Syringe bulbing Art-tile-only | Field and Liner tiles never use syringe |
 
 ---
 
 ## KNOWN BUGS
 
-None — app not yet built.
+None reported. v1.1 not yet confirmed tested by Peter.
 
 ---
 
 ## DO NOT DO THESE
 
-- Never hardcode glaze data — always fetch from `./glazes.json`
-- Never use model string other than `claude-sonnet-4-5`
+- Never hardcode glaze data — always fetch from ./glazes.json
+- Never hardcode mold data — always fetch from ./molds.json
+- Never use model string other than claude-sonnet-4-5
 - Never make architectural decisions affecting other apps — flag for Overseer
-- Never write code without reading current `tile_technical_data.html` first
+- Never write code without reading current tile_technical_data.html first
 - Never skip test cycle before further changes
-- Never upload this state document to `cane-creek-app` — it belongs in `cane-creek-state`
+- Never upload this state document to cane-creek-app — it belongs in cane-creek-state
 
 ---
 
 ## NOTES FOR NEXT SESSION
 
-- `glazes.json` is live in `cane-creek-app` root — app fetches it at runtime via `./glazes.json`, no need to paste content into session
-- Hub card for this app needs to be added to `hub.html` — do this as a separate patch after main app is working, not in the first session
-- Model string is always `claude-sonnet-4-5` — no exceptions
-- Dev workflow: Claude writes Perl patch script → Peter runs it in Terminal → uploads to `cane-creek-app` on GitHub → Netlify deploys → Peter tests → reports back before further changes
-- State document uploads go to `cane-creek-state`, not `cane-creek-app`
+- standards.json will follow same runtime fetch pattern as glazes.json and molds.json
+- Hub card for this app goes in hub.html — separate patch, after v1.1 confirmed
+- Blob activation needs Netlify function deployment — coordinate with Overseer
+- Peter needs to add 6x6 GCode Drive links to molds.json manually in GitHub
+- Clay body autofill: wire on newRecord() when standards.json exists —
+  fetch ./standards.json, read currentClayRecipeVersion (or whatever key
+  Overseer names it), prefill clayRecipeVersion field
