@@ -42,6 +42,7 @@ The digital suite consists of three GitHub repos, two Netlify deployments, and a
 | `pattern.html` | Pattern Studio — SVG pattern generator | Live |
 | `tile_technical_data.html` | Tile Technical Data app | In development |
 | `glazes.json` | Shared glaze library — single source of truth | Live |
+| `molds.json` | Shared mold library — sizes, GCode filenames, Drive links | Live |
 | `netlify/functions` | Serverless functions | Live |
 | `netlify.toml` | Netlify configuration | Live |
 | `manifest.json` | PWA manifest | Live |
@@ -90,6 +91,7 @@ The digital suite consists of three GitHub repos, two Netlify deployments, and a
 | Design files | Google Drive (per-tile folders) |
 | CNC software | Carvco |
 | CNC controller | UGS |
+| Image hosting | Cloudinary — account `dmnkvz4k8`, preset `cane_creek_tiles` |
 
 ---
 
@@ -291,12 +293,27 @@ Glazes G1–G43+ established. Full nomenclature system: OX/MX/MS/HC.
 
 ---
 
-## 10. DATA OWNERSHIP
+## 10. SHARED SERVICES — CREDENTIALS
+
+These services are live and in use across multiple apps. Any Claude building a feature that needs these capabilities must use the existing service — never propose an alternative.
+
+| Service | Purpose | Key details |
+|---------|---------|-------------|
+| Cloudinary | Image hosting and serving | Cloud: `dmnkvz4k8` / Preset: `cane_creek_tiles` / Upload endpoint: `https://api.cloudinary.com/v1_1/dmnkvz4k8/image/upload` / Unsigned preset — no API key needed for uploads / Store `secure_url` from response |
+| Netlify Blob | Cloud data storage | Sequential calls only — 2.5s delay between calls, throttles after ~12 simultaneous records |
+| Microsoft Graph API | Email | Authentication already in app.js |
+| Apollo.io | Email enrichment | 25 searches/month cap |
+| SerpApi | News digest | Key: `da6e9493c05edaae7a9105be00109c88ff9821bb625203c20c93fd11acb92bbf` / Cannot call from Netlify — Mac terminal or GitHub Actions only |
+
+---
+
+## 11. DATA OWNERSHIP
 
 | Data | Owner | Location | Shared with |
 |------|-------|----------|-------------|
 | Prospect records | app.js | localStorage + Blob | Nothing yet |
 | Glaze library | glazes.json | cane-creek-app repo | glaze_studio.html + tile_technical_data.html |
+| Mold library | molds.json | cane-creek-app repo | tile_technical_data.html (GCode filenames + Drive links per mold size) |
 | Glaze sessions | glaze_studio.html | localStorage + Blob | Nothing |
 | Tile records | tile_technical_data.html | localStorage + Blob | Nothing yet |
 | CNC standards | SYSTEM_MAP.md | cane-creek-state | All apps (read only) |
@@ -310,6 +327,7 @@ Glazes G1–G43+ established. Full nomenclature system: OX/MX/MS/HC.
 
 | Decision | Priority | Notes |
 |----------|----------|-------|
+| standards.json — shared studio standards | High | Single source of truth for studio-wide data: current clay body recipe version, kiln programs, standard firing schedules. Multiple apps need this. Build after GitHub Bridge. Clay body autofill in Tile Technical Data is blocked on this. |
 | Pattern Studio Stage 2 | Medium | Confirm Illustrator SVG flavor first |
 | Standardize date format across all apps | Medium | Use ISO 8601 everywhere — glaze studio and business app currently inconsistent |
 | Glaze journal tab in glaze_studio | Medium | Build after firing assessment |
@@ -348,6 +366,8 @@ Glazes G1–G43+ established. Full nomenclature system: OX/MX/MS/HC.
 | Never skip the test cycle before re-assess | Previous attempt throttled Netlify blob after ~12 records |
 | Never put state documents in cane-creek-app | State documents live in cane-creek-state — no exceptions |
 | Never hardcode glaze data in any app | glazes.json is the single source of truth — all apps fetch from it |
+| Never hardcode mold data in any app | molds.json is the single source of truth — all apps fetch from it |
+| Never use a new image hosting service | Cloudinary is already in the stack — always use it |
 
 ---
 
