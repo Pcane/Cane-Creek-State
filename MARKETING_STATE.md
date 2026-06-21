@@ -1,5 +1,4 @@
 # MARKETING_STATE.md — Cane Creek Business App
-
 Last updated: June 2026 — founding document
 
 ## Current version
