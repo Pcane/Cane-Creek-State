@@ -1,29 +1,34 @@
 # GLAZE_STATE.md — Cane Creek Glaze Studio
 
-Last updated: June 2026 — lifecycle UI built and live
+Last updated: June 2026 — full glaze development system complete
 
 ---
 
 ## Current files in cane-creek-app repo
 
-- `glaze_studio.html` — six-tab studio calculator, lifecycle UI live
-- `glazes.json` — 42 glazes, all with status fields (active/test/retired)
+- `glaze_studio.html` — six-tab studio calculator, all features live
+- `glazes.json` — 42 original glazes + 14 imported test glazes (TG1–TG10, TM1–TM4)
+
+---
 
 ## What the app does
 
-Six-tab studio calculator:
+Six tabs in this order:
 1. **Clay** — batch directions, 30 lb clay body
 2. **Glaze Slurry** — clear gloss base by gallons (1–5 gal)
-3. **Stock Colors** — bench recipe card + mixing directions + lifecycle management
-4. **SG & CMC Adjuster** — calculates what to add to existing bottles
-5. **Materials List** — complete inventory
-6. **Firing Report** — pending next session
+3. **Stock Colors** — bench recipe card, mixing directions, lifecycle management, glazes.json export
+4. **Firing Report** — results entry, markdown export, CSV import
+5. **SG & CMC Adjuster** — calculates what to add to existing bottles
+6. **Materials List** — complete inventory
+
+---
 
 ## Architecture
 
 - `glazes.json` lives in `cane-creek-app` repo root, served by Netlify
 - `glaze_studio.html` fetches it as `./glazes.json` async on DOMContentLoaded
-- `tile_record.html` will fetch same `./glazes.json` when built — still unblocked
+- All changes (status, new glazes) are in-memory only until "Save glazes.json" is clicked
+- **Persistence gap:** saving glazes.json still requires manual download and GitHub upload — automated solution needed, flag to Overseer
 - `GLAZE_STATE.md` lives in `Cane-Creek-State` repo (state documents only)
 
 ---
@@ -39,30 +44,36 @@ Six-tab studio calculator:
 
 **Test prefixes:** TG, TM, TS — auto-numbered (TG1, TG2, TM1 etc.)
 
-**Versioning:** any change to recipe or application parameters = new version. Format: G35v2, M1v2 etc. No exceptions.
+**Versioning:** any change to recipe or application parameters = new version. Format: G35v2. No exceptions.
 
 **Status field:** `active` | `test` | `retired` — reversible in all directions.
 
 **Current assignments:**
 - G1–G24 → active
 - G25–G43, G25HC → test
+- TG1–TG10, TM1–TM4 → test (imported from reformulations CSV)
 - No glazes retired yet
 
-**Retired glazes** hidden by default in dropdown. "Show retired" checkbox to reveal.
+---
+
+## Dropdown structure — built and live
+
+- **Active glazes** — flat list, no indents. Always. Promoted glazes lose indent permanently.
+- **Test glazes** — indented under parent (↳) only when `based_on` points to another test glaze in the same series. Orphans (no `based_on`, parent is active/retired, or parent is different series) appear unindented.
+- **Retired** — flat list when shown, no indents.
+- Cross-series `based_on` links do not exist — M-series glazes have no `based_on` until they spawn M-series versions.
+- `based_on` field in New Test Glaze modal — optional, empty for genuinely new glazes.
 
 ---
 
 ## Lifecycle UI — built and live
 
-On the Stock Colors tab:
-
-**Bench recipe card** — large format, readable at arm's length while mixing:
-- Glaze ID: 32px
-- Colorant weights: 36px
-- Colorant names: 20px
+**Bench recipe card** on Stock Colors tab:
+- Glaze ID: 32px, colorant weights: 36px, colorant names: 20px
 - Status badge, clear base weight
+- Readable at arm's length while mixing
 
-**Lifecycle buttons** — appear below bench card, context-sensitive:
+**Lifecycle buttons** — context-sensitive:
 - Test glaze: Promote to active | Retire
 - Active glaze: Move to test | Retire
 - Retired glaze: Restore to active | Restore to test
@@ -70,72 +81,87 @@ On the Stock Colors tab:
 **New Test Glaze modal:**
 - Series selector (G/M/S)
 - Auto-assigns next T-number
+- Based on field (optional — empty for genuinely new glazes)
 - Colorant entry (name + g per 600g)
 - Type, notes, warning fields
 
-**Important:** status changes and new glazes are in-memory only. Must export updated `glazes.json` to GitHub to make permanent. Export function not yet built — currently Peter downloads from the app session and uploads manually.
+**glazes.json export:** "Save glazes.json" button on Stock Colors tab — downloads current in-memory state for upload to GitHub.
 
 ---
 
-## Firing report system — pending
+## Firing report — built and live (Tab 4)
 
-To be built as Tab 6 next session.
+**Per firing header:**
+- Date, kiln notes
+- Context for AI consultant (free text — orient the AI with goals and history)
+- Clay body and base glaze printed automatically
 
-**Per firing (header, stated once):**
-- Clay body recipe
-- Base glaze recipe
-- Cone 6 oxidation (always)
-- Date
-- Kiln notes (free text, optional)
-
-**Per glaze tested:**
-- Glaze ID and name
-- SG at application
-- Application method: pour / dip / brush / spray
-- Water bath pre-dip: yes / no
-- Coat count
-- Color observed
-- Finish: gloss / satin / matte
-- Defects: bubbles / dry / rough / cracks / pinholes / wrong color / other (checklist)
+**Per glaze:**
+- SG at application, method (pour/dip/brush/spray), water bath pre-dip, coat count
+- Color observed, finish (gloss/satin/matte)
+- Defects checklist (bubbles/dry/rough/cracks/pinholes/wrong color/not transparent/crawling)
 - Free text notes
-- Photo URL (GitHub raw URL to tile photo)
+- Photo URL (GitHub raw URL)
 
-**Export format:** GitHub markdown with photo URLs inline. Any AI can fetch the raw URL and read the full record including images. Overseer confirmed: smartphone JPEGs fine for now, Cloudinary available if repo gets heavy.
+**Export:** markdown file download → upload to GitHub → share raw URL with AI consultants.
 
-**Glaze selection for report:** checklist of test-status glazes, pre-filtered. Option to include active glazes.
+**CSV import** — bottom of Firing Report tab:
+- Drag and drop or click to select
+- Preview before committing
+- T-numbers auto-assigned by app
+- `based_on` field preserved
+
+**CSV format for AI consultants:**
+`Based_on, Name, Series, Type, Colorant_1_name, Colorant_1_gPer600g, Colorant_2_name, Colorant_2_gPer600g, Colorant_3_name, Colorant_3_gPer600g, Notes`
+- Series must be G, M, or S
+- Type must be oxide, stain, or new
+- Do not include T-numbers — app assigns them
+
+---
+
+## M-series inaugurated
+
+Four glazes established as M-series from firing 2 results:
+- TM1 — Chrome Iron Red-Brown Matte (recipe from G28)
+- TM2 — Cobalt Blue Rutile Matte (recipe from G30)
+- TM3 — Rutile Ochre Taupe Matte (recipe from G38)
+- TM4 — Tenmoku Iron Black Matte (recipe from G40)
+
+M-series glazes have no `based_on` until they spawn M-series versions. Recipe origin noted in notes field only.
 
 ---
 
 ## Firing results to date
 
-**Cone 6 oxidation — first test firing:**
+**Firing 1 — cone 6 oxidation:**
 
 | Glaze | SG | Result |
 |---|---|---|
-| G21 | 1.167 | Good ✓ — reference benchmark confirmed |
-| G11 | 1.252 | Nice gloss, slight transparency, edge break ✓ — two to three bubble craters |
-| G25 | 1.292 | All white, dry, rough sandpaper surface |
-| G26 | 1.235 | Off white, satin, imperfections show |
-| G28 | 1.240 | Medium brown, matte |
-| G29 | 1.220 | Very dry, rough, pale yellow, matte |
-| G30 | 1.280 | Light speckled, matte to satin, not unattractive |
-| G35 | 1.220 | Blotchy, white in thin areas, matte to satin |
-| G38 | 1.260 | Matte taupe |
-| G40 | 1.270 | Dark brown, good matte, one bubble crater |
-| G42 | 1.292 | Thin, rough, amber to light amber |
+| G21 | 1.167 | Good ✓ — reference benchmark |
+| G11 | 1.252 | Nice gloss, edge break ✓ — few pinholes |
+| G25 | 1.292 | White sandpaper, matte — failed |
+| G26 | 1.235 | Off white satin — failed |
+| G28 | 1.240 | Medium brown matte |
+| G29 | 1.220 | Pale yellow matte, dry |
+| G30 | 1.280 | Earthy blue matte — good matte candidate |
+| G35 | 1.220 | Light blue matte |
+| G38 | 1.260 | Taupe matte |
+| G40 | 1.270 | Dark brown matte — perfect matte |
+| G42 | 1.292 | Amber, dry/rough surface |
 
-Clear base (G24) fires glossy reliably at SG 1.30–1.33. Root cause of failures still under investigation — suspected refractory colorants suppressing melt rather than base chemistry or application thickness.
+**Key insight:** Lower SGs tried for transparency/edge effects but producing matte results. Clear base (G24) fires glossy reliably at SG 1.30–1.33. Goal is glossy transparent finish with edge effects — target look is rich pooled amber-gold similar to classic Arts and Crafts tile glazes.
+
+**Reformulation strategy:** Adding Frit 3134 (3–5% = 18–30g per 600g base) directly to colored glazes to boost flux and achieve gloss at lower SG. TG1–TG10 are the reformulation test glazes.
 
 ---
 
 ## Glaze notes — key glazes
 
-- **G21** — reference glaze, benchmark for all others. 5% iron, 1% rutile.
-- **G11** — confirmed gloss with chrome oxide alone at 0.2%. Chrome alone works; chrome + iron (G28) does not.
-- **G10** — wet slurry additions, not dry weights. Made from leftover slurries. Retirement candidate. Preserve as-is.
+- **G21** — reference glaze, benchmark. 5% iron, 1% rutile. Glossy at SG 1.167.
+- **G11** — chrome oxide alone at 0.2% gives gloss. Chrome + iron (G28) does not.
+- **G10** — wet slurry additions, not dry weights. Preserve as-is.
 - **G43** — blocked pending Titanium Dioxide (TiO2) not yet on shelf.
-- **G25** — chrome-tin red. All white result in first firing — needs further testing.
-- **G25HC** — high calcium variant of G25, not yet fired.
+- **G42** — amber direction is closest to target Arts and Crafts look. Highest priority test.
 
 ---
 
@@ -143,7 +169,6 @@ Clear base (G24) fires glossy reliably at SG 1.30–1.33. Root cause of failures
 
 - Titanium Dioxide (TiO2) — for G43 ★
 - Light Rutile — confirm light not dark is on shelf
-- Ferro Frit 3110 — optional, only if pursuing alkaline turquoise (G36)
 
 ---
 
@@ -164,19 +189,18 @@ Water: 27% of wet weight. Batches: 30 lb only.
 
 ---
 
-## Pending work — priority order
+## Pending — next session
 
-1. **Upload status-field glazes.json** — fixes empty dropdown bug. File ready in Downloads.
-2. **Test lifecycle UI** — confirm bench card, promote/retire buttons, new test glaze modal all work on live site.
-3. **Build Firing Report tab (Tab 6)** — next session.
-4. **glazes.json export function** — so status changes made in-app can be downloaded without manual reconstruction.
-5. **tile_record.html** — still unblocked, deferred until glaze studio is stable.
+1. **Automated glazes.json persistence** — flag to Overseer, review business app solution
+2. **UMF calculator** — deferred until more firing data. Revisit after next firing.
+3. **tile_record.html** — still unblocked, deferred until glaze studio stable
+4. **Firing report persistence** — results lost on page refresh. Low priority — export immediately workaround acceptable for now.
 
 ---
 
 ## Dev workflow
 
-- Peter uploads current `glaze_studio.html` at session start
+- Peter uploads current `glaze_studio.html` at session start via GitHub URL
 - Fetch this file before starting any work
 - Deliver complete ready-to-upload files only — no patch scripts, no diffs
 - Peter uploads directly to GitHub, Netlify deploys in ~30 seconds
