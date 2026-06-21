@@ -1,19 +1,19 @@
 # Cane Creek Studio — System Map
-**Last updated:** 2026-06-19
+**Last updated:** 2026-06-21
 **Updated by:** Overseer
-**Version:** 1.2
+**Version:** 1.3
 
 ---
 
 ## HOW TO START A NEW OVERSEER SESSION
 
 Fetch this document:
-`https://raw.githubusercontent.com/Pcane/cane-creek-state/refs/heads/main/SYSTEM_MAP.md`
+`https://raw.githubusercontent.com/Pcane/Cane-Creek-State/main/SYSTEM_MAP.md`
 
 Then fetch the overseer state:
-`https://raw.githubusercontent.com/Pcane/cane-creek-state/refs/heads/main/OVERSEER_STATE.md`
+`https://raw.githubusercontent.com/Pcane/Cane-Creek-State/main/OVERSEER_STATE.md`
 
-Confirm you are up to speed before proceeding.
+Read both before proceeding. Do not rely on any files attached to the Claude project — always fetch fresh from GitHub.
 
 ---
 
@@ -97,23 +97,22 @@ The digital suite consists of three GitHub repos, two Netlify deployments, and a
 
 ## 4. DEV WORKFLOW — NEVER DEVIATE
 
-1. Coding Claude writes patch script
-2. Peter runs `perl patch_vX_X.pl [filename]` in Terminal from `~/Downloads/cane-creek-patch/`
-3. Peter uploads patched file to `cane-creek-app` AND updated state document to `cane-creek-state` in same commit to each repo
-4. Netlify auto-deploys (~30 seconds)
-5. Peter tests in browser via JS console script
-6. Peter uploads result JSON to Claude for analysis before any full re-assess
+1. Coding Claude writes complete ready-to-upload file (no perl scripts for non-app.js files)
+2. Peter uploads file directly to GitHub
+3. Netlify auto-deploys (~30 seconds)
+4. Peter tests in browser
+5. Peter uploads result JSON to Claude for analysis before any full re-assess
 
-**Note:** GitHub raw URLs cache for up to 5 minutes. Wait a few minutes after uploading before starting a fresh session to ensure Claude fetches the latest state.
+**Note:** GitHub raw URLs cache for several minutes after updates. The correct way to confirm a file has been updated is the GitHub file editor view — not the raw URL. Peter's confirmation via the editor is authoritative.
 
 **Rules:**
-- Never write code without completing the test cycle first
+- Never write code without reading the current file first
 - Never run re-assess without test cycle
 - Always use model string `claude-sonnet-4-5` — no other string ever
 - One focused change set per conversation
-- Always read relevant code section before changing it
 - Update changelog header in app file every session
 - Update state document every session — this is not optional
+- Complete ready-to-upload files only — no perl patch scripts except for app.js
 
 ---
 
@@ -125,14 +124,14 @@ Each project has its own state document in the `cane-creek-state` repo. When a c
 
 | Document | Project | Fetch URL |
 |----------|---------|-----------|
-| `SYSTEM_MAP.md` | Overseer | `https://raw.githubusercontent.com/Pcane/cane-creek-state/refs/heads/main/SYSTEM_MAP.md` |
-| `OVERSEER_STATE.md` | Overseer | `https://raw.githubusercontent.com/Pcane/cane-creek-state/refs/heads/main/OVERSEER_STATE.md` |
-| `MARKETING_STATE.md` | Marketing | `https://raw.githubusercontent.com/Pcane/cane-creek-state/refs/heads/main/MARKETING_STATE.md` |
-| `GLAZE_STATE.md` | Glaze Studio | `https://raw.githubusercontent.com/Pcane/cane-creek-state/refs/heads/main/GLAZE_STATE.md` |
-| `STUDIO_STATE.md` | Studio tools | `https://raw.githubusercontent.com/Pcane/cane-creek-state/refs/heads/main/STUDIO_STATE.md` |
-| `TILE_RECORD_STATE.md` | Tile Technical Data | `https://raw.githubusercontent.com/Pcane/cane-creek-state/refs/heads/main/TILE_RECORD_STATE.md` |
-| `WEBSITE_STATE.md` | Website | `https://raw.githubusercontent.com/Pcane/cane-creek-state/refs/heads/main/WEBSITE_STATE.md` |
-| `STUDIO_NOTEBOOK.md` | All Claudes | `https://raw.githubusercontent.com/Pcane/cane-creek-state/refs/heads/main/STUDIO_NOTEBOOK.md` |
+| `SYSTEM_MAP.md` | Overseer | `https://raw.githubusercontent.com/Pcane/Cane-Creek-State/main/SYSTEM_MAP.md` |
+| `OVERSEER_STATE.md` | Overseer | `https://raw.githubusercontent.com/Pcane/Cane-Creek-State/main/OVERSEER_STATE.md` |
+| `MARKETING_STATE.md` | Marketing | `https://raw.githubusercontent.com/Pcane/Cane-Creek-State/main/MARKETING_STATE.md` |
+| `GLAZE_STATE.md` | Glaze Studio | `https://raw.githubusercontent.com/Pcane/Cane-Creek-State/main/GLAZE_STATE.md` |
+| `STUDIO_STATE.md` | Studio tools | `https://raw.githubusercontent.com/Pcane/Cane-Creek-State/main/STUDIO_STATE.md` |
+| `TILE_RECORD_STATE.md` | Tile Technical Data | `https://raw.githubusercontent.com/Pcane/Cane-Creek-State/main/TILE_RECORD_STATE.md` |
+| `WEBSITE_STATE.md` | Website | `https://raw.githubusercontent.com/Pcane/Cane-Creek-State/main/WEBSITE_STATE.md` |
+| `STUDIO_NOTEBOOK.md` | All Claudes | `https://raw.githubusercontent.com/Pcane/Cane-Creek-State/main/STUDIO_NOTEBOOK.md` |
 
 **At the end of every session** the coding Claude delivers:
 - Patched code file(s) → Peter uploads to `cane-creek-app`
@@ -257,7 +256,8 @@ Glazes G1–G43+ established. Full nomenclature system: OX/MX/MS/HC.
 **Purpose:** Glaze calculation, session tracking, G-series library
 **Data:** localStorage + Netlify Blob
 **Glaze data:** Fetches from `./glazes.json` at runtime
-**Pending:** Glaze session feedback/journal tab
+**Pending:** Glaze development system (lifecycle, T-naming, CSV intake, firing report) — spec in OVERSEER_STATE.md
+**Pending:** GitHub write capability for glazes.json and STUDIO_NOTEBOOK.md
 **State document:** `GLAZE_STATE.md` in `cane-creek-state`
 
 ### Fireplace Designer (`design_v2.html`)
@@ -280,7 +280,7 @@ Glazes G1–G43+ established. Full nomenclature system: OX/MX/MS/HC.
 **Purpose:** Permanent structured record for every tile — design through fired result
 **Data:** Netlify Blob primary, localStorage cache
 **Glaze data:** Fetches from `./glazes.json` at runtime
-**Status:** In development
+**Status:** In development — Stage 1
 **Key features:** Printable one-page CNC reference sheet, live glaze data pull, Google Drive file links
 **State document:** `TILE_RECORD_STATE.md` in `cane-creek-state`
 **Managed by:** Cane Creek Tile Technical Data project (separate Claude project)
@@ -313,31 +313,33 @@ These services are live and in use across multiple apps. Any Claude building a f
 |------|-------|----------|-------------|
 | Prospect records | app.js | localStorage + Blob | Nothing yet |
 | Glaze library | glazes.json | cane-creek-app repo | glaze_studio.html + tile_technical_data.html |
-| Mold library | molds.json | cane-creek-app repo | tile_technical_data.html (GCode filenames + Drive links per mold size) |
+| Mold library | molds.json | cane-creek-app repo | tile_technical_data.html |
 | Glaze sessions | glaze_studio.html | localStorage + Blob | Nothing |
-| Tile records | tile_technical_data.html | localStorage + Blob | Nothing yet |
+| Tile records | tile_technical_data.html | Netlify Blob + localStorage cache | Nothing yet |
 | CNC standards | SYSTEM_MAP.md | cane-creek-state | All apps (read only) |
 | Tile standards | SYSTEM_MAP.md | cane-creek-state | All apps (read only) |
 | Design files | Google Drive | Drive | tile_technical_data.html links to them |
 | Pattern seeds | pattern.html | localStorage | tile_technical_data.html (pending) |
+| Studio notebook | STUDIO_NOTEBOOK.md | cane-creek-state | All Claudes (read) / Glaze Studio + Tile Record (write, pending) |
 
 ---
 
-## 11. PENDING ARCHITECTURAL DECISIONS
+## 12. PENDING ARCHITECTURAL DECISIONS
 
 | Decision | Priority | Notes |
 |----------|----------|-------|
-| standards.json — shared studio standards | High | Single source of truth for studio-wide data: current clay body recipe version, kiln programs, standard firing schedules. Multiple apps need this. Build after GitHub Bridge. Clay body autofill in Tile Technical Data is blocked on this. |
+| GitHub write capability via PAT | High | Glaze Studio first, then Tile Record — unblocks notebook updates and glaze lifecycle system |
+| standards.json — shared studio standards | High | Single source of truth for clay body recipe version, kiln programs, firing schedules. Clay body autofill in Tile Technical Data is blocked on this. Build after GitHub write. |
 | Pattern Studio Stage 2 | Medium | Confirm Illustrator SVG flavor first |
-| Standardize date format across all apps | Medium | Use ISO 8601 everywhere — glaze studio and business app currently inconsistent |
-| Glaze journal tab in glaze_studio | Medium | Build after firing assessment |
+| Standardize date format across all apps | Medium | Use ISO 8601 everywhere |
+| Glaze development system in glaze_studio | High | Full spec in OVERSEER_STATE.md — build after GitHub write |
 | Website inner pages | Medium | Fireplaces, Backsplash, Dados, About, How It's Made |
 | Formspree contact form on website | Low | Wire when content is ready |
-| Pattern Studio card in hub.html | Low | Simple add, low effort — do alongside Tile Technical Data hub card |
+| Pattern Studio card in hub.html | Low | Simple add — do alongside Tile Technical Data hub card |
 
 ---
 
-## 12. KNOWN TECHNICAL DEBT
+## 13. KNOWN TECHNICAL DEBT
 
 | Item | Location | Priority |
 |------|----------|----------|
@@ -345,16 +347,17 @@ These services are live and in use across multiple apps. Any Claude building a f
 | Tile Technical Data card missing from hub.html | hub.html | Low — add when app is working |
 | GRBL ALARM:3 false limit-switch triggers | CNC hardware | Medium — permanent capacitor fix needed (`$21=0` is current workaround) |
 | Date format inconsistency across apps | Multiple | Medium |
+| Old state doc files attached to Overseer Claude project | Claude project settings | High — remove them so session-start fetches work correctly |
 
 ---
 
-## 13. KNOWN BUGS
+## 14. KNOWN BUGS
 
 *None currently logged. Add here as discovered.*
 
 ---
 
-## 14. DO NOT DO THESE — LESSONS LEARNED
+## 15. DO NOT DO THESE — LESSONS LEARNED
 
 | Rule | Reason |
 |------|--------|
@@ -368,10 +371,12 @@ These services are live and in use across multiple apps. Any Claude building a f
 | Never hardcode glaze data in any app | glazes.json is the single source of truth — all apps fetch from it |
 | Never hardcode mold data in any app | molds.json is the single source of truth — all apps fetch from it |
 | Never use a new image hosting service | Cloudinary is already in the stack — always use it |
+| Never trust raw GitHub URL as confirmation of file state | Raw URLs cache for several minutes — use GitHub file editor view to confirm updates |
+| Never rely on files attached to Claude project for current state | Always fetch fresh from cane-creek-state on session start |
 
 ---
 
-## 15. DECISION LOG
+## 16. DECISION LOG
 
 | Date | Decision | Reasoning | Rejected alternatives |
 |------|----------|-----------|----------------------|
@@ -385,10 +390,12 @@ These services are live and in use across multiple apps. Any Claude building a f
 | 2026-06-19 | glazes.json extracted from glaze_studio.html | Tile Technical Data app needs glaze data — single source of truth, no duplication | Keep hardcoded in glaze_studio.html |
 | 2026-06-19 | Tile Technical Data app gets its own Claude project | App is substantial — separate from Studio Claude to keep contexts clean | Add to Studio Claude project |
 | 2026-06-19 | Tile Technical Data storage: Netlify Blob primary, localStorage cache | Tile records are permanent artifacts — must survive laptop wipe | localStorage only |
+| 2026-06-20 | Glaze development system: app is repository, AI is working bench | Keeps permanent recipe records in app, analysis and suggestions happen in AI conversations | AI inside the app |
+| 2026-06-21 | Remove old state doc files from Overseer Claude project attachments | Attached files were causing session-start fetches to read stale June 17 versions | Keep attached files |
 
 ---
 
-## 16. OVERSEER INSTRUCTIONS
+## 17. OVERSEER INSTRUCTIONS
 
 The Cane Creek Studio Overseer does not write application code. It thinks at the system level only.
 
@@ -406,7 +413,7 @@ The Cane Creek Studio Overseer does not write application code. It thinks at the
 Include: which project/chat to use, which files to upload first, the exact change required, the data format expected, any constraints from other apps, what to include in the state document update.
 
 **At the start of every overseer session:**
-Fetch SYSTEM_MAP.md and OVERSEER_STATE.md from `cane-creek-state` using the URLs in section 5.
+Fetch SYSTEM_MAP.md and OVERSEER_STATE.md from `cane-creek-state` using the URLs in section 5. Do not rely on any files attached to the Claude project.
 
 **At the end of every overseer session:**
 Deliver updated SYSTEM_MAP.md and OVERSEER_STATE.md for Peter to upload to `cane-creek-state`.

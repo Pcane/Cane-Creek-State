@@ -1,6 +1,6 @@
 # Cane Creek Studio — Overseer State
-**Last updated:** 2026-06-20
-**Session:** Glaze firing assessment + glaze development system spec
+**Last updated:** 2026-06-21
+**Session:** URL fix + glazes.json marked complete
 **Updated by:** Overseer
 
 ---
@@ -13,7 +13,7 @@ Fetch this document:
 And the system map:
 `https://raw.githubusercontent.com/Pcane/Cane-Creek-State/main/SYSTEM_MAP.md`
 
-Read both before proceeding.
+Read both before proceeding. Do not rely on any files attached to the Claude project — always fetch fresh from GitHub.
 
 ---
 
@@ -33,39 +33,45 @@ Read both before proceeding.
 
 ## ACTIVE ARCHITECTURAL DECISIONS IN PROGRESS
 
-### 1. glazes.json extraction — HIGH PRIORITY
-**Status:** Pending — do this first before any glaze studio work
-**What:** Extract GLAZES array from glaze_studio.html into shared glazes.json in repo root
-**Why:** Tile record app needs glaze data. Two apps cannot maintain separate copies. Also now needed for glaze lifecycle system (see item 5 below).
-**Instruction to issue:** Go to Studio chat, upload glaze_studio.html, ask Claude to extract the GLAZES array to glazes.json and update glaze_studio.html to fetch from it. Confirm it still works before proceeding.
-**Blocker for:** Tile record app glaze integration AND glaze lifecycle system
+### 1. glazes.json extraction — COMPLETE
+**Status:** Done — glazes.json is live in cane-creek-app repo root
+**Both glaze_studio.html and tile_technical_data.html fetch from ./glazes.json at runtime**
+**No further action needed**
 
-### 2. Tile record app — PENDING glazes.json
+### 2. GitHub write capability — HIGH PRIORITY — NEXT TASK
+**Status:** Architected, not yet built
+**What:** PAT-based GitHub API write capability so apps can update Cane-Creek-State files
+**Why:** Glaze Studio needs to update glazes.json and STUDIO_NOTEBOOK.md glaze section when recipes change. Tile Record app needs to update CNC parameters section when process profiles change.
+**How:** Personal Access Token stored in localStorage. Apps call GitHub API directly. Token never hardcoded, never committed to repo.
+**Build as:** Standalone utility built into each app that needs it — not a separate app
+**Who needs write access first:** Glaze Studio Claude — glaze recipes section of STUDIO_NOTEBOOK.md and glazes.json
+**Instruction to issue:** Go to Glaze Studio chat, issue GitHub write instruction. Test thoroughly before extending to Tile Record app.
+
+### 3. Glaze development system — HIGH PRIORITY — AFTER GITHUB WRITE
+**Status:** Fully specced — ready to build
+**Scope:** Significant expansion of glaze_studio.html capabilities
+**Spec:** See GLAZE DEVELOPMENT SYSTEM SPEC section below
+
+### 4. Tile record app Stage 1 — PENDING GitHub write capability
 **Status:** Spec complete, not yet built
-**Spec document:** Established in session 2026-06-17 — see SYSTEM_MAP.md section 9
-**Blocker:** glazes.json must exist first
-**Next step after glazes.json:** Issue build instructions to Studio chat
+**Blocker:** GitHub write capability should be in place first
+**State document:** TILE_RECORD_STATE.md in cane-creek-state
 
-### 3. Pattern Studio Stage 2 — PENDING confirmation
+### 5. Pattern Studio Stage 2 — PENDING confirmation
 **Status:** Fully specced, awaiting one piece of information
 **Blocker:** Peter needs to confirm Illustrator SVG export flavor before building
 **Next step:** Ask Peter which Illustrator SVG export setting he uses, then issue build instructions
 
-### 4. Date format standardization — MEDIUM PRIORITY
+### 6. Date format standardization — MEDIUM PRIORITY
 **Status:** Identified, not yet actioned
 **What:** Glaze studio and business app use inconsistent date formats
 **Resolution:** Standardize on ISO 8601 (YYYY-MM-DD) across all apps
 **Instruction to issue:** After next glaze studio session, ask Claude to audit all date handling and standardize
 
-### 5. Glaze development system — NEW, HIGH PRIORITY
-**Status:** Fully specced this session — ready to build after glazes.json extraction
-**Scope:** Significant expansion of glaze_studio.html capabilities
-**Spec:** See section below — GLAZE DEVELOPMENT SYSTEM SPEC
-
 ---
 
 ## GLAZE DEVELOPMENT SYSTEM SPEC
-Decided 2026-06-20. Build in glaze_studio.html after glazes.json extraction.
+Decided 2026-06-20. Build in glaze_studio.html after GitHub write capability is in place.
 
 ### Core concept
 The app is the permanent repository of keeper glazes and their recipes.
@@ -107,19 +113,14 @@ Retire button on any active glaze.
 **3. CSV upload intake**
 Peter uploads a CSV of new test recipes (from AI conversation or UMF calculator).
 App ingests, auto-assigns T-numbers based on surface type column in CSV.
-CSV format defined below.
+CSV format: surface_type (G/M/S), colorant_1_name, colorant_1_pct, colorant_2_name, colorant_2_pct (repeat as needed), notes. Name/description optional.
+App assigns T-number automatically — not in CSV.
 
 **4. Firing report generator**
 Single export button — generates structured text document.
 Contents: clay body recipe, base glaze recipe, SG target, f-factor, application method, and per-glaze: colorant recipe, SG at application, visual result (color, surface, transparency, defects).
 Output: clean text Peter can paste directly into any AI conversation.
 No AI inside the app for this — report goes out, recipes come back as CSV.
-
-### CSV intake format
-Studio Claude should define exact column headers when building.
-Minimum required fields: surface_type (G/M/S), colorant_1_name, colorant_1_pct, colorant_2_name, colorant_2_pct (repeat as needed), notes.
-App assigns T-number automatically — not in CSV.
-Name/description field optional — Peter can add later.
 
 ### What stays outside the app
 AI analysis of firing results — happens in Claude or other AI conversations.
@@ -168,8 +169,9 @@ Critical: Fire G25 isolated from other tin-bearing glazes — chrome volatilizes
 
 | Task | Priority | Notes |
 |------|----------|-------|
-| Issue glazes.json extraction instruction | High | Blocks everything else in glaze studio |
-| Issue glaze development system build instruction | High | After glazes.json — full spec above |
+| Issue GitHub write capability instruction to Glaze Studio Claude | High | Next task — unblocks notebook and lifecycle system |
+| Issue glaze development system build instruction | High | After GitHub write confirmed working |
+| Issue Tile Record app Stage 1 build instruction | High | After GitHub write in place |
 | Update Marketing project instructions | Medium | Remove "launching spring 2026", fix version to v8.12 |
 | Create MARKETING_STATE.md founding document | Medium | Needs current app state |
 | Create GLAZE_STATE.md founding document | Medium | Needs current glaze studio state |
@@ -183,9 +185,10 @@ Critical: Fire G25 isolated from other tin-bearing glazes — chrome volatilizes
 
 ## NOTES FOR NEXT OVERSEER SESSION
 
-- glazes.json extraction is the immediate next action — go to Studio chat, upload glaze_studio.html, extraction first.
-- After extraction confirmed working, issue glaze development system build instructions — full spec is in this document above.
+- GitHub write capability is the immediate next action — go to Glaze Studio chat and build it there first.
+- After GitHub write confirmed working, issue glaze development system build instructions — full spec is in this document above.
 - Peter needs to refire Group 1 glazes at SG 1.33 before any recipe changes. G25 retest uses adjusted recipe (0.12% chrome, 3% tin). Fire G25 isolated.
-- UMF calculator is planned as standalone app glaze_chem.html — not a tab in glaze_studio. Spec not yet written — defer until glaze development system is built.
-- Peter confirmed core principle: app is permanent repository of keeper glazes and recipes. AI conversations are the working bench. This should guide all glaze studio architecture decisions.
+- UMF calculator is planned as standalone app glaze_chem.html — not a tab in glaze_studio. Defer until glaze development system is built.
+- Core principle confirmed: app is permanent repository of keeper glazes and recipes. AI conversations are the working bench.
+- Remove old project files (SYSTEM_MAP.md, OVERSEER_STATE.md) from this Claude project settings — they cause stale fetches on session start. Let the GitHub fetch do the work instead.
 - Marketing project instructions need updating — current instructions reference v8.0 and "launching spring 2026" which are both outdated.
