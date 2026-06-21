@@ -23,19 +23,19 @@ Last updated: June 2026 — auto-written by Glaze Studio app
 
 ## Glaze counts
 
-- Active: 22 glazes
-- Test: 20 glazes
-- Retired: 0 glazes
-- Total: 42 glazes
+- Active: 1 glazes
+- Test: 38 glazes
+- Retired: 17 glazes
+- Total: 56 glazes
 
 ## Active glazes
-G1, G2, G3, G6, G7, G8, G9, G10, G11, G12, G13, G14, G15, G16, G17, G18, G19, G20, G21, G22, G23, G24
+G12
 
 ## Test glazes
-G25, G25HC, G26, G27, G28, G29, G30, G31, G32, G33, G34, G35, G36, G37, G38, G39, G40, G41, G42, G43
+G11, G16, G21, G24, G25, G25HC, G26, G27, G28, G29, G30, G31, G32, G33, G34, G35, G36, G37, G38, G39, G40, G41, G42, G43, TG1, TG2, TG3, TM1, TG4, TG5, TM2, TG6, TG7, TM3, TG8, TM4, TG9, TG10
 
 ## Retired glazes
-none
+G1, G2, G3, G6, G7, G8, G9, G10, G13, G14, G15, G17, G18, G19, G20, G22, G23
 
 ---
 
