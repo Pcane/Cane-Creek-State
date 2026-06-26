@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 6/26/2026, 8:21:32 AM
+Last updated: 6/26/2026, 8:31:28 AM
 
 ## Glaze Library
 
@@ -61,7 +61,7 @@ None
 - Date: Jun 24, 2026
 - Dry: 2604g | Water: 1760g | SG: 1.39
 - Calculated f factor: 0.5967
-- Viscosity: 0s
+- Viscosity: 14.5s
 - CMC: 42g
 - Epsom: 0g
 - Veegum: 0g
