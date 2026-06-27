@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 6/27/2026, 2:57:00 PM
+Last updated: 6/27/2026, 3:19:16 PM
 
 ## Glaze Library
 
@@ -71,6 +71,16 @@ None
 No batches recorded yet.
 
 ## Recent Firing Records
+
+### G28 - Jun26 - A
+- Recipe: Chrome Oxide: 1.212g per 600g, Red Iron Oxide (synthetic): 3.03g per 600g
+- Base: G2926B | SG: -- | Method: --
+- Fired: Jun 26, 2026 | Kiln 2 | Other
+- Color: very light red tint to brown red green
+- Rating: Fair
+- Notes: After the fire-on this tile i poured it twice, one coat and two-the one pour coat was lind of a thin tan, the double coat was darker with a slight green tint and glossier, lookis like it needs more colorant, looking at the edge side of the tile i can see good edge effect-very light brown red in the thin area and darker brown green in the thicker
+
+---
 
 ### G29 · Jun26 · A
 - Recipe: Vanadium Yellow: 14.544g per 600g, Red Iron Oxide (synthetic): 1.515g per 600g
