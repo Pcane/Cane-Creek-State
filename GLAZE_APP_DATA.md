@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 6/27/2026, 5:15:33 PM
+Last updated: 6/27/2026, 5:15:52 PM
 
 ## Glaze Library
 
@@ -96,7 +96,7 @@ No batches recorded yet.
 - Color: light green in one pour shade darker where slightly thicker-i prefer perhaps 2 pours
 - Finish: Gloss
 - Rating: Good
-- Notes: Good finish-pould use second pour
+- Notes: Good finish-could use second pour
 
 ---
 
