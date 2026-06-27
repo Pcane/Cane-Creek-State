@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 6/27/2026, 7:22:53 PM
+Last updated: 6/27/2026, 7:23:33 PM
 
 ## Glaze Library
 
@@ -165,7 +165,7 @@ No batches recorded yet.
 - Color: light green
 - Finish: Satin
 - Rating: Fair
-- Notes: satin, transparent
+- Notes: satin, transparent, 2 coats was major improvement-maybe three?
 
 ---
 
