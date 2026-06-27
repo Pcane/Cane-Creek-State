@@ -1,0 +1,157 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-06-27",
+  "maintained_by": "overseer",
+  "conventions": {
+    "id_format": "domain-prefix + zero-padded sequential number e.g. G-001, FR-001",
+    "date_format": "ISO-8601 YYYY-MM-DD",
+    "null_handling": "use null for missing values, never empty string",
+    "raw_url_base": "https://raw.githubusercontent.com/Pcane/Cane-Creek-State/main/"
+  },
+  "files": [
+    {
+      "filename": "DATA_INDEX.json",
+      "status": "active",
+      "owner": "overseer",
+      "description": "Master index of all structured data files. Every Claude reads this first.",
+      "record_count": null,
+      "last_updated": "2026-06-27"
+    },
+    {
+      "filename": "MESSAGES.json",
+      "status": "active",
+      "owner": "any-claude",
+      "description": "Inter-Claude messaging. Active messages only. Check at every session start for messages addressed to you.",
+      "record_count": null,
+      "last_updated": "2026-06-27"
+    },
+    {
+      "filename": "standards.json",
+      "status": "pending-creation",
+      "owner": "overseer",
+      "description": "Suite-wide reference values. Mold sizes, raised line targets, cone targets, current clay recipe version, benchmark glaze.",
+      "record_count": null,
+      "last_updated": null
+    },
+    {
+      "filename": "glazes.json",
+      "status": "pending-migration",
+      "owner": "glaze-claude",
+      "description": "Glaze recipes, colorants, status, SG targets. Currently in cane-creek-app repo — migration pending.",
+      "record_count": 43,
+      "last_updated": "2026-06-27"
+    },
+    {
+      "filename": "bases.json",
+      "status": "pending-migration",
+      "owner": "glaze-claude",
+      "description": "Base slurry recipes. G2926B and G1214M. Currently in cane-creek-app repo — migration pending.",
+      "record_count": 2,
+      "last_updated": null
+    },
+    {
+      "filename": "base_slurry_batch_records.json",
+      "status": "pending-creation",
+      "owner": "glaze-claude",
+      "description": "One record per base slurry batch mixed. Currently in Blob storage — migration pending.",
+      "record_count": null,
+      "last_updated": null
+    },
+    {
+      "filename": "glaze_mix_records.json",
+      "status": "pending-creation",
+      "owner": "glaze-claude",
+      "description": "One record per glaze mix event. Step 1 of glaze firing workflow.",
+      "record_count": null,
+      "last_updated": null
+    },
+    {
+      "filename": "firing_records.json",
+      "status": "pending-creation",
+      "owner": "glaze-claude",
+      "description": "One record per kiln firing. Includes shelf map, quadrant positions, cone results, tiles fired.",
+      "record_count": null,
+      "last_updated": null
+    },
+    {
+      "filename": "kiln_programs.json",
+      "status": "pending-creation",
+      "owner": "glaze-claude",
+      "description": "Kiln program definitions with version history. Critical for accurate firing records.",
+      "record_count": null,
+      "last_updated": null
+    },
+    {
+      "filename": "clay_bodies.json",
+      "status": "pending-creation",
+      "owner": "glaze-claude",
+      "description": "Clay body recipes with version history. Current active body is Cane Creek Body v3.",
+      "record_count": null,
+      "last_updated": null
+    },
+    {
+      "filename": "clay_batch_records.json",
+      "status": "pending-creation",
+      "owner": "glaze-claude",
+      "description": "One record per clay mixing event. Captures actual weighed ingredients and batch notes.",
+      "record_count": null,
+      "last_updated": null
+    },
+    {
+      "filename": "molds.json",
+      "status": "pending-migration",
+      "owner": "tile-claude",
+      "description": "Mold inventory. Size, GCode file references, Drive links. Currently in cane-creek-app repo.",
+      "record_count": 3,
+      "last_updated": null
+    },
+    {
+      "filename": "tile_records.json",
+      "status": "pending-creation",
+      "owner": "tile-claude",
+      "description": "One record per tile design. Full production lifecycle from CNC through firing results.",
+      "record_count": null,
+      "last_updated": null
+    },
+    {
+      "filename": "cnc_parameters.json",
+      "status": "pending-creation",
+      "owner": "tile-claude",
+      "description": "CNC machine parameters per tile design. Pass 1, 2, 3 settings.",
+      "record_count": null,
+      "last_updated": null
+    },
+    {
+      "filename": "materials.json",
+      "status": "pending-creation",
+      "owner": "business-claude",
+      "description": "Materials inventory. Supplier, stock levels, reorder thresholds, lot numbers, purchase history.",
+      "record_count": null,
+      "last_updated": null
+    },
+    {
+      "filename": "clients.json",
+      "status": "pending-creation",
+      "owner": "business-claude",
+      "description": "Single client record from prospect through customer. Pipeline stage, order history, contact info.",
+      "record_count": null,
+      "last_updated": null
+    },
+    {
+      "filename": "projects.json",
+      "status": "pending-creation",
+      "owner": "business-claude",
+      "description": "Project records linking client, tile designs, colorways, quotes, and firing records.",
+      "record_count": null,
+      "last_updated": null
+    },
+    {
+      "filename": "MESSAGES_ARCHIVE.json",
+      "status": "pending-creation",
+      "owner": "overseer",
+      "description": "Completed inter-Claude messages. Moved here from MESSAGES.json after done.",
+      "record_count": null,
+      "last_updated": null
+    }
+  ]
+}
