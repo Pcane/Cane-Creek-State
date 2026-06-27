@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 6/27/2026, 7:32:44 PM
+Last updated: 6/27/2026, 7:34:00 PM
 
 ## Glaze Library
 
@@ -71,17 +71,20 @@ No batches recorded yet.
 
 ## Recent Firing Records
 
+### G40 - Jun26 - A
+- Recipe: Red Iron Oxide (synthetic): 21.816g per 600g
+- Base: G2926B | SG: -- | Method: --
+- Color: brown
+- Finish: Gloss
+- Rating: Fair
+- Notes: no a black at all-transparent tho
+
+---
+
 ### G12 - Jun26 - A
 - Recipe: Vanadium Yellow: 14.544g per 600g
 - Base: G2926B | SG: -- | Method: Pour
 - Rating: Good
-
----
-
-### G40 - Jun26 - A
-- Recipe: Red Iron Oxide (synthetic): 21.816g per 600g
-- Base: G2926B | SG: -- | Method: --
-- Finish: Gloss
 
 ---
 
