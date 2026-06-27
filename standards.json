@@ -1,0 +1,104 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-06-27",
+  "maintained_by": "overseer",
+  "description": "Suite-wide reference values shared by all Claude instances. Read at session start.",
+  "mold_sizes": [
+    {
+      "key": "6x6",
+      "fired_size_in": "6x6",
+      "face_size_in": "6.570x6.570",
+      "pocket_depth_in": 0.445,
+      "notes": "Working dims confirmed"
+    },
+    {
+      "key": "4x4",
+      "fired_size_in": "4x4",
+      "face_size_in": null,
+      "pocket_depth_in": null,
+      "notes": "Standard GCode not yet created"
+    },
+    {
+      "key": "3x3",
+      "fired_size_in": "3x3",
+      "face_size_in": null,
+      "pocket_depth_in": null,
+      "notes": "Standard GCode not yet created"
+    }
+  ],
+  "raised_line_targets_in": [0.021, 0.025, 0.028, 0.030, 0.035],
+  "cone_targets": [6],
+  "atmosphere": ["oxidation"],
+  "kilns": [
+    {
+      "id": "kiln-1",
+      "name": "Kiln 1",
+      "location": "studio",
+      "notes": null
+    },
+    {
+      "id": "kiln-2",
+      "name": "Kiln 2",
+      "location": "by the window",
+      "notes": "Primary test kiln"
+    }
+  ],
+  "kiln_programs": [
+    {
+      "id": "KP-001",
+      "name": "User 1",
+      "kiln": "Kiln 2",
+      "notes": null
+    },
+    {
+      "id": "KP-002",
+      "name": "User 2",
+      "kiln": "Kiln 2",
+      "notes": null
+    },
+    {
+      "id": "KP-003",
+      "name": "User 3",
+      "kiln": "Kiln 2",
+      "version": "1.1",
+      "date_modified": "2026-06-26",
+      "change_note": "Seg 1 HLD changed 00.00 to 00.10 for wet dipped tiles",
+      "type": "drop-and-soak",
+      "peak_temp_f": 2185,
+      "soak_min": 30,
+      "cone_target": 6,
+      "notes": "Primary cone 6 oxidation program"
+    }
+  ],
+  "clay_recipe_current_version": "CB-001",
+  "benchmark_glaze_id": "G-021",
+  "confirmed_clean_glazes": ["G-011", "G-016", "G-021", "G-024"],
+  "ansi_cut_thresholds": {
+    "bad_below": 0.333,
+    "warn_below": 0.5,
+    "good_above": 0.5
+  },
+  "tile_types": ["art", "field", "liner"],
+  "glaze_application_methods": [
+    "bulb-syringe",
+    "dip",
+    "pour",
+    "brush",
+    "spray"
+  ],
+  "firing_types": ["bisque", "glaze"],
+  "quadrants": ["NE", "NW", "SE", "SW"],
+  "defect_types": [
+    "crawling",
+    "pinholes",
+    "blistering",
+    "color-wrong",
+    "no-break",
+    "matte-when-gloss-expected",
+    "chrome-contamination-suspected",
+    "other"
+  ],
+  "finish_types": ["gloss", "satin", "matte", "dry"],
+  "hazard_levels": ["none", "ventilation", "gloves", "N100", "toxic"],
+  "colorant_forms": ["oxide", "carbonate", "stain", "other"]
+}
