@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 6/27/2026, 7:20:37 PM
+Last updated: 6/27/2026, 7:22:53 PM
 
 ## Glaze Library
 
@@ -155,6 +155,17 @@ No batches recorded yet.
 - Finish: Gloss
 - Rating: Good
 - Notes: glaze is glossy-and pink when given a double coat- this glaze needs two coats or thicker SG or more colorant or 2 coats.
+
+---
+
+### G26 - Jun26 - A
+- Recipe: Copper Carbonate: 1.818g per 600g, Light Rutile: 3.03g per 600g
+- Base: G2926B | SG: -- | Method: Pour
+- Fired: Jun 26, 2026 | Kiln 2 | Cone 6 -- full melt
+- Color: light green
+- Finish: Satin
+- Rating: Fair
+- Notes: satin, transparent
 
 ---
 
