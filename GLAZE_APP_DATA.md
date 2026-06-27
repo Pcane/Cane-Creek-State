@@ -1,13 +1,12 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 6/27/2026, 7:11:22 PM
+Last updated: 6/27/2026, 7:14:22 PM
 
 ## Glaze Library
 
-### Active (4)
+### Active (3)
 - **G11** -- G11 — Transparent Dark Green — OX | Base: G2926B | Chrome Oxide 1.212g | Target SG: 1.29
 - **G16** -- G16 — White — OX | Base: G2926B | Tin Oxide 4.848g | Target SG: 1.32
 - **G21** -- G21 — Dark Brown — OX | Base: G2926B | Red Iron Oxide (synthetic) 12.12g, Light Rutile 2.424g | Target SG: 1.24
-- **G24** -- G24 — Clear Gloss — OX | Base: G2926B | no colorant | Target SG: 1.32
 
 ### Test (11)
 - **G12** -- G12 — Vanadium Yellow — OX | Base: G2926B | Vanadium Yellow 14.544g | Target SG: 1.32
@@ -22,8 +21,8 @@ Last updated: 6/27/2026, 7:11:22 PM
 - **G40** -- G40 — Tenmoku Iron Black — OX | Base: G2926B | Red Iron Oxide (synthetic) 21.816g | Target SG: 1.32
 - **G42** -- G42 — Warm Amber — OX | Base: G2926B | Manganese Dioxide 4.848g, Red Iron Oxide (synthetic) 2.424g | Target SG: 1.32
 
-### Suspended (0)
-None
+### Suspended (1)
+- **G24** -- G24 — Clear Gloss — OX | Base: G2926B | no colorant | Target SG: 1.32
 
 ### Retired (27)
 - **G1** -- G1 — Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 12.1g
@@ -116,6 +115,17 @@ No batches recorded yet.
 - Color: earthy brown
 - Finish: Gloss
 - Rating: Good
+
+---
+
+### G12 - Jun26 - A
+- Recipe: Vanadium Yellow: 14.544g per 600g
+- Base: G2926B | SG: -- | Method: Pour
+- Fired: Jun 26, 2026 | Kiln 2 | Cone 6 -- full melt
+- Color: drkish yellow
+- Finish: Gloss
+- Rating: Good
+- Notes: i poured two layers and the ouble pour was better- more glossy more yellow-darker in the depths
 
 ---
 
