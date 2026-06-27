@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 6/27/2026, 7:15:13 PM
+Last updated: 6/27/2026, 7:16:44 PM
 
 ## Glaze Library
 
@@ -8,8 +8,7 @@ Last updated: 6/27/2026, 7:15:13 PM
 - **G16** -- G16 — White — OX | Base: G2926B | Tin Oxide 4.848g | Target SG: 1.32
 - **G21** -- G21 — Dark Brown — OX | Base: G2926B | Red Iron Oxide (synthetic) 12.12g, Light Rutile 2.424g | Target SG: 1.24
 
-### Test (11)
-- **G12** -- G12 — Vanadium Yellow — OX | Base: G2926B | Vanadium Yellow 14.544g | Target SG: 1.32
+### Test (10)
 - **G25** -- G25 — Chrome-Tin Cranberry Red — OX | Base: G2926B | Chrome Oxide 0.364g, Tin Oxide 25.2g | Target SG: 1.32
 - **G25HC** -- G25-HC — Chrome-Tin Cranberry Red, High Calcium — OX/HC | Base: G2926B | Chrome Oxide 0.364g, Tin Oxide 25.2g, Wollastonite W-20 28.3g | Target SG: 1.32
 - **G26** -- G26 — Copper Celadon Green — OX | Base: G2926B | Copper Carbonate 1.818g, Light Rutile 3.03g | Target SG: 1.32
@@ -21,7 +20,8 @@ Last updated: 6/27/2026, 7:15:13 PM
 - **G40** -- G40 — Tenmoku Iron Black — OX | Base: G2926B | Red Iron Oxide (synthetic) 21.816g | Target SG: 1.32
 - **G42** -- G42 — Warm Amber — OX | Base: G2926B | Manganese Dioxide 4.848g, Red Iron Oxide (synthetic) 2.424g | Target SG: 1.32
 
-### Suspended (1)
+### Suspended (2)
+- **G12** -- G12 — Vanadium Yellow — OX | Base: G2926B | Vanadium Yellow 14.544g | Target SG: 1.32
 - **G24** -- G24 — Clear Gloss — OX | Base: G2926B | no colorant | Target SG: 1.32
 
 ### Retired (27)
@@ -133,6 +133,17 @@ No batches recorded yet.
 - Finish: Gloss
 - Rating: Good
 - Notes: i poured two layers and the ouble pour was better- more glossy more yellow-darker in the depths
+
+---
+
+### G29 - Jun26 - A
+- Recipe: Vanadium Yellow: 14.544g per 600g, Red Iron Oxide (synthetic): 1.515g per 600g
+- Base: G2926B | SG: -- | Method: Pour
+- Fired: Jun 26, 2026 | Kiln 2 | Cone 6 -- full melt
+- Color: Dark yellow
+- Finish: Gloss
+- Rating: Good
+- Notes: i poured two layers and the ouble pour was better- more glossy more yellow-darker in the depths- needs two coats
 
 ---
 
