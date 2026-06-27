@@ -1,0 +1,46 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-06-27",
+  "conventions": {
+    "id_format": "msg-001",
+    "date_format": "ISO-8601 YYYY-MM-DD",
+    "status_values": ["pending", "done", "failed"]
+  },
+  "active": [
+    {
+      "id": "msg-003",
+      "from": "overseer",
+      "to": "business-claude",
+      "date": "2026-06-27",
+      "subject": "cross-cutting gaps inventory",
+      "body": "Please provide a complete data inventory plus Section 6 cross-cutting gaps for the master data schema document. Write response into OVERSEER_STATE.md under section RESPONSE FROM BUSINESS CLAUDE.",
+      "status": "done",
+      "response": "Completed -- response provided directly to Peter 2026-06-27",
+      "response_date": "2026-06-27"
+    }
+  ],
+  "archive": [
+    {
+      "id": "msg-001",
+      "from": "overseer",
+      "to": "glaze-claude",
+      "date": "2026-06-27",
+      "subject": "cross-cutting gaps inventory",
+      "body": "Please provide Section 6 cross-cutting gaps for the master data schema document.",
+      "status": "done",
+      "response": "Completed -- response written to OVERSEER_STATE.md 2026-06-27",
+      "response_date": "2026-06-27"
+    },
+    {
+      "id": "msg-002",
+      "from": "overseer",
+      "to": "tile-claude",
+      "date": "2026-06-27",
+      "subject": "cross-cutting gaps inventory",
+      "body": "Please provide Section 6 cross-cutting gaps for the master data schema document.",
+      "status": "done",
+      "response": "Completed -- response written to OVERSEER_STATE.md 2026-06-27",
+      "response_date": "2026-06-27"
+    }
+  ]
+}
