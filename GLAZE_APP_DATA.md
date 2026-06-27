@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 6/27/2026, 7:07:35 PM
+Last updated: 6/27/2026, 7:08:51 PM
 
 ## Glaze Library
 
@@ -94,6 +94,16 @@ No batches recorded yet.
 - Base: G2926B | SG: -- | Method: --
 - Fired: Jun 26, 2026 | Kiln 2 | Cone 6 -- full melt
 - Color: light earthy green
+- Finish: Gloss
+- Rating: Good
+
+---
+
+### G16 - Jun26 - A
+- Recipe: Tin Oxide: 4.848g per 600g
+- Base: G2926B | SG: -- | Method: --
+- Fired: Jun 26, 2026 | Kiln 2 | Cone 6 -- full melt
+- Color: white
 - Finish: Gloss
 - Rating: Good
 
