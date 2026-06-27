@@ -1,0 +1,1268 @@
+{
+  "version": "2.0",
+  "last_updated": "2026-06-27",
+  "maintained_by": "glaze-claude",
+  "description": "Glaze recipes for Cane Creek Tile Co. All G-series glazes. Migrated from cane-creek-app repo 2026-06-27. ID format updated to G-NNN canonical form.",
+  "id_format": "G-NNN zero-padded 3-digit. Special: G-025-HC. Legacy IDs in legacy_id field for app backward compat.",
+  "base_slurry_reference": "bases.json",
+  "glazes": [
+    {
+      "id": "G-001",
+      "legacy_id": "G1",
+      "name": "G1 -- Light Transparent Blue -- OX",
+      "base_id": "G2926B",
+      "finish_type": "gloss",
+      "colorant_type": "oxide",
+      "colorants": [
+        {
+          "name": "Cobalt Oxide",
+          "g_per_600g_base": 12.1,
+          "percent_of_dry_base": 0.05,
+          "form": "oxide",
+          "hazard": "N100",
+          "note": "0.05% -- very small amount, re-zero scale before weighing"
+        }
+      ],
+      "status": "retired",
+      "target_sg": null,
+      "date_created": null,
+      "date_modified": "2026-06-27",
+      "note": "At 0.05% cobalt this is an extremely pale transparent blue. Recommend minimum 200g batch for G1.",
+      "warning": null,
+      "based_on": null,
+      "bench_notes": null
+    },
+    {
+      "id": "G-002",
+      "legacy_id": "G2",
+      "name": "G2 -- Mid-Light Transparent Blue -- OX",
+      "base_id": "G2926B",
+      "finish_type": "gloss",
+      "colorant_type": "oxide",
+      "colorants": [
+        {
+          "name": "Cobalt Oxide",
+          "g_per_600g_base": 19.4,
+          "percent_of_dry_base": 0.08,
+          "form": "oxide",
+          "hazard": "N100",
+          "note": "0.08% -- re-zero scale before weighing"
+        }
+      ],
+      "status": "retired",
+      "target_sg": null,
+      "date_created": null,
+      "date_modified": "2026-06-27",
+      "note": "At 0.08% cobalt -- pale transparent blue. Recommend minimum 200g batch for reliable weighing.",
+      "warning": null,
+      "based_on": null,
+      "bench_notes": null
+    },
+    {
+      "id": "G-003",
+      "legacy_id": "G3",
+      "name": "G3 -- Transparent UNC Blue -- MS",
+      "base_id": "G2926B",
+      "finish_type": "gloss",
+      "colorant_type": "stain",
+      "colorants": [
+        {
+          "name": "Mason 6374",
+          "g_per_600g_base": 7.273,
+          "percent_of_dry_base": null,
+          "form": "stain",
+          "hazard": "none"
+        }
+      ],
+      "status": "retired",
+      "target_sg": null,
+      "date_created": null,
+      "date_modified": "2026-06-27",
+      "note": "MS -- retirement candidate after testing. See G35 MX version.",
+      "warning": null,
+      "based_on": null,
+      "bench_notes": null
+    },
+    {
+      "id": "G-006",
+      "legacy_id": "G6",
+      "name": "G6 -- Opaque Dark Blue -- OX",
+      "base_id": "G2926B",
+      "finish_type": "gloss",
+      "colorant_type": "oxide",
+      "colorants": [
+        {
+          "name": "Cobalt Oxide",
+          "g_per_600g_base": 2.424,
+          "percent_of_dry_base": 1.0,
+          "form": "oxide",
+          "hazard": "N100",
+          "note": "1%"
+        }
+      ],
+      "status": "retired",
+      "target_sg": null,
+      "date_created": null,
+      "date_modified": "2026-06-27",
+      "note": null,
+      "warning": null,
+      "based_on": null,
+      "bench_notes": null
+    },
+    {
+      "id": "G-007",
+      "legacy_id": "G7",
+      "name": "G7 -- Light Transparent Green -- MS",
+      "base_id": "G2926B",
+      "finish_type": "gloss",
+      "colorant_type": "stain",
+      "colorants": [
+        {
+          "name": "Mason 6206",
+          "g_per_600g_base": 16.968,
+          "percent_of_dry_base": null,
+          "form": "stain",
+          "hazard": "none"
+        }
+      ],
+      "status": "retired",
+      "target_sg": null,
+      "date_created": null,
+      "date_modified": "2026-06-27",
+      "note": "MS -- retirement candidate. See G26 OX replacement.",
+      "warning": null,
+      "based_on": null,
+      "bench_notes": null
+    },
+    {
+      "id": "G-008",
+      "legacy_id": "G8",
+      "name": "G8 -- Transparent Green -- MS",
+      "base_id": "G2926B",
+      "finish_type": "gloss",
+      "colorant_type": "stain",
+      "colorants": [
+        {
+          "name": "Mason 6254",
+          "g_per_600g_base": 8.484,
+          "percent_of_dry_base": null,
+          "form": "stain",
+          "hazard": "none"
+        }
+      ],
+      "status": "retired",
+      "target_sg": null,
+      "date_created": null,
+      "date_modified": "2026-06-27",
+      "note": "MS -- retirement candidate. See G27 OX replacement.",
+      "warning": null,
+      "based_on": null,
+      "bench_notes": null
+    },
+    {
+      "id": "G-009",
+      "legacy_id": "G9",
+      "name": "G9 -- Sage Green -- MS",
+      "base_id": "G2926B",
+      "finish_type": "gloss",
+      "colorant_type": "stain",
+      "colorants": [
+        {
+          "name": "Mason 6280",
+          "g_per_600g_base": 4.848,
+          "percent_of_dry_base": null,
+          "form": "stain",
+          "hazard": "none"
+        }
+      ],
+      "status": "retired",
+      "target_sg": null,
+      "date_created": null,
+      "date_modified": "2026-06-27",
+      "note": "MS -- retirement candidate. See G31 MX version.",
+      "warning": null,
+      "based_on": null,
+      "bench_notes": null
+    },
+    {
+      "id": "G-010",
+      "legacy_id": "G10",
+      "name": "G10 -- Soft Sage-Celadon -- MS",
+      "base_id": "G2926B",
+      "finish_type": "gloss",
+      "colorant_type": "stain",
+      "colorants": [
+        {
+          "name": "9% Mason 6280 slurry",
+          "g_per_600g_base": 39.6,
+          "percent_of_dry_base": null,
+          "form": "other",
+          "hazard": "none",
+          "note": "Add to 600g base"
+        },
+        {
+          "name": "1.2% Chrome Oxide slurry",
+          "g_per_600g_base": 46.2,
+          "percent_of_dry_base": null,
+          "form": "other",
+          "hazard": "none",
+          "note": "Add to same batch -- total becomes 685.7g"
+        }
+      ],
+      "status": "retired",
+      "target_sg": null,
+      "date_created": null,
+      "date_modified": "2026-06-27",
+      "note": "MS -- retirement candidate. Pre-mix both slurries before adding to base. Colorant entries are wet additions, not dry weights.",
+      "warning": null,
+      "based_on": null,
+      "bench_notes": null
+    },
+    {
+      "id": "G-011",
+      "legacy_id": "G11",
+      "name": "G11 -- Transparent Dark Green -- OX",
+      "base_id": "G2926B",
+      "finish_type": "gloss",
+      "colorant_type": "oxide",
+      "colorants": [
+        {
+          "name": "Chrome Oxide",
+          "g_per_600g_base": 1.212,
+          "percent_of_dry_base": 0.2,
+          "form": "oxide",
+          "hazard": "N100",
+          "note": "0.2%"
+        }
+      ],
+      "status": "active",
+      "target_sg": 1.29,
+      "date_created": null,
+      "date_modified": "2026-06-27",
+      "note": null,
+      "warning": null,
+      "based_on": null,
+      "bench_notes": "expected a transparent green gloss"
+    },
+    {
+      "id": "G-012",
+      "legacy_id": "G12",
+      "name": "G12 -- Vanadium Yellow -- OX",
+      "base_id": "G2926B",
+      "finish_type": "gloss",
+      "colorant_type": "oxide",
+      "colorants": [
+        {
+          "name": "Vanadium Yellow",
+          "g_per_600g_base": 14.544,
+          "percent_of_dry_base": 6.0,
+          "form": "oxide",
+          "hazard": "none",
+          "note": "6%"
+        }
+      ],
+      "status": "test",
+      "target_sg": 1.32,
+      "date_created": null,
+      "date_modified": "2026-06-27",
+      "note": null,
+      "warning": null,
+      "based_on": null,
+      "bench_notes": null
+    },
+    {
+      "id": "G-013",
+      "legacy_id": "G13",
+      "name": "G13 -- Chartreuse -- MS",
+      "base_id": "G2926B",
+      "finish_type": "gloss",
+      "colorant_type": "stain",
+      "colorants": [
+        {
+          "name": "Mason 6236",
+          "g_per_600g_base": 19.392,
+          "percent_of_dry_base": null,
+          "form": "stain",
+          "hazard": "none"
+        }
+      ],
+      "status": "retired",
+      "target_sg": null,
+      "date_created": null,
+      "date_modified": "2026-06-27",
+      "note": "MS -- retirement candidate after testing.",
+      "warning": null,
+      "based_on": null,
+      "bench_notes": null
+    },
+    {
+      "id": "G-014",
+      "legacy_id": "G14",
+      "name": "G14 -- Transparent Pink -- MS",
+      "base_id": "G2926B",
+      "finish_type": "gloss",
+      "colorant_type": "stain",
+      "colorants": [
+        {
+          "name": "Mason 6001",
+          "g_per_600g_base": 19.392,
+          "percent_of_dry_base": null,
+          "form": "stain",
+          "hazard": "none"
+        }
+      ],
+      "status": "retired",
+      "target_sg": null,
+      "date_created": null,
+      "date_modified": "2026-06-27",
+      "note": "MS -- retirement candidate. See G39 Warm Ivory as alternative direction.",
+      "warning": null,
+      "based_on": null,
+      "bench_notes": null
+    },
+    {
+      "id": "G-015",
+      "legacy_id": "G15",
+      "name": "G15 -- Transparent Red -- MS",
+      "base_id": "G2926B",
+      "finish_type": "gloss",
+      "colorant_type": "stain",
+      "colorants": [
+        {
+          "name": "Mason 6021",
+          "g_per_600g_base": 6.06,
+          "percent_of_dry_base": null,
+          "form": "stain",
+          "hazard": "none"
+        }
+      ],
+      "status": "retired",
+      "target_sg": null,
+      "date_created": null,
+      "date_modified": "2026-06-27",
+      "note": "MS -- retirement candidate. See G25 and G25-HC for oxide-based red alternatives.",
+      "warning": "Mason 6021 is an encapsulated stain -- prone to bubbling at cone 6. Add 1-2% Zircopax to reduce.",
+      "based_on": null,
+      "bench_notes": null
+    },
+    {
+      "id": "G-016",
+      "legacy_id": "G16",
+      "name": "G16 -- White -- OX",
+      "base_id": "G2926B",
+      "finish_type": "satin",
+      "colorant_type": "oxide",
+      "colorants": [
+        {
+          "name": "Tin Oxide",
+          "g_per_600g_base": 4.848,
+          "percent_of_dry_base": 2.0,
+          "form": "oxide",
+          "hazard": "none",
+          "note": "2%"
+        }
+      ],
+      "status": "active",
+      "target_sg": 1.32,
+      "date_created": null,
+      "date_modified": "2026-06-27",
+      "note": "See G39 Warm Ivory for a more period-appropriate alternative.",
+      "warning": null,
+      "based_on": null,
+      "bench_notes": "white gloss"
+    },
+    {
+      "id": "G-017",
+      "legacy_id": "G17",
+      "name": "G17 -- Light Tan -- OX",
+      "base_id": "G2926B",
+      "finish_type": "gloss",
+      "colorant_type": "oxide",
+      "colorants": [
+        {
+          "name": "Red Iron Oxide (synthetic)",
+          "g_per_600g_base": 1.26,
+          "percent_of_dry_base": 0.52,
+          "form": "oxide",
+          "hazard": "none",
+          "note": "0.52%"
+        }
+      ],
+      "status": "retired",
+      "target_sg": null,
+      "date_created": null,
+      "date_modified": "2026-06-27",
+      "note": null,
+      "warning": null,
+      "based_on": null,
+      "bench_notes": null
+    },
+    {
+      "id": "G-018",
+      "legacy_id": "G18",
+      "name": "G18 -- Dark Tan -- OX",
+      "base_id": "G2926B",
+      "finish_type": "gloss",
+      "colorant_type": "oxide",
+      "colorants": [
+        {
+          "name": "Red Iron Oxide (synthetic)",
+          "g_per_600g_base": 6.787,
+          "percent_of_dry_base": 2.8,
+          "form": "oxide",
+          "hazard": "none",
+          "note": "2.8%"
+        }
+      ],
+      "status": "retired",
+      "target_sg": null,
+      "date_created": null,
+      "date_modified": "2026-06-27",
+      "note": null,
+      "warning": null,
+      "based_on": null,
+      "bench_notes": null
+    },
+    {
+      "id": "G-019",
+      "legacy_id": "G19",
+      "name": "G19 -- Light Brown -- MS",
+      "base_id": "G2926B",
+      "finish_type": "gloss",
+      "colorant_type": "stain",
+      "colorants": [
+        {
+          "name": "Mason 6103",
+          "g_per_600g_base": 16.968,
+          "percent_of_dry_base": null,
+          "form": "stain",
+          "hazard": "none"
+        }
+      ],
+      "status": "retired",
+      "target_sg": null,
+      "date_created": null,
+      "date_modified": "2026-06-27",
+      "note": "MS -- retirement candidate. See G32 OX replacement.",
+      "warning": null,
+      "based_on": null,
+      "bench_notes": null
+    },
+    {
+      "id": "G-020",
+      "legacy_id": "G20",
+      "name": "G20 -- Light-Dark Brown (olive/golden) -- MS",
+      "base_id": "G2926B",
+      "finish_type": "gloss",
+      "colorant_type": "stain",
+      "colorants": [
+        {
+          "name": "Mason 6108",
+          "g_per_600g_base": 8.484,
+          "percent_of_dry_base": null,
+          "form": "stain",
+          "hazard": "none"
+        }
+      ],
+      "status": "retired",
+      "target_sg": null,
+      "date_created": null,
+      "date_modified": "2026-06-27",
+      "note": "MS -- retirement candidate. See G33 OX replacement.",
+      "warning": null,
+      "based_on": null,
+      "bench_notes": null
+    },
+    {
+      "id": "G-021",
+      "legacy_id": "G21",
+      "name": "G21 -- Dark Brown -- OX",
+      "base_id": "G2926B",
+      "finish_type": "gloss",
+      "colorant_type": "oxide",
+      "colorants": [
+        {
+          "name": "Red Iron Oxide (synthetic)",
+          "g_per_600g_base": 12.12,
+          "percent_of_dry_base": 5.0,
+          "form": "oxide",
+          "hazard": "none",
+          "note": "5%"
+        },
+        {
+          "name": "Light Rutile",
+          "g_per_600g_base": 2.424,
+          "percent_of_dry_base": 1.0,
+          "form": "oxide",
+          "hazard": "none",
+          "note": "1%"
+        }
+      ],
+      "status": "active",
+      "target_sg": 1.24,
+      "date_created": null,
+      "date_modified": "2026-06-27",
+      "note": "Reference glaze -- benchmark for depth and break. This is the target look for the whole palette.",
+      "warning": null,
+      "based_on": null,
+      "bench_notes": null
+    },
+    {
+      "id": "G-022",
+      "legacy_id": "G22",
+      "name": "G22 -- Grey -- MS",
+      "base_id": "G2926B",
+      "finish_type": "gloss",
+      "colorant_type": "stain",
+      "colorants": [
+        {
+          "name": "Mason 6600",
+          "g_per_600g_base": 1.309,
+          "percent_of_dry_base": 0.54,
+          "form": "stain",
+          "hazard": "none",
+          "note": "0.54%"
+        }
+      ],
+      "status": "retired",
+      "target_sg": null,
+      "date_created": null,
+      "date_modified": "2026-06-27",
+      "note": "MS -- retirement candidate after testing.",
+      "warning": null,
+      "based_on": null,
+      "bench_notes": null
+    },
+    {
+      "id": "G-023",
+      "legacy_id": "G23",
+      "name": "G23 -- Black -- MS",
+      "base_id": "G2926B",
+      "finish_type": "gloss",
+      "colorant_type": "stain",
+      "colorants": [
+        {
+          "name": "Mason 6600",
+          "g_per_600g_base": 12.12,
+          "percent_of_dry_base": 5.0,
+          "form": "stain",
+          "hazard": "none",
+          "note": "5%"
+        }
+      ],
+      "status": "retired",
+      "target_sg": null,
+      "date_created": null,
+      "date_modified": "2026-06-27",
+      "note": "MS -- retirement candidate. See G34 MX version. Add 2-3 drops Darvan if dripping.",
+      "warning": null,
+      "based_on": null,
+      "bench_notes": null
+    },
+    {
+      "id": "G-024",
+      "legacy_id": "G24",
+      "name": "G24 -- Clear Gloss -- OX",
+      "base_id": "G2926B",
+      "finish_type": "gloss",
+      "colorant_type": "oxide",
+      "colorants": [],
+      "status": "active",
+      "target_sg": 1.32,
+      "date_created": null,
+      "date_modified": "2026-06-27",
+      "note": "No colorant -- base slurry only.",
+      "warning": null,
+      "based_on": null,
+      "bench_notes": null
+    },
+    {
+      "id": "G-025",
+      "legacy_id": "G25",
+      "name": "G25 -- Chrome-Tin Cranberry Red -- OX",
+      "base_id": "G1214M",
+      "finish_type": "gloss",
+      "colorant_type": "new",
+      "colorants": [
+        {
+          "name": "Chrome Oxide",
+          "g_per_600g_base": 0.364,
+          "percent_of_dry_base": 0.06,
+          "form": "oxide",
+          "hazard": "N100",
+          "note": "0.06% -- via stock solution only"
+        },
+        {
+          "name": "Tin Oxide",
+          "g_per_600g_base": 25.2,
+          "percent_of_dry_base": 4.2,
+          "form": "oxide",
+          "hazard": "none",
+          "note": "4.2% -- primary colorant"
+        }
+      ],
+      "status": "test",
+      "target_sg": 1.32,
+      "date_created": null,
+      "date_modified": "2026-06-27",
+      "note": "Oxide-based red. Target: cranberry/burgundy with break on raised edges. Apply thicker than usual -- thin coats go grey. Two thin coats better than one thick. Do not fire near white tin glazes -- chrome vapour can pink adjacent tiles.",
+      "warning": "Chrome Oxide must be very precise -- 0.1% too much shifts toward green.",
+      "based_on": null,
+      "bench_notes": null
+    },
+    {
+      "id": "G-025-HC",
+      "legacy_id": "G25HC",
+      "name": "G25-HC -- Chrome-Tin Cranberry Red, High Calcium -- OX/HC",
+      "base_id": "G1214M",
+      "finish_type": "gloss",
+      "colorant_type": "new",
+      "colorants": [
+        {
+          "name": "Chrome Oxide",
+          "g_per_600g_base": 0.364,
+          "percent_of_dry_base": 0.06,
+          "form": "oxide",
+          "hazard": "N100",
+          "note": "0.06% -- via stock solution only"
+        },
+        {
+          "name": "Tin Oxide",
+          "g_per_600g_base": 25.2,
+          "percent_of_dry_base": 4.2,
+          "form": "oxide",
+          "hazard": "none",
+          "note": "4.2%"
+        },
+        {
+          "name": "Wollastonite W-20",
+          "g_per_600g_base": 28.3,
+          "percent_of_dry_base": null,
+          "form": "oxide",
+          "hazard": "none",
+          "note": "Boosts calcium from 6.3% to 18% of dry solids -- improves chrome-tin red development. Pre-wet before adding."
+        }
+      ],
+      "status": "test",
+      "target_sg": 1.32,
+      "date_created": null,
+      "date_modified": "2026-06-27",
+      "note": "High-calcium variant of G25. Extra wollastonite promotes stronger cranberry/burgundy. Recheck SG after mixing -- wollastonite raises it. Add water to correct. Test alongside G25 in same firing to compare.",
+      "warning": "Recheck SG after adding wollastonite -- it will rise. Chrome Oxide must be very precise.",
+      "based_on": null,
+      "bench_notes": null
+    },
+    {
+      "id": "G-026",
+      "legacy_id": "G26",
+      "name": "G26 -- Copper Celadon Green -- OX",
+      "base_id": "G2926B",
+      "finish_type": "gloss",
+      "colorant_type": "new",
+      "colorants": [
+        {
+          "name": "Copper Carbonate",
+          "g_per_600g_base": 1.818,
+          "percent_of_dry_base": 0.3,
+          "form": "carbonate",
+          "hazard": "gloves",
+          "note": "0.3%"
+        },
+        {
+          "name": "Light Rutile",
+          "g_per_600g_base": 3.03,
+          "percent_of_dry_base": 0.5,
+          "form": "oxide",
+          "hazard": "none",
+          "note": "0.5%"
+        }
+      ],
+      "status": "test",
+      "target_sg": 1.32,
+      "date_created": null,
+      "date_modified": "2026-06-27",
+      "note": "Oxide replacement for G7 MS. Copper gives transparent green in oxidation, rutile adds warm break. In your base gives blue-green celadon. For true turquoise see G36.",
+      "warning": null,
+      "based_on": null,
+      "bench_notes": "Expecting glossy, light green transparent glaze with light brown edge effects, the final SG is 1.35"
+    },
+    {
+      "id": "G-027",
+      "legacy_id": "G27",
+      "name": "G27 -- Copper Transparent Green -- OX",
+      "base_id": "G2926B",
+      "finish_type": "gloss",
+      "colorant_type": "new",
+      "colorants": [
+        {
+          "name": "Copper Carbonate",
+          "g_per_600g_base": 3.03,
+          "percent_of_dry_base": 0.5,
+          "form": "carbonate",
+          "hazard": "gloves",
+          "note": "0.5%"
+        },
+        {
+          "name": "Light Rutile",
+          "g_per_600g_base": 3.03,
+          "percent_of_dry_base": 0.5,
+          "form": "oxide",
+          "hazard": "none",
+          "note": "0.5%"
+        }
+      ],
+      "status": "retired",
+      "target_sg": 1.32,
+      "date_created": null,
+      "date_modified": "2026-06-27",
+      "note": "Slightly stronger green than G26. Oxide replacement for G8 MS.",
+      "warning": null,
+      "based_on": null,
+      "bench_notes": null
+    },
+    {
+      "id": "G-028",
+      "legacy_id": "G28",
+      "name": "G28 -- Chrome Green + Iron Break -- OX",
+      "base_id": "G2926B",
+      "finish_type": "gloss",
+      "colorant_type": "new",
+      "colorants": [
+        {
+          "name": "Chrome Oxide",
+          "g_per_600g_base": 1.212,
+          "percent_of_dry_base": 0.2,
+          "form": "oxide",
+          "hazard": "N100",
+          "note": "0.2%"
+        },
+        {
+          "name": "Red Iron Oxide (synthetic)",
+          "g_per_600g_base": 3.03,
+          "percent_of_dry_base": 0.5,
+          "form": "oxide",
+          "hazard": "none",
+          "note": "0.5%"
+        }
+      ],
+      "status": "test",
+      "target_sg": 1.32,
+      "date_created": null,
+      "date_modified": "2026-06-27",
+      "note": "G11 variant with iron for break. Iron interacts with chrome at cone 6 -- warm bronze break on raised edges, darker in recesses. Historic Arts and Crafts olive-green look.",
+      "warning": null,
+      "based_on": null,
+      "bench_notes": "expecting darker red brown saddle transparent with red in the recesses, Final Sg 1.37"
+    },
+    {
+      "id": "G-029",
+      "legacy_id": "G29",
+      "name": "G29 -- Vanadium Yellow + Iron Edge -- OX",
+      "base_id": "G2926B",
+      "finish_type": "gloss",
+      "colorant_type": "new",
+      "colorants": [
+        {
+          "name": "Vanadium Yellow",
+          "g_per_600g_base": 14.544,
+          "percent_of_dry_base": 6.0,
+          "form": "oxide",
+          "hazard": "none",
+          "note": "6%"
+        },
+        {
+          "name": "Red Iron Oxide (synthetic)",
+          "g_per_600g_base": 1.515,
+          "percent_of_dry_base": 0.25,
+          "form": "oxide",
+          "hazard": "none",
+          "note": "0.25% -- keep low, iron dominates if too high"
+        }
+      ],
+      "status": "test",
+      "target_sg": 1.32,
+      "date_created": null,
+      "date_modified": "2026-06-27",
+      "note": "G12 with small iron addition. Toasted gold edge on raised lines. Keep iron very low.",
+      "warning": null,
+      "based_on": "G-012",
+      "bench_notes": "expecting this glaze to be a transparent glossy yellow with dark RIO edge effects"
+    },
+    {
+      "id": "G-030",
+      "legacy_id": "G30",
+      "name": "G30 -- Cobalt Blue + Rutile Break -- OX",
+      "base_id": "G2926B",
+      "finish_type": "gloss",
+      "colorant_type": "new",
+      "colorants": [
+        {
+          "name": "Cobalt Oxide",
+          "g_per_600g_base": 2.424,
+          "percent_of_dry_base": 1.0,
+          "form": "oxide",
+          "hazard": "N100",
+          "note": "1%"
+        },
+        {
+          "name": "Light Rutile",
+          "g_per_600g_base": 6.06,
+          "percent_of_dry_base": 1.0,
+          "form": "oxide",
+          "hazard": "none",
+          "note": "1%"
+        }
+      ],
+      "status": "test",
+      "target_sg": 1.32,
+      "date_created": null,
+      "date_modified": "2026-06-27",
+      "note": "G6 variant with rutile. Variegated blue with warm streaks and break at raised lines. More alive than G6 alone.",
+      "warning": null,
+      "based_on": null,
+      "bench_notes": "expect transparent mid blue with light brown streaks or swirls, sg = 1.38"
+    },
+    {
+      "id": "G-031",
+      "legacy_id": "G31",
+      "name": "G31 -- Sage Green + Rutile -- MX",
+      "base_id": "G2926B",
+      "finish_type": "gloss",
+      "colorant_type": "new",
+      "colorants": [
+        {
+          "name": "Mason 6280",
+          "g_per_600g_base": 4.848,
+          "percent_of_dry_base": 2.0,
+          "form": "stain",
+          "hazard": "none",
+          "note": "2%"
+        },
+        {
+          "name": "Light Rutile",
+          "g_per_600g_base": 3.03,
+          "percent_of_dry_base": 0.5,
+          "form": "oxide",
+          "hazard": "none",
+          "note": "0.5%"
+        },
+        {
+          "name": "Red Iron Oxide (synthetic)",
+          "g_per_600g_base": 1.818,
+          "percent_of_dry_base": 0.3,
+          "form": "oxide",
+          "hazard": "none",
+          "note": "0.3%"
+        }
+      ],
+      "status": "retired",
+      "target_sg": 1.32,
+      "date_created": null,
+      "date_modified": "2026-06-27",
+      "note": "G9 MS with rutile and iron. Adds warmth and break without killing the sage color. Keep if successful -- retire G9 MS.",
+      "warning": null,
+      "based_on": null,
+      "bench_notes": null
+    },
+    {
+      "id": "G-032",
+      "legacy_id": "G32",
+      "name": "G32 -- Iron Brown Light -- OX",
+      "base_id": "G2926B",
+      "finish_type": "gloss",
+      "colorant_type": "new",
+      "colorants": [
+        {
+          "name": "Red Iron Oxide (synthetic)",
+          "g_per_600g_base": 18.18,
+          "percent_of_dry_base": 3.0,
+          "form": "oxide",
+          "hazard": "none",
+          "note": "3%"
+        },
+        {
+          "name": "Light Rutile",
+          "g_per_600g_base": 9.09,
+          "percent_of_dry_base": 1.5,
+          "form": "oxide",
+          "hazard": "none",
+          "note": "1.5%"
+        }
+      ],
+      "status": "retired",
+      "target_sg": 1.32,
+      "date_created": null,
+      "date_modified": "2026-06-27",
+      "note": "Oxide replacement for G19 MS. Same formula family as G21 but lighter. Pools toward bottom of cells and breaks on raised lines.",
+      "warning": null,
+      "based_on": null,
+      "bench_notes": null
+    },
+    {
+      "id": "G-033",
+      "legacy_id": "G33",
+      "name": "G33 -- Iron Brown + Manganese -- OX",
+      "base_id": "G2926B",
+      "finish_type": "gloss",
+      "colorant_type": "new",
+      "colorants": [
+        {
+          "name": "Red Iron Oxide (synthetic)",
+          "g_per_600g_base": 24.24,
+          "percent_of_dry_base": 4.0,
+          "form": "oxide",
+          "hazard": "none",
+          "note": "4%"
+        },
+        {
+          "name": "Light Rutile",
+          "g_per_600g_base": 6.06,
+          "percent_of_dry_base": 1.0,
+          "form": "oxide",
+          "hazard": "none",
+          "note": "1%"
+        },
+        {
+          "name": "Manganese Dioxide",
+          "g_per_600g_base": 3.03,
+          "percent_of_dry_base": 0.5,
+          "form": "oxide",
+          "hazard": "ventilation",
+          "note": "0.5%"
+        }
+      ],
+      "status": "retired",
+      "target_sg": 1.32,
+      "date_created": null,
+      "date_modified": "2026-06-27",
+      "note": "Oxide replacement for G20 MS. Manganese adds depth and slight iridescence. Between G21 and G32 in darkness.",
+      "warning": "Manganese Dioxide requires ventilation. Fire with kiln vented.",
+      "based_on": null,
+      "bench_notes": null
+    },
+    {
+      "id": "G-034",
+      "legacy_id": "G34",
+      "name": "G34 -- Black + Rutile + Manganese -- MX",
+      "base_id": "G2926B",
+      "finish_type": "gloss",
+      "colorant_type": "new",
+      "colorants": [
+        {
+          "name": "Mason 6600",
+          "g_per_600g_base": 12.12,
+          "percent_of_dry_base": 5.0,
+          "form": "stain",
+          "hazard": "none",
+          "note": "5%"
+        },
+        {
+          "name": "Light Rutile",
+          "g_per_600g_base": 6.06,
+          "percent_of_dry_base": 1.0,
+          "form": "oxide",
+          "hazard": "none",
+          "note": "1%"
+        },
+        {
+          "name": "Manganese Dioxide",
+          "g_per_600g_base": 3.03,
+          "percent_of_dry_base": 0.5,
+          "form": "oxide",
+          "hazard": "ventilation",
+          "note": "0.5%"
+        }
+      ],
+      "status": "retired",
+      "target_sg": 1.32,
+      "date_created": null,
+      "date_modified": "2026-06-27",
+      "note": "G23 MS with rutile and manganese. Surface variation -- amber edges where glaze thins on raised lines, near-metallic in recesses. Keep if successful -- retire G23 MS.",
+      "warning": "Manganese Dioxide requires ventilation. Fire with kiln vented.",
+      "based_on": null,
+      "bench_notes": null
+    },
+    {
+      "id": "G-035",
+      "legacy_id": "G35",
+      "name": "G35 -- UNC Blue + Rutile -- MX",
+      "base_id": "G2926B",
+      "finish_type": "gloss",
+      "colorant_type": "new",
+      "colorants": [
+        {
+          "name": "Mason 6374",
+          "g_per_600g_base": 7.273,
+          "percent_of_dry_base": 3.0,
+          "form": "stain",
+          "hazard": "none",
+          "note": "3%"
+        },
+        {
+          "name": "Light Rutile",
+          "g_per_600g_base": 3.03,
+          "percent_of_dry_base": 0.5,
+          "form": "oxide",
+          "hazard": "none",
+          "note": "0.5%"
+        }
+      ],
+      "status": "test",
+      "target_sg": 1.32,
+      "date_created": null,
+      "date_modified": "2026-06-27",
+      "note": "G3 MS with rutile. Breaks flat mason stain blue into warm straw-colored halo at raised lines. Keep if successful -- retire G3 MS.",
+      "warning": null,
+      "based_on": null,
+      "bench_notes": null
+    },
+    {
+      "id": "G-036",
+      "legacy_id": "G36",
+      "name": "G36 -- Turquoise -- OX",
+      "base_id": "G2926B",
+      "finish_type": "gloss",
+      "colorant_type": "new",
+      "colorants": [
+        {
+          "name": "Copper Carbonate",
+          "g_per_600g_base": 4.848,
+          "percent_of_dry_base": 2.0,
+          "form": "carbonate",
+          "hazard": "gloves",
+          "note": "2%"
+        }
+      ],
+      "status": "retired",
+      "target_sg": 1.32,
+      "date_created": null,
+      "date_modified": "2026-06-27",
+      "note": "In your standard base gives blue-green rather than pure turquoise. For true De Morgan turquoise a separate alkaline base is needed: Frit 3110 80% + Silica 325 mesh 20%, copper carbonate 2% in 100g test batch. Test standard base version first.",
+      "warning": null,
+      "based_on": null,
+      "bench_notes": null
+    },
+    {
+      "id": "G-037",
+      "legacy_id": "G37",
+      "name": "G37 -- Aubergine -- OX",
+      "base_id": "G2926B",
+      "finish_type": "gloss",
+      "colorant_type": "new",
+      "colorants": [
+        {
+          "name": "Manganese Dioxide",
+          "g_per_600g_base": 9.696,
+          "percent_of_dry_base": 4.0,
+          "form": "oxide",
+          "hazard": "ventilation",
+          "note": "4%"
+        },
+        {
+          "name": "Cobalt Oxide",
+          "g_per_600g_base": 0.727,
+          "percent_of_dry_base": 0.3,
+          "form": "oxide",
+          "hazard": "N100",
+          "note": "0.3% -- pushes manganese toward purple"
+        }
+      ],
+      "status": "retired",
+      "target_sg": 1.32,
+      "date_created": null,
+      "date_modified": "2026-06-27",
+      "note": "Cobalt pushes manganese toward purple. Without cobalt gives warm brown-purple. Consider testing without cobalt to compare both effects.",
+      "warning": "Manganese Dioxide requires ventilation. Fire with kiln vented.",
+      "based_on": null,
+      "bench_notes": null
+    },
+    {
+      "id": "G-038",
+      "legacy_id": "G38",
+      "name": "G38 -- Rutile Ochre -- OX",
+      "base_id": "G2926B",
+      "finish_type": "gloss",
+      "colorant_type": "new",
+      "colorants": [
+        {
+          "name": "Light Rutile",
+          "g_per_600g_base": 19.392,
+          "percent_of_dry_base": 8.0,
+          "form": "oxide",
+          "hazard": "none",
+          "note": "8% -- must be light rutile specifically, not dark rutile"
+        }
+      ],
+      "status": "test",
+      "target_sg": 1.32,
+      "date_created": null,
+      "date_modified": "2026-06-27",
+      "note": "Must be light rutile -- dark rutile goes too brown. Rutile is batch-variable between suppliers. At 8% gives warm ochre-tan. Push to 10% (24.24g per 600g) for deeper mustard.",
+      "warning": null,
+      "based_on": null,
+      "bench_notes": null
+    },
+    {
+      "id": "G-039",
+      "legacy_id": "G39",
+      "name": "G39 -- Warm Ivory -- OX",
+      "base_id": "G2926B",
+      "finish_type": "gloss",
+      "colorant_type": "new",
+      "colorants": [
+        {
+          "name": "Tin Oxide",
+          "g_per_600g_base": 9.696,
+          "percent_of_dry_base": 4.0,
+          "form": "oxide",
+          "hazard": "none",
+          "note": "4%"
+        },
+        {
+          "name": "Red Iron Oxide (synthetic)",
+          "g_per_600g_base": 0.727,
+          "percent_of_dry_base": 0.3,
+          "form": "oxide",
+          "hazard": "none",
+          "note": "0.3% -- warms toward ivory/cream"
+        }
+      ],
+      "status": "retired",
+      "target_sg": 1.32,
+      "date_created": null,
+      "date_modified": "2026-06-27",
+      "note": "More period-appropriate than pure white G16. Small iron addition gives warmth and slight depth. Use synthetic red iron oxide for color consistency.",
+      "warning": null,
+      "based_on": null,
+      "bench_notes": null
+    },
+    {
+      "id": "G-040",
+      "legacy_id": "G40",
+      "name": "G40 -- Tenmoku Iron Black -- OX",
+      "base_id": "G2926B",
+      "finish_type": "gloss",
+      "colorant_type": "new",
+      "colorants": [
+        {
+          "name": "Red Iron Oxide (synthetic)",
+          "g_per_600g_base": 21.816,
+          "percent_of_dry_base": 9.0,
+          "form": "oxide",
+          "hazard": "none",
+          "note": "9%"
+        }
+      ],
+      "status": "test",
+      "target_sg": 1.32,
+      "date_created": null,
+      "date_modified": "2026-06-27",
+      "note": "At cone 6 oxidation high iron goes very dark brown to near-black with warm surface variation. More alive than Mason black G23 MS. Apply thicker than usual -- thin coats go rust-brown.",
+      "warning": null,
+      "based_on": null,
+      "bench_notes": "final is 1.345 expect glossy black"
+    },
+    {
+      "id": "G-041",
+      "legacy_id": "G41",
+      "name": "G41 -- Deep Teal -- OX",
+      "base_id": "G2926B",
+      "finish_type": "gloss",
+      "colorant_type": "new",
+      "colorants": [
+        {
+          "name": "Cobalt Carbonate",
+          "g_per_600g_base": 1.212,
+          "percent_of_dry_base": 0.5,
+          "form": "carbonate",
+          "hazard": "N100",
+          "note": "0.5% -- use cobalt carbonate not cobalt oxide, blends better with copper"
+        },
+        {
+          "name": "Copper Carbonate",
+          "g_per_600g_base": 2.424,
+          "percent_of_dry_base": 1.0,
+          "form": "carbonate",
+          "hazard": "gloves",
+          "note": "1%"
+        }
+      ],
+      "status": "retired",
+      "target_sg": 1.32,
+      "date_created": null,
+      "date_modified": "2026-06-27",
+      "note": "Rich jewel teal -- neither blue nor green. Very De Morgan. Uses cobalt carbonate not cobalt oxide. No new materials needed.",
+      "warning": null,
+      "based_on": null,
+      "bench_notes": null
+    },
+    {
+      "id": "G-042",
+      "legacy_id": "G42",
+      "name": "G42 -- Warm Amber -- OX",
+      "base_id": "G2926B",
+      "finish_type": "gloss",
+      "colorant_type": "new",
+      "colorants": [
+        {
+          "name": "Manganese Dioxide",
+          "g_per_600g_base": 4.848,
+          "percent_of_dry_base": 2.0,
+          "form": "oxide",
+          "hazard": "ventilation",
+          "note": "2%"
+        },
+        {
+          "name": "Red Iron Oxide (synthetic)",
+          "g_per_600g_base": 2.424,
+          "percent_of_dry_base": 1.0,
+          "form": "oxide",
+          "hazard": "none",
+          "note": "1%"
+        }
+      ],
+      "status": "test",
+      "target_sg": 1.32,
+      "date_created": null,
+      "date_modified": "2026-06-27",
+      "note": "Honey-amber in oxidation at cone 6. More golden than your tans and browns -- glassy amber pools in the recesses.",
+      "warning": "Manganese Dioxide requires ventilation. Fire with kiln vented.",
+      "based_on": null,
+      "bench_notes": "final sg = 1.28, expect a glossy amber"
+    },
+    {
+      "id": "G-043",
+      "legacy_id": "G43",
+      "name": "G43 -- Celadon Grey-Green -- OX",
+      "base_id": "G2926B",
+      "finish_type": "gloss",
+      "colorant_type": "new",
+      "colorants": [
+        {
+          "name": "Red Iron Oxide (synthetic)",
+          "g_per_600g_base": 0.727,
+          "percent_of_dry_base": 0.3,
+          "form": "oxide",
+          "hazard": "none",
+          "note": "0.3%"
+        },
+        {
+          "name": "Titanium Dioxide",
+          "g_per_600g_base": 4.848,
+          "percent_of_dry_base": 2.0,
+          "form": "oxide",
+          "hazard": "none",
+          "note": "2% -- must be Titanium Dioxide (TiO2), not rutile"
+        }
+      ],
+      "status": "retired",
+      "target_sg": 1.32,
+      "date_created": null,
+      "date_modified": "2026-06-27",
+      "note": "Very subtle pale celadon with grey-green cast. Visual rest color between saturated glazes. Needs Titanium Dioxide specifically -- rutile gives a different warmer result. New material needed: Titanium Dioxide (TiO2).",
+      "warning": null,
+      "based_on": null,
+      "bench_notes": null
+    }
+  ]
+}
