@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 6/27/2026, 7:30:51 PM
+Last updated: 6/27/2026, 7:32:44 PM
 
 ## Glaze Library
 
@@ -178,6 +178,17 @@ No batches recorded yet.
 - Finish: Satin
 - Rating: Poor
 - Notes: not an amber at all-very far from it-mostly off white matte
+
+---
+
+### G35 - Jun26 - A
+- Recipe: Mason 6374: 7.273g per 600g, Light Rutile: 3.03g per 600g
+- Base: G2926B | SG: -- | Method: Pour
+- Fired: Jun 26, 2026 | Kiln 2 | Cone 6 -- full melt
+- Color: dark blue
+- Finish: Gloss
+- Rating: Fair
+- Notes: blue is good dont see rutile effects
 
 ---
 
