@@ -1,0 +1,27 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-06-27",
+  "maintained_by": "glaze-claude",
+  "description": "Base slurry batch records. One record per batch mixed. Seeded by Glaze Claude from existing Blob data.",
+  "base_slurry_batches": [
+    {
+      "id": "G2926B-001",
+      "base_id": "G2926B",
+      "date": "2026-06-24",
+      "dry_weight_g": 2604,
+      "water_added_g": 1760,
+      "stock_sg": 1.39,
+      "viscosity_sec": 0,
+      "cmc_g": 42,
+      "epsom_g": 0,
+      "veegum_g": 0,
+      "calculated_f_factor": 0.5967,
+      "empirical_f_factor": null,
+      "water_temp": null,
+      "mixing_anomaly": false,
+      "mixing_anomaly_note": null,
+      "food_color_added": null,
+      "notes": null
+    }
+  ]
+}

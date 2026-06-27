@@ -1,0 +1,44 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-06-27",
+  "maintained_by": "glaze-claude",
+  "description": "Clay body recipes with version history. One record per recipe version. Current active body is CB-001.",
+  "clay_bodies": [
+    {
+      "id": "CB-001",
+      "name": "Cane Creek Body v3",
+      "version": "3.0",
+      "date_created": null,
+      "status": "active",
+      "cone_range": "5-6",
+      "atmosphere": "oxidation",
+      "shrinkage_green_to_bisque_percent": null,
+      "shrinkage_bisque_to_fired_percent": null,
+      "fired_color": "off-white",
+      "batch_sizes_lb": [30, 60],
+      "ingredients": [
+        {
+          "name": "Hawthorn Bond 50",
+          "percent": 50.0,
+          "material_id": null
+        },
+        {
+          "name": "Tile 6 Kaolin",
+          "percent": 25.0,
+          "material_id": null,
+          "note": "Wilco UPF kaolin is better substitute — check Mid-South Ceramics"
+        },
+        {
+          "name": "Silica 325 mesh",
+          "percent": 25.0,
+          "material_id": null
+        }
+      ],
+      "barium_carbonate_percent": 0.25,
+      "barium_carbonate_note": "Calculated on total dry weight — soluble salt prevention",
+      "bentonite_percent": 2.0,
+      "bentonite_note": "Added as slurry — slake minimum 24 hours before adding to batch",
+      "notes": "Reference body for all production tiles as of June 2026"
+    }
+  ]
+}

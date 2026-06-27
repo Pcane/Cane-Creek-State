@@ -1,0 +1,7 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-06-27",
+  "maintained_by": "business-claude",
+  "description": "Materials inventory. Supplier, stock levels, reorder thresholds, lot numbers, purchase history. Written by Business Claude only — all others read.",
+  "materials": []
+}

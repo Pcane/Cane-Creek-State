@@ -1,0 +1,7 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-06-27",
+  "maintained_by": "glaze-claude",
+  "description": "One record per kiln firing event. Includes shelf map, quadrant positions, cone results, tiles fired. Written by Glaze Claude.",
+  "firing_records": []
+}

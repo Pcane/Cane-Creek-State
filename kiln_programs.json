@@ -1,0 +1,112 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-06-27",
+  "maintained_by": "glaze-claude",
+  "description": "Kiln program definitions with full segment data and version history. One record per program version. Firing records reference program by id.",
+  "kiln_programs": [
+    {
+      "id": "KP-003",
+      "name": "User 3",
+      "kiln": "Kiln 2",
+      "version": "1.1",
+      "date_entered": "2026-06-26",
+      "status": "active",
+      "change_note": "Seg 1 HLD changed from 00.00 to 00.10 for wet dipped tiles",
+      "previous_version_id": "KP-003-v1.0",
+      "type": "drop-and-soak",
+      "cone_target": 6,
+      "peak_temp_f": 2185,
+      "soak_min": 30,
+      "segments": [
+        {
+          "seg": 1,
+          "rate_f_per_hr": 80,
+          "target_f": 180,
+          "hold_min": 10,
+          "note": "Slow moisture drive-off — hold extended to 10 min for wet dipped tiles"
+        },
+        {
+          "seg": 2,
+          "rate_f_per_hr": 200,
+          "target_f": 1000,
+          "hold_min": 0,
+          "note": "Initial climb"
+        },
+        {
+          "seg": 3,
+          "rate_f_per_hr": 100,
+          "target_f": 1100,
+          "hold_min": 0,
+          "note": "Slow through quartz inversion 1063F"
+        },
+        {
+          "seg": 4,
+          "rate_f_per_hr": 180,
+          "target_f": 2185,
+          "hold_min": 30,
+          "note": "Climb to peak with 30 min soak"
+        },
+        {
+          "seg": 5,
+          "rate_f_per_hr": 9999,
+          "target_f": 2100,
+          "hold_min": 0,
+          "note": "Drop for crystal development"
+        },
+        {
+          "seg": 6,
+          "rate_f_per_hr": 100,
+          "target_f": 1400,
+          "hold_min": 0,
+          "note": "Slow cool through quartz inversion"
+        }
+      ],
+      "notes": "Primary cone 6 oxidation program. Drop-and-soak at 2185F."
+    },
+    {
+      "id": "KP-003-v1.0",
+      "name": "User 3",
+      "kiln": "Kiln 2",
+      "version": "1.0",
+      "date_entered": null,
+      "status": "retired",
+      "change_note": "Original 4-segment version — missing slow quartz inversion climb and slow cool",
+      "previous_version_id": null,
+      "type": "drop-and-soak",
+      "cone_target": 6,
+      "peak_temp_f": 2185,
+      "soak_min": 30,
+      "segments": [
+        {
+          "seg": 1,
+          "rate_f_per_hr": 80,
+          "target_f": 180,
+          "hold_min": 0,
+          "note": "Original — no hold"
+        },
+        {
+          "seg": 2,
+          "rate_f_per_hr": 200,
+          "target_f": 2185,
+          "hold_min": 30,
+          "note": "Direct climb to peak — missing quartz inversion handling"
+        },
+        {
+          "seg": 3,
+          "rate_f_per_hr": 9999,
+          "target_f": 2100,
+          "hold_min": 0,
+          "note": "Drop"
+        },
+        {
+          "seg": 4,
+          "rate_f_per_hr": 9999,
+          "target_f": 1400,
+          "hold_min": 0,
+          "note": "Fast cool — missing slow quartz inversion cool"
+        }
+      ],
+      "notes": "Retired June 26 2026 — replaced by v1.1 with correct 6-segment program"
+    }
+  ]
+}

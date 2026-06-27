@@ -1,0 +1,7 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-06-27",
+  "maintained_by": "glaze-claude",
+  "description": "One record per clay mixing event. Captures actual weighed ingredients, water, consistency, pug date. Written by Glaze Claude.",
+  "clay_batch_records": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-06-27",
+  "maintained_by": "glaze-claude",
+  "description": "One record per glaze mix event. Step 1 of glaze firing workflow. Written by Glaze Claude.",
+  "glaze_mix_records": []
+}
