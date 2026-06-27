@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 6/27/2026, 7:08:51 PM
+Last updated: 6/27/2026, 7:11:22 PM
 
 ## Glaze Library
 
@@ -104,6 +104,16 @@ No batches recorded yet.
 - Base: G2926B | SG: -- | Method: --
 - Fired: Jun 26, 2026 | Kiln 2 | Cone 6 -- full melt
 - Color: white
+- Finish: Gloss
+- Rating: Good
+
+---
+
+### G21 - Jun26 - A
+- Recipe: Red Iron Oxide (synthetic): 12.12g per 600g, Light Rutile: 2.424g per 600g
+- Base: G2926B | SG: -- | Method: Pour
+- Fired: Jun 26, 2026 | Kiln 2 | Cone 6 -- full melt
+- Color: earthy brown
 - Finish: Gloss
 - Rating: Good
 
