@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 6/27/2026, 6:21:50 PM
+Last updated: 6/27/2026, 7:07:35 PM
 
 ## Glaze Library
 
@@ -93,10 +93,9 @@ No batches recorded yet.
 - Recipe: Chrome Oxide: 1.212g per 600g
 - Base: G2926B | SG: -- | Method: --
 - Fired: Jun 26, 2026 | Kiln 2 | Cone 6 -- full melt
-- Color: light green in one pour shade darker where slightly thicker-i prefer perhaps 2 pours
+- Color: light earthy green
 - Finish: Gloss
 - Rating: Good
-- Notes: Good finish-could use second pour
 
 ---
 
