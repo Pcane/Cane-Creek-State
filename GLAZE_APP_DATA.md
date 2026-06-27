@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 6/27/2026, 7:26:54 PM
+Last updated: 6/27/2026, 7:30:51 PM
 
 ## Glaze Library
 
@@ -167,6 +167,17 @@ No batches recorded yet.
 - Finish: Gloss
 - Rating: Fair
 - Notes: not expected color at all-does appear to have edge effects and is transparent-but kind of a dirty dishwater color
+
+---
+
+### G42 - Jun26 - A
+- Recipe: Manganese Dioxide: 4.848g per 600g, Red Iron Oxide (synthetic): 2.424g per 600g
+- Base: G2926B | SG: -- | Method: Pour
+- Fired: Jun 26, 2026 | Kiln 2 | Cone 6 -- full melt
+- Color: off white with very light brown wash in places
+- Finish: Satin
+- Rating: Poor
+- Notes: not an amber at all-very far from it-mostly off white matte
 
 ---
 
