@@ -1,0 +1,120 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-06-27",
+  "maintained_by": "glaze-claude",
+  "description": "Base slurry recipes. One record per base. Read by glazes.json records via base_id field.",
+  "bases": [
+    {
+      "id": "G2926B",
+      "name": "Standard Clear Gloss Base",
+      "date_created": "2026-06-24",
+      "status": "active",
+      "use_for": "All colorants except chrome-tin combinations",
+      "target_sg": 1.35,
+      "target_cmc_percent": 0.2,
+      "target_veegum_percent": 0.15,
+      "finish_type": "gloss",
+      "batch_size_reference": "1 gal (5.737 lb / 2602g dry)",
+      "ingredients": [
+        {
+          "name": "Nepheline Syenite",
+          "percent": 16.6,
+          "g_per_gal": 951
+        },
+        {
+          "name": "Ferro Frit 3134",
+          "percent": 23.1,
+          "g_per_gal": 1324
+        },
+        {
+          "name": "Tile 6 Kaolin",
+          "percent": 17.8,
+          "g_per_gal": 1020
+        },
+        {
+          "name": "Wollastonite W-20",
+          "percent": 6.3,
+          "g_per_gal": 361
+        },
+        {
+          "name": "Silica 325 mesh",
+          "percent": 34.2,
+          "g_per_gal": 1960
+        },
+        {
+          "name": "Talc",
+          "percent": 2.1,
+          "g_per_gal": 120
+        }
+      ],
+      "additives_per_gal": [
+        {
+          "name": "CMC 10% stock",
+          "g": 43.6
+        },
+        {
+          "name": "Veegum 10% stock",
+          "g": 32.6
+        }
+      ],
+      "water_target": "~3440g added gradually while checking SG. Final SG 1.35 is the guide -- not the water amount.",
+      "chemistry_notes": "Moderate boron from Frit 3134, calcium from Wollastonite, nepheline provides fluxing alkalis. Well-melted, fluid at cone 6. Good for transparency and edge break.",
+      "f_factor_note": "Measure at actual SG 1.35 -- never assume. Changes with SG.",
+      "notes": "Current batch G2926B-001 mixed 2026-06-24. Stock SG 1.39 -- diluting at colorant mixing stage."
+    },
+    {
+      "id": "G1214M",
+      "name": "Chrome-Tin Base",
+      "date_created": "2026-06-24",
+      "status": "active",
+      "use_for": "Chrome-tin colorants ONLY -- Mason stains 6000-6006, raw chrome oxide + tin oxide combinations",
+      "target_sg": 1.35,
+      "target_cmc_percent": 0.2,
+      "target_veegum_percent": 0.15,
+      "finish_type": "gloss",
+      "batch_size_reference": "1 gal (5.737 lb / 2602g dry)",
+      "ingredients": [
+        {
+          "name": "Wollastonite",
+          "percent": 20.0,
+          "g_per_gal": 1148
+        },
+        {
+          "name": "Ferro Frit 3134",
+          "percent": 20.0,
+          "g_per_gal": 1148
+        },
+        {
+          "name": "G-200 EU Feldspar",
+          "percent": 20.0,
+          "g_per_gal": 1148
+        },
+        {
+          "name": "EPK Kaolin",
+          "percent": 20.0,
+          "g_per_gal": 1148
+        },
+        {
+          "name": "Silica 325 mesh",
+          "percent": 20.0,
+          "g_per_gal": 1148
+        }
+      ],
+      "additives_per_gal": [
+        {
+          "name": "CMC 10% stock",
+          "g": 43.6
+        },
+        {
+          "name": "Veegum 10% stock",
+          "g": 32.6
+        }
+      ],
+      "water_target": "~3440g added gradually while checking SG. Final SG 1.35 is the guide.",
+      "chemistry_notes": "High CaO (14.2%), zero MgO, zero ZnO. Boron at acceptable limit for chrome-tin -- monitor. If color fires grey/washed out, boron is the likely cause. Lower by adding whiting or reducing Frit 3134.",
+      "f_factor_note": "Measure at actual SG 1.35 -- never assume.",
+      "why_separate_base": "Chrome oxide volatilizes in kiln and contaminates tin-bearing glazes. Chrome-tin colorants require high CaO and low boron to develop pink/red tones rather than grey.",
+      "status_note": "First test fire June 2026 -- results pending."
+    }
+  ]
+}
