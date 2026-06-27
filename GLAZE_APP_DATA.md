@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 6/27/2026, 7:23:33 PM
+Last updated: 6/27/2026, 7:26:54 PM
 
 ## Glaze Library
 
@@ -85,16 +85,6 @@ No batches recorded yet.
 
 ---
 
-### G28 - Jun26 - A
-- Recipe: Chrome Oxide: 1.212g per 600g, Red Iron Oxide (synthetic): 3.03g per 600g
-- Base: G2926B | SG: -- | Method: --
-- Fired: Jun 26, 2026 | Kiln 2 | Other
-- Color: very light red tint to brown red green
-- Rating: Fair
-- Notes: After the fire-on this tile i poured it twice, one coat and two-the one pour coat was lind of a thin tan, the double coat was darker with a slight green tint and glossier, lookis like it needs more colorant, looking at the edge side of the tile i can see good edge effect-very light brown red in the thin area and darker brown green in the thicker
-
----
-
 ### G11 - Jun26 - A
 - Recipe: Chrome Oxide: 1.212g per 600g
 - Base: G2926B | SG: -- | Method: --
@@ -166,6 +156,17 @@ No batches recorded yet.
 - Finish: Satin
 - Rating: Fair
 - Notes: satin, transparent, 2 coats was major improvement-maybe three?
+
+---
+
+### G28 - Jun26 - A
+- Recipe: Chrome Oxide: 1.212g per 600g, Red Iron Oxide (synthetic): 3.03g per 600g
+- Base: G2926B | SG: -- | Method: Pour
+- Fired: Jun 26, 2026 | Kiln 2 | Cone 6 -- full melt
+- Color: dirty see thru brown
+- Finish: Gloss
+- Rating: Fair
+- Notes: not expected color at all-does appear to have edge effects and is transparent-but kind of a dirty dishwater color
 
 ---
 
