@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 6/27/2026, 4:35:06 PM
+Last updated: 6/27/2026, 4:36:09 PM
 
 ## Glaze Library
 
@@ -71,6 +71,13 @@ None
 No batches recorded yet.
 
 ## Recent Firing Records
+
+### G40 - Jun26 - A
+- Recipe: Red Iron Oxide (synthetic): 21.816g per 600g
+- Base: G2926B | SG: -- | Method: --
+- Finish: Gloss
+
+---
 
 ### G28 - Jun26 - A
 - Recipe: Chrome Oxide: 1.212g per 600g, Red Iron Oxide (synthetic): 3.03g per 600g
