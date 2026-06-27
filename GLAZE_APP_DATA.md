@@ -1,16 +1,15 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 6/27/2026, 7:16:44 PM
+Last updated: 6/27/2026, 7:20:37 PM
 
 ## Glaze Library
 
-### Active (3)
+### Active (4)
 - **G11** -- G11 — Transparent Dark Green — OX | Base: G2926B | Chrome Oxide 1.212g | Target SG: 1.29
 - **G16** -- G16 — White — OX | Base: G2926B | Tin Oxide 4.848g | Target SG: 1.32
 - **G21** -- G21 — Dark Brown — OX | Base: G2926B | Red Iron Oxide (synthetic) 12.12g, Light Rutile 2.424g | Target SG: 1.24
-
-### Test (10)
 - **G25** -- G25 — Chrome-Tin Cranberry Red — OX | Base: G2926B | Chrome Oxide 0.364g, Tin Oxide 25.2g | Target SG: 1.32
-- **G25HC** -- G25-HC — Chrome-Tin Cranberry Red, High Calcium — OX/HC | Base: G2926B | Chrome Oxide 0.364g, Tin Oxide 25.2g, Wollastonite W-20 28.3g | Target SG: 1.32
+
+### Test (8)
 - **G26** -- G26 — Copper Celadon Green — OX | Base: G2926B | Copper Carbonate 1.818g, Light Rutile 3.03g | Target SG: 1.32
 - **G28** -- G28 — Chrome Green + Iron Break — OX | Base: G2926B | Chrome Oxide 1.212g, Red Iron Oxide (synthetic) 3.03g | Target SG: 1.32
 - **G29** -- G29 — Vanadium Yellow + Iron Edge — OX | Base: G2926B | Vanadium Yellow 14.544g, Red Iron Oxide (synthetic) 1.515g | Target SG: 1.32
@@ -20,9 +19,10 @@ Last updated: 6/27/2026, 7:16:44 PM
 - **G40** -- G40 — Tenmoku Iron Black — OX | Base: G2926B | Red Iron Oxide (synthetic) 21.816g | Target SG: 1.32
 - **G42** -- G42 — Warm Amber — OX | Base: G2926B | Manganese Dioxide 4.848g, Red Iron Oxide (synthetic) 2.424g | Target SG: 1.32
 
-### Suspended (2)
+### Suspended (3)
 - **G12** -- G12 — Vanadium Yellow — OX | Base: G2926B | Vanadium Yellow 14.544g | Target SG: 1.32
 - **G24** -- G24 — Clear Gloss — OX | Base: G2926B | no colorant | Target SG: 1.32
+- **G25HC** -- G25-HC — Chrome-Tin Cranberry Red, High Calcium — OX/HC | Base: G2926B | Chrome Oxide 0.364g, Tin Oxide 25.2g, Wollastonite W-20 28.3g | Target SG: 1.32
 
 ### Retired (27)
 - **G1** -- G1 — Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 12.1g
@@ -144,6 +144,17 @@ No batches recorded yet.
 - Finish: Gloss
 - Rating: Good
 - Notes: i poured two layers and the ouble pour was better- more glossy more yellow-darker in the depths- needs two coats
+
+---
+
+### G25 - Jun26 - A
+- Recipe: Chrome Oxide: 0.364g per 600g, Tin Oxide: 25.2g per 600g
+- Base: G1214M | SG: -- | Method: Pour
+- Fired: Jun 26, 2026 | Kiln 2 | Cone 6 -- full melt
+- Color: light to pink red
+- Finish: Gloss
+- Rating: Good
+- Notes: glaze is glossy-and pink when given a double coat- this glaze needs two coats or thicker SG or more colorant or 2 coats.
 
 ---
 
