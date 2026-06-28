@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cane Creek -- Studio Calculator</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --ink:#1e1a14; --clay:#8b4513; --clay-dk:#5c2c0a; --forest:#2e4a22; --forest-lt:#4a6e38;
+  --stone:#d8cdb8; --parchment:#f5ede0; --cream:#fdfaf5; --muted:#7a6a55; --border:#c8b89a;
+  --good:#2e4a22; --radius:10px;
+}
+body { font-family:'DM Sans',sans-serif; background:var(--cream); color:var(--ink); min-height:100vh; font-size:18px; }
+header { background:var(--forest); padding:18px 28px; display:flex; align-items:center; gap:16px; }
+header h1 { font-family:'Playfair Display',serif; color:var(--parchment); font-size:22px; font-weight:400; letter-spacing:0.02em; }
+header span { color:var(--stone); font-size:13px; font-weight:300; letter-spacing:0.08em; text-transform:uppercase; margin-left:auto; }
+nav { display:flex; background:var(--clay-dk); overflow-x:auto; justify-content:flex-start; }
+nav button { flex:0 0 auto; padding:13px 20px; background:none; border:none; color:var(--stone); font-family:'DM Sans',sans-serif; font-size:12px; font-weight:500; letter-spacing:0.06em; text-transform:uppercase; cursor:pointer; border-bottom:3px solid transparent; transition:all 0.2s; white-space:nowrap; }
+nav button:hover { color:var(--parchment); background:rgba(255,255,255,0.06); }
+nav button.active { color:var(--parchment); border-bottom-color:var(--stone); background:rgba(255,255,255,0.08); }
+main { max-width:780px; margin:0 auto; padding:32px 20px 60px; }
+.tab-panel { display:none; } .tab-panel.active { display:block; }
+.section-title { font-family:'Playfair Display',serif; font-size:26px; color:var(--clay-dk); margin-bottom:6px; }
+.section-sub { color:var(--muted); font-size:15px; margin-bottom:28px; line-height:1.5; }
+.card { background:var(--parchment); border:1px solid var(--border); border-radius:var(--radius); padding:24px 28px; margin-bottom:20px; }
+.card-title { font-family:'Playfair Display',serif; font-size:20px; color:var(--forest); margin-bottom:16px; padding-bottom:10px; border-bottom:1px solid var(--border); }
+.control-row { display:flex; align-items:center; gap:12px; margin-bottom:16px; flex-wrap:wrap; }
+label { font-size:15px; font-weight:500; color:var(--muted); min-width:140px; }
+select,input[type="number"],input[type="text"],input[type="date"] { font-family:'DM Sans',sans-serif; font-size:17px; padding:10px 14px; border:1.5px solid var(--border); border-radius:8px; background:var(--cream); color:var(--ink); outline:none; transition:border-color 0.2s; }
+select:focus,input:focus { border-color:var(--forest); }
+select { cursor:pointer; } input[type="number"] { width:110px; }
+.btn { padding:11px 22px; border-radius:8px; border:none; font-family:'DM Sans',sans-serif; font-size:15px; font-weight:500; cursor:pointer; transition:all 0.2s; }
+.btn-primary { background:var(--forest); color:var(--parchment); } .btn-primary:hover { background:var(--forest-lt); }
+.btn-sm { padding:8px 16px; border-radius:8px; border:1.5px solid var(--border); background:var(--cream); color:var(--ink); font-family:'DM Sans',sans-serif; font-size:14px; font-weight:500; cursor:pointer; transition:all 0.2s; }
+.btn-promote { border-color:var(--forest); color:var(--forest); } .btn-promote:hover { background:var(--forest); color:var(--parchment); }
+.btn-retire { border-color:var(--clay); color:var(--clay-dk); } .btn-retire:hover { background:var(--clay); color:var(--parchment); }
+.btn-unretire { border-color:var(--muted); color:var(--muted); } .btn-unretire:hover { background:var(--muted); color:var(--parchment); }
+.btn-danger { border-color:#c0392b; color:#c0392b; } .btn-danger:hover { background:#c0392b; color:white; }
+.btn-cancel { padding:11px 22px; border-radius:8px; border:1.5px solid var(--border); background:var(--cream); color:var(--muted); font-family:'DM Sans',sans-serif; font-size:15px; cursor:pointer; }
+.toggle-group { display:flex; border:1.5px solid var(--border); border-radius:8px; overflow:hidden; }
+.toggle-group button { padding:9px 18px; border:none; background:var(--cream); color:var(--muted); font-family:'DM Sans',sans-serif; font-size:15px; font-weight:500; cursor:pointer; transition:all 0.2s; flex:0 0 auto; }
+.toggle-group button.active { background:var(--forest); color:var(--parchment); }
+.directions { margin-top:20px; background:var(--cream); border:1px solid var(--border); border-radius:var(--radius); padding:20px 24px; }
+.step { display:flex; gap:14px; margin-bottom:14px; align-items:flex-start; }
+.step-num { background:var(--forest); color:var(--parchment); border-radius:50%; width:30px; height:30px; min-width:30px; display:flex; align-items:center; justify-content:center; font-size:14px; font-weight:600; margin-top:1px; }
+.step-text { font-size:17px; line-height:1.6; color:var(--ink); }
+.step-text strong { color:var(--clay-dk); font-weight:600; }
+.ing-table { width:100%; border-collapse:collapse; margin-top:8px; }
+.ing-table th { text-align:left; font-size:13px; font-weight:600; letter-spacing:0.06em; text-transform:uppercase; color:var(--muted); padding:6px 10px; border-bottom:1px solid var(--border); }
+.ing-table td { padding:10px 10px; font-size:17px; border-bottom:1px solid rgba(200,184,154,0.3); vertical-align:top; }
+.ing-table tr:last-child td { border-bottom:none; }
+.ing-table .weight { font-weight:600; color:var(--clay-dk); } .ing-table .note { font-size:14px; color:var(--muted); }
+.notes-area { margin-top:20px; }
+.notes-area label { display:block; font-size:14px; font-weight:600; letter-spacing:0.05em; text-transform:uppercase; color:var(--muted); margin-bottom:8px; min-width:unset; }
+textarea { width:100%; min-height:80px; font-family:'DM Sans',sans-serif; font-size:16px; padding:12px 14px; border:1.5px solid var(--border); border-radius:8px; background:var(--cream); color:var(--ink); resize:vertical; outline:none; transition:border-color 0.2s; line-height:1.6; }
+textarea:focus { border-color:var(--forest); }
+.notes-saved { font-size:13px; color:var(--good); margin-top:6px; opacity:0; transition:opacity 0.3s; }
+.notes-saved.show { opacity:1; }
+.glaze-badge { display:inline-block; padding:3px 10px; border-radius:99px; font-size:12px; font-weight:600; letter-spacing:0.04em; margin-left:8px; vertical-align:middle; }
+.badge-active { background:rgba(46,74,34,0.12); color:var(--forest); }
+.badge-test { background:rgba(100,60,10,0.15); color:#7a3a05; border:1px dashed var(--clay); }
+.badge-retired { background:rgba(122,106,85,0.15); color:var(--muted); }
+.badge-suspended { background:rgba(192,57,43,0.1); color:#c0392b; border:1px dashed #c0392b; }
+.warning { background:rgba(139,69,19,0.08); border:1px solid rgba(139,69,19,0.25); border-radius:8px; padding:12px 16px; font-size:15px; color:var(--clay-dk); margin-top:14px; line-height:1.5; }
+.bench-card { background:var(--cream); border:2px solid var(--forest); border-radius:var(--radius); padding:24px 28px; margin-top:20px; }
+.bench-glaze-id { font-family:'Playfair Display',serif; font-size:32px; color:var(--forest); font-weight:600; }
+.bench-glaze-name { font-size:17px; color:var(--muted); margin-top:2px; margin-bottom:20px; }
+.bench-colorant-row { display:flex; justify-content:space-between; align-items:baseline; padding:12px 0; border-bottom:1px solid var(--border); }
+.bench-colorant-row:last-of-type { border-bottom:none; }
+.bench-colorant-name { font-size:24px; color:var(--ink); }
+.bench-colorant-pct { font-size:14px; color:var(--muted); margin-left:8px; }
+.bench-colorant-weight { font-size:40px; font-weight:600; color:var(--clay-dk); }
+.bench-colorant-unit { font-size:18px; color:var(--muted); margin-left:4px; }
+.bench-base-row { display:flex; justify-content:space-between; align-items:baseline; margin-top:16px; padding-top:16px; border-top:2px solid var(--border); }
+.lifecycle-bar { display:flex; gap:10px; align-items:center; margin-top:16px; flex-wrap:wrap; }
+.lifecycle-bar .status-label { font-size:13px; color:var(--muted); margin-right:4px; }
+.form-row { display:flex; gap:12px; align-items:center; margin-bottom:14px; flex-wrap:wrap; }
+.form-row label { min-width:130px; }
+.colorant-input-group { display:flex; gap:10px; align-items:center; margin-bottom:10px; flex-wrap:wrap; }
+.colorant-input-group input[type="text"] { flex:2; min-width:160px; }
+.colorant-input-group input[type="number"] { width:100px; }
+.colorant-input-group .unit-label { font-size:14px; color:var(--muted); white-space:nowrap; }
+.add-colorant-btn { background:none; border:1.5px dashed var(--border); border-radius:8px; padding:8px 16px; color:var(--muted); font-family:'DM Sans',sans-serif; font-size:14px; cursor:pointer; margin-top:4px; transition:all 0.2s; }
+.add-colorant-btn:hover { border-color:var(--forest); color:var(--forest); }
+.remove-colorant-btn { background:none; border:none; color:var(--muted); font-size:20px; cursor:pointer; padding:0 6px; line-height:1; }
+.remove-colorant-btn:hover { color:var(--clay); }
+.show-retired-toggle { display:flex; align-items:center; gap:8px; margin-top:10px; font-size:14px; color:var(--muted); cursor:pointer; user-select:none; }
+.show-retired-toggle input { cursor:pointer; }
+.modal-overlay { display:none; position:fixed; inset:0; background:rgba(30,26,20,0.55); z-index:100; align-items:center; justify-content:center; }
+.modal-overlay.open { display:flex; }
+.modal { background:var(--cream); border-radius:var(--radius); padding:32px 36px; max-width:560px; width:90%; max-height:90vh; overflow-y:auto; border:1px solid var(--border); }
+.modal-wide { max-width:640px; }
+.modal h2 { font-family:'Playfair Display',serif; font-size:22px; color:var(--clay-dk); margin-bottom:24px; }
+.modal-actions { display:flex; gap:12px; margin-top:24px; justify-content:flex-end; }
+.kl-section-header { display:flex; align-items:center; gap:12px; margin:28px 0 16px; }
+.kl-section-header h3 { font-family:'Playfair Display',serif; font-size:20px; color:var(--clay-dk); }
+.step-pill { background:var(--forest); color:var(--parchment); border-radius:99px; padding:4px 14px; font-size:13px; font-weight:600; letter-spacing:0.05em; }
+.field-group { margin-bottom:14px; }
+.field-group > label { display:block; font-size:13px; font-weight:600; text-transform:uppercase; letter-spacing:0.05em; color:var(--muted); margin-bottom:6px; min-width:unset; }
+.field-group input[type="text"],.field-group input[type="number"],.field-group input[type="date"],.field-group select,.field-group textarea { width:100%; }
+.field-group input[type="number"] { width:120px; }
+.field-row-2 { display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-bottom:14px; }
+.field-row-3 { display:grid; grid-template-columns:1fr 1fr 1fr; gap:14px; margin-bottom:14px; }
+.tile-label-box { background:rgba(46,74,34,0.08); border:1px solid rgba(46,74,34,0.2); border-radius:8px; padding:10px 14px; margin-bottom:14px; font-size:14px; color:var(--forest); line-height:1.6; }
+.tile-label-code { font-family:'Playfair Display',serif; font-size:20px; font-weight:600; letter-spacing:0.05em; }
+.rating-group { display:flex; gap:10px; margin-top:4px; }
+.rating-btn { padding:9px 18px; border-radius:8px; border:1.5px solid var(--border); background:var(--cream); color:var(--muted); font-family:'DM Sans',sans-serif; font-size:15px; font-weight:500; cursor:pointer; transition:all 0.2s; }
+.rating-btn.good.active { background:#2e4a22; color:white; border-color:#2e4a22; }
+.rating-btn.fair.active { background:#8b6914; color:white; border-color:#8b6914; }
+.rating-btn.poor.active { background:#8b1414; color:white; border-color:#8b1414; }
+.history-load { background:var(--parchment); border:1px solid var(--border); border-radius:var(--radius); padding:16px 20px; margin-bottom:12px; }
+.history-rating { padding:2px 8px; border-radius:99px; font-size:12px; font-weight:600; }
+.rating-good { background:rgba(46,74,34,0.12); color:#2e4a22; }
+.rating-fair { background:rgba(139,105,20,0.12); color:#8b6914; }
+.rating-poor { background:rgba(139,20,20,0.12); color:#8b1414; }
+.batch-history-item { background:var(--parchment); border:1px solid var(--border); border-radius:var(--radius); padding:14px 18px; margin-bottom:10px; cursor:pointer; transition:border-color 0.15s; }
+.batch-history-item:hover { border-color:var(--forest); }
+.batch-history-header { display:flex; align-items:baseline; justify-content:space-between; margin-bottom:6px; }
+.batch-history-id { font-family:'Playfair Display',serif; font-size:17px; color:var(--forest); font-weight:600; }
+.batch-history-date { font-size:13px; color:var(--muted); }
+.batch-history-summary { font-size:14px; color:var(--ink); line-height:1.6; }
+.batch-detail-panel { display:none; margin-top:10px; padding-top:10px; border-top:1px solid var(--border); font-size:14px; color:var(--ink); line-height:1.8; }
+.batch-detail-panel.open { display:block; }
+.batch-detail-row { display:flex; gap:8px; margin-bottom:2px; }
+.batch-detail-label { color:var(--muted); min-width:160px; font-size:13px; }
+.f-empirical { font-weight:600; color:var(--forest); }
+.slurry-placeholder { text-align:center; padding:40px; color:var(--muted); font-size:16px; }
+@media print {
+  header,nav,#tab-clay,#tab-slurry,#tab-materials,#tab-colors>*:not(#print-output) { display:none !important; }
+  #print-output { display:block !important; }
+  body { font-size:14pt; background:white; }
+}
+</style>
+</head>
+<body>
+<header>
+  <a href="hub.html" style="color:var(--stone);font-size:13px;font-weight:500;text-decoration:none;opacity:0.75;margin-right:8px;">&#8592; Hub</a>
+  <h1>Cane Creek Tile Co.</h1>
+  <span>Studio Calculator</span>
+</header>
+<nav>
+  <button class="active" onclick="switchTab('clay',this)">Clay</button>
+  <button onclick="switchTab('slurry',this)">Glaze Slurry</button>
+  <button onclick="switchTab('colors',this)">Glaze Test</button>
+  <button onclick="switchTab('materials',this)">Materials</button>
+</nav>
+
+<!-- NEW GLAZE MODAL -->
+<div class="modal-overlay" id="new-glaze-modal">
+  <div class="modal">
+    <h2>New Test Glaze</h2>
+    <div class="form-row"><label>Series</label><div class="toggle-group" id="series-toggle"><button class="active" onclick="setSeries('G',this)">G -- Gloss</button><button onclick="setSeries('M',this)">M -- Matte</button><button onclick="setSeries('S',this)">S -- Satin</button></div></div>
+    <div class="form-row"><label>Auto ID</label><span id="new-glaze-id-preview" style="font-family:'Playfair Display',serif;font-size:22px;color:var(--forest);font-weight:600;">TG1</span></div>
+    <div class="form-row"><label>Name</label><input type="text" id="new-glaze-name" placeholder="e.g. Copper Celadon test" style="flex:1;min-width:200px;"></div>
+    <div class="form-row"><label>Based on</label><input type="text" id="new-glaze-based-on" placeholder="e.g. G26" style="flex:1;min-width:200px;"><span style="font-size:13px;color:var(--muted);">optional</span></div>
+    <div class="form-row"><label>Base slurry</label><select id="new-glaze-base"><option value="G2926B">G2926B -- Standard Clear Gloss</option><option value="G1214M">G1214M -- Chrome-Tin</option></select></div>
+    <div class="form-row"><label>Type</label><select id="new-glaze-type"><option value="oxide">OX -- Pure oxide</option><option value="stain">MS -- Mason stain</option><option value="new">MX -- Mixed</option></select></div>
+    <div style="font-size:14px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:12px;">Colorants (per 600g base)</div>
+    <div id="new-colorant-rows"></div>
+    <button class="add-colorant-btn" onclick="addColorantRow()">+ Add colorant</button>
+    <div class="form-row" style="margin-top:16px;"><label>Notes</label><textarea id="new-glaze-notes" style="flex:1;min-height:70px;" placeholder="Optional notes..."></textarea></div>
+    <div class="form-row"><label>Warning</label><input type="text" id="new-glaze-warning" placeholder="Optional safety or application warning" style="flex:1;"></div>
+    <div class="form-row"><label>Target SG</label><input type="number" id="new-glaze-sg" placeholder="e.g. 1.35" step="0.001" min="1.0" max="1.5" style="width:110px;"></div>
+    <div class="form-row"><label>What changed</label><textarea id="new-glaze-change-notes" style="flex:1;min-height:60px;" placeholder="e.g. Copper increased from 0.3% to 1.5%"></textarea></div>
+    <div class="modal-actions"><button class="btn-cancel" onclick="closeNewGlazeModal()">Cancel</button><button class="btn btn-primary" onclick="saveNewGlaze()">Save Test Glaze</button></div>
+  </div>
+</div>
+
+<!-- BATCH RECORD MODAL -->
+<div class="modal-overlay" id="batch-modal">
+  <div class="modal modal-wide">
+    <h2 id="batch-modal-title">New Batch Record</h2>
+    <div class="form-row"><label>Batch ID</label><span id="batch-id-preview" style="font-family:'Playfair Display',serif;font-size:20px;color:var(--forest);font-weight:600;"></span></div>
+    <div class="field-row-2" style="margin-top:8px;">
+      <div class="field-group"><label>Date mixed</label><input type="date" id="batch-date"></div>
+      <div class="field-group"><label>Dry weight (g)</label><input type="number" id="batch-dry-weight" placeholder="e.g. 2602" step="1" min="0"></div>
+    </div>
+    <div class="field-row-2">
+      <div class="field-group"><label>Water added (g)</label><input type="number" id="batch-water" placeholder="e.g. 3440" step="1" min="0"></div>
+      <div class="field-group"><label>Stock SG achieved</label><input type="number" id="batch-sg" placeholder="e.g. 1.35" step="0.001" min="1.0" max="1.7"></div>
+    </div>
+    <div class="field-row-2">
+      <div class="field-group"><label>Viscosity (sec)</label><input type="number" id="batch-viscosity" placeholder="e.g. 22" step="0.5" min="0"></div>
+      <div class="field-group"><label>CMC added (g) -- 0 if none</label><input type="number" id="batch-cmc" placeholder="0" step="0.1" min="0"></div>
+    </div>
+    <div class="field-row-2">
+      <div class="field-group"><label>Epsom salt (g) -- 0 if none</label><input type="number" id="batch-epsom" placeholder="0" step="0.1" min="0"></div>
+      <div class="field-group"><label>Veegum (g) -- 0 if none</label><input type="number" id="batch-veegum" placeholder="0" step="0.1" min="0"></div>
+    </div>
+    <div class="field-row-2">
+      <div class="field-group"><label>Calculated f factor</label><div id="batch-f-calc" style="padding:10px 0;font-size:15px;color:var(--muted);">Auto-calculated on save</div></div>
+      <div class="field-group"><label>Empirical f factor</label><input type="number" id="batch-f-empirical" placeholder="e.g. 0.431" step="0.0001" min="0" max="1"></div>
+    </div>
+    <div class="field-group"><label>Notes</label><textarea id="batch-notes" placeholder="Any observations..."></textarea></div>
+    <div class="modal-actions"><button class="btn-cancel" onclick="closeBatchModal()">Cancel</button><button class="btn btn-primary" onclick="saveBatchRecord()">Save Batch Record</button></div>
+  </div>
+</div>
+
+<!-- NEW BASE SLURRY MODAL -->
+<div class="modal-overlay" id="new-base-modal">
+  <div class="modal modal-wide">
+    <h2>New Base Slurry</h2>
+    <div class="form-row"><label>Base ID</label><input type="text" id="nb-id" placeholder="e.g. G3805B" style="flex:1;max-width:180px;"></div>
+    <div class="form-row"><label>Name</label><input type="text" id="nb-name" placeholder="e.g. High-Boron Fluid Base" style="flex:1;"></div>
+    <div class="form-row"><label>Description</label><input type="text" id="nb-desc" placeholder="e.g. Fluid amber base, cone 6" style="flex:1;"></div>
+    <div class="form-row"><label>Usage note</label><input type="text" id="nb-usage" placeholder="e.g. Experimental -- test tile required" style="flex:1;"></div>
+    <div class="field-row-2">
+      <div class="field-group"><label>Target SG</label><input type="number" id="nb-sg" value="1.35" step="0.01" min="1.0" max="1.7"></div>
+      <div class="field-group"><label>Dry lb / gal</label><input type="number" id="nb-drylb" value="5.737" step="0.001" min="0"></div>
+    </div>
+    <div style="font-size:13px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:0.05em;margin:16px 0 8px;">Ingredients (% must total 100)</div>
+    <div id="nb-ingredient-rows"></div>
+    <button class="add-colorant-btn" onclick="addBaseIngRow()">+ Add ingredient</button>
+    <div class="form-row" style="margin-top:16px;"><label>Notes</label><textarea id="nb-notes" style="flex:1;min-height:60px;" placeholder="Chemistry notes, special handling..."></textarea></div>
+    <div class="modal-actions"><button class="btn-cancel" onclick="closeNewBaseModal()">Cancel</button><button class="btn btn-primary" onclick="saveNewBase()">Save Base Slurry</button></div>
+  </div>
+</div>
+
+<main>
+
+<!-- TAB: CLAY -->
+<div id="tab-clay" class="tab-panel active">
+  <div class="section-title">Clay Body</div>
+  <div class="section-sub">Cane Creek recipe -- Tile 6 body with Christy Fine grog and barium carbonate. Always wear N100 mask for dry mixing.</div>
+  <div class="card"><div class="card-title">Batch Size</div><div class="control-row"><label>Dry batch weight</label><div class="toggle-group"><button class="active" onclick="setClayBatch(30,this)">30 lb</button><button onclick="setClayBatch(60,this)">60 lb</button></div></div></div>
+  <div class="card"><div class="card-title">Ingredients</div><table class="ing-table"><thead><tr><th>Material</th><th>%</th><th>Weight</th><th></th></tr></thead><tbody id="clay-tbody"></tbody></table></div>
+  <div class="card"><div class="card-title">Mixing Directions</div>
+    <div class="directions">
+      <div class="step"><div class="step-num">1</div><div class="step-text"><strong>Night before:</strong> Sprinkle <span id="clay-bent-dry"></span> dry bentonite into <span id="clay-bent-water"></span> warm water. Do not stir -- let slake overnight.</div></div>
+      <div class="step"><div class="step-num">2</div><div class="step-text"><strong>Weigh all dry materials</strong> except bentonite. Set aside.</div></div>
+      <div class="step"><div class="step-num">3</div><div class="step-text"><strong>Pre-mix barium carbonate</strong> -- N100 mask required. First mix <span id="clay-barium"></span> barium carbonate with 500g batch material. Then 3-4 lb. Then full batch.</div></div>
+      <div class="step"><div class="step-num">4</div><div class="step-text"><strong>Combine all dry materials</strong> and mix thoroughly.</div></div>
+      <div class="step"><div class="step-num">5</div><div class="step-text"><strong>Add bentonite slurry</strong> to dry materials and mix.</div></div>
+      <div class="step"><div class="step-num">6</div><div class="step-text"><strong>Add remaining water gradually:</strong> <span id="clay-remaining-water"></span> total. Mix and check consistency -- feel is the guide.</div></div>
+      <div class="step"><div class="step-num">7</div><div class="step-text"><strong>Pug immediately</strong> in Peter Pugger with vacuum deairing.</div></div>
+    </div>
+    <div class="directions" style="margin-top:16px;"><div class="step"><div class="step-num">!</div><div class="step-text" style="color:var(--clay-dk)"><strong>Barium Carbonate Warning:</strong> Toxic by inhalation. N100 respirator required for all dry mixing.</div></div></div>
+  </div>
+</div>
+
+<!-- TAB: GLAZE SLURRY -->
+<div id="tab-slurry" class="tab-panel">
+  <div class="section-title">Glaze Bases</div>
+  <div class="section-sub">Select a base to see its recipe, batch calculator, and mixing history.</div>
+  <div class="card">
+    <div class="card-title">Select Base</div>
+    <div class="control-row">
+      <label>Base slurry</label>
+      <select id="base-select" onchange="updateSlurry()"><option value="">-- choose --</option></select>
+    </div>
+    <div style="margin-top:4px;"><button class="btn-sm btn-promote" onclick="openNewBaseModal()">+ New Base Slurry</button></div>
+  </div>
+  <div id="slurry-detail-wrap" style="display:none;">
+    <div class="card" id="slurry-recipe-card">
+      <div class="card-title" id="slurry-card-title">Base Recipe</div>
+      <div id="slurry-info" style="font-size:13px;color:var(--muted);margin-bottom:12px;"></div>
+      <div class="control-row"><label>Batch size</label><div class="toggle-group" id="slurry-batch-toggle">
+        <button class="active" onclick="setSlurryBatch(1,this)">1 gal</button>
+        <button onclick="setSlurryBatch(2,this)">2 gal</button>
+        <button onclick="setSlurryBatch(3,this)">3 gal</button>
+        <button onclick="setSlurryBatch(5,this)">5 gal</button>
+      </div></div>
+      <table class="ing-table"><thead><tr><th>Material</th><th>%</th><th>Weight (lb)</th><th>Weight (g)</th></tr></thead><tbody id="slurry-tbody"></tbody></table>
+      <div style="margin-top:14px;font-size:14px;color:var(--muted);line-height:1.7;" id="slurry-mixing"></div>
+      <div id="slurry-warning" class="warning" style="display:none;margin-top:10px;"></div>
+      <div id="slurry-base-notes" style="display:none;margin-top:10px;font-size:14px;color:var(--muted);line-height:1.6;"></div>
+    </div>
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+      <span style="font-size:14px;color:var(--muted);" id="slurry-batch-count">No batches recorded yet</span>
+      <button class="btn btn-primary" onclick="openBatchModalForCurrent()">+ New Batch Record</button>
+    </div>
+    <div id="slurry-batch-history"></div>
+  </div>
+  <div id="slurry-placeholder" class="slurry-placeholder">Select a base above to see its recipe and batch history.</div>
+  <div class="card" style="margin-top:20px;"><div class="card-title">CMC &amp; Veegum Stock Solutions</div>
+    <div class="directions">
+      <div class="step"><div class="step-num">1</div><div class="step-text"><strong>CMC stock (night before):</strong> Sprinkle 22g dry CMC slowly into 196g boiling water. Do not stir -- let sit overnight. 10% stock.</div></div>
+      <div class="step"><div class="step-num">2</div><div class="step-text"><strong>Veegum stock (night before):</strong> Sprinkle 16.5g dry Veegum into 146.5g boiling water while stirring. Let sit overnight. 10% stock.</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- TAB: GLAZE TEST -->
+<div id="tab-colors" class="tab-panel">
+  <div class="section-title">Glaze Test</div>
+  <div class="section-sub">Bench recipes, lifecycle management, and firing records.</div>
+  <div class="card"><div class="card-title">Select Glaze</div>
+    <div class="control-row"><label>Glaze</label><select id="glaze-select" onchange="updateColors()"><option value="">-- choose --</option></select></div>
+    <label class="show-retired-toggle"><input type="checkbox" id="show-retired-cb" onchange="buildGlazeDropdown();updateColors();"> Show retired glazes</label>
+    <div class="control-row" style="margin-top:16px;"><label>Batch size</label><div class="toggle-group" id="batch-size-toggle"><button onclick="setBatchSize(100,this)">100 mL</button><button class="active" onclick="setBatchSize(600,this)">600 mL</button><button onclick="setBatchSize(946,this)">1/2 gal</button></div></div>
+    <div class="control-row" style="margin-top:8px;"><label>Stock base SG</label><input type="number" id="stock-sg" placeholder="e.g. 1.46" step="0.001" min="1.0" max="1.7" style="width:120px;" oninput="updateColors()"></div>
+    <div class="control-row" style="margin-top:4px;"><label>Target final SG</label><input type="number" id="target-sg" value="1.30" step="0.01" min="1.0" max="1.5" style="width:120px;" oninput="updateColors()"></div>
+    <div id="sg-advice" style="display:none;margin-top:8px;padding:12px 16px;border-radius:8px;font-size:15px;line-height:1.6;"></div>
+    <div style="margin-top:12px;display:flex;gap:10px;flex-wrap:wrap;"><button class="btn btn-primary" onclick="openNewGlazeModal()">+ New Test Glaze</button></div>
+  </div>
+  <div id="color-directions-wrap" style="display:none;">
+    <div class="bench-card">
+      <div style="display:flex;align-items:baseline;justify-content:space-between;margin-bottom:4px;"><span class="bench-glaze-id" id="bench-id"></span><span id="bench-status-badge"></span></div>
+      <div class="bench-glaze-name" id="bench-name"></div>
+      <div id="bench-change-notes" style="display:none;font-size:13px;color:var(--clay-dk);font-style:italic;margin-bottom:10px;padding:6px 10px;background:rgba(92,44,10,0.06);border-radius:6px;"></div>
+      <div id="bench-sg-row" style="display:none;align-items:center;gap:10px;margin-bottom:8px;padding-bottom:10px;border-bottom:1px solid var(--border);">
+        <span style="font-size:14px;color:var(--muted);">Target SG</span>
+        <input type="number" id="bench-target-sg" step="0.01" min="1.0" max="1.7" style="width:90px;font-size:15px;padding:6px 10px;border:1.5px solid var(--border);border-radius:6px;background:var(--cream);color:var(--ink);" oninput="updateCMCAdvice()">
+        <button class="btn-sm btn-promote" onclick="saveGlazeSG()" style="padding:6px 14px;font-size:13px;">Save</button>
+        <span id="bench-sg-saved" style="font-size:13px;color:var(--good);display:none;">Saved</span>
+      </div>
+      <div id="bench-cmc-advice" style="display:none;margin-bottom:14px;padding:8px 12px;border-radius:6px;font-size:14px;line-height:1.5;"></div>
+      <div id="bench-colorants"></div>
+      <div id="bench-water-row" style="display:none;justify-content:space-between;align-items:baseline;padding:12px 0;border-bottom:1px solid var(--border);"><span style="font-size:24px;color:var(--forest);">Water to mix with colorants</span><span id="bench-water-amount" style="font-size:36px;font-weight:600;color:var(--forest);"></span></div>
+      <div class="bench-base-row"><span style="font-size:17px;color:var(--muted);" id="bench-base-label">G2926B base</span><span style="font-size:32px;font-weight:600;color:var(--ink);" id="bench-base-weight"></span></div>
+      <div id="bench-cmc-advice" style="display:none;margin-top:12px;padding:10px 14px;border-radius:8px;font-size:14px;line-height:1.6;"></div>
+      <div id="bench-expectation" style="display:none;margin-top:16px;padding-top:14px;border-top:1px solid var(--border);font-size:15px;color:var(--muted);font-style:italic;"></div>
+      <div id="color-warning" class="warning" style="display:none;margin-top:12px;"></div>
+    </div>
+    <div class="lifecycle-bar" id="lifecycle-bar"></div>
+    <div class="card"><div class="card-title">Notes</div><div class="notes-area"><label>Expectations and observations</label><textarea id="color-notes" placeholder="Type notes here -- saved automatically..." oninput="saveColorNotes()"></textarea><div class="notes-saved" id="notes-saved-msg">Saved</div></div></div>
+    <div id="kiln-log-section">
+      <div class="kl-section-header"><span class="step-pill">Step 1</span><h3>Mix Record</h3></div>
+      <div class="card">
+        <div class="field-row-2"><div class="field-group"><label>Mix date</label><input type="date" id="kl-mix-date"></div><div class="field-group"><label>Base used</label><select id="kl-base"><option value="G2926B">G2926B -- Standard Gloss</option><option value="G1214M">G1214M -- Chrome-Tin</option></select></div></div>
+        <div class="field-row-3">
+          <div class="field-group"><label>SG at application</label><input type="number" id="kl-sg" placeholder="1.35" step="0.001" min="1.0" max="1.6"></div>
+          <div class="field-group"><label>Viscosity (sec)</label><input type="number" id="kl-viscosity" placeholder="e.g. 18" step="0.5" min="0"></div>
+          <div class="field-group"><label>Application method</label><select id="kl-method"><option value="">-- select --</option><option>Dip</option><option>Pour</option><option>Brush</option><option>Bulb syringe</option><option>Spray</option></select></div>
+        </div>
+        <div class="field-group"><label>Mix notes</label><textarea id="kl-mix-notes" placeholder="Any observations during mixing..."></textarea></div>
+      </div>
+      <div class="kl-section-header"><span class="step-pill">Step 2</span><h3>Kiln Load</h3></div>
+      <div class="card">
+        <div id="kl-tile-label-box" class="tile-label-box" style="display:none;"><div style="font-size:13px;margin-bottom:4px;">Scratch this label on the back of the tile before loading:</div><div class="tile-label-code" id="kl-tile-label-text"></div></div>
+        <div class="field-row-2"><div class="field-group"><label>Load date</label><input type="date" id="kl-load-date" oninput="updateTileLabel()"></div><div class="field-group"><label>Kiln</label><select id="kl-kiln"><option value="">-- select --</option><option value="Kiln 1">Kiln 1</option><option value="Kiln 2">Kiln 2 (reliable)</option></select></div></div>
+        <div class="field-row-2"><div class="field-group"><label>Program</label><select id="kl-program"><option value="">-- select --</option><option value="User 1">User 1 -- Tile Drying</option><option value="User 2">User 2 -- Bisque</option><option value="User 3">User 3 -- Glaze Cone 6</option></select></div><div class="field-group"><label>Tile letter</label><input type="text" id="kl-tile-letter" placeholder="A" maxlength="3" style="width:80px;" oninput="updateTileLabel()"></div></div>
+        <div class="field-row-3"><div class="field-group"><label>Shelf number</label><input type="number" id="kl-shelf" placeholder="e.g. 2" min="1" max="20"></div><div class="field-group"><label>Height from floor (in)</label><input type="number" id="kl-height" placeholder="e.g. 12" step="0.5" min="0"></div></div>
+        <div class="field-group"><label>Proximity notes</label><input type="text" id="kl-proximity" placeholder="e.g. G25 on same shelf -- chrome risk"></div>
+        <div class="field-group"><label>Pre-firing expectations</label><textarea id="kl-expectations" oninput="updateExpectation()" placeholder="What do you expect this glaze to do?"></textarea></div>
+        <div class="field-group"><label>Load notes</label><textarea id="kl-load-notes" placeholder="Kiln-level observations..."></textarea></div>
+      </div>
+      <div class="kl-section-header"><span class="step-pill">Step 3</span><h3>Firing Results</h3><span style="font-size:13px;color:var(--muted);margin-left:8px;">Fill in after opening the kiln</span></div>
+      <div class="card">
+        <div class="field-row-2"><div class="field-group"><label>Witness cone result</label><select id="kl-cone"><option value="">-- select --</option><option>Cone 6 -- full melt</option><option>Cone 5 -- slight under</option><option>Cone 7 -- slight over</option><option>Cone 4 -- under</option><option>Other</option></select></div><div class="field-group"><label>Finish observed</label><select id="kl-finish"><option value="">-- select --</option><option>Gloss</option><option>Satin</option><option>Matte</option><option>Dry / underfired</option></select></div></div>
+        <div class="field-group"><label>Color observed</label><input type="text" id="kl-color" placeholder="e.g. Deep amber in recesses, honey-gold on raised edges"></div>
+        <div class="field-group"><label>Defects</label><input type="text" id="kl-defects" placeholder="e.g. Pinholes in thick areas only -- or None"></div>
+        <div class="field-group"><label>Rating</label><div class="rating-group"><button class="rating-btn good" onclick="setRating('Good',this)">Good</button><button class="rating-btn fair" onclick="setRating('Fair',this)">Fair</button><button class="rating-btn poor" onclick="setRating('Poor',this)">Poor</button></div><input type="hidden" id="kl-rating" value=""></div>
+        <div class="field-group"><label>Results notes</label><textarea id="kl-result-notes" placeholder="Any observations after opening the kiln..."></textarea></div>
+        <div class="field-group"><label>Photo URL</label><input type="text" id="kl-photo" placeholder="https://raw.githubusercontent.com/..."></div>
+        <div style="margin-top:20px;display:flex;gap:12px;flex-wrap:wrap;"><button class="btn btn-primary" onclick="saveGlazeRecord()">Save Record</button><button class="btn-sm" onclick="clearGlazeRecord()">Clear form</button></div>
+        <div id="kl-save-msg" style="margin-top:10px;font-size:14px;color:var(--good);display:none;">Record saved</div>
+      </div>
+      <div class="kl-section-header"><h3>Firing History</h3><span id="kl-history-count" style="font-size:13px;color:var(--muted);margin-left:8px;"></span></div>
+      <div id="kl-history-list"><div style="color:var(--muted);font-size:15px;text-align:center;padding:24px;">No firing records yet for this glaze.</div></div>
+    </div>
+  </div>
+  <div id="color-placeholder" style="text-align:center;padding:40px;color:var(--muted);font-size:16px;">Select a glaze above to see the bench recipe and firing log.</div>
+</div>
+
+<!-- TAB: MATERIALS -->
+<div id="tab-materials" class="tab-panel">
+  <div class="section-title">Complete Materials List</div>
+  <div class="section-sub">Every material needed for clay body, glaze bases, and all G-series glazes.</div>
+  <div class="card"><div class="card-title">Clay Body</div><table class="ing-table"><thead><tr><th>Material</th><th>Notes</th></tr></thead><tbody>
+    <tr><td>Tile 6</td><td class="note">26.14%</td></tr><tr><td>OM4 Ball Clay</td><td class="note">20.92%</td></tr><tr><td>Silica M325</td><td class="note">20.92%</td></tr><tr><td>G-200 EU Feldspar</td><td class="note">24.06%</td></tr><tr><td>Talc</td><td class="note">2.09%</td></tr><tr><td>Bentonite HPM-20</td><td class="note">1.88%</td></tr><tr><td>Christy Fine Grog</td><td class="note">4.00%</td></tr><tr><td style="color:var(--clay-dk);font-weight:500">Barium Carbonate !</td><td class="note">0.345% -- toxic, N100 mask required</td></tr>
+  </tbody></table></div>
+  <div class="card"><div class="card-title">G2926B -- Standard Clear Gloss Base</div><table class="ing-table"><thead><tr><th>Material</th><th>Notes</th></tr></thead><tbody>
+    <tr><td>Nepheline Syenite</td><td class="note">16.6%</td></tr><tr><td>Ferro Frit 3134</td><td class="note">23.1%</td></tr><tr><td>Tile 6 Kaolin</td><td class="note">17.8%</td></tr><tr><td>Wollastonite W-20</td><td class="note">6.3%</td></tr><tr><td>Silica 325 mesh</td><td class="note">34.2%</td></tr><tr><td>Talc</td><td class="note">2.1%</td></tr><tr><td>CMC (dry)</td><td class="note">10% stock -- 0.20%</td></tr><tr><td>Veegum (dry)</td><td class="note">10% stock -- 0.15%</td></tr><tr><td>Darvan</td><td class="note">Deflocculant -- drops only</td></tr><tr><td>Epsom Salts</td><td class="note">Flocculant -- drops only</td></tr>
+  </tbody></table></div>
+  <div class="card"><div class="card-title">G1214M -- Chrome-Tin Base</div><table class="ing-table"><thead><tr><th>Material</th><th>Notes</th></tr></thead><tbody>
+    <tr><td>Wollastonite</td><td class="note">20%</td></tr><tr><td>Ferro Frit 3134</td><td class="note">20%</td></tr><tr><td>G-200 EU Feldspar</td><td class="note">20%</td></tr><tr><td>EPK Kaolin</td><td class="note">20%</td></tr><tr><td>Silica 325 mesh</td><td class="note">20%</td></tr>
+  </tbody></table></div>
+  <div class="card"><div class="card-title">Glaze Colorants</div><table class="ing-table"><thead><tr><th>Material</th><th>Notes</th><th>Used in</th></tr></thead><tbody>
+    <tr><td>Cobalt Oxide</td><td class="note">Not carbonate</td><td class="note">G1,G2,G6,G30,G37</td></tr><tr><td>Cobalt Carbonate</td><td class="note">Blends better with copper</td><td class="note">G41</td></tr><tr><td>Chrome Oxide</td><td class="note">Cr2O3 -- precision critical</td><td class="note">G11,G25,G28</td></tr><tr><td>Copper Carbonate</td><td class="note">Not copper oxide (twice as strong)</td><td class="note">G26,G27,G36,G41</td></tr><tr><td>Red Iron Oxide (synthetic)</td><td class="note">Synthetic -- more consistent</td><td class="note">G17,G18,G21,G28-G33,G39-G43</td></tr><tr><td>Light Rutile</td><td class="note">Light specifically</td><td class="note">G21,G26,G27,G30-G35,G38</td></tr><tr><td>Tin Oxide</td><td class="note">SnO2</td><td class="note">G16,G25,G39</td></tr><tr><td>Manganese Dioxide</td><td class="note">MnO2 -- not carbonate. Ventilation required.</td><td class="note">G33,G34,G37,G42</td></tr><tr><td>Vanadium Yellow</td><td class="note">Prepared stain</td><td class="note">G12,G29</td></tr><tr><td style="color:var(--clay-dk);font-weight:500">Titanium Dioxide *</td><td class="note">TiO2 -- not rutile</td><td class="note">G43</td></tr>
+  </tbody></table></div>
+  <div class="card"><div class="card-title">Mason Stains</div><table class="ing-table"><thead><tr><th>Stain</th><th>Color</th><th>Used in</th></tr></thead><tbody>
+    <tr><td>Mason 6374</td><td class="note">Cobalt blue</td><td class="note">G3,G35</td></tr><tr><td>Mason 6206</td><td class="note">Light green</td><td class="note">G7</td></tr><tr><td>Mason 6254</td><td class="note">Transparent green</td><td class="note">G8</td></tr><tr><td>Mason 6280</td><td class="note">Sage green</td><td class="note">G9,G10,G31</td></tr><tr><td>Mason 6236</td><td class="note">Chartreuse</td><td class="note">G13</td></tr><tr><td>Mason 6001</td><td class="note">Pink</td><td class="note">G14</td></tr><tr><td>Mason 6021</td><td class="note">Red (encapsulated)</td><td class="note">G15</td></tr><tr><td>Mason 6103</td><td class="note">Light brown</td><td class="note">G19</td></tr><tr><td>Mason 6108</td><td class="note">Olive/golden brown</td><td class="note">G20</td></tr><tr><td>Mason 6600</td><td class="note">Black/grey</td><td class="note">G22,G23,G34</td></tr>
+  </tbody></table></div>
+  <div style="background:rgba(46,74,34,0.07);border:1px solid rgba(46,74,34,0.2);border-radius:10px;padding:14px 20px;font-size:15px;color:var(--forest);line-height:1.7;"><strong>* Items to order:</strong><br>Titanium Dioxide (TiO2) -- for G43<br>Light Rutile -- confirm light not dark is on shelf</div>
+</div>
+
+</main>
+
+<script>
+// -- DATA ------------------------------------------------------------------
+var CLAY_RECIPE=[{name:'Tile 6',pct:26.14},{name:'OM4 Ball Clay',pct:20.92},{name:'Silica M325',pct:20.92},{name:'G-200 EU Feldspar',pct:24.06},{name:'Talc',pct:2.09},{name:'Bentonite HPM-20',pct:1.88},{name:'Christy Fine Grog',pct:4.00}];
+var BARIUM_PCT=0.00345,CLAY_WATER_PCT_OF_WET=0.27;
+var BUILTIN_BASES={
+  'G2926B':{id:'G2926B',name:'Standard Clear Gloss',desc:'All colorants except chrome-tin',usage:'All colorants except chrome-tin',targetSG:1.35,dryLbPerGal:5.737,cmc:0.002,vg:0.0015,waterPerGal:3440,warning:'',
+    ingredients:[{name:'Nepheline Syenite',pct:16.6},{name:'Ferro Frit 3134',pct:23.1},{name:'Tile 6 Kaolin',pct:17.8},{name:'Wollastonite W-20',pct:6.3},{name:'Silica 325 mesh',pct:34.2},{name:'Talc',pct:2.1}]},
+  'G1214M':{id:'G1214M',name:'Chrome-Tin Base',desc:'Chrome-tin colorants only -- UNTESTED',usage:'Chrome-tin colorants only',targetSG:1.35,dryLbPerGal:5.737,cmc:0.002,vg:0.0015,waterPerGal:3440,warning:'UNTESTED in this studio as of June 2026 -- fire a test tile before any production use.',
+    ingredients:[{name:'Wollastonite',pct:20},{name:'Ferro Frit 3134',pct:20},{name:'G-200 EU Feldspar',pct:20},{name:'EPK Kaolin',pct:20},{name:'Silica 325 mesh',pct:20}]}
+};
+var BLOB_KEY='glazes',BLOB_KEY_RECORDS='kiln_records',BLOB_KEY_BATCHES='glaze_batches',BLOB_KEY_BASES='glaze_bases';
+var GLAZES=[],KILN_RECORDS=[],GLAZE_BATCHES=[],GLAZE_BASES=[];
+var newGlazeSeries='G',batchMl=600,currentRating='';
+var activeBatchBase='',editingBatchId='';
+var currentSlurryBase=null,currentSlurryGallons=1;
+
+// -- UTILS ------------------------------------------------------------------
+function fmtW(n){if(n<0.1)return n.toFixed(3)+'g';if(n<5)return n.toFixed(2)+'g';if(n<50)return n.toFixed(1)+'g';return Math.round(n)+'g';}
+function todayStr(){return new Date().toISOString().split('T')[0];}
+function fmtDate(str){if(!str)return'';return new Date(str+'T12:00:00').toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'});}
+function nextTNum(series){var p='T'+series;var nums=GLAZES.filter(function(g){return g.id.startsWith(p);}).map(function(g){return parseInt(g.id.replace(p,''))||0;}).filter(function(n){return !isNaN(n);});return p+(nums.length?Math.max.apply(null,nums)+1:1);}
+function showToast(msg){var t=document.getElementById('cc-toast');if(!t){t=document.createElement('div');t.id='cc-toast';t.style.cssText='position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:var(--forest);color:var(--parchment);padding:12px 24px;border-radius:8px;font-size:15px;z-index:200;opacity:0;transition:opacity 0.3s;max-width:90vw;text-align:center;';document.body.appendChild(t);}t.textContent=msg;t.style.opacity='1';clearTimeout(t._timer);t._timer=setTimeout(function(){t.style.opacity='0';},4000);}
+function switchTab(id,btn){document.querySelectorAll('.tab-panel').forEach(function(p){p.classList.remove('active');});document.querySelectorAll('nav button').forEach(function(b){b.classList.remove('active');});document.getElementById('tab-'+id).classList.add('active');btn.classList.add('active');}
+function getAllBases(){
+  var all={};
+  Object.keys(BUILTIN_BASES).forEach(function(k){all[k]=BUILTIN_BASES[k];});
+  GLAZE_BASES.forEach(function(b){all[b.id]=b;});
+  return all;
+}
+
+// -- CLAY TAB ----------------------------------------------------------------
+var clayBatchLb=30;
+function setClayBatch(lb,btn){clayBatchLb=lb;document.querySelectorAll('#tab-clay .toggle-group button').forEach(function(b){b.classList.remove('active');});btn.classList.add('active');renderClay();}
+function renderClay(){
+  var dryG=clayBatchLb*453.592,tbody=document.getElementById('clay-tbody');tbody.innerHTML='';
+  CLAY_RECIPE.forEach(function(r){var wG=dryG*r.pct/100;var tr=document.createElement('tr');tr.innerHTML='<td>'+r.name+'</td><td>'+r.pct+'%</td><td class="weight">'+(wG/453.592).toFixed(3)+' lb</td><td class="note">'+Math.round(wG)+'g</td>';tbody.appendChild(tr);});
+  tbody.innerHTML+='<tr><td colspan="2" style="font-weight:700;color:var(--forest);padding-top:12px;border-top:2px solid var(--border)">Total dry</td><td class="weight" style="padding-top:12px;border-top:2px solid var(--border)">'+clayBatchLb+' lb</td><td style="padding-top:12px;border-top:2px solid var(--border);color:var(--muted)">'+Math.round(dryG)+'g</td></tr>';
+  var bG=dryG*BARIUM_PCT;
+  tbody.innerHTML+='<tr><td style="color:var(--clay-dk);font-weight:500">Barium Carbonate !</td><td>0.345%</td><td class="weight" style="color:var(--clay-dk)">'+(bG/453.592).toFixed(3)+' lb</td><td style="color:var(--clay-dk);font-weight:600">'+Math.round(bG)+'g</td></tr>';
+  var wetG=dryG/(1-CLAY_WATER_PCT_OF_WET),bentDryG=dryG*0.0188;
+  document.getElementById('clay-bent-dry').textContent=Math.round(bentDryG)+'g';
+  document.getElementById('clay-bent-water').textContent=Math.round(bentDryG*10)+'g';
+  document.getElementById('clay-barium').textContent=Math.round(bG)+'g';
+  document.getElementById('clay-remaining-water').textContent=Math.round(wetG-dryG)+'g';
+}
+
+// -- SLURRY TAB --------------------------------------------------------------
+function buildBaseDropdown(){
+  var sel=document.getElementById('base-select'),cur=sel.value;
+  sel.innerHTML='<option value="">-- choose --</option>';
+  var all=getAllBases();
+  Object.keys(BUILTIN_BASES).forEach(function(id){
+    var opt=document.createElement('option');opt.value=id;opt.textContent=id+' -- '+all[id].name;sel.appendChild(opt);
+  });
+  GLAZE_BASES.forEach(function(b){
+    var opt=document.createElement('option');opt.value=b.id;opt.textContent=b.id+' -- '+b.name;sel.appendChild(opt);
+  });
+  if(cur)sel.value=cur;
+}
+
+function updateSlurry(){
+  var baseId=document.getElementById('base-select').value;
+  var wrap=document.getElementById('slurry-detail-wrap');
+  var ph=document.getElementById('slurry-placeholder');
+  if(!baseId){wrap.style.display='none';ph.style.display='block';currentSlurryBase=null;return;}
+  var all=getAllBases();
+  var base=all[baseId];
+  if(!base){wrap.style.display='none';ph.style.display='block';return;}
+  currentSlurryBase=base;
+  wrap.style.display='block';
+  ph.style.display='none';
+  document.getElementById('slurry-card-title').textContent=base.id+' -- '+base.name;
+  document.getElementById('slurry-info').textContent='Target SG '+base.targetSG+' | CMC 0.20% | Veegum 0.15% | f factor: measure at actual SG';
+  var warnEl=document.getElementById('slurry-warning');
+  if(base.warning){warnEl.textContent=base.warning;warnEl.style.display='block';}else warnEl.style.display='none';
+  var notesEl=document.getElementById('slurry-base-notes');
+  if(base.notes){notesEl.textContent=base.notes;notesEl.style.display='block';}else notesEl.style.display='none';
+  // reset batch toggle
+  document.querySelectorAll('#slurry-batch-toggle button').forEach(function(b){b.classList.remove('active');});
+  document.querySelector('#slurry-batch-toggle button').classList.add('active');
+  currentSlurryGallons=1;
+  renderSlurryTable(base,1);
+  updateSlurryBatchCount(baseId);
+  renderBatchHistory(baseId,'slurry-batch-history');
+}
+
+function setSlurryBatch(gallons,btn){
+  currentSlurryGallons=gallons;
+  document.querySelectorAll('#slurry-batch-toggle button').forEach(function(b){b.classList.remove('active');});
+  btn.classList.add('active');
+  if(currentSlurryBase)renderSlurryTable(currentSlurryBase,gallons);
+}
+
+function renderSlurryTable(base,gallons){
+  var dryG=base.dryLbPerGal*gallons*453.592;
+  var tbody=document.getElementById('slurry-tbody');tbody.innerHTML='';
+  base.ingredients.forEach(function(i){
+    var wG=dryG*i.pct/100;
+    var tr=document.createElement('tr');
+    tr.innerHTML='<td>'+i.name+'</td><td>'+i.pct+'%</td><td class="weight">'+(wG/453.592).toFixed(3)+' lb</td><td>'+Math.round(wG)+'g</td>';
+    tbody.appendChild(tr);
+  });
+  tbody.innerHTML+='<tr><td colspan="2" style="font-weight:700;color:var(--forest);padding-top:12px;border-top:2px solid var(--border)">Total dry</td><td class="weight" style="padding-top:12px;border-top:2px solid var(--border)">'+(dryG/453.592).toFixed(3)+' lb</td><td style="padding-top:12px;border-top:2px solid var(--border);color:var(--muted)">'+Math.round(dryG)+'g</td></tr>';
+  var cmcS=dryG*(base.cmc||0.002)/0.10,vgS=dryG*(base.vg||0.0015)/0.10;
+  document.getElementById('slurry-mixing').innerHTML='<strong>Mixing additions for '+gallons+' gal:</strong><br>CMC stock (10%): '+Math.round(cmcS)+'g &middot; Veegum stock (10%): '+Math.round(vgS)+'g<br>Water: ~'+Math.round((base.waterPerGal||3440)*gallons)+'g added gradually -- final SG '+base.targetSG+' is the guide.';
+}
+
+function updateSlurryBatchCount(baseId){
+  var n=GLAZE_BATCHES.filter(function(b){return b.baseId===baseId;}).length;
+  document.getElementById('slurry-batch-count').textContent=n?(n+' batch record'+(n!==1?'s':'')+' -- most recent first'):'No batches recorded yet';
+}
+
+function openBatchModalForCurrent(){
+  if(!currentSlurryBase){showToast('Select a base first');return;}
+  openBatchModal(currentSlurryBase.id);
+}
+
+// -- NEW BASE MODAL ----------------------------------------------------------
+function openNewBaseModal(){
+  ['nb-id','nb-name','nb-desc','nb-usage','nb-notes'].forEach(function(id){document.getElementById(id).value='';});
+  document.getElementById('nb-sg').value='1.35';
+  document.getElementById('nb-drylb').value='5.737';
+  document.getElementById('nb-ingredient-rows').innerHTML='';
+  addBaseIngRow();addBaseIngRow();addBaseIngRow();
+  document.getElementById('new-base-modal').classList.add('open');
+}
+function closeNewBaseModal(){document.getElementById('new-base-modal').classList.remove('open');}
+function addBaseIngRow(){
+  var c=document.getElementById('nb-ingredient-rows');
+  var d=document.createElement('div');d.className='colorant-input-group';
+  d.innerHTML='<input type="text" placeholder="Material name" style="flex:2;min-width:160px;"><input type="number" placeholder="%" step="0.1" min="0" max="100" style="width:80px;"><span class="unit-label">%</span><button class="remove-colorant-btn" onclick="this.parentElement.remove()">x</button>';
+  c.appendChild(d);
+}
+function saveNewBase(){
+  var id=document.getElementById('nb-id').value.trim().toUpperCase();
+  var name=document.getElementById('nb-name').value.trim();
+  if(!id||!name){showToast('Base ID and name are required');return;}
+  if(BUILTIN_BASES[id]){showToast(id+' is a built-in base and cannot be overwritten');return;}
+  if(GLAZE_BASES.find(function(b){return b.id===id;})){showToast(id+' already exists');return;}
+  var ingredients=[];
+  document.querySelectorAll('#nb-ingredient-rows .colorant-input-group').forEach(function(row){
+    var inp=row.querySelectorAll('input');var n=inp[0].value.trim(),p=parseFloat(inp[1].value);
+    if(n&&!isNaN(p)&&p>0)ingredients.push({name:n,pct:p});
+  });
+  if(!ingredients.length){showToast('At least one ingredient required');return;}
+  var totalPct=ingredients.reduce(function(s,i){return s+i.pct;},0);
+  if(Math.abs(totalPct-100)>1){showToast('Ingredients total '+totalPct.toFixed(1)+'% -- must be 100%');return;}
+  var base={
+    id:id,name:name,
+    desc:document.getElementById('nb-desc').value.trim(),
+    usage:document.getElementById('nb-usage').value.trim(),
+    targetSG:parseFloat(document.getElementById('nb-sg').value)||1.35,
+    dryLbPerGal:parseFloat(document.getElementById('nb-drylb').value)||5.737,
+    cmc:0.002,vg:0.0015,waterPerGal:3440,warning:'',
+    ingredients:ingredients,
+    notes:document.getElementById('nb-notes').value.trim(),
+    createdAt:new Date().toISOString()
+  };
+  GLAZE_BASES.push(base);
+  closeNewBaseModal();
+  saveBasesToBlob().then(function(ok){
+    showToast(id+' saved'+(ok?'':' - Blob failed'));
+    buildBaseDropdown();
+    document.getElementById('base-select').value=id;
+    updateSlurry();
+  });
+}
+
+// -- BATCH RECORDS -----------------------------------------------------------
+function nextBatchNum(baseId){var b=GLAZE_BATCHES.filter(function(b){return b.baseId===baseId;});if(!b.length)return 1;var nums=b.map(function(b){var m=b.batchId.match(/(\d+)$/);return m?parseInt(m[1]):0;});return Math.max.apply(null,nums)+1;}
+function batchIdFor(baseId,num){return baseId+'-'+String(num).padStart(3,'0');}
+
+function openBatchModal(baseId){
+  activeBatchBase=baseId;editingBatchId='';
+  var num=nextBatchNum(baseId);
+  document.getElementById('batch-modal-title').textContent='New Batch Record - '+baseId;
+  document.getElementById('batch-id-preview').textContent=batchIdFor(baseId,num);
+  document.getElementById('batch-date').value=todayStr();
+  ['batch-dry-weight','batch-water','batch-sg','batch-viscosity','batch-cmc','batch-epsom','batch-veegum','batch-f-empirical'].forEach(function(id){document.getElementById(id).value='';});
+  document.getElementById('batch-notes').value='';
+  document.getElementById('batch-f-calc').textContent='Auto-calculated on save';
+  document.getElementById('batch-modal').classList.add('open');
+}
+function openBatchModalForEdit(batchId){
+  var b=GLAZE_BATCHES.find(function(x){return x.batchId===batchId;});if(!b)return;
+  activeBatchBase=b.baseId;editingBatchId=batchId;
+  document.getElementById('batch-modal-title').textContent='Edit Batch Record - '+batchId;
+  document.getElementById('batch-id-preview').textContent=batchId;
+  document.getElementById('batch-date').value=b.date||'';
+  document.getElementById('batch-dry-weight').value=b.dryWeight!=null?b.dryWeight:'';
+  document.getElementById('batch-water').value=b.waterAdded!=null?b.waterAdded:'';
+  document.getElementById('batch-sg').value=b.stockSG!=null?b.stockSG:'';
+  document.getElementById('batch-viscosity').value=b.viscosity!=null?b.viscosity:'';
+  document.getElementById('batch-cmc').value=b.cmcAdded!=null?b.cmcAdded:'';
+  document.getElementById('batch-epsom').value=b.epsomAdded!=null?b.epsomAdded:'';
+  document.getElementById('batch-veegum').value=b.veegumAdded!=null?b.veegumAdded:'';
+  document.getElementById('batch-f-empirical').value=b.fFactorEmpirical!=null?b.fFactorEmpirical:'';
+  document.getElementById('batch-f-calc').textContent=b.fFactor!=null?('Calculated: '+b.fFactor):'Auto-calculated on save';
+  document.getElementById('batch-notes').value=b.notes||'';
+  document.getElementById('batch-modal').classList.add('open');
+}
+function closeBatchModal(){document.getElementById('batch-modal').classList.remove('open');activeBatchBase='';editingBatchId='';}
+
+function deleteBatchRecord(batchId){
+  if(!confirm('Delete batch record '+batchId+'? This cannot be undone.'))return;
+  var b=GLAZE_BATCHES.find(function(x){return x.batchId===batchId;});if(!b)return;
+  var baseId=b.baseId;
+  GLAZE_BATCHES=GLAZE_BATCHES.filter(function(x){return x.batchId!==batchId;});
+  saveBatchesToBlob().then(function(ok){
+    showToast(batchId+' deleted'+(ok?'':' - Blob failed'));
+    renderBatchHistory(baseId,'slurry-batch-history');
+    updateSlurryBatchCount(baseId);
+  });
+}
+
+function saveBatchRecord(){
+  if(!activeBatchBase){showToast('No base selected');return;}
+  var dryWeight=document.getElementById('batch-dry-weight').value;
+  var water=document.getElementById('batch-water').value;
+  var sg=document.getElementById('batch-sg').value;
+  if(!dryWeight||!water||!sg){showToast('Dry weight, water added, and SG achieved are required');return;}
+  var batchId=editingBatchId||batchIdFor(activeBatchBase,nextBatchNum(activeBatchBase));
+  var empVal=document.getElementById('batch-f-empirical').value;
+  var rec={
+    batchId:batchId,baseId:activeBatchBase,
+    date:document.getElementById('batch-date').value||todayStr(),
+    savedAt:new Date().toISOString(),
+    dryWeight:parseFloat(dryWeight),
+    waterAdded:parseFloat(water),
+    stockSG:parseFloat(sg),
+    viscosity:document.getElementById('batch-viscosity').value?parseFloat(document.getElementById('batch-viscosity').value):null,
+    cmcAdded:document.getElementById('batch-cmc').value!==''?parseFloat(document.getElementById('batch-cmc').value):null,
+    epsomAdded:document.getElementById('batch-epsom').value!==''?parseFloat(document.getElementById('batch-epsom').value):null,
+    veegumAdded:document.getElementById('batch-veegum').value!==''?parseFloat(document.getElementById('batch-veegum').value):null,
+    fFactorEmpirical:empVal!==''?parseFloat(empVal):null,
+    notes:document.getElementById('batch-notes').value.trim()
+  };
+  if(rec.dryWeight&&rec.waterAdded){
+    var totalMass=rec.dryWeight+rec.waterAdded;
+    rec.fFactor=parseFloat((rec.dryWeight/totalMass).toFixed(4));
+    document.getElementById('batch-f-calc').textContent='Calculated: '+rec.fFactor;
+  }
+  var wasEditing=editingBatchId;
+  GLAZE_BATCHES=GLAZE_BATCHES.filter(function(x){return x.batchId!==batchId;});
+  GLAZE_BATCHES.push(rec);
+  saveBatchesToBlob().then(function(ok){
+    showToast(batchId+' '+(wasEditing?'updated':'saved')+(ok?'':' - Blob failed'));
+    closeBatchModal();
+    renderBatchHistory(rec.baseId,'slurry-batch-history');
+    updateSlurryBatchCount(rec.baseId);
+  });
+}
+
+function renderBatchHistory(baseId,containerId){
+  var container=document.getElementById(containerId||'slurry-batch-history');
+  if(!container)return;
+  var batches=GLAZE_BATCHES.filter(function(b){return b.baseId===baseId;}).sort(function(a,b){return b.date.localeCompare(a.date);});
+  container.innerHTML='';
+  if(!batches.length)return;
+  batches.forEach(function(b){
+    var div=document.createElement('div');
+    div.className='batch-history-item';
+
+    // summary line
+    var fStr='';
+    if(b.fFactorEmpirical!=null)fStr=' &middot; f(emp)='+b.fFactorEmpirical;
+    else if(b.fFactor!=null)fStr=' &middot; f(calc)='+b.fFactor;
+    var viscStr=b.viscosity!=null?' &middot; '+b.viscosity+'s':'';
+
+    var hdr=document.createElement('div');hdr.className='batch-history-header';
+    var idSpan=document.createElement('span');idSpan.className='batch-history-id';idSpan.textContent=b.batchId;
+    var dateSpan=document.createElement('span');dateSpan.className='batch-history-date';dateSpan.textContent=fmtDate(b.date);
+    hdr.appendChild(idSpan);hdr.appendChild(dateSpan);
+
+    var summ=document.createElement('div');summ.className='batch-history-summary';
+    summ.innerHTML='Dry: '+b.dryWeight+'g &middot; Water: '+b.waterAdded+'g &middot; SG: '+b.stockSG+fStr+viscStr;
+
+    var detail=document.createElement('div');detail.className='batch-detail-panel';
+
+    function dr(label,val,bold){
+      if(val==null||val==='')return;
+      var row=document.createElement('div');row.className='batch-detail-row';
+      var lbl=document.createElement('span');lbl.className='batch-detail-label';lbl.textContent=label;
+      var vspan=document.createElement('span');vspan.textContent=val;if(bold)vspan.className='f-empirical';
+      row.appendChild(lbl);row.appendChild(vspan);detail.appendChild(row);
+    }
+    dr('Dry weight',b.dryWeight+'g');
+    dr('Water added',b.waterAdded+'g');
+    dr('Stock SG achieved',b.stockSG);
+    dr('Calculated f factor',b.fFactor);
+    dr('Empirical f factor',b.fFactorEmpirical,true);
+    dr('Viscosity',b.viscosity!=null?b.viscosity+'s':null);
+    dr('CMC added',b.cmcAdded!=null?b.cmcAdded+'g':null);
+    dr('Epsom salt',b.epsomAdded!=null?b.epsomAdded+'g':null);
+    dr('Veegum',b.veegumAdded!=null?b.veegumAdded+'g':null);
+    if(b.notes){dr('Notes',b.notes);}
+
+    var btns=document.createElement('div');btns.style.cssText='display:flex;gap:10px;margin-top:12px;padding-top:10px;border-top:1px solid var(--border);';
+    var editBtn=document.createElement('button');editBtn.className='btn-sm btn-promote';editBtn.textContent='Edit';
+    editBtn.addEventListener('click',function(e){e.stopPropagation();openBatchModalForEdit(b.batchId);});
+    var delBtn=document.createElement('button');delBtn.className='btn-sm btn-danger';delBtn.textContent='Delete';
+    delBtn.addEventListener('click',function(e){e.stopPropagation();deleteBatchRecord(b.batchId);});
+    btns.appendChild(editBtn);btns.appendChild(delBtn);
+    detail.appendChild(btns);
+
+    div.appendChild(hdr);div.appendChild(summ);div.appendChild(detail);
+    div.addEventListener('click',function(e){
+      if(e.target.closest('button'))return;
+      detail.classList.toggle('open');
+    });
+    container.appendChild(div);
+  });
+}
+
+// -- GLAZE TEST TAB ----------------------------------------------------------
+function setBatchSize(ml,btn){batchMl=ml;document.querySelectorAll('#batch-size-toggle button').forEach(function(b){b.classList.remove('active');});btn.classList.add('active');updateColors();}
+
+function saveColorNotes(){
+  var id=document.getElementById('glaze-select').value;if(!id)return;
+  var glaze=GLAZES.find(function(g){return g.id===id;});if(!glaze)return;
+  glaze.notes=document.getElementById('color-notes').value;
+  var m=document.getElementById('notes-saved-msg');m.classList.add('show');setTimeout(function(){m.classList.remove('show');},1500);
+  clearTimeout(window._notesSaveTimer);
+  window._notesSaveTimer=setTimeout(function(){saveGlazesToBlob();},1500);
+}
+
+function buildGlazeDropdown(){
+  var sel=document.getElementById('glaze-select'),showRetired=document.getElementById('show-retired-cb').checked,cur=sel.value;
+  sel.innerHTML='<option value="">-- choose --</option>';
+  function addGrp(label,glazes,xfm){if(!glazes.length)return;var og=document.createElement('optgroup');og.label=label;sel.appendChild(og);glazes.forEach(function(g){var o=document.createElement('option');o.value=g.id;o.textContent=xfm?xfm(g):g.name;sel.appendChild(o);});}
+  addGrp('Active Glazes',GLAZES.filter(function(g){return g.status==='active';}));
+  var test=GLAZES.filter(function(g){return g.status==='test';});
+  if(test.length){
+    var og=document.createElement('optgroup');og.label='Test Glazes';sel.appendChild(og);
+    var tById={};test.forEach(function(g){tById[g.id]=g;});
+    function getS(id){return id.startsWith('TG')?'G':id.startsWith('TM')?'M':id.startsWith('TS')?'S':'G';}
+    var rendered=new Set();
+    var tops=test.filter(function(g){var s=getS(g.id);var p=tById[g.based_on];return !p||getS(p.id)!==s;});
+    tops.sort(function(a,b){var oi=['G','M','S'];return oi.indexOf(getS(a.id))-oi.indexOf(getS(b.id))||a.id.localeCompare(b.id);});
+    tops.forEach(function(g){
+      if(rendered.has(g.id))return;
+      var o=document.createElement('option');o.value=g.id;o.textContent=g.name;sel.appendChild(o);rendered.add(g.id);
+      test.filter(function(c){return c.based_on===g.id&&getS(c.id)===getS(g.id);}).sort(function(a,b){return a.id.localeCompare(b.id);}).forEach(function(c){if(rendered.has(c.id))return;var co=document.createElement('option');co.value=c.id;co.textContent='  > '+c.name;sel.appendChild(co);rendered.add(c.id);});
+    });
+    test.filter(function(g){return !rendered.has(g.id);}).forEach(function(g){var o=document.createElement('option');o.value=g.id;o.textContent=g.name;sel.appendChild(o);});
+  }
+  var susp=GLAZES.filter(function(g){return g.status==='suspended';});
+  if(susp.length){var og2=document.createElement('optgroup');og2.label='Suspended';sel.appendChild(og2);susp.forEach(function(g){var o=document.createElement('option');o.value=g.id;o.textContent=g.name+' [suspended]';o.style.color='#c0392b';sel.appendChild(o);});}
+  if(showRetired)addGrp('Retired Glazes',GLAZES.filter(function(g){return g.status==='retired';}),function(g){return g.name+' [retired]';});
+  if(cur)sel.value=cur;
+}
+
+function renderLifecycleBar(glaze){
+  var bar=document.getElementById('lifecycle-bar');bar.innerHTML='<span class="status-label">Status: <strong>'+glaze.status+'</strong></span>';
+  function mb(label,cls,fn){var b=document.createElement('button');b.className='btn-sm '+cls;b.textContent=label;b.onclick=fn;bar.appendChild(b);}
+  if(glaze.status==='test'){mb('Promote to active','btn-promote',function(){changeStatus(glaze.id,'active');});mb('Retire','btn-retire',function(){changeStatus(glaze.id,'retired');});mb('Suspend','btn-danger',function(){changeStatus(glaze.id,'suspended');});}
+  else if(glaze.status==='active'){mb('Move to test','btn-unretire',function(){changeStatus(glaze.id,'test');});mb('Retire','btn-retire',function(){changeStatus(glaze.id,'retired');});mb('Suspend','btn-danger',function(){changeStatus(glaze.id,'suspended');});}
+  else if(glaze.status==='suspended'){mb('Restore to active','btn-promote',function(){changeStatus(glaze.id,'active');});mb('Restore to test','btn-unretire',function(){changeStatus(glaze.id,'test');});}
+  else if(glaze.status==='retired'){mb('Restore to active','btn-promote',function(){changeStatus(glaze.id,'active');});mb('Restore to test','btn-unretire',function(){changeStatus(glaze.id,'test');});}
+}
+function changeStatus(id,newStatus){
+  var g=GLAZES.find(function(g){return g.id===id;});if(!g)return;
+  g.status=newStatus;buildGlazeDropdown();updateColors();
+  saveGlazesToBlob().then(function(ok){if(ok)showToast('Status updated');});
+}
+function saveGlazeSG(){
+  var glazeId=document.getElementById('glaze-select').value;if(!glazeId)return;
+  var glaze=GLAZES.find(function(g){return g.id===glazeId;});if(!glaze)return;
+  var val=parseFloat(document.getElementById('bench-target-sg').value);
+  if(isNaN(val)){showToast('Enter a valid SG');return;}
+  glaze.target_sg=val;
+  saveGlazesToBlob().then(function(ok){
+    if(ok){var s=document.getElementById('bench-sg-saved');s.style.display='inline';setTimeout(function(){s.style.display='none';},2000);}
+    else showToast('Save failed');
+  });
+}
+
+function updateColors(){
+  var glazeId=document.getElementById('glaze-select').value;
+  var wrap=document.getElementById('color-directions-wrap'),ph=document.getElementById('color-placeholder');
+  if(!glazeId){wrap.style.display='none';ph.style.display='block';return;}
+  var glaze=GLAZES.find(function(g){return g.id===glazeId;});if(!glaze)return;
+  wrap.style.display='block';ph.style.display='none';
+  clearGlazeRecord();
+  var amtMl=batchMl;
+  var stockSG=parseFloat(document.getElementById('stock-sg').value)||1.35;
+  var targetSG=parseFloat(document.getElementById('target-sg').value)||1.30;
+  var amtG=amtMl*stockSG;
+  var scale=amtG/600;
+  document.getElementById('bench-id').textContent=glaze.id;
+  var cleanName=glaze.name.replace(/^[A-Z]+\d+[v\d]* - /,'').replace(/ - (OX|MX|MS|T[GMS])$/,'');
+  document.getElementById('bench-name').textContent=cleanName;
+  // Change notes
+  var cnEl=document.getElementById('bench-change-notes');
+  if(glaze.change_notes){cnEl.textContent='Changed: '+glaze.change_notes;cnEl.style.display='block';}else cnEl.style.display='none';
+  // Target SG row
+  var sgRow=document.getElementById('bench-sg-row');
+  sgRow.style.display='flex';
+  document.getElementById('bench-target-sg').value=glaze.target_sg||'';
+  document.getElementById('bench-sg-saved').style.display='none';
+  document.getElementById('bench-base-weight').textContent=amtMl+' mL  (~'+Math.round(amtG)+'g)';
+  document.getElementById('bench-base-label').textContent=(glaze.base||'G2926B')+' base';
+  var adviceEl=document.getElementById('sg-advice');
+  var stockSGVal=parseFloat(document.getElementById('stock-sg').value);
+  if(stockSGVal){
+    adviceEl.style.display='block';
+    if(Math.abs(stockSGVal-targetSG)<0.005){adviceEl.style.cssText='display:block;background:rgba(46,74,34,0.08);border:1px solid rgba(46,74,34,0.2);color:var(--forest);padding:12px 16px;border-radius:8px;font-size:15px;';adviceEl.textContent='SG is good - proceed.';}
+    else if(stockSGVal>targetSG){var wN=Math.round(amtG-amtMl*targetSG);adviceEl.style.cssText='display:block;background:rgba(46,74,34,0.08);border:1px solid rgba(46,74,34,0.2);color:var(--forest);padding:12px 16px;border-radius:8px;font-size:15px;';adviceEl.textContent='Add '+wN+'g of water to your colorants before mixing in the base.';}
+    else{var wR=Math.round(amtMl*stockSGVal-amtMl*targetSG);adviceEl.style.cssText='display:block;background:rgba(139,69,19,0.08);border:1px solid rgba(139,69,19,0.25);color:var(--clay-dk);padding:12px 16px;border-radius:8px;font-size:15px;';adviceEl.textContent='SG too low. Let slurry sit overnight. Syphon off ~'+wR+'g of water.';}
+  }else adviceEl.style.display='none';
+  var sc=glaze.status==='active'?'badge-active':glaze.status==='test'?'badge-test':glaze.status==='suspended'?'badge-suspended':'badge-retired';
+  document.getElementById('bench-status-badge').innerHTML='<span class="glaze-badge '+sc+'">'+glaze.status+'</span>';
+  var bc=document.getElementById('bench-colorants');bc.innerHTML='';
+  if(!glaze.colorants.length){bc.innerHTML='<div style="color:var(--muted);font-size:16px;padding:12px 0;">No colorant - clear base only</div>';}
+  else{glaze.colorants.forEach(function(c){var wG=c.gPer600g*scale,pct=((c.gPer600g/600)*100).toFixed(2);var d=document.createElement('div');d.className='bench-colorant-row';d.innerHTML='<span><span class="bench-colorant-name">'+c.name+'</span><span class="bench-colorant-pct">'+pct+'%</span></span><span><span class="bench-colorant-weight">'+fmtW(wG).replace('g','')+'</span><span class="bench-colorant-unit">g</span></span>';bc.appendChild(d);});}
+  renderLifecycleBar(glaze);
+  var waterRow=document.getElementById('bench-water-row'),waterAmt=document.getElementById('bench-water-amount');
+  if(glaze.colorants.length){waterRow.style.display='flex';var wN2=Math.round(amtG-amtMl*targetSG);if(stockSGVal&&wN2>0)waterAmt.textContent=wN2+'g';else if(stockSGVal&&wN2<=0)waterAmt.textContent='SG at target';else waterAmt.innerHTML='<span style="font-size:15px;color:var(--muted);">enter stock SG above</span>';}else waterRow.style.display='none';
+  var expEl=document.getElementById('bench-expectation'),expText=document.getElementById('kl-expectations').value.trim()||glaze.note||'';
+  if(expText){expEl.textContent=expText;expEl.style.display='block';}else expEl.style.display='none';
+  // CMC advice -- based on target SG from glaze record, batch size, f=0.55 estimate
+  var cmcEl=document.getElementById('bench-cmc-advice');
+  var tSG=glaze.target_sg;
+  if(tSG){
+    var F_EST=0.55;
+    var slurryG=amtMl*tSG;
+    var dryG=slurryG*F_EST;
+    var cmcPct=tSG<1.32?0.002:tSG<1.38?0.0025:0.003;
+    var cmcDry=dryG*cmcPct;
+    var cmcStock=Math.round(cmcDry/0.10*10)/10;
+    var cmcLabel=tSG<1.32?'0.20%':tSG<1.38?'0.25%':'0.30%';
+    cmcEl.style.cssText='display:block;background:rgba(46,74,34,0.06);border:1px solid rgba(46,74,34,0.15);color:var(--forest);padding:10px 14px;border-radius:8px;font-size:14px;';
+    cmcEl.textContent='CMC ('+cmcLabel+'): add '+cmcStock+'g of 10% stock  --  est. f=0.55, verify when batch reaches SG 1.35';
+  }else cmcEl.style.display='none';
+  var wEl=document.getElementById('color-warning');
+  if(glaze.warning){wEl.textContent='Warning: '+glaze.warning;wEl.style.display='block';}else wEl.style.display='none';
+  document.getElementById('color-notes').value=glaze.notes||'';
+  var bs=document.getElementById('kl-base');if(glaze.base)bs.value=glaze.base;
+  renderFiringHistory(glazeId);updateTileLabel();
+}
+
+function updateExpectation(){var e=document.getElementById('bench-expectation'),v=document.getElementById('kl-expectations').value.trim();if(v){e.textContent=v;e.style.display='block';}else e.style.display='none';}
+function updateTileLabel(){
+  var glazeId=document.getElementById('glaze-select').value;if(!glazeId)return;
+  var loadDate=document.getElementById('kl-load-date').value;
+  var letter=(document.getElementById('kl-tile-letter').value||'A').trim().toUpperCase();
+  var dateStr='NoDate';if(loadDate){var d=new Date(loadDate+'T12:00:00');dateStr=d.toLocaleDateString('en-US',{month:'short',day:'numeric'}).replace(' ','');}
+  document.getElementById('kl-tile-label-text').textContent=glazeId+' - '+dateStr+' - '+letter;
+  document.getElementById('kl-tile-label-box').style.display='block';
+}
+function setRating(val,btn){currentRating=val;document.getElementById('kl-rating').value=val;document.querySelectorAll('.rating-btn').forEach(function(b){b.classList.remove('active');});btn.classList.add('active');}
+function clearGlazeRecord(){
+  ['kl-mix-date','kl-sg','kl-viscosity','kl-mix-notes','kl-load-date','kl-tile-letter','kl-shelf','kl-height','kl-proximity','kl-expectations','kl-load-notes','kl-cone','kl-finish','kl-color','kl-defects','kl-result-notes','kl-photo'].forEach(function(id){var el=document.getElementById(id);if(el)el.value='';});
+  ['kl-method','kl-kiln','kl-program'].forEach(function(id){document.getElementById(id).value='';});
+  document.querySelectorAll('.rating-btn').forEach(function(b){b.classList.remove('active');});currentRating='';document.getElementById('kl-rating').value='';
+  document.getElementById('kl-save-msg').style.display='none';updateTileLabel();
+}
+function saveGlazeRecord(){
+  var glazeId=document.getElementById('glaze-select').value;if(!glazeId){showToast('Select a glaze first');return;}
+  var glaze=GLAZES.find(function(g){return g.id===glazeId;});if(!glaze)return;
+  var loadDate=document.getElementById('kl-load-date').value;
+  var letter=(document.getElementById('kl-tile-letter').value||'A').trim().toUpperCase();
+  var dateStr=loadDate||todayStr();var d=new Date(dateStr+'T12:00:00');
+  var shortDate=d.toLocaleDateString('en-US',{month:'short',year:'2-digit'}).replace(' ','').replace(',','');
+  var stockSGVal=parseFloat(document.getElementById('stock-sg').value)||null;
+  var targetSGVal=parseFloat(document.getElementById('target-sg').value)||1.30;
+  var waterCalc=stockSGVal?Math.round(batchMl*stockSGVal-batchMl*targetSGVal):null;
+  var rec={
+    id:glazeId+'_'+dateStr+'_'+letter,glazeId:glazeId,glazeName:glaze.name,
+    tileLabel:glazeId+' - '+shortDate+' - '+letter,savedAt:new Date().toISOString(),
+    batchMl:batchMl,stockSG:stockSGVal,targetSG:targetSGVal,waterAdded:waterCalc,
+    mixDate:document.getElementById('kl-mix-date').value,base:document.getElementById('kl-base').value,
+    sg:document.getElementById('kl-sg').value,viscosity:document.getElementById('kl-viscosity').value,
+    method:document.getElementById('kl-method').value,mixNotes:document.getElementById('kl-mix-notes').value.trim(),
+    loadDate:loadDate,kiln:document.getElementById('kl-kiln').value,program:document.getElementById('kl-program').value,
+    tileLetter:letter,shelf:document.getElementById('kl-shelf').value,height:document.getElementById('kl-height').value,
+    proximity:document.getElementById('kl-proximity').value.trim(),expectations:document.getElementById('kl-expectations').value.trim(),
+    loadNotes:document.getElementById('kl-load-notes').value.trim(),cone:document.getElementById('kl-cone').value,
+    finish:document.getElementById('kl-finish').value,color:document.getElementById('kl-color').value.trim(),
+    defects:document.getElementById('kl-defects').value.trim(),rating:currentRating,
+    resultNotes:document.getElementById('kl-result-notes').value.trim(),photo:document.getElementById('kl-photo').value.trim(),
+    recipe:glaze.colorants.map(function(c){return c.name+': '+c.gPer600g+'g per 600g';}).join(', ')||'No colorant',
+    glazeNotes:glaze.notes||''
+  };
+  KILN_RECORDS=KILN_RECORDS.filter(function(r){return r.id!==rec.id;});KILN_RECORDS.push(rec);
+  saveKilnRecordsToBlob().then(function(ok){document.getElementById('kl-save-msg').style.display='block';showToast('Record saved - '+(ok?'stored':'Blob failed'));renderFiringHistory(glazeId);});
+}
+function renderFiringHistory(glazeId){
+  var container=document.getElementById('kl-history-list'),countEl=document.getElementById('kl-history-count');
+  var recs=KILN_RECORDS.filter(function(r){return r.glazeId===glazeId;}).sort(function(a,b){return(b.loadDate||b.savedAt).localeCompare(a.loadDate||a.savedAt);});
+  countEl.textContent=recs.length?(recs.length+' record'+(recs.length!==1?'s':'')):'';
+  if(!recs.length){container.innerHTML='<div style="color:var(--muted);font-size:15px;text-align:center;padding:24px;">No firing records yet for this glaze.</div>';return;}
+  container.innerHTML='';
+  recs.forEach(function(r){
+    var rc=r.rating==='Good'?'rating-good':r.rating==='Fair'?'rating-fair':r.rating==='Poor'?'rating-poor':'';
+    var d=document.createElement('div');d.className='history-load';
+    var hdr=document.createElement('div');hdr.style.cssText='display:flex;align-items:baseline;justify-content:space-between;margin-bottom:10px;padding-bottom:8px;border-bottom:1px solid var(--border);';
+    var tl=document.createElement('span');tl.style.cssText="font-family:'Playfair Display',serif;font-size:17px;color:var(--forest);font-weight:600;";tl.textContent=r.tileLabel;
+    hdr.appendChild(tl);
+    if(r.rating){var rb=document.createElement('span');rb.className='history-rating '+rc;rb.textContent=r.rating;hdr.appendChild(rb);}
+    d.appendChild(hdr);
+    function addLine(html){var p=document.createElement('div');p.style.cssText='font-size:14px;margin-bottom:4px;';p.innerHTML=html;d.appendChild(p);}
+    if(r.loadDate)addLine('<span style="font-size:13px;color:var(--muted);">'+fmtDate(r.loadDate)+' &middot; '+(r.kiln||'--')+' &middot; '+(r.program||'--')+'</span>');
+    if(r.sg)addLine('<strong>SG at application:</strong> '+r.sg+(r.viscosity?' &middot; <strong>Viscosity:</strong> '+r.viscosity+'s':'')+(r.method?' &middot; '+r.method:''));
+    if(r.color)addLine('<strong>Color:</strong> '+r.color);
+    if(r.finish)addLine('<strong>Finish:</strong> '+r.finish+(r.cone?' &middot; <strong>Cone:</strong> '+r.cone:''));
+    if(r.defects)addLine('<strong>Defects:</strong> '+r.defects);
+    if(r.expectations){var exp=document.createElement('div');exp.style.cssText='font-size:13px;color:var(--muted);font-style:italic;margin-bottom:2px;';exp.textContent='Expected: '+r.expectations;d.appendChild(exp);}
+    if(r.resultNotes){var rn=document.createElement('div');rn.style.cssText='font-size:14px;color:var(--muted);margin-top:6px;font-style:italic;';rn.textContent=r.resultNotes;d.appendChild(rn);}
+    if(r.photo){var ph=document.createElement('div');ph.style.marginTop='8px';var a=document.createElement('a');a.href=r.photo;a.target='_blank';a.style.cssText='font-size:13px;color:var(--forest);';a.textContent='View photo';ph.appendChild(a);d.appendChild(ph);}
+    container.appendChild(d);
+  });
+}
+
+// -- NEW GLAZE MODAL ---------------------------------------------------------
+function openNewGlazeModal(){
+  updateNewGlazeIdPreview();
+  ['new-glaze-name','new-glaze-based-on','new-glaze-notes','new-glaze-warning','new-glaze-change-notes'].forEach(function(id){document.getElementById(id).value='';});
+  document.getElementById('new-glaze-sg').value='';
+  document.getElementById('new-colorant-rows').innerHTML='';
+  addColorantRow();
+  // rebuild base dropdown in modal from all bases
+  var sel=document.getElementById('new-glaze-base');sel.innerHTML='';
+  var all=getAllBases();
+  Object.keys(BUILTIN_BASES).forEach(function(k){var o=document.createElement('option');o.value=k;o.textContent=k+' -- '+all[k].name;sel.appendChild(o);});
+  GLAZE_BASES.forEach(function(b){var o=document.createElement('option');o.value=b.id;o.textContent=b.id+' -- '+b.name;sel.appendChild(o);});
+  document.getElementById('new-glaze-modal').classList.add('open');
+}
+function closeNewGlazeModal(){document.getElementById('new-glaze-modal').classList.remove('open');}
+function setSeries(s,btn){newGlazeSeries=s;document.querySelectorAll('#series-toggle button').forEach(function(b){b.classList.remove('active');});btn.classList.add('active');updateNewGlazeIdPreview();}
+function updateNewGlazeIdPreview(){document.getElementById('new-glaze-id-preview').textContent=nextTNum(newGlazeSeries);}
+function addColorantRow(){var c=document.getElementById('new-colorant-rows');var d=document.createElement('div');d.className='colorant-input-group';d.innerHTML='<input type="text" placeholder="Colorant name" style="flex:2;min-width:160px;"><input type="number" placeholder="g per 600g" step="0.01" min="0" style="width:120px;"><span class="unit-label">g per 600g base</span><button class="remove-colorant-btn" onclick="this.parentElement.remove()">x</button>';c.appendChild(d);}
+function saveNewGlaze(){
+  var newId=nextTNum(newGlazeSeries),name=document.getElementById('new-glaze-name').value.trim();if(!name){alert('Please enter a glaze name.');return;}
+  var colorants=[];document.querySelectorAll('#new-colorant-rows .colorant-input-group').forEach(function(row){var inp=row.querySelectorAll('input');var n=inp[0].value.trim(),a=parseFloat(inp[1].value);if(n&&!isNaN(a)&&a>0)colorants.push({name:n,gPer600g:a});});
+  var ng={id:newId,name:newId+' - '+name+' - T'+newGlazeSeries,base:document.getElementById('new-glaze-base').value,type:document.getElementById('new-glaze-type').value,status:'test',colorants:colorants};
+  var bo=document.getElementById('new-glaze-based-on').value.trim(),no=document.getElementById('new-glaze-notes').value.trim(),wa=document.getElementById('new-glaze-warning').value.trim(),sg=document.getElementById('new-glaze-sg').value,ch=document.getElementById('new-glaze-change-notes').value.trim();
+  if(bo)ng.based_on=bo;if(no)ng.note=no;if(wa)ng.warning=wa;if(sg)ng.target_sg=parseFloat(sg);if(ch)ng.change_notes=ch;
+  GLAZES.push(ng);buildGlazeDropdown();closeNewGlazeModal();document.getElementById('glaze-select').value=newId;updateColors();
+  saveGlazesToBlob().then(function(ok){showToast(newId+' added - '+(ok?'saved':'Blob failed'));});
+}
+
+// -- BLOB + GITHUB -----------------------------------------------------------
+async function blobRead(key){try{var r=await fetch('/.netlify/functions/data?key='+key);return r.ok?await r.json():null;}catch(e){return null;}}
+async function blobWrite(key,value){try{var r=await fetch('/.netlify/functions/data',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({key:key,value:value})});return r.ok;}catch(e){return false;}}
+
+async function fetchGlazes(){
+  var d=await blobRead(BLOB_KEY);if(d&&Array.isArray(d)&&d.length){GLAZES=d;console.log('Loaded '+GLAZES.length+' glazes from Blob');return;}
+  try{var r=await fetch('./glazes.json');if(!r.ok)throw new Error('HTTP '+r.status);GLAZES=await r.json();await blobWrite(BLOB_KEY,GLAZES);console.log('Seeded '+GLAZES.length+' glazes');}catch(e){console.error('Failed to load glazes:',e);}
+}
+async function fetchKilnRecords(){var d=await blobRead(BLOB_KEY_RECORDS);if(d&&Array.isArray(d)){KILN_RECORDS=d;console.log('Loaded '+KILN_RECORDS.length+' kiln records');}}
+async function fetchBatchRecords(){var d=await blobRead(BLOB_KEY_BATCHES);if(d&&Array.isArray(d)){GLAZE_BATCHES=d;console.log('Loaded '+GLAZE_BATCHES.length+' batch records');}}
+async function fetchBases(){var d=await blobRead(BLOB_KEY_BASES);if(d&&Array.isArray(d)){GLAZE_BASES=d;console.log('Loaded '+GLAZE_BASES.length+' custom bases');}}
+
+async function saveGlazesToBlob(){
+  var ok=await blobWrite(BLOB_KEY,GLAZES);
+  if(ok&&GLAZES.length>0)writeToGitHub('cane-creek-app','glazes.json',JSON.stringify(GLAZES,null,2),'glazes.json -- auto-save');
+  return ok;
+}
+async function saveKilnRecordsToBlob(){var ok=await blobWrite(BLOB_KEY_RECORDS,KILN_RECORDS);if(ok)writeGlazeAppDataToGitHub();return ok;}
+async function saveBatchesToBlob(){var ok=await blobWrite(BLOB_KEY_BATCHES,GLAZE_BATCHES);if(ok)writeGlazeAppDataToGitHub();return ok;}
+async function saveBasesToBlob(){
+  var ok=await blobWrite(BLOB_KEY_BASES,GLAZE_BASES);
+  if(ok){
+    writeToGitHub('cane-creek-app','bases.json',JSON.stringify(GLAZE_BASES,null,2),'bases.json -- auto-save');
+    writeGlazeAppDataToGitHub();
+  }
+  return ok;
+}
+
+async function writeToGitHub(repo,filePath,content,msg){
+  var pat=localStorage.getItem('github_pat');if(!pat)return{ok:false,reason:'no_token'};
+  var base='https://api.github.com/repos/Pcane/'+repo+'/contents/'+filePath;
+  var headers={'Authorization':'token '+pat,'Accept':'application/vnd.github+json','Content-Type':'application/json'};
+  var sha=null;try{var r=await fetch(base,{headers:headers});var dd=await r.json();if(dd.sha)sha=dd.sha;}catch(e){}
+  try{var body={message:msg||'Update '+filePath,content:btoa(unescape(encodeURIComponent(content)))};if(sha)body.sha=sha;var r2=await fetch(base,{method:'PUT',headers:headers,body:JSON.stringify(body)});return r2.ok?{ok:true}:{ok:false,reason:'HTTP '+r2.status};}catch(e){return{ok:false,reason:e.message};}
+}
+
+async function writeGlazeAppDataToGitHub(){
+  function fgl(list){return list.map(function(g){var cl=g.colorants.length?g.colorants.map(function(c){return c.name+' '+c.gPer600g+'g';}).join(', '):'no colorant';return '- **'+g.id+'** -- '+g.name+' | Base: '+(g.base||'G2926B')+' | '+cl+(g.target_sg?' | Target SG: '+g.target_sg:'');}).join('\n');}
+  var recs=[].concat(KILN_RECORDS).sort(function(a,b){return(b.loadDate||b.savedAt).localeCompare(a.loadDate||a.savedAt);}).slice(0,20);
+  function fr(r){var s='### '+r.tileLabel+'\n- Recipe: '+r.recipe+'\n- Base: '+r.base+' | SG: '+(r.sg||'--')+' | Method: '+(r.method||'--')+'\n';if(r.loadDate)s+='- Fired: '+fmtDate(r.loadDate)+' | '+(r.kiln||'--')+' | '+(r.cone||'--')+'\n';if(r.color)s+='- Color: '+r.color+'\n';if(r.finish)s+='- Finish: '+r.finish+'\n';if(r.rating)s+='- Rating: '+r.rating+'\n';if(r.resultNotes)s+='- Notes: '+r.resultNotes+'\n';return s;}
+  function fbatch(b){var s='### '+b.batchId+' -- '+b.baseId+'\n- Date: '+fmtDate(b.date)+'\n- Dry: '+b.dryWeight+'g | Water: '+b.waterAdded+'g | SG: '+b.stockSG+'\n';if(b.fFactor!=null)s+='- Calculated f factor: '+b.fFactor+'\n';if(b.fFactorEmpirical!=null)s+='- Empirical f factor: '+b.fFactorEmpirical+'\n';if(b.viscosity!=null)s+='- Viscosity: '+b.viscosity+'s\n';if(b.cmcAdded!=null)s+='- CMC: '+b.cmcAdded+'g\n';if(b.epsomAdded!=null)s+='- Epsom: '+b.epsomAdded+'g\n';if(b.veegumAdded!=null)s+='- Veegum: '+b.veegumAdded+'g\n';if(b.notes)s+='- Notes: '+b.notes+'\n';return s;}
+  var active=GLAZES.filter(function(g){return g.status==='active';}),test=GLAZES.filter(function(g){return g.status==='test';}),susp=GLAZES.filter(function(g){return g.status==='suspended';}),ret=GLAZES.filter(function(g){return g.status==='retired';});
+  var allBaseIds=['G2926B','G1214M'].concat(GLAZE_BASES.map(function(b){return b.id;}));
+  var batchSections=allBaseIds.map(function(bid){var bb=GLAZE_BATCHES.filter(function(b){return b.baseId===bid;}).sort(function(a,b){return b.date.localeCompare(a.date);});return '### '+bid+' ('+bb.length+' batch'+(bb.length!==1?'es':'')+')\n'+(bb.length?bb.map(fbatch).join('\n'):'No batches recorded yet.');}).join('\n\n');
+  var customBasesSection=GLAZE_BASES.length?'\n\n## Custom Bases\n'+GLAZE_BASES.map(function(b){return '### '+b.id+' -- '+b.name+'\n- Target SG: '+b.targetSG+' | Dry lb/gal: '+b.dryLbPerGal+'\n- Ingredients: '+b.ingredients.map(function(i){return i.name+' '+i.pct+'%';}).join(', ')+(b.notes?'\n- Notes: '+b.notes:'');}).join('\n\n'):'';
+  var content='# GLAZE_APP_DATA.md -- Cane Creek Glaze Studio\nLast updated: '+new Date().toLocaleString()+'\n\n## Glaze Library\n\n### Active ('+active.length+')\n'+(active.length?fgl(active):'None')+'\n\n### Test ('+test.length+')\n'+(test.length?fgl(test):'None')+'\n\n### Suspended ('+susp.length+')\n'+(susp.length?fgl(susp):'None')+'\n\n### Retired ('+ret.length+')\n'+(ret.length?fgl(ret):'None')+customBasesSection+'\n\n## Base Slurry Batch Records\n\n'+batchSections+'\n\n## Recent Firing Records\n\n'+(recs.length?recs.map(fr).join('\n---\n\n'):'No firing records yet.')+'\n\n## Studio Constants\n- Bases: G2926B (standard gloss, SG 1.35) and G1214M (chrome-tin only, UNTESTED)\n- Firing: Cone 6 oxidation, User 3 (drop-and-soak, 2185F peak, 30 min soak)\n- Benchmark: G21 Dark Brown (RIO 5% + Light Rutile 1% in G2926B)\n- Confirmed clean: G11, G16, G21, G24\n';
+  var r=await writeToGitHub('Cane-Creek-State','GLAZE_APP_DATA.md',content,'GLAZE_APP_DATA.md -- auto-update');
+  if(r.ok)console.log('GLAZE_APP_DATA.md written');else console.error('GLAZE_APP_DATA write failed:',r.reason);
+}
+
+async function updateState(){
+  var active=GLAZES.filter(function(g){return g.status==='active';}).map(function(g){return '- '+g.id+': '+g.name;}).join('\n');
+  var content='# GLAZE_STATE.md -- Cane Creek Glaze Studio\nGenerated: '+new Date().toLocaleString()+'\n\n## Glaze counts\n- Active: '+GLAZES.filter(function(g){return g.status==='active';}).length+'\n- Test: '+GLAZES.filter(function(g){return g.status==='test';}).length+'\n- Suspended: '+GLAZES.filter(function(g){return g.status==='suspended';}).length+'\n- Retired: '+GLAZES.filter(function(g){return g.status==='retired';}).length+'\n- Total: '+GLAZES.length+'\n\n## Active glazes\n'+(active||'none')+'\n\n## Batch records\n- G2926B: '+GLAZE_BATCHES.filter(function(b){return b.baseId==='G2926B';}).length+' batches\n- G1214M: '+GLAZE_BATCHES.filter(function(b){return b.baseId==='G1214M';}).length+' batches\n- Custom bases: '+GLAZE_BASES.length+'\n';
+  var r=await writeToGitHub('Cane-Creek-State','GLAZE_STATE.md',content,'GLAZE_STATE.md -- updated');
+  showToast(r.ok?'GLAZE_STATE.md written to GitHub':'State write failed: '+r.reason);
+}
+
+document.addEventListener('keydown',function(e){
+  if(!window._tb)window._tb='';
+  if(e.key.length===1)window._tb+=e.key.toLowerCase();
+  else if(e.key==='Enter'){if(window._tb.includes('update state'))updateState();window._tb='';}
+  clearTimeout(window._tt);window._tt=setTimeout(function(){window._tb='';},3000);
+});
+
+document.addEventListener('DOMContentLoaded',async function(){
+  await fetchGlazes();await fetchKilnRecords();await fetchBatchRecords();await fetchBases();
+  renderClay();
+  buildBaseDropdown();
+  buildGlazeDropdown();
+  console.log('Glaze Studio ready. Type update state + Enter to save session.');
+  writeGlazeAppDataToGitHub();
+});
+
+</script>
+</body>
+</html>
