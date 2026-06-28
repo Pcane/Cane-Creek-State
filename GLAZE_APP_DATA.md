@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 6/27/2026, 11:12:53 PM
+Last updated: 6/28/2026, 10:50:19 AM
 
 ## Glaze Library
 
@@ -11,10 +11,9 @@ Last updated: 6/27/2026, 11:12:53 PM
 - **G26** -- G26 - Sky Blue — OX | Base: G2926B | Copper Carbonate 1.818g, Light Rutile 3.03g | Target SG: 1.32
 - **G38** -- G38 - Orange — OX | Base: G2926B | Light Rutile 19.392g | Target SG: 1.32
 
-### Test (7)
+### Test (6)
 - **G29** -- G29 — Vanadium Yellow + Iron Edge — OX | Base: G2926B | Vanadium Yellow 14.544g, Red Iron Oxide (synthetic) 1.515g | Target SG: 1.32
 - **G30** -- G30 — Cobalt Blue + Rutile Break — OX | Base: G2926B | Cobalt Oxide 2.424g, Light Rutile 6.06g | Target SG: 1.32
-- **G35** -- G35 — UNC Blue + Rutile — MX | Base: G2926B | Mason 6374 7.273g, Light Rutile 3.03g | Target SG: 1.32
 - **TG1** -- TG1 - G40v2 - TG | Base: G2926B | RIO 39.4g, Light Rutile 3.03g
 - **TG2** -- TG2 - G44 Honey Amber - TG | Base: G2926B | Light Rutile 12.12g, SpanishRed Iron Oxide 6.06g
 - **TG3** -- TG3 - G45 -- Olive Brown - TG | Base: G2926B | Spanish Red Iron Oxide 18.18g, Chrome Oxide 1.818g
@@ -25,7 +24,7 @@ Last updated: 6/27/2026, 11:12:53 PM
 - **G24** -- G24 — Clear Gloss — OX | Base: G2926B | no colorant | Target SG: 1.32
 - **G25HC** -- G25-HC — Chrome-Tin Cranberry Red, High Calcium — OX/HC | Base: G2926B | Chrome Oxide 0.364g, Tin Oxide 25.2g, Wollastonite W-20 28.3g | Target SG: 1.32
 
-### Retired (30)
+### Retired (31)
 - **G1** -- G1 — Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 12.1g
 - **G2** -- G2 — Mid-Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 19.4g
 - **G3** -- G3 — Transparent UNC Blue — MS | Base: G2926B | Mason 6374 7.273g
@@ -49,6 +48,7 @@ Last updated: 6/27/2026, 11:12:53 PM
 - **G32** -- G32 — Iron Brown Light — OX | Base: G2926B | Red Iron Oxide (synthetic) 18.18g, Light Rutile 9.09g | Target SG: 1.32
 - **G33** -- G33 — Iron Brown + Manganese — OX | Base: G2926B | Red Iron Oxide (synthetic) 24.24g, Light Rutile 6.06g, Manganese Dioxide 3.03g | Target SG: 1.32
 - **G34** -- G34 — Black + Rutile + Manganese — MX | Base: G2926B | Mason 6600 12.12g, Light Rutile 6.06g, Manganese Dioxide 3.03g | Target SG: 1.32
+- **G35** -- G35 — UNC Blue + Rutile — MX | Base: G2926B | Mason 6374 7.273g, Light Rutile 3.03g | Target SG: 1.32
 - **G36** -- G36 — Turquoise — OX | Base: G2926B | Copper Carbonate 4.848g | Target SG: 1.32
 - **G37** -- G37 — Aubergine — OX | Base: G2926B | Manganese Dioxide 9.696g, Cobalt Oxide 0.727g | Target SG: 1.32
 - **G39** -- G39 — Warm Ivory — OX | Base: G2926B | Tin Oxide 9.696g, Red Iron Oxide (synthetic) 0.727g | Target SG: 1.32
