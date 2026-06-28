@@ -302,7 +302,7 @@ textarea:focus { border-color:var(--forest); }
       <div id="bench-change-notes" style="display:none;font-size:13px;color:var(--clay-dk);font-style:italic;margin-bottom:10px;padding:6px 10px;background:rgba(92,44,10,0.06);border-radius:6px;"></div>
       <div id="bench-sg-row" style="display:none;align-items:center;gap:10px;margin-bottom:8px;padding-bottom:10px;border-bottom:1px solid var(--border);">
         <span style="font-size:14px;color:var(--muted);">Target SG</span>
-        <input type="number" id="bench-target-sg" step="0.01" min="1.0" max="1.7" style="width:90px;font-size:15px;padding:6px 10px;border:1.5px solid var(--border);border-radius:6px;background:var(--cream);color:var(--ink);" oninput="updateCMCAdvice()">
+        <input type="number" id="bench-target-sg" step="0.01" min="1.0" max="1.7" style="width:90px;font-size:15px;padding:6px 10px;border:1.5px solid var(--border);border-radius:6px;background:var(--cream);color:var(--ink);">
         <button class="btn-sm btn-promote" onclick="saveGlazeSG()" style="padding:6px 14px;font-size:13px;">Save</button>
         <span id="bench-sg-saved" style="font-size:13px;color:var(--good);display:none;">Saved</span>
       </div>
@@ -310,7 +310,6 @@ textarea:focus { border-color:var(--forest); }
       <div id="bench-colorants"></div>
       <div id="bench-water-row" style="display:none;justify-content:space-between;align-items:baseline;padding:12px 0;border-bottom:1px solid var(--border);"><span style="font-size:24px;color:var(--forest);">Water to mix with colorants</span><span id="bench-water-amount" style="font-size:36px;font-weight:600;color:var(--forest);"></span></div>
       <div class="bench-base-row"><span style="font-size:17px;color:var(--muted);" id="bench-base-label">G2926B base</span><span style="font-size:32px;font-weight:600;color:var(--ink);" id="bench-base-weight"></span></div>
-      <div id="bench-cmc-advice" style="display:none;margin-top:12px;padding:10px 14px;border-radius:8px;font-size:14px;line-height:1.6;"></div>
       <div id="bench-expectation" style="display:none;margin-top:16px;padding-top:14px;border-top:1px solid var(--border);font-size:15px;color:var(--muted);font-style:italic;"></div>
       <div id="color-warning" class="warning" style="display:none;margin-top:12px;"></div>
     </div>
