@@ -1,23 +1,24 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 6/27/2026, 10:50:52 PM
+Last updated: 6/27/2026, 11:12:53 PM
 
 ## Glaze Library
 
-### Active (5)
-- **G11** -- G11 — Transparent Dark Green — OX | Base: G2926B | Chrome Oxide 1.212g | Target SG: 1.29
-- **G16** -- G16 — White — OX | Base: G2926B | Tin Oxide 4.848g | Target SG: 1.32
-- **G21** -- G21 — Dark Brown — OX | Base: G2926B | Red Iron Oxide (synthetic) 12.12g, Light Rutile 2.424g | Target SG: 1.24
-- **G25** -- G25 — Chrome-Tin Cranberry Red — OX | Base: G2926B | Chrome Oxide 0.364g, Tin Oxide 25.2g | Target SG: 1.32
-- **G38** -- G38 — Rutile Ochre — OX | Base: G2926B | Light Rutile 19.392g | Target SG: 1.32
+### Active (6)
+- **G11** -- G11 - Trans Dark Green — OX | Base: G2926B | Chrome Oxide 1.212g | Target SG: 1.29
+- **G16** -- G16 - White — OX | Base: G2926B | Tin Oxide 4.848g | Target SG: 1.32
+- **G21** -- G21 - Trans Earthy Brown — OX | Base: G2926B | Red Iron Oxide (synthetic) 12.12g, Light Rutile 2.424g | Target SG: 1.24
+- **G25** -- G25 - Chrome-Tin Cranberry Red — OX | Base: G2926B | Chrome Oxide 0.364g, Tin Oxide 25.2g | Target SG: 1.32
+- **G26** -- G26 - Sky Blue — OX | Base: G2926B | Copper Carbonate 1.818g, Light Rutile 3.03g | Target SG: 1.32
+- **G38** -- G38 - Orange — OX | Base: G2926B | Light Rutile 19.392g | Target SG: 1.32
 
 ### Test (7)
-- **G26** -- G26 — Copper Celadon Green — OX | Base: G2926B | Copper Carbonate 1.818g, Light Rutile 3.03g | Target SG: 1.32
 - **G29** -- G29 — Vanadium Yellow + Iron Edge — OX | Base: G2926B | Vanadium Yellow 14.544g, Red Iron Oxide (synthetic) 1.515g | Target SG: 1.32
 - **G30** -- G30 — Cobalt Blue + Rutile Break — OX | Base: G2926B | Cobalt Oxide 2.424g, Light Rutile 6.06g | Target SG: 1.32
 - **G35** -- G35 — UNC Blue + Rutile — MX | Base: G2926B | Mason 6374 7.273g, Light Rutile 3.03g | Target SG: 1.32
 - **TG1** -- TG1 - G40v2 - TG | Base: G2926B | RIO 39.4g, Light Rutile 3.03g
 - **TG2** -- TG2 - G44 Honey Amber - TG | Base: G2926B | Light Rutile 12.12g, SpanishRed Iron Oxide 6.06g
 - **TG3** -- TG3 - G45 -- Olive Brown - TG | Base: G2926B | Spanish Red Iron Oxide 18.18g, Chrome Oxide 1.818g
+- **TG4** -- TG4 - G46 green iron tinge - TG | Base: G2926B | Copper Carbonate 3.636g, Spanish RIO 3.03g
 
 ### Suspended (3)
 - **G12** -- G12 — Vanadium Yellow — OX | Base: G2926B | Vanadium Yellow 14.544g | Target SG: 1.32
@@ -73,6 +74,12 @@ Last updated: 6/27/2026, 10:50:52 PM
 No batches recorded yet.
 
 ## Recent Firing Records
+
+### TG4 - Jun26 - A
+- Recipe: Copper Carbonate: 3.636g per 600g, Spanish RIO: 3.03g per 600g
+- Base: G2926B | SG: -- | Method: --
+
+---
 
 ### G38 - Jun26 - A
 - Recipe: Light Rutile: 19.392g per 600g
