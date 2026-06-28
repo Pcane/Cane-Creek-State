@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 6/28/2026, 3:30:08 PM
+Last updated: 6/28/2026, 3:46:02 PM
 
 ## Glaze Library
 
@@ -22,7 +22,7 @@ Last updated: 6/28/2026, 3:30:08 PM
 - **G30v3** -- G30v3 - Transparent Blue Wash - OX | Base: G2926B | Cobalt Oxide 2.424g, Light Rutile 6.06g | Target SG: 1.33
 - **G30v5** -- G30v5 - Dark Blue - OX | Base: G2926B | Cobalt Oxide 2.424g, Light Rutile 6.06g | Target SG: 1.38
 - **G29v2** -- G29v2 - Vanadium Yellow Iron Edge - OX | Base: G2926B | Vanadium Yellow 14.544g, Red Iron Oxide 4.545g | Target SG: 1.32
-- **G25v2** -- G25v2 - Chrome-Tin Cranberry Red - OX | Base: G1214M | Chrome Oxide 0.727g, Tin Oxide 25.2g | Target SG: 1.32
+- **G25v2** -- G25v2 - Chrome-Tin Cranberry Red - OX | Base: G1214M | Chrome Oxide 0.727g, Tin Oxide 25.2g | Target SG: 1.38
 - **G38v2** -- G38v2 - Orange Satin - OX | Base: G2926B | Light Rutile 19.392g | Target SG: 1.3
 - **TG5** -- TG5 - Cobalt Iron Blue - TG | Base: G2926B | Cobalt Oxide 2.424g, Red Iron Oxide 4.85g | Target SG: 1.32
 - **TG8** -- TG8 - Rutile Amber - TG | Base: G2926B | Light Rutile 19.392g, Red Iron Oxide 6.06g | Target SG: 1.3
