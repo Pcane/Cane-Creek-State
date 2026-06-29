@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 6/29/2026, 1:08:03 PM
+Last updated: 6/29/2026, 1:08:30 PM
 
 ## Glaze Library
 
@@ -85,6 +85,12 @@ Last updated: 6/29/2026, 1:08:03 PM
 No batches recorded yet.
 
 ## Recent Firing Records
+
+### G30v6 - Jun26 - A
+- Recipe: Cobalt Oxide: 2.424g per 600g, Red Iron Oxide: 4.85g per 600g
+- Base: G2926B | SG: 1.32 | Method: --
+
+---
 
 ### G38v2 - Jun26 - A
 - Recipe: Light Rutile: 19.392g per 600g
@@ -244,17 +250,6 @@ No batches recorded yet.
 - Finish: Satin
 - Rating: Poor
 - Notes: not an amber at all-very far from it-mostly off white matte
-
----
-
-### G35 - Jun26 - A
-- Recipe: Mason 6374: 7.273g per 600g, Light Rutile: 3.03g per 600g
-- Base: G2926B | SG: -- | Method: Pour
-- Fired: Jun 26, 2026 | Kiln 2 | Cone 6 -- full melt
-- Color: dark blue
-- Finish: Gloss
-- Rating: Fair
-- Notes: blue is good dont see rutile effects
 
 
 ## Studio Constants
