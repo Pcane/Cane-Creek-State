@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 6/29/2026, 1:07:08 PM
+Last updated: 6/29/2026, 1:07:18 PM
 
 ## Glaze Library
 
@@ -85,6 +85,12 @@ Last updated: 6/29/2026, 1:07:08 PM
 No batches recorded yet.
 
 ## Recent Firing Records
+
+### G30v5 - Jun26 - A
+- Recipe: Cobalt Oxide: 2.424g per 600g, Light Rutile: 6.06g per 600g
+- Base: G2926B | SG: 1.38 | Method: --
+
+---
 
 ### G30v3 - Jun26 - A
 - Recipe: Cobalt Oxide: 2.424g per 600g, Light Rutile: 6.06g per 600g
@@ -254,12 +260,6 @@ No batches recorded yet.
 - Finish: Gloss
 - Rating: Good
 - Notes: not the color i expected it was a light orange. only gave it one pour
-
----
-
-### G29 · Jun26 · A
-- Recipe: Vanadium Yellow: 14.544g per 600g, Red Iron Oxide (synthetic): 1.515g per 600g
-- Base: G2926B | SG: -- | Method: --
 
 
 ## Studio Constants
