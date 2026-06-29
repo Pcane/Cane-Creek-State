@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 6/28/2026, 9:42:03 PM
+Last updated: 6/29/2026, 9:00:25 AM
 
 ## Glaze Library
 
@@ -12,11 +12,10 @@ Last updated: 6/28/2026, 9:42:03 PM
 - **G38** -- G38 - Orange — OX | Base: G2926B | Light Rutile 19.392g | Target SG: 1.3
 
 ### Test (13)
-- **G29** -- G29 — Vanadium Yellow + Iron Edge — OX | Base: G2926B | Vanadium Yellow 14.544g, Spanish Red Iron Oxide 1.515g | Target SG: 1.32
-- **G40v2** -- G40v2 - Iron Black - OX | Base: G2926B | Spanish Red Iron Oxide 39.4g, Light Rutile 3.03g | Target SG: 1.32
+- **G40v2** -- G40v2 - Tenmoku - OX | Base: G2926B | Spanish Red Iron Oxide 39.4g, Light Rutile 3.03g | Target SG: 1.32
 - **G44** -- G44 - Honey Amber - OX | Base: G2926B | Light Rutile 12.12g, Spanish Red Iron Oxide 6.06g | Target SG: 1.32
 - **G45** -- G45 - Olive Brown - OX | Base: G2926B | Spanish Red Iron Oxide 18.18g, Chrome Oxide 1.818g | Target SG: 1.32
-- **G46** -- G46 - Copper Blue-Green - OX | Base: G2926B | Copper Carbonate 3.636g, Spanish Red Iron Oxide 3.03g | Target SG: 1.32
+- **G46** -- G46 - Copper Blue-Green - OX | Base: G2926B | Copper Carbonate 3.636g, Spanish Red Iron Oxide 3.03g | Target SG: 1.35
 - **G30v2** -- G30v2 - Cobalt Blue Doubled Rutile - OX | Base: G2926B | Cobalt Oxide 2.424g, Light Rutile 12.12g | Target SG: 1.32
 - **G30v3** -- G30v3 - Transparent Blue Wash - OX | Base: G2926B | Cobalt Oxide 2.424g, Light Rutile 6.06g | Target SG: 1.33
 - **G30v5** -- G30v5 - Dark Blue - OX | Base: G2926B | Cobalt Oxide 2.424g, Light Rutile 6.06g | Target SG: 1.38
@@ -25,11 +24,13 @@ Last updated: 6/28/2026, 9:42:03 PM
 - **G38v2** -- G38v2 - Orange Satin - OX | Base: G2926B | Light Rutile 19.392g | Target SG: 1.3
 - **G30v6** -- G30v6 - Cobalt Iron Blue - OX | Base: G2926B | Cobalt Oxide 2.424g, Red Iron Oxide 4.85g | Target SG: 1.32
 - **G38v3** -- G38v3 - Rutile Amber - OX | Base: G2926B | Light Rutile 19.392g, Red Iron Oxide 6.06g | Target SG: 1.3
+- **TG1** -- TG1 - v26v2 - TG | Base: G2926B | no colorant
 
-### Suspended (5)
+### Suspended (6)
 - **G12** -- G12 — Vanadium Yellow — OX | Base: G2926B | Vanadium Yellow 14.544g | Target SG: 1.32
 - **G24** -- G24 — Clear Gloss — OX | Base: G2926B | no colorant | Target SG: 1.32
 - **G25HC** -- G25-HC — Chrome-Tin Cranberry Red, High Calcium — OX/HC | Base: G1214M | Chrome Oxide 0.364g, Tin Oxide 25.2g, Wollastonite W-20 28.3g | Target SG: 1.32
+- **G29** -- G29 — Vanadium Yellow + Iron Edge — OX | Base: G2926B | Vanadium Yellow 14.544g, Spanish Red Iron Oxide 1.515g | Target SG: 1.32
 - **G30** -- G30 — Cobalt Blue + Rutile Break — OX | Base: G2926B | Cobalt Oxide 2.424g, Light Rutile 6.06g | Target SG: 1.32
 - **G30v4** -- G30v4 - Transparent Medium Blue - OX | Base: G2926B | Cobalt Oxide 2.424g, Light Rutile 6.06g | Target SG: 1.36
 
