@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 6/29/2026, 1:08:39 PM
+Last updated: 6/29/2026, 1:08:41 PM
 
 ## Glaze Library
 
@@ -88,7 +88,7 @@ No batches recorded yet.
 
 ### G30v6 - Jun26 - A
 - Recipe: Cobalt Oxide: 2.424g per 600g, Red Iron Oxide: 4.85g per 600g
-- Base: G2926B | SG: 1.32 | Method: --
+- Base: G2926B | SG: 1.32 | Method: Pour
 
 ---
 
