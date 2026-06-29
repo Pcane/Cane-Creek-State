@@ -1,36 +1,36 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 6/28/2026, 3:46:02 PM
+Last updated: 6/28/2026, 9:41:29 PM
 
 ## Glaze Library
 
 ### Active (6)
 - **G11** -- G11 - Trans Dark Green — OX | Base: G2926B | Chrome Oxide 1.212g | Target SG: 1.29
 - **G16** -- G16 - White — OX | Base: G2926B | Tin Oxide 4.848g | Target SG: 1.32
-- **G21** -- G21 - Trans Earthy Brown — OX | Base: G2926B | Red Iron Oxide (synthetic) 12.12g, Light Rutile 2.424g | Target SG: 1.24
-- **G25** -- G25 - Chrome-Tin Cranberry Red — OX | Base: G2926B | Chrome Oxide 0.364g, Tin Oxide 25.2g | Target SG: 1.32
+- **G21** -- G21 - Trans Earthy Brown — OX | Base: G2926B | Spanish Red Iron Oxide 12.12g, Light Rutile 2.424g | Target SG: 1.24
+- **G25** -- G25 - Chrome-Tin Cranberry Red — OX | Base: G1214M | Chrome Oxide 0.364g, Tin Oxide 25.2g | Target SG: 1.32
 - **G26** -- G26 - Sky Blue — OX | Base: G2926B | Copper Carbonate 1.818g, Light Rutile 3.03g | Target SG: 1.32
 - **G38** -- G38 - Orange — OX | Base: G2926B | Light Rutile 19.392g | Target SG: 1.3
 
-### Test (14)
-- **G29** -- G29 — Vanadium Yellow + Iron Edge — OX | Base: G2926B | Vanadium Yellow 14.544g, Red Iron Oxide (synthetic) 1.515g | Target SG: 1.32
-- **G30** -- G30 — Cobalt Blue + Rutile Break — OX | Base: G2926B | Cobalt Oxide 2.424g, Light Rutile 6.06g | Target SG: 1.32
-- **TG1** -- TG1 - G40v2 - TG | Base: G2926B | RIO 39.4g, Light Rutile 3.03g | Target SG: 1.32
-- **TG2** -- TG2 - G44 Honey Amber - TG | Base: G2926B | Light Rutile 12.12g, SpanishRed Iron Oxide 6.06g | Target SG: 1.32
-- **TG3** -- TG3 - G45 -- Olive Brown - TG | Base: G2926B | Spanish Red Iron Oxide 18.18g, Chrome Oxide 1.818g | Target SG: 1.32
-- **TG4** -- TG4 - G46 green iron tinge - TG | Base: G2926B | Copper Carbonate 3.636g, Spanish RIO 3.03g | Target SG: 1.32
+### Test (13)
+- **G29** -- G29 — Vanadium Yellow + Iron Edge — OX | Base: G2926B | Vanadium Yellow 14.544g, Spanish Red Iron Oxide 1.515g | Target SG: 1.32
+- **G40v2** -- G40v2 - Iron Black - OX | Base: G2926B | Spanish Red Iron Oxide 39.4g, Light Rutile 3.03g | Target SG: 1.32
+- **G44** -- G44 - Honey Amber - OX | Base: G2926B | Light Rutile 12.12g, Spanish Red Iron Oxide 6.06g | Target SG: 1.32
+- **G45** -- G45 - Olive Brown - OX | Base: G2926B | Spanish Red Iron Oxide 18.18g, Chrome Oxide 1.818g | Target SG: 1.32
+- **G46** -- G46 - Copper Blue-Green - OX | Base: G2926B | Copper Carbonate 3.636g, Spanish Red Iron Oxide 3.03g | Target SG: 1.32
 - **G30v2** -- G30v2 - Cobalt Blue Doubled Rutile - OX | Base: G2926B | Cobalt Oxide 2.424g, Light Rutile 12.12g | Target SG: 1.32
 - **G30v3** -- G30v3 - Transparent Blue Wash - OX | Base: G2926B | Cobalt Oxide 2.424g, Light Rutile 6.06g | Target SG: 1.33
 - **G30v5** -- G30v5 - Dark Blue - OX | Base: G2926B | Cobalt Oxide 2.424g, Light Rutile 6.06g | Target SG: 1.38
 - **G29v2** -- G29v2 - Vanadium Yellow Iron Edge - OX | Base: G2926B | Vanadium Yellow 14.544g, Red Iron Oxide 4.545g | Target SG: 1.32
 - **G25v2** -- G25v2 - Chrome-Tin Cranberry Red - OX | Base: G1214M | Chrome Oxide 0.727g, Tin Oxide 25.2g | Target SG: 1.38
 - **G38v2** -- G38v2 - Orange Satin - OX | Base: G2926B | Light Rutile 19.392g | Target SG: 1.3
-- **TG5** -- TG5 - Cobalt Iron Blue - TG | Base: G2926B | Cobalt Oxide 2.424g, Red Iron Oxide 4.85g | Target SG: 1.32
-- **TG8** -- TG8 - Rutile Amber - TG | Base: G2926B | Light Rutile 19.392g, Red Iron Oxide 6.06g | Target SG: 1.3
+- **G30v6** -- G30v6 - Cobalt Iron Blue - OX | Base: G2926B | Cobalt Oxide 2.424g, Red Iron Oxide 4.85g | Target SG: 1.32
+- **G38v3** -- G38v3 - Rutile Amber - OX | Base: G2926B | Light Rutile 19.392g, Red Iron Oxide 6.06g | Target SG: 1.3
 
-### Suspended (4)
+### Suspended (5)
 - **G12** -- G12 — Vanadium Yellow — OX | Base: G2926B | Vanadium Yellow 14.544g | Target SG: 1.32
 - **G24** -- G24 — Clear Gloss — OX | Base: G2926B | no colorant | Target SG: 1.32
-- **G25HC** -- G25-HC — Chrome-Tin Cranberry Red, High Calcium — OX/HC | Base: G2926B | Chrome Oxide 0.364g, Tin Oxide 25.2g, Wollastonite W-20 28.3g | Target SG: 1.32
+- **G25HC** -- G25-HC — Chrome-Tin Cranberry Red, High Calcium — OX/HC | Base: G1214M | Chrome Oxide 0.364g, Tin Oxide 25.2g, Wollastonite W-20 28.3g | Target SG: 1.32
+- **G30** -- G30 — Cobalt Blue + Rutile Break — OX | Base: G2926B | Cobalt Oxide 2.424g, Light Rutile 6.06g | Target SG: 1.32
 - **G30v4** -- G30v4 - Transparent Medium Blue - OX | Base: G2926B | Cobalt Oxide 2.424g, Light Rutile 6.06g | Target SG: 1.36
 
 ### Retired (31)
@@ -45,26 +45,26 @@ Last updated: 6/28/2026, 3:46:02 PM
 - **G13** -- G13 — Chartreuse — MS | Base: G2926B | Mason 6236 19.392g
 - **G14** -- G14 — Transparent Pink — MS | Base: G2926B | Mason 6001 19.392g
 - **G15** -- G15 — Transparent Red — MS | Base: G2926B | Mason 6021 6.06g
-- **G17** -- G17 — Light Tan — OX | Base: G2926B | Red Iron Oxide (synthetic) 1.26g
-- **G18** -- G18 — Dark Tan — OX | Base: G2926B | Red Iron Oxide (synthetic) 6.787g
+- **G17** -- G17 — Light Tan — OX | Base: G2926B | Spanish Red Iron Oxide 1.26g
+- **G18** -- G18 — Dark Tan — OX | Base: G2926B | Spanish Red Iron Oxide 6.787g
 - **G19** -- G19 — Light Brown — MS | Base: G2926B | Mason 6103 16.968g
 - **G20** -- G20 — Light-Dark Brown (olive/golden) — MS | Base: G2926B | Mason 6108 8.484g
 - **G22** -- G22 — Grey — MS | Base: G2926B | Mason 6600 1.309g
 - **G23** -- G23 — Black — MS | Base: G2926B | Mason 6600 12.12g
 - **G27** -- G27 — Copper Transparent Green — OX | Base: G2926B | Copper Carbonate 3.03g, Light Rutile 3.03g | Target SG: 1.32
-- **G28** -- G28 — Chrome Green + Iron Break — OX | Base: G2926B | Chrome Oxide 1.212g, Red Iron Oxide (synthetic) 3.03g | Target SG: 1.32
-- **G31** -- G31 — Sage Green + Rutile — MX | Base: G2926B | Mason 6280 4.848g, Light Rutile 3.03g, Red Iron Oxide (synthetic) 1.818g | Target SG: 1.32
-- **G32** -- G32 — Iron Brown Light — OX | Base: G2926B | Red Iron Oxide (synthetic) 18.18g, Light Rutile 9.09g | Target SG: 1.32
-- **G33** -- G33 — Iron Brown + Manganese — OX | Base: G2926B | Red Iron Oxide (synthetic) 24.24g, Light Rutile 6.06g, Manganese Dioxide 3.03g | Target SG: 1.32
+- **G28** -- G28 — Chrome Green + Iron Break — OX | Base: G2926B | Chrome Oxide 1.212g, Spanish Red Iron Oxide 3.03g | Target SG: 1.32
+- **G31** -- G31 — Sage Green + Rutile — MX | Base: G2926B | Mason 6280 4.848g, Light Rutile 3.03g, Spanish Red Iron Oxide 1.818g | Target SG: 1.32
+- **G32** -- G32 — Iron Brown Light — OX | Base: G2926B | Spanish Red Iron Oxide 18.18g, Light Rutile 9.09g | Target SG: 1.32
+- **G33** -- G33 — Iron Brown + Manganese — OX | Base: G2926B | Spanish Red Iron Oxide 24.24g, Light Rutile 6.06g, Manganese Dioxide 3.03g | Target SG: 1.32
 - **G34** -- G34 — Black + Rutile + Manganese — MX | Base: G2926B | Mason 6600 12.12g, Light Rutile 6.06g, Manganese Dioxide 3.03g | Target SG: 1.32
 - **G35** -- G35 — UNC Blue + Rutile — MX | Base: G2926B | Mason 6374 7.273g, Light Rutile 3.03g | Target SG: 1.32
 - **G36** -- G36 — Turquoise — OX | Base: G2926B | Copper Carbonate 4.848g | Target SG: 1.32
 - **G37** -- G37 — Aubergine — OX | Base: G2926B | Manganese Dioxide 9.696g, Cobalt Oxide 0.727g | Target SG: 1.32
-- **G39** -- G39 — Warm Ivory — OX | Base: G2926B | Tin Oxide 9.696g, Red Iron Oxide (synthetic) 0.727g | Target SG: 1.32
-- **G40** -- G40 — Tenmoku Iron Black — OX | Base: G2926B | Red Iron Oxide (synthetic) 21.816g | Target SG: 1.32
+- **G39** -- G39 — Warm Ivory — OX | Base: G2926B | Tin Oxide 9.696g, Spanish Red Iron Oxide 0.727g | Target SG: 1.32
+- **G40** -- G40 — Tenmoku Iron Black — OX | Base: G2926B | Spanish Red Iron Oxide 21.816g | Target SG: 1.32
 - **G41** -- G41 — Deep Teal — OX | Base: G2926B | Cobalt Carbonate 1.212g, Copper Carbonate 2.424g | Target SG: 1.32
-- **G42** -- G42 — Warm Amber — OX | Base: G2926B | Manganese Dioxide 4.848g, Red Iron Oxide (synthetic) 2.424g | Target SG: 1.32
-- **G43** -- G43 — Celadon Grey-Green — OX | Base: G2926B | Red Iron Oxide (synthetic) 0.727g, Titanium Dioxide 4.848g | Target SG: 1.32
+- **G42** -- G42 — Warm Amber — OX | Base: G2926B | Manganese Dioxide 4.848g, Spanish Red Iron Oxide 2.424g | Target SG: 1.32
+- **G43** -- G43 — Celadon Grey-Green — OX | Base: G2926B | Spanish Red Iron Oxide 0.727g, Titanium Dioxide 4.848g | Target SG: 1.32
 
 ## Base Slurry Batch Records
 
