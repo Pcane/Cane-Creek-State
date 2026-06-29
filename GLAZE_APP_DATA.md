@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 6/29/2026, 1:14:55 PM
+Last updated: 6/29/2026, 1:19:26 PM
 
 ## Glaze Library
 
@@ -85,6 +85,12 @@ Last updated: 6/29/2026, 1:14:55 PM
 No batches recorded yet.
 
 ## Recent Firing Records
+
+### G40v2 - Jun26 - A
+- Recipe: Spanish Red Iron Oxide: 39.4g per 600g, Light Rutile: 3.03g per 600g
+- Base: G2926B | SG: 1.53 | Method: --
+
+---
 
 ### G38v3 - Jun26 - A
 - Recipe: Light Rutile: 19.392g per 600g, Red Iron Oxide: 6.06g per 600g
@@ -234,17 +240,6 @@ No batches recorded yet.
 - Finish: Satin
 - Rating: Fair
 - Notes: satin, transparent, 2 coats was major improvement-maybe three?
-
----
-
-### G28 - Jun26 - A
-- Recipe: Chrome Oxide: 1.212g per 600g, Red Iron Oxide (synthetic): 3.03g per 600g
-- Base: G2926B | SG: -- | Method: Pour
-- Fired: Jun 26, 2026 | Kiln 2 | Cone 6 -- full melt
-- Color: dirty see thru brown
-- Finish: Gloss
-- Rating: Fair
-- Notes: not expected color at all-does appear to have edge effects and is transparent-but kind of a dirty dishwater color
 
 
 ## Studio Constants
