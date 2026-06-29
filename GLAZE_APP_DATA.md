@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 6/29/2026, 1:14:28 PM
+Last updated: 6/29/2026, 1:14:30 PM
 
 ## Glaze Library
 
@@ -88,7 +88,7 @@ No batches recorded yet.
 
 ### G38v3 - Jun26 - A
 - Recipe: Light Rutile: 19.392g per 600g, Red Iron Oxide: 6.06g per 600g
-- Base: G2926B | SG: 1.347 | Method: --
+- Base: G2926B | SG: 1.347 | Method: Pour
 
 ---
 
