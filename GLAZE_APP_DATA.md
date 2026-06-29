@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 6/29/2026, 9:01:13 AM
+Last updated: 6/29/2026, 12:32:17 PM
 
 ## Glaze Library
 
@@ -7,11 +7,11 @@ Last updated: 6/29/2026, 9:01:13 AM
 - **G11** -- G11 - Trans Dark Green — OX | Base: G2926B | Chrome Oxide 1.212g | Target SG: 1.29
 - **G16** -- G16 - White — OX | Base: G2926B | Tin Oxide 4.848g | Target SG: 1.32
 - **G21** -- G21 - Trans Earthy Brown — OX | Base: G2926B | Spanish Red Iron Oxide 12.12g, Light Rutile 2.424g | Target SG: 1.24
-- **G25** -- G25 - Chrome-Tin Cranberry Red — OX | Base: G1214M | Chrome Oxide 0.364g, Tin Oxide 25.2g | Target SG: 1.32
+- **G25** -- G25 - Chrome-Tin Cranberry Pink — OX | Base: G1214M | Chrome Oxide 0.364g, Tin Oxide 25.2g | Target SG: 1.32
 - **G26** -- G26 - Sky Blue — OX | Base: G2926B | Copper Carbonate 1.818g, Light Rutile 3.03g | Target SG: 1.32
 - **G38** -- G38 - Orange — OX | Base: G2926B | Light Rutile 19.392g | Target SG: 1.3
 
-### Test (12)
+### Test (13)
 - **G40v2** -- G40v2 - Tenmoku - OX | Base: G2926B | Spanish Red Iron Oxide 39.4g, Light Rutile 3.03g | Target SG: 1.32
 - **G44** -- G44 - Honey Amber - OX | Base: G2926B | Light Rutile 12.12g, Spanish Red Iron Oxide 6.06g | Target SG: 1.32
 - **G45** -- G45 - Olive Brown - OX | Base: G2926B | Spanish Red Iron Oxide 18.18g, Chrome Oxide 1.818g | Target SG: 1.32
@@ -24,6 +24,7 @@ Last updated: 6/29/2026, 9:01:13 AM
 - **G38v2** -- G38v2 - Orange Satin - OX | Base: G2926B | Light Rutile 19.392g | Target SG: 1.3
 - **G30v6** -- G30v6 - Cobalt Iron Blue - OX | Base: G2926B | Cobalt Oxide 2.424g, Red Iron Oxide 4.85g | Target SG: 1.32
 - **G38v3** -- G38v3 - Rutile Amber - OX | Base: G2926B | Light Rutile 19.392g, Red Iron Oxide 6.06g | Target SG: 1.3
+- **TG2** -- TG2 - G26v2 light green - TG | Base: G2926B | Copper Carbonate 4.9g, Light Rutile 4.09g | Target SG: 1.314
 
 ### Suspended (6)
 - **G12** -- G12 — Vanadium Yellow — OX | Base: G2926B | Vanadium Yellow 14.544g | Target SG: 1.32
