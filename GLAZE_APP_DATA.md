@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 6/29/2026, 9:00:25 AM
+Last updated: 6/29/2026, 9:01:13 AM
 
 ## Glaze Library
 
@@ -11,7 +11,7 @@ Last updated: 6/29/2026, 9:00:25 AM
 - **G26** -- G26 - Sky Blue — OX | Base: G2926B | Copper Carbonate 1.818g, Light Rutile 3.03g | Target SG: 1.32
 - **G38** -- G38 - Orange — OX | Base: G2926B | Light Rutile 19.392g | Target SG: 1.3
 
-### Test (13)
+### Test (12)
 - **G40v2** -- G40v2 - Tenmoku - OX | Base: G2926B | Spanish Red Iron Oxide 39.4g, Light Rutile 3.03g | Target SG: 1.32
 - **G44** -- G44 - Honey Amber - OX | Base: G2926B | Light Rutile 12.12g, Spanish Red Iron Oxide 6.06g | Target SG: 1.32
 - **G45** -- G45 - Olive Brown - OX | Base: G2926B | Spanish Red Iron Oxide 18.18g, Chrome Oxide 1.818g | Target SG: 1.32
@@ -24,7 +24,6 @@ Last updated: 6/29/2026, 9:00:25 AM
 - **G38v2** -- G38v2 - Orange Satin - OX | Base: G2926B | Light Rutile 19.392g | Target SG: 1.3
 - **G30v6** -- G30v6 - Cobalt Iron Blue - OX | Base: G2926B | Cobalt Oxide 2.424g, Red Iron Oxide 4.85g | Target SG: 1.32
 - **G38v3** -- G38v3 - Rutile Amber - OX | Base: G2926B | Light Rutile 19.392g, Red Iron Oxide 6.06g | Target SG: 1.3
-- **TG1** -- TG1 - v26v2 - TG | Base: G2926B | no colorant
 
 ### Suspended (6)
 - **G12** -- G12 — Vanadium Yellow — OX | Base: G2926B | Vanadium Yellow 14.544g | Target SG: 1.32
@@ -34,7 +33,7 @@ Last updated: 6/29/2026, 9:00:25 AM
 - **G30** -- G30 — Cobalt Blue + Rutile Break — OX | Base: G2926B | Cobalt Oxide 2.424g, Light Rutile 6.06g | Target SG: 1.32
 - **G30v4** -- G30v4 - Transparent Medium Blue - OX | Base: G2926B | Cobalt Oxide 2.424g, Light Rutile 6.06g | Target SG: 1.36
 
-### Retired (31)
+### Retired (32)
 - **G1** -- G1 — Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 12.1g
 - **G2** -- G2 — Mid-Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 19.4g
 - **G3** -- G3 — Transparent UNC Blue — MS | Base: G2926B | Mason 6374 7.273g
@@ -66,6 +65,7 @@ Last updated: 6/29/2026, 9:00:25 AM
 - **G41** -- G41 — Deep Teal — OX | Base: G2926B | Cobalt Carbonate 1.212g, Copper Carbonate 2.424g | Target SG: 1.32
 - **G42** -- G42 — Warm Amber — OX | Base: G2926B | Manganese Dioxide 4.848g, Spanish Red Iron Oxide 2.424g | Target SG: 1.32
 - **G43** -- G43 — Celadon Grey-Green — OX | Base: G2926B | Spanish Red Iron Oxide 0.727g, Titanium Dioxide 4.848g | Target SG: 1.32
+- **TG1** -- TG1 - v26v2 - TG | Base: G2926B | no colorant
 
 ## Base Slurry Batch Records
 
