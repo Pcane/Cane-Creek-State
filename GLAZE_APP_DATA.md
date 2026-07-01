@@ -1,9 +1,9 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/1/2026, 3:32:12 PM
+Last updated: 7/1/2026, 4:50:26 PM
 
 ## Glaze Library
 
-### Active (7)
+### Active (8)
 - **G11** -- G11 - Trans Dark Green — OX | Base: G2926B | Chrome Oxide 1.212g | Target SG: 1.29
 - **G16** -- G16 - White — OX | Base: G2926B | Tin Oxide 4.848g | Target SG: 1.32
 - **G21** -- G21 - Trans Earthy Brown — OX | Base: G2926B | Spanish Red Iron Oxide 12.12g, Light Rutile 2.424g | Target SG: 1.24
@@ -11,13 +11,11 @@ Last updated: 7/1/2026, 3:32:12 PM
 - **G26** -- G26 - Sky Blue — OX | Base: G2926B | Copper Carbonate 1.818g, Light Rutile 3.03g | Target SG: 1.32
 - **G38** -- G38 - Orange — OX | Base: G2926B | Light Rutile 19.392g | Target SG: 1.3
 - **G40v2** -- G40v2 - Tenmoku - OX | Base: G2926B | Spanish Red Iron Oxide 39.4g, Light Rutile 3.03g | Target SG: 1.32
-
-### Test (15)
-- **G44** -- G44 - Honey Amber - OX | Base: G2926B | Light Rutile 12.12g, Spanish Red Iron Oxide 6.06g | Target SG: 1.32
-- **G30v2** -- G30v2 - Light Transparent Blue-Green, Break - OX | Base: G2926B | Cobalt Oxide 2.424g, Light Rutile 12.12g | Target SG: 1.32
 - **G30v5** -- G30v5 - Uniform Transparent Blue - OX | Base: G2926B | Cobalt Oxide 2.424g, Light Rutile 6.06g | Target SG: 1.38
+
+### Test (12)
+- **G44** -- G44 - Honey Amber - OX | Base: G2926B | Light Rutile 12.12g, Spanish Red Iron Oxide 6.06g | Target SG: 1.32
 - **G29v2** -- G29v2 - Vanadium Yellow Iron Edge - OX | Base: G2926B | Vanadium Yellow 14.544g, Red Iron Oxide 4.545g | Target SG: 1.32
-- **G30v6** -- G30v6 - Transparent Blue, Darker Break - OX | Base: G2926B | Cobalt Oxide 2.424g, Red Iron Oxide 4.85g | Target SG: 1.32
 - **G38v3** -- G38v3 - Rutile Amber - OX | Base: G2926B | Light Rutile 19.392g, Red Iron Oxide 6.06g | Target SG: 1.3
 - **G21v2** -- G21v2 - Light Gold-Amber - OX | Base: G2926B | undefined undefinedg, undefined undefinedg
 - **G25v3** -- G25v3 - Chrome-Tin Coat Thickness Test - OX | Base: G1214M | undefined undefinedg, undefined undefinedg
@@ -29,15 +27,16 @@ Last updated: 7/1/2026, 3:32:12 PM
 - **G52** -- G52 - Holly's Gold - OX | Base: G52-base (own base, not G2926B/G1214M/G3806C) | undefined undefinedg, undefined undefinedg, undefined undefinedg, undefined undefinedg, undefined undefinedg, undefined undefinedg, undefined undefinedg
 - **G53** -- G53 - Satin Pearl Brown - OX | Base: G53-base (own base, not G2926B/G1214M/G3806C) | undefined undefinedg, undefined undefinedg, undefined undefinedg, undefined undefinedg, undefined undefinedg, undefined undefinedg, undefined undefinedg, undefined undefinedg
 
-### Suspended (6)
+### Suspended (7)
 - **G12** -- G12 — Vanadium Yellow — OX | Base: G2926B | Vanadium Yellow 14.544g | Target SG: 1.32
 - **G24** -- G24 — Clear Gloss — OX | Base: G2926B | no colorant | Target SG: 1.32
 - **G25HC** -- G25-HC — Chrome-Tin Cranberry Red, High Calcium — OX/HC | Base: G1214M | Chrome Oxide 0.364g, Tin Oxide 25.2g, Wollastonite W-20 28.3g | Target SG: 1.32
 - **G29** -- G29 — Vanadium Yellow + Iron Edge — OX | Base: G2926B | Vanadium Yellow 14.544g, Spanish Red Iron Oxide 1.515g | Target SG: 1.32
 - **G30** -- G30 — Cobalt Blue + Rutile Break — OX | Base: G2926B | Cobalt Oxide 2.424g, Light Rutile 6.06g | Target SG: 1.32
 - **G30v4** -- G30v4 - Transparent Medium Blue - OX | Base: G2926B | Cobalt Oxide 2.424g, Light Rutile 6.06g | Target SG: 1.36
+- **G30v6** -- G30v6 - Transparent Blue, Darker Break - OX | Base: G2926B | Cobalt Oxide 2.424g, Red Iron Oxide 4.85g | Target SG: 1.32
 
-### Retired (38)
+### Retired (39)
 - **G1** -- G1 — Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 12.1g
 - **G2** -- G2 — Mid-Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 19.4g
 - **G3** -- G3 — Transparent UNC Blue — MS | Base: G2926B | Mason 6374 7.273g
@@ -71,6 +70,7 @@ Last updated: 7/1/2026, 3:32:12 PM
 - **G43** -- G43 — Celadon Grey-Green — OX | Base: G2926B | Spanish Red Iron Oxide 0.727g, Titanium Dioxide 4.848g | Target SG: 1.32
 - **G45** -- G45 - Olive Brown - OX | Base: G2926B | Spanish Red Iron Oxide 18.18g, Chrome Oxide 1.818g | Target SG: 1.32
 - **G46** -- G46 - Copper Blue-Green - OX | Base: G2926B | Copper Carbonate 3.636g, Spanish Red Iron Oxide 3.03g | Target SG: 1.35
+- **G30v2** -- G30v2 - Light Transparent Blue-Green, Break - OX | Base: G2926B | Cobalt Oxide 2.424g, Light Rutile 12.12g | Target SG: 1.32
 - **G30v3** -- G30v3 - Transparent Blue Wash - OX | Base: G2926B | Cobalt Oxide 2.424g, Light Rutile 6.06g | Target SG: 1.33
 - **G25v2** -- G25v2 - Chrome-Tin Cranberry Red - OX | Base: G1214M | Chrome Oxide 0.727g, Tin Oxide 25.2g | Target SG: 1.38
 - **G38v2** -- G38v2 - Orange Satin - OX | Base: G2926B | Light Rutile 19.392g | Target SG: 1.3
@@ -216,16 +216,6 @@ No batches recorded yet.
 
 ---
 
-### G21 - Jun26 - A
-- Recipe: Red Iron Oxide (synthetic): 12.12g per 600g, Light Rutile: 2.424g per 600g
-- Base: G2926B | SG: -- | Method: Pour
-- Fired: Jun 26, 2026 | Kiln 2 | Cone 6 -- full melt
-- Color: earthy brown
-- Finish: Gloss
-- Rating: Good
-
----
-
 ### G12 - Jun26 - A
 - Recipe: Vanadium Yellow: 14.544g per 600g
 - Base: G2926B | SG: -- | Method: Pour
@@ -234,6 +224,17 @@ No batches recorded yet.
 - Finish: Gloss
 - Rating: Good
 - Notes: i poured two layers and the ouble pour was better- more glossy more yellow-darker in the depths
+
+---
+
+### G29 - Jun26 - A
+- Recipe: Vanadium Yellow: 14.544g per 600g, Red Iron Oxide (synthetic): 1.515g per 600g
+- Base: G2926B | SG: -- | Method: Pour
+- Fired: Jun 26, 2026 | Kiln 2 | Cone 6 -- full melt
+- Color: Dark yellow
+- Finish: Gloss
+- Rating: Good
+- Notes: i poured two layers and the ouble pour was better- more glossy more yellow-darker in the depths- needs two coats
 
 
 ## Studio Constants
