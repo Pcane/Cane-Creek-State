@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/2/2026, 4:57:26 PM
+Last updated: 7/2/2026, 4:57:48 PM
 
 ## Glaze Library
 
@@ -95,6 +95,12 @@ Last updated: 7/2/2026, 4:57:26 PM
 No batches recorded yet.
 
 ## Recent Firing Records
+
+### G47 - Jul26 - A
+- Recipe: Copper Carbonate: 4.9g per 600g, Light Rutile: 4.09g per 600g
+- Base:  | SG: -- | Method: --
+
+---
 
 ### G25v3 - Jul26 - A
 - Recipe: Chrome Oxide: 1.09g per 600g, Tin Oxide: 25.2g per 600g
@@ -211,16 +217,6 @@ No batches recorded yet.
 ### G12 - Jun26 - A
 - Recipe: Vanadium Yellow: 14.544g per 600g
 - Base: G2926B | SG: -- | Method: Pour
-- Rating: Good
-
----
-
-### G11 - Jun26 - A
-- Recipe: Chrome Oxide: 1.212g per 600g
-- Base: G2926B | SG: -- | Method: --
-- Fired: Jun 26, 2026 | Kiln 2 | Cone 6 -- full melt
-- Color: light earthy green
-- Finish: Gloss
 - Rating: Good
 
 
