@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/2/2026, 4:55:09 PM
+Last updated: 7/2/2026, 4:55:34 PM
 
 ## Glaze Library
 
@@ -95,6 +95,12 @@ Last updated: 7/2/2026, 4:55:09 PM
 No batches recorded yet.
 
 ## Recent Firing Records
+
+### G29v3 - Jul26 - A
+- Recipe: Vanadium Yellow: 14.544g per 600g, Spanish Red Iron Oxide: 9.09g per 600g
+- Base: G2926B | SG: -- | Method: --
+
+---
 
 ### TG2 - Jun26 - A
 - Recipe: Copper Carbonate: 4.9g per 600g, Light Rutile: 4.09g per 600g
@@ -225,17 +231,6 @@ No batches recorded yet.
 - Finish: Gloss
 - Rating: Good
 - Notes: i poured two layers and the ouble pour was better- more glossy more yellow-darker in the depths
-
----
-
-### G29 - Jun26 - A
-- Recipe: Vanadium Yellow: 14.544g per 600g, Red Iron Oxide (synthetic): 1.515g per 600g
-- Base: G2926B | SG: -- | Method: Pour
-- Fired: Jun 26, 2026 | Kiln 2 | Cone 6 -- full melt
-- Color: Dark yellow
-- Finish: Gloss
-- Rating: Good
-- Notes: i poured two layers and the ouble pour was better- more glossy more yellow-darker in the depths- needs two coats
 
 
 ## Studio Constants
