@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/2/2026, 4:55:34 PM
+Last updated: 7/2/2026, 4:55:40 PM
 
 ## Glaze Library
 
@@ -98,7 +98,7 @@ No batches recorded yet.
 
 ### G29v3 - Jul26 - A
 - Recipe: Vanadium Yellow: 14.544g per 600g, Spanish Red Iron Oxide: 9.09g per 600g
-- Base: G2926B | SG: -- | Method: --
+- Base: G2926B | SG: 1.34 | Method: --
 
 ---
 
