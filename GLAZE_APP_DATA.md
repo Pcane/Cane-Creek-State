@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/2/2026, 4:56:19 PM
+Last updated: 7/2/2026, 4:57:06 PM
 
 ## Glaze Library
 
@@ -95,6 +95,12 @@ Last updated: 7/2/2026, 4:56:19 PM
 No batches recorded yet.
 
 ## Recent Firing Records
+
+### G25v3 - Jul26 - A
+- Recipe: Chrome Oxide: 1.09g per 600g, Tin Oxide: 25.2g per 600g
+- Base: G1214M | SG: -- | Method: --
+
+---
 
 ### G50 - Jul26 - A
 - Recipe: Spanish Red Iron Oxide: 6.06g per 600g
@@ -214,16 +220,6 @@ No batches recorded yet.
 - Base: G2926B | SG: -- | Method: --
 - Fired: Jun 26, 2026 | Kiln 2 | Cone 6 -- full melt
 - Color: light earthy green
-- Finish: Gloss
-- Rating: Good
-
----
-
-### G16 - Jun26 - A
-- Recipe: Tin Oxide: 4.848g per 600g
-- Base: G2926B | SG: -- | Method: --
-- Fired: Jun 26, 2026 | Kiln 2 | Cone 6 -- full melt
-- Color: white
 - Finish: Gloss
 - Rating: Good
 
