@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Fix Colorant Data - Cane Creek Glaze Studio</title>
+<style>
+  body { font-family: -apple-system, Arial, sans-serif; max-width: 900px; margin: 30px auto; padding: 0 20px; background: #faf7f0; color: #2a2416; }
+  h1 { font-size: 22px; }
+  h2 { font-size: 16px; margin-top: 30px; border-bottom: 1px solid #ccc; padding-bottom: 6px; }
+  button { background: #3d4a2a; color: white; border: none; padding: 12px 20px; font-size: 15px; border-radius: 6px; cursor: pointer; margin: 8px 8px 8px 0; }
+  button:disabled { background: #aaa; cursor: not-allowed; }
+  button.danger { background: #7a2f2f; }
+  #log { background: #fff; border: 1px solid #ddd; border-radius: 6px; padding: 14px; font-family: monospace; font-size: 13px; white-space: pre-wrap; max-height: 300px; overflow-y: auto; }
+  table { border-collapse: collapse; width: 100%; margin-top: 10px; }
+  th, td { border: 1px solid #ccc; padding: 8px; text-align: left; font-size: 13px; vertical-align: top; }
+  th { background: #eee6d5; }
+  .before { color: #7a2f2f; }
+  .after { color: #2a5a2a; }
+  .status { padding: 10px; border-radius: 6px; margin: 10px 0; }
+  .status.ok { background: #dcecdc; }
+  .status.err { background: #f5dcdc; }
+  .status.warn { background: #f5edd0; }
+</style>
+</head>
+<body>
+
+<h1>Fix Colorant Data — 9 Test Glazes</h1>
+<p>This tool fixes the "undefined undefinedg" colorant display bug for G21v2, G25v3, G47, G48, G49, G50, G51, G52, G53. It reads current Blob data, detects the correct field structure from a working record (G21), builds the fix, and shows you the before/after before writing anything.</p>
+
+<h2>Step 1 — Load current data</h2>
+<button id="loadBtn" onclick="loadData()">Load Current Blob Data</button>
+<div id="loadStatus"></div>
+
+<h2>Step 2 — Review proposed fix</h2>
+<div id="previewArea">Run Step 1 first.</div>
+
+<h2>Step 3 — Apply fix</h2>
+<button id="applyBtn" onclick="applyFix()" disabled>Apply Fix and Save</button>
+<div id="applyStatus"></div>
+
+<h2>Log</h2>
+<div id="log">Ready.</div>
+
+<script>
+const BLOB_URL = "https://cane-creek-app.netlify.app/.netlify/functions/data?key=glazes";
+
+// Correct name/gram data, sourced from glazes.json (already fixed there 7/1)
+const CORRECT_DATA = {
+  "G21v2": [["Spanish Red Iron Oxide", 12.12], ["Light Rutile", 6.06]],
+  "G25v3": [["Chrome Oxide", 1.09], ["Tin Oxide", 25.2]],
+  "G47":   [["Copper Carbonate", 4.9], ["Light Rutile", 4.09]],
+  "G48":   [["Copper Carbonate", 3.636], ["Spanish Red Iron Oxide", 3.03]],
+  "G49":   [["Nepheline Syenite", 180], ["Ferro Frit 3134", 216], ["Silica", 84], ["EPK Kaolin", 120], ["Spanish Red Iron Oxide", 12], ["Cobalt Oxide", 7.2], ["Light Rutile", 24]],
+  "G50":   [["Spanish Red Iron Oxide", 6.06]],
+  "G51":   [["Nickel Carbonate", 6.06]],
+  "G52":   [["Ferro Frit 3134", 120], ["Dolomite", 120], ["Spodumene", 120], ["Ball Clay", 120], ["Silica", 120], ["Tin Oxide", 18], ["Spanish Red Iron Oxide", 12]],
+  "G53":   [["G-200 EU Feldspar", 240], ["Ferro Frit 3124", 54], ["Whiting", 96], ["Talc", 54], ["EPK Kaolin", 60], ["Silica", 96], ["Spanish Red Iron Oxide", 12.12], ["Light Rutile", 2.424]]
+};
+
+let rawData = null;
+let glazeArray = null;
+let fixedRecords = {};
+
+function log(msg) {
+  const el = document.getElementById('log');
+  el.textContent += "\n" + msg;
+  el.scrollTop = el.scrollHeight;
+}
+
+function findGlazeArray(data) {
+  // Handle a few plausible shapes without assuming one
+  if (Array.isArray(data)) return data;
+  if (data && Array.isArray(data.glazes)) return data.glazes;
+  for (const key in data) {
+    if (Array.isArray(data[key]) && data[key].length > 5) return data[key];
+  }
+  return null;
+}
+
+function getId(record) {
+  return record.id || record.glazeId || record.code || record.G || null;
+}
+
+async function loadData() {
+  document.getElementById('loadStatus').innerHTML = "";
+  document.getElementById('loadBtn').disabled = true;
+  log("Fetching " + BLOB_URL + " ...");
+  try {
+    const res = await fetch(BLOB_URL);
+    log("HTTP status: " + res.status);
+    const text = await res.text();
+    if (!res.ok) {
+      document.getElementById('loadStatus').innerHTML = '<div class="status err">Fetch failed (HTTP ' + res.status + '). Response: ' + text.slice(0,300) + '</div>';
+      document.getElementById('loadBtn').disabled = false;
+      return;
+    }
+    rawData = JSON.parse(text);
+    glazeArray = findGlazeArray(rawData);
+    if (!glazeArray) {
+      document.getElementById('loadStatus').innerHTML = '<div class="status err">Could not find a glaze array in the response. Raw shape logged below -- stopping here rather than guessing.</div>';
+      log("Raw top-level keys: " + JSON.stringify(Object.keys(rawData)));
+      document.getElementById('loadBtn').disabled = false;
+      return;
+    }
+    log("Found glaze array with " + glazeArray.length + " records.");
+
+    // Find a known-working record to detect schema
+    const workingIds = ["G21", "G44", "G11"];
+    let template = null;
+    for (const wid of workingIds) {
+      template = glazeArray.find(r => getId(r) === wid);
+      if (template) { log("Using " + wid + " as schema template."); break; }
+    }
+    if (!template) {
+      document.getElementById('loadStatus').innerHTML = '<div class="status err">Could not find a known-working record (G21/G44/G11) to copy the schema from. Stopping -- do not want to guess field names.</div>';
+      document.getElementById('loadBtn').disabled = false;
+      return;
+    }
+
+    // Find the colorants field on the template
+    let colorantsField = null;
+    for (const key in template) {
+      if (Array.isArray(template[key]) && template[key].length > 0 && typeof template[key][0] === 'object') {
+        colorantsField = key;
+        break;
+      }
+    }
+    if (!colorantsField) {
+      document.getElementById('loadStatus').innerHTML = '<div class="status err">Could not detect a colorants array field on the template record. Raw template logged below.</div>';
+      log("Template record: " + JSON.stringify(template, null, 2));
+      document.getElementById('loadBtn').disabled = false;
+      return;
+    }
+    const sampleColorant = template[colorantsField][0];
+    const nameKey = Object.keys(sampleColorant).find(k => typeof sampleColorant[k] === 'string');
+    const amountKey = Object.keys(sampleColorant).find(k => typeof sampleColorant[k] === 'number');
+    log("Detected colorants field: '" + colorantsField + "', name key: '" + nameKey + "', amount key: '" + amountKey + "'");
+    log("Template sample colorant: " + JSON.stringify(sampleColorant));
+
+    if (!nameKey || !amountKey) {
+      document.getElementById('loadStatus').innerHTML = '<div class="status err">Could not detect name/amount keys from the template colorant. Stopping.</div>';
+      document.getElementById('loadBtn').disabled = false;
+      return;
+    }
+
+    // Build preview
+    let html = '<div class="status ok">Schema detected from ' + getId(template) + ': field="' + colorantsField + '", name key="' + nameKey + '", amount key="' + amountKey + '"</div>';
+    html += '<table><tr><th>Glaze</th><th>Current (broken)</th><th>Proposed fix</th></tr>';
+
+    let foundCount = 0, missingIds = [];
+    for (const gid in CORRECT_DATA) {
+      const record = glazeArray.find(r => getId(r) === gid);
+      if (!record) { missingIds.push(gid); continue; }
+      foundCount++;
+      const current = JSON.stringify(record[colorantsField] || record.colorants || "field not found");
+      const newColorants = CORRECT_DATA[gid].map(([n, a]) => {
+        const obj = {};
+        obj[nameKey] = n;
+        obj[amountKey] = a;
+        return obj;
+      });
+      fixedRecords[gid] = { record: record, field: colorantsField, newValue: newColorants };
+      const afterStr = CORRECT_DATA[gid].map(([n,a]) => n + " " + a + "g").join(", ");
+      html += '<tr><td><b>' + gid + '</b></td><td class="before">' + current + '</td><td class="after">' + afterStr + '</td></tr>';
+    }
+    html += '</table>';
+    if (missingIds.length) {
+      html += '<div class="status warn">Not found in Blob data (skipped): ' + missingIds.join(", ") + '</div>';
+    }
+    document.getElementById('previewArea').innerHTML = html;
+    document.getElementById('loadStatus').innerHTML = '<div class="status ok">Loaded. ' + foundCount + ' of 9 records found and ready to fix.</div>';
+    if (foundCount > 0) document.getElementById('applyBtn').disabled = false;
+
+  } catch (e) {
+    document.getElementById('loadStatus').innerHTML = '<div class="status err">Error: ' + e.message + '</div>';
+    log("Error: " + e.stack);
+  }
+  document.getElementById('loadBtn').disabled = false;
+}
+
+async function applyFix() {
+  document.getElementById('applyBtn').disabled = true;
+  document.getElementById('applyStatus').innerHTML = "";
+  log("Applying fix to " + Object.keys(fixedRecords).length + " records in local copy...");
+
+  for (const gid in fixedRecords) {
+    const { record, field, newValue } = fixedRecords[gid];
+    record[field] = newValue;
+  }
+
+  log("Attempting write back to Blob...");
+  try {
+    const res = await fetch(BLOB_URL, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ key: "glazes", value: rawData })
+    });
+    const text = await res.text();
+    log("Write HTTP status: " + res.status);
+    log("Write response: " + text.slice(0, 500));
+    if (res.ok) {
+      document.getElementById('applyStatus').innerHTML = '<div class="status ok">Saved. Re-open the Glaze Test tab for one of the 9 glazes (e.g. G21v2) and confirm the colorants now show real values, not "undefined".</div>';
+    } else {
+      document.getElementById('applyStatus').innerHTML = '<div class="status err">Write failed (HTTP ' + res.status + '). Nothing else was changed. Fall back: re-enter these 9 recipes manually via the app\'s normal edit/save screen -- that path is confirmed working. Response: ' + text.slice(0,300) + '</div>';
+    }
+  } catch (e) {
+    document.getElementById('applyStatus').innerHTML = '<div class="status err">Write request failed: ' + e.message + '. Fall back to manual entry via the app -- that path is confirmed working.</div>';
+    log("Write error: " + e.stack);
+  }
+  document.getElementById('applyBtn').disabled = false;
+}
+</script>
+
+</body>
+</html>
