@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/2/2026, 5:27:10 PM
+Last updated: 7/2/2026, 8:47:16 PM
 
 ## Glaze Library
 
@@ -95,6 +95,12 @@ Last updated: 7/2/2026, 5:27:10 PM
 No batches recorded yet.
 
 ## Recent Firing Records
+
+### G49 - Jul26 - A
+- Recipe: Nepheline Syenite: 180g per 600g, Ferro Frit 3134: 216g per 600g, Silica: 84g per 600g, EPK Kaolin: 120g per 600g, Spanish Red Iron Oxide: 12g per 600g, Cobalt Oxide: 7.2g per 600g, Light Rutile: 24g per 600g
+- Base:  | SG: -- | Method: --
+
+---
 
 ### G21v2 - Jul26 - A
 - Recipe: Spanish Red Iron Oxide: 12.12g per 600g, Light Rutile: 6.06g per 600g
@@ -206,12 +212,6 @@ No batches recorded yet.
 
 ### TG4 - Jun26 - A
 - Recipe: Copper Carbonate: 3.636g per 600g, Spanish RIO: 3.03g per 600g
-- Base: G2926B | SG: -- | Method: --
-
----
-
-### G38 - Jun26 - A
-- Recipe: Light Rutile: 19.392g per 600g
 - Base: G2926B | SG: -- | Method: --
 
 
