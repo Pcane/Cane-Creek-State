@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/5/2026, 2:17:02 PM
+Last updated: 7/5/2026, 2:17:27 PM
 
 ## Glaze Library
 
@@ -130,15 +130,16 @@ No batches recorded yet.
 
 ---
 
-### G52 - Jul26 - A
-- Recipe: Ferro Frit 3134: 120g per 600g, Dolomite: 120g per 600g, Spodumene: 120g per 600g, Ball Clay: 120g per 600g, Silica: 120g per 600g, Tin Oxide: 18g per 600g, Spanish Red Iron Oxide: 12g per 600g
-- Base:  | SG: 1.35 | Method: --
-
----
-
 ### G53 - Jul26 - A
 - Recipe: G-200 EU Feldspar: 240g per 600g, Ferro Frit 3124: 54g per 600g, Whiting: 96g per 600g, Talc: 54g per 600g, EPK Kaolin: 60g per 600g, Silica: 96g per 600g, Spanish Red Iron Oxide: 12.12g per 600g, Light Rutile: 2.424g per 600g
 - Base:  | SG: 1.37 | Method: --
+- Fired: Jul 5, 2026 | -- | --
+
+---
+
+### G52 - Jul26 - A
+- Recipe: Ferro Frit 3134: 120g per 600g, Dolomite: 120g per 600g, Spodumene: 120g per 600g, Ball Clay: 120g per 600g, Silica: 120g per 600g, Tin Oxide: 18g per 600g, Spanish Red Iron Oxide: 12g per 600g
+- Base:  | SG: 1.35 | Method: --
 
 ---
 
