@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/5/2026, 2:24:31 PM
+Last updated: 7/5/2026, 2:24:36 PM
 
 ## Glaze Library
 
@@ -168,7 +168,7 @@ No batches recorded yet.
 
 ### TG1 - Jul26 - A
 - Recipe: No colorant
-- Base: G2926B | SG: -- | Method: --
+- Base: G2926B | SG: 1.32 | Method: --
 - Fired: Jul 5, 2026 | Kiln 2 | --
 
 ---
