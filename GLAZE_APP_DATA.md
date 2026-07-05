@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/5/2026, 2:04:20 PM
+Last updated: 7/5/2026, 2:05:33 PM
 
 ## Glaze Library
 
@@ -96,6 +96,12 @@ No batches recorded yet.
 
 ## Recent Firing Records
 
+### G38v3 - Jul26 - A
+- Recipe: Light Rutile: 19.392g per 600g, Red Iron Oxide: 6.06g per 600g
+- Base: G2926B | SG: 1.30 | Method: Pour
+
+---
+
 ### G52 - Jul26 - A
 - Recipe: Ferro Frit 3134: 120g per 600g, Dolomite: 120g per 600g, Spodumene: 120g per 600g, Ball Clay: 120g per 600g, Silica: 120g per 600g, Tin Oxide: 18g per 600g, Spanish Red Iron Oxide: 12g per 600g
 - Base:  | SG: 1.35 | Method: --
@@ -177,12 +183,6 @@ No batches recorded yet.
 ### G40v2 - Jun26 - A
 - Recipe: Spanish Red Iron Oxide: 39.4g per 600g, Light Rutile: 3.03g per 600g
 - Base: G2926B | SG: 1.53 | Method: Pour
-
----
-
-### G38v3 - Jun26 - A
-- Recipe: Light Rutile: 19.392g per 600g, Red Iron Oxide: 6.06g per 600g
-- Base: G2926B | SG: 1.35 | Method: Pour
 
 ---
 
