@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/5/2026, 2:16:17 PM
+Last updated: 7/5/2026, 2:16:43 PM
 
 ## Glaze Library
 
@@ -123,6 +123,13 @@ No batches recorded yet.
 
 ---
 
+### G29v3 - Jul26 - A
+- Recipe: Vanadium Yellow: 14.544g per 600g, Spanish Red Iron Oxide: 9.09g per 600g
+- Base: G2926B | SG: 1.34 | Method: --
+- Fired: Jul 5, 2026 | -- | --
+
+---
+
 ### G52 - Jul26 - A
 - Recipe: Ferro Frit 3134: 120g per 600g, Dolomite: 120g per 600g, Spodumene: 120g per 600g, Ball Clay: 120g per 600g, Silica: 120g per 600g, Tin Oxide: 18g per 600g, Spanish Red Iron Oxide: 12g per 600g
 - Base:  | SG: 1.35 | Method: --
@@ -150,12 +157,6 @@ No batches recorded yet.
 ### G25v3 - Jul26 - A
 - Recipe: Chrome Oxide: 1.09g per 600g, Tin Oxide: 25.2g per 600g
 - Base: G1214M | SG: -- | Method: --
-
----
-
-### G29v3 - Jul26 - A
-- Recipe: Vanadium Yellow: 14.544g per 600g, Spanish Red Iron Oxide: 9.09g per 600g
-- Base: G2926B | SG: 1.34 | Method: --
 
 ---
 
