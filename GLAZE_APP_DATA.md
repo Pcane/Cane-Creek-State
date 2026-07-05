@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/5/2026, 2:16:10 PM
+Last updated: 7/5/2026, 2:16:14 PM
 
 ## Glaze Library
 
@@ -96,12 +96,6 @@ No batches recorded yet.
 
 ## Recent Firing Records
 
-### G38v3 - Jul26 - A
-- Recipe: Light Rutile: 19.392g per 600g, Red Iron Oxide: 6.06g per 600g
-- Base: G2926B | SG: 1.30 | Method: Pour
-
----
-
 ### G50 - Jul26 - A
 - Recipe: Spanish Red Iron Oxide: 6.06g per 600g
 - Base: G2926B | SG: 1.31 | Method: --
@@ -119,6 +113,13 @@ No batches recorded yet.
 - Recipe: Copper Carbonate: 3.636g per 600g, Spanish Red Iron Oxide: 3.03g per 600g
 - Base:  | SG: -- | Method: --
 - Fired: Jul 5, 2026 | Kiln 2 | --
+
+---
+
+### G38v3 - Jul26 - A
+- Recipe: Light Rutile: 19.392g per 600g, Red Iron Oxide: 6.06g per 600g
+- Base: G2926B | SG: 1.30 | Method: Pour
+- Fired: Jul 5, 2026 | -- | --
 
 ---
 
