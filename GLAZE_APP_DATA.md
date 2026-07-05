@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/5/2026, 2:19:35 PM
+Last updated: 7/5/2026, 2:20:58 PM
 
 ## Glaze Library
 
@@ -96,12 +96,6 @@ No batches recorded yet.
 
 ## Recent Firing Records
 
-### G50 - Jul26 - A
-- Recipe: Spanish Red Iron Oxide: 6.06g per 600g
-- Base: G2926B | SG: 1.31 | Method: --
-
----
-
 ### G21v2 - Jul26 - A
 - Recipe: Spanish Red Iron Oxide: 12.12g per 600g, Light Rutile: 6.06g per 600g
 - Base: G2926B | SG: 1.46 | Method: --
@@ -147,6 +141,20 @@ No batches recorded yet.
 ### G49 - Jul26 - A
 - Recipe: Nepheline Syenite: 180g per 600g, Ferro Frit 3134: 216g per 600g, Silica: 84g per 600g, EPK Kaolin: 120g per 600g, Spanish Red Iron Oxide: 12g per 600g, Cobalt Oxide: 7.2g per 600g, Light Rutile: 24g per 600g
 - Base:  | SG: 1.35 | Method: --
+- Fired: Jul 5, 2026 | Kiln 2 | --
+
+---
+
+### G50 - Jul26 - A
+- Recipe: Spanish Red Iron Oxide: 6.06g per 600g
+- Base: G2926B | SG: 1.31 | Method: --
+- Fired: Jul 5, 2026 | Kiln 2 | --
+
+---
+
+### G44 - Jul26 - A
+- Recipe: Light Rutile: 12.12g per 600g, Spanish Red Iron Oxide: 6.06g per 600g
+- Base: G2926B | SG: 1.33 | Method: Pour
 - Fired: Jul 5, 2026 | -- | --
 
 ---
@@ -178,12 +186,6 @@ No batches recorded yet.
 ### G46 - Jun26 - A
 - Recipe: Copper Carbonate: 3.636g per 600g, Spanish Red Iron Oxide: 3.03g per 600g
 - Base: G2926B | SG: 1.35 | Method: Pour
-
----
-
-### G44 - Jun26 - A
-- Recipe: Light Rutile: 12.12g per 600g, Spanish Red Iron Oxide: 6.06g per 600g
-- Base: G2926B | SG: 1.33 | Method: Pour
 
 ---
 
