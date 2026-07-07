@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/6/2026, 10:27:05 PM
+Last updated: 7/6/2026, 10:27:40 PM
 
 ## Glaze Library
 
@@ -131,13 +131,6 @@ No batches recorded yet.
 
 ---
 
-### G52 - Jul26 - A
-- Recipe: Ferro Frit 3134: 120g per 600g, Dolomite: 120g per 600g, Spodumene: 120g per 600g, Ball Clay: 120g per 600g, Silica: 120g per 600g, Tin Oxide: 18g per 600g, Spanish Red Iron Oxide: 12g per 600g
-- Base:  | SG: 1.35 | Method: --
-- Fired: Jul 5, 2026 | Kiln 2 | --
-
----
-
 ### G49 - Jul26 - A
 - Recipe: Nepheline Syenite: 180g per 600g, Ferro Frit 3134: 216g per 600g, Silica: 84g per 600g, EPK Kaolin: 120g per 600g, Spanish Red Iron Oxide: 12g per 600g, Cobalt Oxide: 7.2g per 600g, Light Rutile: 24g per 600g
 - Base:  | SG: 1.35 | Method: --
@@ -176,6 +169,13 @@ No batches recorded yet.
 ### G44 - Jul26 - A
 - Recipe: Light Rutile: 12.12g per 600g, Spanish Red Iron Oxide: 6.06g per 600g
 - Base: G2926B | SG: 1.33 | Method: Pour
+- Fired: Jul 5, 2026 | Kiln 2 | --
+
+---
+
+### G52 - Jul26 - A
+- Recipe: Ferro Frit 3134: 120g per 600g, Dolomite: 120g per 600g, Spodumene: 120g per 600g, Ball Clay: 120g per 600g, Silica: 120g per 600g, Tin Oxide: 18g per 600g, Spanish Red Iron Oxide: 12g per 600g
+- Base:  | SG: 1.35 | Method: --
 - Fired: Jul 5, 2026 | Kiln 2 | --
 
 ---
