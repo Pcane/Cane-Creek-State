@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/7/2026, 11:07:16 AM
+Last updated: 7/7/2026, 11:07:17 AM
 
 ## Glaze Library
 
@@ -177,6 +177,7 @@ No batches recorded yet.
 - Recipe: Ferro Frit 3134: 120g per 600g, Dolomite: 120g per 600g, Spodumene: 120g per 600g, Ball Clay: 120g per 600g, Silica: 120g per 600g, Tin Oxide: 18g per 600g, Spanish Red Iron Oxide: 12g per 600g
 - Base:  | SG: 1.35 | Method: --
 - Fired: Jul 5, 2026 | Kiln 2 | Cone 6 -- full melt
+- Finish: Gloss
 
 ---
 
