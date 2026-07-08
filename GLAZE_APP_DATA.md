@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/8/2026, 12:45:53 PM
+Last updated: 7/8/2026, 12:49:09 PM
 
 ## Glaze Library
 
@@ -81,8 +81,8 @@ Last updated: 7/8/2026, 12:45:53 PM
 ## Custom Bases
 ### G3806C -- Fluid Glossy Base Glaze
 - Target SG: 1.35 | Dry lb/gal: 5.737
-- Ingredients: Ferro Frit 3110 31.1%, Silica 26.3%, Kaolin 19.7%, Dolomite 8.7%, Strontium Carbonate 4.4%, Ferro Frit 3134 6.6%, Zinc Oxide 3.3%
-- Notes: Fluid-melt by design — runs more than G2926B or G1214M. Apply thinner than usual as a starting caution (currently run at SG 1.35 for G47/G48, which is on the thicker side of that caution — worth watching). Higher thermal expansion accepted deliberately for non-functional wall/art tiles.
+- Ingredients: Ferro Frit 3110 31.1%, Silica 26.3%, Tile 6 Kaolin 19.7%, Dolomite 8.7%, Strontium Carbonate 4.4%, Ferro Frit 3134 6.6%, Zinc Oxide 3.3%
+- Notes: Fluid-melt by design — runs more than G2926B or G1214M. Apply thinner than usual as a starting caution (currently run at SG 1.35 for G47/G48, which is on the thicker side of that caution — worth watching). Higher thermal expansion accepted deliberately for non-functional wall/art tiles. Kaolin substituted with Tile 6 Kaolin, matching studio stock (same substitution used in G2926B).
 
 ## Base Slurry Batch Records
 
