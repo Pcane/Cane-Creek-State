@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/7/2026, 10:07:36 PM
+Last updated: 7/7/2026, 10:15:37 PM
 
 ## Glaze Library
 
@@ -84,6 +84,17 @@ Last updated: 7/7/2026, 10:07:36 PM
 - Ingredients: Ferro Frit 3134 21%, #6 Tile Kaolin 21.5%, Silica (325 mesh) 28.5%, Wollastonite 14.5%, Nepheline Syenite 7.5%, Strontium Carbonate 7%
 - Notes: Any stain additions are added to the percentage. thickness is the color control-should work with most Mason stains-use at 1, 2 to 5 % stain to base glaze
 
+### G2934 -- Tony Hansen's Clear Matte Base
+- Target SG: 1.4 | Dry lb/gal: 5.737
+- Ingredients: Tile 6 (sub for EP Kaolin) 18.3%, Silica 26.9%, Dolomite 23.5%, ferro frit 3124 17.4%, Calcined Kaolin 13.9%
+- Notes: Mechanism: MgO-saturated, boron-fluxed matte — the historically correct chemistry for Grueby/Teco/Rookwood vellum matte, NOT the zinc-crystalline mechanism (which is crazing-prone and leach-risky).
+Two independent variables control the matte surface, not one: cooling rate (your kiln's slow-cool USER 3 program already pushes toward a drier/harder matte) and application thickness/SG (Hansen's published 1.43–1.44 is a dipping spec — genuinely unconfirmed whether the silky matte still develops at your actual syringe/pour range of 1.28–1.35).
+Confirmed leach-safe colorants for this base (Hansen's own lemon-juice testing): Mason 6600, 6350, 6300, 6021, 6404.
+Confirmed NOT to work: chrome-tin pink/maroon stains (e.g. 6006); Mason 6385.
+If chrome-tin-on-matte is ever wanted: use G1214Z1 instead (Hansen's CaO matte, shares lineage with your existing G1214M).
+
+One more thing worth naming directly: Mason 6021 (Deeper Rose) and 6404 (Vanadium Yellow) — both already on your test list from tonight's exploration — are confirmed to work on this base specifically.
+
 ## Base Slurry Batch Records
 
 ### G2926B (1 batch)
@@ -101,6 +112,9 @@ Last updated: 7/7/2026, 10:07:36 PM
 No batches recorded yet.
 
 ### STRONTIUM BASE GLAZE (0 batches)
+No batches recorded yet.
+
+### G2934 (0 batches)
 No batches recorded yet.
 
 ## Recent Firing Records
