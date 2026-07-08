@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/7/2026, 5:35:54 PM
+Last updated: 7/7/2026, 9:31:40 PM
 
 ## Glaze Library
 
@@ -78,6 +78,12 @@ Last updated: 7/7/2026, 5:35:54 PM
 - **G38v2** -- G38v2 - Orange Satin - OX | Base: G2926B | Light Rutile 19.392g | Target SG: 1.3
 - **TG2** -- TG2 - G26v2 light green - TG | Base: G2926B | Copper Carbonate 4.9g, Light Rutile 4.09g | Target SG: 1.314
 
+## Custom Bases
+### STRONTIUM BASE GLAZE -- transparent gloss strontium base
+- Target SG: 1.4 | Dry lb/gal: 5.737
+- Ingredients: Ferro Frit 3134 21%, #6 Tile Kaolin 21.5%, Silica (325 mesh) 28.5%, Wollastonite 14.5%, Nepheline Syenite 7.5%, Strontium Carbonate 7%
+- Notes: Any stain additions are added to the percentage. thickness is the color control-should work with most Mason stains-use at 1, 2 to 5 % stain to base glaze
+
 ## Base Slurry Batch Records
 
 ### G2926B (1 batch)
@@ -92,6 +98,9 @@ Last updated: 7/7/2026, 5:35:54 PM
 
 
 ### G1214M (0 batches)
+No batches recorded yet.
+
+### STRONTIUM BASE GLAZE (0 batches)
 No batches recorded yet.
 
 ## Recent Firing Records
@@ -111,15 +120,6 @@ No batches recorded yet.
 - Finish: Gloss
 - Rating: Good
 - Notes: Pour, 1 coat, application SG 1.34. Good, clean result — genuinely distinct from G29v3, NOT superseded (old notebook language was wrong).
-
----
-
-### G52 - Jul26 - A
-- Recipe: Ferro Frit 3134: 120g per 600g, Dolomite: 120g per 600g, Spodumene: 120g per 600g, Ball Clay: 120g per 600g, Silica: 120g per 600g, Tin Oxide: 18g per 600g, Spanish Red Iron Oxide: 12g per 600g
-- Base: G52-base (own base, not G2926B/G1214M/G3806C) | SG: -- | Method: Pour
-- Finish: Matte
-- Rating: Good
-- Notes: Pour, 1 coat — 2-coat rejected (rough, mottled, darker). First Matte glaze in the active lineup.
 
 ---
 
@@ -155,6 +155,15 @@ No batches recorded yet.
 - Base: G1214M | SG: -- | Method: Pour
 - Rating: Poor
 - Notes: Split-coat chrome-tin pink test. Fired grey — atmosphere/redox failure, likely, possibly linked to kiln proximity to G47 (copper carbonate decomposition can create local reduction). Real Mason-stain documentation confirms chrome-tin pinks need oxidizing atmosphere throughout. Next step: retry with Mason 6001/6021/6003 (already in stock) instead of raw chrome-tin oxide.
+
+---
+
+### G52 - Jul26 - A
+- Recipe: Ferro Frit 3134: 120g per 600g, Dolomite: 120g per 600g, Spodumene: 120g per 600g, Ball Clay: 120g per 600g, Silica: 120g per 600g, Tin Oxide: 18g per 600g, Spanish Red Iron Oxide: 12g per 600g
+- Base: G52-base (own base, not G2926B/G1214M/G3806C) | SG: -- | Method: Pour
+- Finish: Matte
+- Rating: Good
+- Notes: Pour, 1 coat — 2-coat rejected (rough, mottled, darker). First Matte glaze in the active lineup.
 
 ---
 
