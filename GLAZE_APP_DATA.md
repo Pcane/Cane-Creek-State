@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/9/2026, 10:31:46 AM
+Last updated: 7/9/2026, 10:55:07 AM
 
 ## Glaze Library
 
@@ -16,7 +16,7 @@ Last updated: 7/9/2026, 10:31:46 AM
 - **G52** -- G52 - Holly's Gold - OX | Base: G52-base (own base, not G2926B/G1214M/G3806C) | Ferro Frit 3134 120g, Dolomite 120g, Spodumene 120g, Ball Clay 120g, Silica 120g, Tin Oxide 18g, Spanish Red Iron Oxide 12g
 - **G29v3** -- G29v3 - Dark Vanadium Yellow Iron Edge - OX | Base: G2926B | Vanadium Yellow 14.544g, Spanish Red Iron Oxide 9.09g | Target SG: 1.34
 
-### Test (8)
+### Test (14)
 - **G38v3** -- G38v3 - Rutile Amber - OX | Base: G2926B | Light Rutile 19.392g, Red Iron Oxide 6.06g | Target SG: 1.3
 - **G25v3** -- G25v3 - Chrome-Tin Coat Thickness Test - OX | Base: G1214M | Chrome Oxide 1.09g, Tin Oxide 25.2g
 - **G48** -- G48 - Copper-Iron on Copper Base - OX | Base: G3806C | Copper Carbonate 3.636g, Spanish Red Iron Oxide 3.03g | Target SG: 1.35
@@ -25,6 +25,12 @@ Last updated: 7/9/2026, 10:31:46 AM
 - **T1** -- T1 - Mason Red 6003 with G3806C | Base: G3806C | Mason 6003 8.48g
 - **T2** -- T2 - Mason 6103 Golden Brown | Base: G3806C | Mason 6103 8.48g | Target SG: 1.35
 - **T3** -- T3 - Rutile orange | Base: G3806C | Light Rutile 26.2g | Target SG: 1.3
+- **T4** -- T4 - Purple - Mason 6304 - T | Base: G2926B | Mason 6304 24.24g
+- **T5** -- T5 - Blue-Green Cobalt-Chrome - T | Base: G2926B | Cobalt Oxide 3.15g, Chrome Oxide 1.94g
+- **T6** -- T6 - Green - Nickel Oxide - T | Base: G2926B | Nickel Oxide 6.06g
+- **T7** -- T7 - Mustard-Amber - Manganese Dioxide - T | Base: G2926B | Manganese Dioxide 4.85g
+- **T8** -- T8 - Red - Mason 6021 - T | Base: G2926B | Mason 6021 26.66g
+- **T9** -- T9 - Orange - Mason 6021 lower dose - T | Base: G2926B | Mason 6021 9.7g
 
 ### Suspended (11)
 - **G12** -- G12 — Vanadium Yellow — OX | Base: G2926B | Vanadium Yellow 14.544g | Target SG: 1.32
