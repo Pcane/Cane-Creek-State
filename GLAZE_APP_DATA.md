@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/9/2026, 10:55:07 AM
+Last updated: 7/9/2026, 5:25:16 PM
 
 ## Glaze Library
 
@@ -114,21 +114,20 @@ No batches recorded yet.
 
 ## Recent Firing Records
 
+### G38v2 - Jul26 - A
+- Recipe: Light Rutile: 19.392g per 600g
+- Base: G2926B | SG: -- | Method: Pour
+- Finish: Gloss
+- Rating: Fair
+
+---
+
 ### G29v2 - Jul26 - A
 - Recipe: Vanadium Yellow: 14.544g per 600g, Red Iron Oxide: 4.545g per 600g
 - Base: G2926B | SG: 1.34 | Method: Pour
 - Finish: Gloss
 - Rating: Good
 - Notes: Pour, 1 coat, application SG 1.34. Good, clean result — genuinely distinct from G29v3, NOT superseded (old notebook language was wrong).
-
----
-
-### G38v2 - Jul26 - A
-- Recipe: Light Rutile: 19.392g per 600g
-- Base: G2926B | SG: -- | Method: Pour
-- Finish: Gloss
-- Rating: Fair
-- Notes: 1 coat (light brown), 2 coats (darker brown) — both GLOSSY, directly contradicting this glaze's original documented retirement reason ("unexplained matte, cause undiagnosed"). Real anomaly, cause still unknown. Not as interesting as G21v2.
 
 ---
 
@@ -139,20 +138,6 @@ No batches recorded yet.
 - Finish: Gloss
 - Rating: Good
 - Notes: Pour, 2 coats, stock SG 1.45 diluted to application SG 1.35. Not replacing anything.
-
----
-
-### G48 - Jul26 - A
-- Recipe: Copper Carbonate: 3.636g per 600g, Spanish Red Iron Oxide: 3.03g per 600g
-- Base:  | SG: -- | Method: --
-- Fired: Jul 5, 2026 | Kiln 2 | --
-
----
-
-### G38v3 - Jul26 - A
-- Recipe: Light Rutile: 19.392g per 600g, Red Iron Oxide: 6.06g per 600g
-- Base: G2926B | SG: 1.30 | Method: Pour
-- Fired: Jul 5, 2026 | Kiln 2 | --
 
 ---
 
@@ -173,16 +158,6 @@ No batches recorded yet.
 - Finish: Matte
 - Rating: Fair
 - Notes: Pour, 1 or 2 coats (2 slightly darker, same hue). Similar to G52 but not as good — likely same low-iron/titanium-dominance pattern. Not promoted — set aside as lower priority.
-
----
-
-### G50 - Jul26 - A
-- Recipe: Spanish Red Iron Oxide: 6.06g per 600g
-- Base: G2926B | SG: 1.31 | Method: Pour
-- Fired: Jul 5, 2026 | Kiln 2 | --
-- Finish: Gloss
-- Rating: Fair
-- Notes: Celadon RIO test. Confirms (more strongly than predicted) the titanium-dominance pattern seen across G44/G29v2/G50/G53 at low colorant load. Not promoted — not interesting alone, but genuinely useful confirming data.
 
 ---
 
@@ -222,6 +197,23 @@ No batches recorded yet.
 
 ---
 
+### G49 - Jul26 - A
+- Recipe: Nepheline Syenite: 180g per 600g, Ferro Frit 3134: 216g per 600g, Silica: 84g per 600g, EPK Kaolin: 120g per 600g, Spanish Red Iron Oxide: 12g per 600g, Cobalt Oxide: 7.2g per 600g, Light Rutile: 24g per 600g
+- Base: G49-base (own base, not G2926B/G1214M/G3806C) | SG: 1.35 | Method: Pour
+- Fired: Jul 5, 2026 | Kiln 2 | Cone 6 -- full melt
+- Finish: Gloss
+- Rating: Good
+- Notes: Pour, 2 coats. "Perfect" — reconfirms existing Active glaze.
+
+---
+
+### G48 - Jul26 - A
+- Recipe: Copper Carbonate: 3.636g per 600g, Spanish Red Iron Oxide: 3.03g per 600g
+- Base:  | SG: -- | Method: --
+- Fired: Jul 5, 2026 | Kiln 2 | --
+
+---
+
 ### G52 - Jul26 - A
 - Recipe: Ferro Frit 3134: 120g per 600g, Dolomite: 120g per 600g, Spodumene: 120g per 600g, Ball Clay: 120g per 600g, Silica: 120g per 600g, Tin Oxide: 18g per 600g, Spanish Red Iron Oxide: 12g per 600g
 - Base: G52-base (own base, not G2926B/G1214M/G3806C) | SG: 1.35 | Method: Pour
@@ -232,13 +224,20 @@ No batches recorded yet.
 
 ---
 
-### G49 - Jul26 - A
-- Recipe: Nepheline Syenite: 180g per 600g, Ferro Frit 3134: 216g per 600g, Silica: 84g per 600g, EPK Kaolin: 120g per 600g, Spanish Red Iron Oxide: 12g per 600g, Cobalt Oxide: 7.2g per 600g, Light Rutile: 24g per 600g
-- Base: G49-base (own base, not G2926B/G1214M/G3806C) | SG: 1.35 | Method: Pour
-- Fired: Jul 5, 2026 | Kiln 2 | Cone 6 -- full melt
+### G50 - Jul26 - A
+- Recipe: Spanish Red Iron Oxide: 6.06g per 600g
+- Base: G2926B | SG: 1.31 | Method: Pour
+- Fired: Jul 5, 2026 | Kiln 2 | --
 - Finish: Gloss
-- Rating: Good
-- Notes: Pour, 2 coats. "Perfect" — reconfirms existing Active glaze.
+- Rating: Fair
+- Notes: Celadon RIO test. Confirms (more strongly than predicted) the titanium-dominance pattern seen across G44/G29v2/G50/G53 at low colorant load. Not promoted — not interesting alone, but genuinely useful confirming data.
+
+---
+
+### G38v3 - Jul26 - A
+- Recipe: Light Rutile: 19.392g per 600g, Red Iron Oxide: 6.06g per 600g
+- Base: G2926B | SG: 1.30 | Method: Pour
+- Fired: Jul 5, 2026 | Kiln 2 | --
 
 ---
 
