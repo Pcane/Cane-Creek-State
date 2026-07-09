@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/9/2026, 7:54:51 PM
+Last updated: 7/9/2026, 7:55:24 PM
 
 ## Glaze Library
 
@@ -93,6 +93,16 @@ Last updated: 7/9/2026, 7:54:51 PM
 - Ingredients: Ferro Frit 3110 31.1%, Silica 26.3%, Tile 6 Kaolin 19.7%, Dolomite 8.7%, Strontium Carbonate 4.4%, Ferro Frit 3134 6.6%, Zinc Oxide 3.3%
 - Notes: Fluid-melt by design — runs more than G2926B or G1214M. Apply thinner than usual as a starting caution (currently run at SG 1.35 for G47/G48, which is on the thicker side of that caution — worth watching). Higher thermal expansion accepted deliberately for non-functional wall/art tiles. Kaolin substituted with Tile 6 Kaolin, matching studio stock (same substitution used in G2926B).
 
+### G2926B -- Standard Clear Gloss
+- Target SG: 1.35 | Dry lb/gal: 5.737
+- Ingredients: Nepheline Syenite 16.6%, Ferro Frit 3134 23.1%, Tile 6 Kaolin 17.8%, Wollastonite W-20 6.3%, Silica 325 mesh 34.2%, Talc 2.1%
+- Notes: Converted from built-in code to a real stored record, 2026-07-09 -- so batch logging and f-factor tracking work the same way G3806C already does. Existing confirmed f-factor (0.404) and recipe preserved exactly.
+
+### G1214M -- Chrome-Tin Base
+- Target SG: 1.35 | Dry lb/gal: 5.737
+- Ingredients: Wollastonite 20%, Ferro Frit 3134 20%, G-200 EU Feldspar 20%, EPK Kaolin 20%, Silica 325 mesh 20%
+- Notes: Converted from built-in code to a real stored record, 2026-07-09. f-factor still needs a real first batch logged -- never measured, do not assume.
+
 ## Base Slurry Batch Records
 
 ### G2926B (1 batch)
@@ -110,6 +120,20 @@ Last updated: 7/9/2026, 7:54:51 PM
 No batches recorded yet.
 
 ### G3806C (0 batches)
+No batches recorded yet.
+
+### G2926B (1 batch)
+### G2926B-001 -- G2926B
+- Date: Jun 24, 2026
+- Dry: 2604g | Water: 1760g | SG: 1.39
+- Calculated f factor: 0.5967
+- Viscosity: 14.5s
+- CMC: 42g
+- Epsom: 0g
+- Veegum: 0g
+
+
+### G1214M (0 batches)
 No batches recorded yet.
 
 ## Recent Firing Records
