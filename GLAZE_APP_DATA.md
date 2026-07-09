@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/9/2026, 5:26:26 PM
+Last updated: 7/9/2026, 5:30:35 PM
 
 ## Glaze Library
 
@@ -240,6 +240,7 @@ No batches recorded yet.
 - Fired: Jul 5, 2026 | Kiln 2 | Cone 6 -- full melt
 - Color: Cream
 - Finish: Gloss
+- Rating: Fair
 
 ---
 
