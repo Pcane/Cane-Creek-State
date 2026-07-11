@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/11/2026, 3:22:14 PM
+Last updated: 7/11/2026, 3:28:19 PM
 
 ## Glaze Library
 
@@ -17,7 +17,7 @@ Last updated: 7/11/2026, 3:22:14 PM
 - **G53** -- G53 - Satin Pearl Brown - OX | Base: G2926B | G-200 EU Feldspar 240g, Ferro Frit 3124 54g, Whiting 96g, Talc 54g, EPK Kaolin 60g, Silica 96g, Spanish Red Iron Oxide 12.12g, Light Rutile 2.424g
 - **G29v3** -- G29v3 - Dark Vanadium Yellow Iron Edge - OX | Base: G2926B | Vanadium Yellow 14.544g, Spanish Red Iron Oxide 9.09g | Target SG: 1.34
 
-### Test (22)
+### Test (23)
 - **G25v3** -- G25v3 - Chrome-Tin Coat Thickness Test - OX | Base: G1214M | Chrome Oxide 1.09g, Tin Oxide 25.2g
 - **G48** -- G48 - Copper-Iron on Copper Base - OX | Base: G3806C | Copper Carbonate 3.636g, Spanish Red Iron Oxide 3.03g | Target SG: 1.35
 - **T1** -- T1 - Mason Red 6003 with G3806C | Base: G3806C | Mason 6003 8.48g
@@ -40,6 +40,7 @@ Last updated: 7/11/2026, 3:22:14 PM
 - **G63** -- G63 - Red Gold Attempt - More Rutile - MX | Base: G2926B | Rutile 30g, Red Iron Oxide 12g
 - **G49v2** -- G49v2 - Floating Blue - OX | Base: G49-base (own base, not G2926B/G1214M/G3806C) | Nepheline Syenite 180g, Ferro Frit 3134 216g, Silica 84g, Tile 6 120g, Spanish Red Iron Oxide 12g, Cobalt Oxide 7.2g, Light Rutile 24g
 - **G38v4** -- G38v4 - Rutile Amber - oxide | Base: G2926B | Light Rutile 13.392g, Red Iron Oxide 6.06g | Target SG: 1.3
+- **T10** -- T10 - Mason red 6003 transparent - T | Base: G3806C | mason 6003 8.39g, tin oxide 4.69g
 
 ### Inactive (54)
 - **G1** -- G1 — Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 12.1g
@@ -174,6 +175,12 @@ No batches recorded yet.
 No batches recorded yet.
 
 ## Recent Firing Records
+
+### T10 - Jul26 - A
+- Recipe: mason 6003: 8.39g per 600g, tin oxide: 4.69g per 600g
+- Base: G3806C | SG: -- | Method: --
+
+---
 
 ### T3 - Jul26 - A
 - Recipe: Light Rutile: 26.2g per 600g
@@ -329,16 +336,6 @@ No batches recorded yet.
 - Fired: Jul 5, 2026 | Kiln 2 | --
 - Finish: Matte
 - Rating: Fair
-
----
-
-### G52 - Jul26 - A
-- Recipe: Ferro Frit 3134: 120g per 600g, Dolomite: 120g per 600g, Spodumene: 120g per 600g, Ball Clay: 120g per 600g, Silica: 120g per 600g, Tin Oxide: 18g per 600g, Spanish Red Iron Oxide: 12g per 600g
-- Base: G52-base (own base, not G2926B/G1214M/G3806C) | SG: 1.35 | Method: Pour
-- Fired: Jul 5, 2026 | Kiln 2 | Cone 6 -- full melt
-- Finish: Matte
-- Rating: Good
-- Notes: Pour, 1 coat — 2-coat rejected (rough, mottled, darker). First Matte glaze in the active lineup.
 
 
 ## Studio Constants
