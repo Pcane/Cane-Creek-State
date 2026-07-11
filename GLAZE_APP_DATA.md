@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/11/2026, 2:14:46 PM
+Last updated: 7/11/2026, 2:17:12 PM
 
 ## Glaze Library
 
@@ -176,6 +176,13 @@ No batches recorded yet.
 
 ## Recent Firing Records
 
+### G53v2 - Jul26 - A
+- Recipe: G-200 EU Feldspar: 240g per 600g, Ferro Frit 3124: 54g per 600g, Whiting: 96g per 600g, Talc: 54g per 600g, Tile 6: 60g per 600g, Silica: 96g per 600g, Spanish Red Iron Oxide: 12.12g per 600g, Light Rutile: 2.424g per 600g
+- Base: G2926B | SG: -- | Method: --
+- Finish: Matte
+
+---
+
 ### G38v2 - Jul26 - A
 - Recipe: Light Rutile: 19.392g per 600g
 - Base: G2926B | SG: -- | Method: Pour
@@ -337,13 +344,6 @@ No batches recorded yet.
 ### G38v2 - Jun26 - A
 - Recipe: Light Rutile: 19.392g per 600g
 - Base: G2926B | SG: 1.35 | Method: Pour
-
----
-
-### G30v2 - Jun26 - A
-- Recipe: Cobalt Oxide: 2.424g per 600g, Light Rutile: 12.12g per 600g
-- Base: G2926B | SG: -- | Method: Pour
-- Finish: Gloss
 
 
 ## Studio Constants
