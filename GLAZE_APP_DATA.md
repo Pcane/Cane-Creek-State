@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/11/2026, 2:54:16 PM
+Last updated: 7/11/2026, 3:18:33 PM
 
 ## Glaze Library
 
@@ -175,6 +175,12 @@ No batches recorded yet.
 
 ## Recent Firing Records
 
+### G58 - Jul26 - A
+- Recipe: Rutile: 18g per 600g, Cobalt Carbonate: 1.8g per 600g
+- Base: G2926B | SG: -- | Method: --
+
+---
+
 ### T4 - Jul26 - A
 - Recipe: Mason 6304: 60g per 600g
 - Base: G2926B | SG: -- | Method: --
@@ -335,13 +341,6 @@ No batches recorded yet.
 ### G46 - Jun26 - A
 - Recipe: Copper Carbonate: 3.636g per 600g, Spanish Red Iron Oxide: 3.03g per 600g
 - Base: G2926B | SG: 1.35 | Method: Pour
-- Finish: Gloss
-
----
-
-### G40v2 - Jun26 - A
-- Recipe: Spanish Red Iron Oxide: 39.4g per 600g, Light Rutile: 3.03g per 600g
-- Base: G2926B | SG: 1.53 | Method: Pour
 - Finish: Gloss
 
 
