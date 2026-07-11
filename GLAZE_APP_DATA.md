@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/11/2026, 1:04:57 PM
+Last updated: 7/11/2026, 1:23:04 PM
 
 ## Glaze Library
 
@@ -16,7 +16,7 @@ Last updated: 7/11/2026, 1:04:57 PM
 - **G52** -- G52 - Holly's Gold - OX | Base: G52-base (own base, not G2926B/G1214M/G3806C) | Ferro Frit 3134 120g, Dolomite 120g, Spodumene 120g, Ball Clay 120g, Silica 120g, Tin Oxide 18g, Spanish Red Iron Oxide 12g
 - **G29v3** -- G29v3 - Dark Vanadium Yellow Iron Edge - OX | Base: G2926B | Vanadium Yellow 14.544g, Spanish Red Iron Oxide 9.09g | Target SG: 1.34
 
-### Test (24)
+### Test (26)
 - **G38v3** -- G38v3 - Rutile Amber - OX | Base: G2926B | Light Rutile 19.392g, Red Iron Oxide 6.06g | Target SG: 1.3
 - **G25v3** -- G25v3 - Chrome-Tin Coat Thickness Test - OX | Base: G1214M | Chrome Oxide 1.09g, Tin Oxide 25.2g
 - **G48** -- G48 - Copper-Iron on Copper Base - OX | Base: G3806C | Copper Carbonate 3.636g, Spanish Red Iron Oxide 3.03g | Target SG: 1.35
@@ -31,16 +31,18 @@ Last updated: 7/11/2026, 1:04:57 PM
 - **T7** -- T7 - Mustard-Amber - Manganese Dioxide - T | Base: G2926B | Manganese Dioxide 12g
 - **T8** -- T8 - Red - Mason 6021 - T | Base: G2926B | Mason 6021 66g
 - **T9** -- T9 - Orange - Mason 6021 lower dose - T | Base: G2926B | Mason 6021 24g
-- **G54** -- G54 - Shino Base (control) - T | Base: G2926B | EPK 270g, Nepheline Syenite 180g, Spodumene 90g, Soda Ash 60g
-- **G55** -- G55 - Amber Shino - OX | Base: G2926B | EPK 270g, Nepheline Syenite 180g, Spodumene 90g, Soda Ash 60g, Red Iron Oxide 12g
-- **G56** -- G56 - Light Green Shino - Chrome Route - MX | Base: G2926B | EPK 270g, Nepheline Syenite 180g, Spodumene 90g, Soda Ash 60g, Chrome Oxide 0.9g, Red Iron Oxide 6g
-- **G57** -- G57 - Light Green Shino - Copper Route - MX | Base: G2926B | EPK 270g, Nepheline Syenite 180g, Spodumene 90g, Soda Ash 60g, Copper Carbonate 1.8g, Red Iron Oxide 6g
+- **G54** -- G54 - Shino Base (control) - T | Base: G2926B | Tile 6 270g, Nepheline Syenite 180g, Spodumene 90g, Soda Ash 60g
+- **G55** -- G55 - Amber Shino - OX | Base: G2926B | Tile 6 270g, Nepheline Syenite 180g, Spodumene 90g, Soda Ash 60g, Red Iron Oxide 12g
+- **G56** -- G56 - Light Green Shino - Chrome Route - MX | Base: G2926B | Tile 6 270g, Nepheline Syenite 180g, Spodumene 90g, Soda Ash 60g, Chrome Oxide 0.9g, Red Iron Oxide 6g
+- **G57** -- G57 - Light Green Shino - Copper Route - MX | Base: G2926B | Tile 6 270g, Nepheline Syenite 180g, Spodumene 90g, Soda Ash 60g, Copper Carbonate 1.8g, Red Iron Oxide 6g
 - **G58** -- G58 - Floating Blue Opal Attempt - MX | Base: G2926B | Rutile 18g, Cobalt Carbonate 1.8g
 - **G59** -- G59 - Turquoise Opal Attempt - MX | Base: G2926B | Rutile 18g, Cobalt Carbonate 0.9g, Copper Carbonate 1.8g
 - **G60** -- G60 - Parakeet Yellow Attempt - MS | Base: G2926B | Zircopax 48g, Mason Praseodymium Yellow Stain 36g
 - **G61** -- G61 - Parakeet Yellow Attempt - Higher Saturation - MS | Base: G2926B | Zircopax 48g, Mason Praseodymium Yellow Stain 48g
 - **G62** -- G62 - Red Gold Attempt - MX | Base: G2926B | Rutile 24g, Red Iron Oxide 18g
 - **G63** -- G63 - Red Gold Attempt - More Rutile - MX | Base: G2926B | Rutile 30g, Red Iron Oxide 12g
+- **G49v2** -- G49v2 - Floating Blue - OX | Base: G49-base (own base, not G2926B/G1214M/G3806C) | Nepheline Syenite 180g, Ferro Frit 3134 216g, Silica 84g, Tile 6 120g, Spanish Red Iron Oxide 12g, Cobalt Oxide 7.2g, Light Rutile 24g
+- **G53v2** -- G53v2 - Satin Pearl Brown - OX | Base: G2926B | G-200 EU Feldspar 240g, Ferro Frit 3124 54g, Whiting 96g, Talc 54g, Tile 6 60g, Silica 96g, Spanish Red Iron Oxide 12.12g, Light Rutile 2.424g
 
 ### Inactive (51)
 - **G1** -- G1 — Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 12.1g
@@ -108,12 +110,14 @@ Last updated: 7/11/2026, 1:04:57 PM
 
 ### G1214M -- Chrome-Tin Base
 - Target SG: 1.35 | Dry lb/gal: 5.737
-- Ingredients: Wollastonite 20%, Ferro Frit 3134 20%, G-200 EU Feldspar 20%, EPK Kaolin 20%, Silica 325 mesh 20%
+- Ingredients: Wollastonite 20%, Ferro Frit 3134 20%, G-200 EU Feldspar 20%, Tile 6 20%, Silica 325 mesh 20%
 - Notes: Converted from built-in code to a real stored record, 2026-07-09. f-factor still needs a real first batch logged -- never measured, do not assume.
+
+EPK swapped to Tile 6, 2026-07-11 (EPK discontinued, no longer available). 1:1 by percent.
 
 ### G2934Y -- G2934Y -- Silky Matte (Frit 3249)
 - Target SG: 1.35 | Dry lb/gal: 5.737
-- Ingredients: Ferro Frit 3249 10%, EPK 20.5%, Wollastonite 21.5%, Talc 14%, Nepheline Syenite 10.5%, Silica 13%, Calcined Kaolin 10.5%
+- Ingredients: Ferro Frit 3249 10%, Tile 6 20.5%, Wollastonite 21.5%, Talc 14%, Nepheline Syenite 10.5%, Silica 13%, Calcined Kaolin 10.5%
 - Notes: FIRING: use kiln program "User 4" (drop-and-hold then FAST/free-fall cool) -- matteness is highly cooling-rate dependent. Fast cool = silky matte (target look). Slow cool = dry, stony matte, prone to cutlery marking. Do not use a slow-cool program for this base.
 
 KEY NOTES FROM SOURCE (Digitalfire, Tony Hansen):
@@ -130,6 +134,8 @@ Seg 3: Rate 9999 (max/free-fall) -> 2100F, Hold 30 min
 Seg 4: Rate 9999 (max/free-fall) -> 150F (or off)
 VERIFY the 9999 max-rate value and exact menu keystrokes against the printed KM-1027 manual before firing -- confirmed segment VALUES, not confirmed against this exact unit's menus.
 Fast/free-fall cool is required for the silky matte look -- do NOT use a slow-cool program.
+
+EPK swapped to Tile 6, 2026-07-11 (EPK discontinued, no longer available). 1:1 by percent.
 
 ## Base Slurry Batch Records
 
