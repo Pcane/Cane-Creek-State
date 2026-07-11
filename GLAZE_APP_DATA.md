@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/11/2026, 7:36:13 AM
+Last updated: 7/11/2026, 7:52:46 AM
 
 ## Glaze Library
 
@@ -21,7 +21,7 @@ Last updated: 7/11/2026, 7:36:13 AM
 - **G25v3** -- G25v3 - Chrome-Tin Coat Thickness Test - OX | Base: G1214M | Chrome Oxide 1.09g, Tin Oxide 25.2g
 - **G48** -- G48 - Copper-Iron on Copper Base - OX | Base: G3806C | Copper Carbonate 3.636g, Spanish Red Iron Oxide 3.03g | Target SG: 1.35
 - **G50** -- G50 - Celadon RIO Test - OX | Base: G2926B | Spanish Red Iron Oxide 6.06g
-- **G53** -- G53 - Satin Pearl Brown - OX | Base: G53-base (own base, not G2926B/G1214M/G3806C) | G-200 EU Feldspar 240g, Ferro Frit 3124 54g, Whiting 96g, Talc 54g, EPK Kaolin 60g, Silica 96g, Spanish Red Iron Oxide 12.12g, Light Rutile 2.424g
+- **G53** -- G53 - Satin Pearl Brown - OX | Base: G2926B | G-200 EU Feldspar 240g, Ferro Frit 3124 54g, Whiting 96g, Talc 54g, EPK Kaolin 60g, Silica 96g, Spanish Red Iron Oxide 12.12g, Light Rutile 2.424g
 - **T1** -- T1 - Mason Red 6003 with G3806C | Base: G3806C | Mason 6003 8.48g
 - **T2** -- T2 - Mason 6103 Golden Brown | Base: G3806C | Mason 6103 8.48g | Target SG: 1.35
 - **T3** -- T3 - Rutile orange | Base: G3806C | Light Rutile 26.2g | Target SG: 1.3
