@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/11/2026, 3:45:34 PM
+Last updated: 7/11/2026, 4:01:32 PM
 
 ## Glaze Library
 
@@ -176,6 +176,12 @@ No batches recorded yet.
 
 ## Recent Firing Records
 
+### G59 - Jul26 - A
+- Recipe: Rutile: 18g per 600g, Cobalt Carbonate: 0.9g per 600g, Copper Carbonate: 1.8g per 600g
+- Base: G2926B | SG: -- | Method: --
+
+---
+
 ### T10 - Jul26 - A
 - Recipe: mason 6003: 8.39g per 600g, tin oxide: 4.69g per 600g
 - Base: G3806C | SG: 1.35 | Method: --
@@ -327,15 +333,6 @@ No batches recorded yet.
 - Finish: Gloss
 - Rating: Fair
 - Notes: Celadon RIO test. Confirms (more strongly than predicted) the titanium-dominance pattern seen across G44/G29v2/G50/G53 at low colorant load. Not promoted — not interesting alone, but genuinely useful confirming data.
-
----
-
-### G53 - Jul26 - A
-- Recipe: G-200 EU Feldspar: 240g per 600g, Ferro Frit 3124: 54g per 600g, Whiting: 96g per 600g, Talc: 54g per 600g, EPK Kaolin: 60g per 600g, Silica: 96g per 600g, Spanish Red Iron Oxide: 12.12g per 600g, Light Rutile: 2.424g per 600g
-- Base:  | SG: 1.37 | Method: Pour
-- Fired: Jul 5, 2026 | Kiln 2 | --
-- Finish: Matte
-- Rating: Fair
 
 
 ## Studio Constants
