@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/10/2026, 11:39:58 AM
+Last updated: 7/10/2026, 9:11:18 PM
 
 ## Glaze Library
 
@@ -103,6 +103,18 @@ Last updated: 7/10/2026, 11:39:58 AM
 - Ingredients: Wollastonite 20%, Ferro Frit 3134 20%, G-200 EU Feldspar 20%, EPK Kaolin 20%, Silica 325 mesh 20%
 - Notes: Converted from built-in code to a real stored record, 2026-07-09. f-factor still needs a real first batch logged -- never measured, do not assume.
 
+### G2934Y -- G2934Y -- Silky Matte (Frit 3249)
+- Target SG: 1.35 | Dry lb/gal: 5.737
+- Ingredients: Ferro Frit 3249 10%, EPK 20.5%, Wollastonite 21.5%, Talc 14%, Nepheline Syenite 10.5%, Silica 13%, Calcined Kaolin 10.5%
+- Notes: FIRING: use kiln program "User 4" (drop-and-hold then FAST/free-fall cool) -- matteness is highly cooling-rate dependent. Fast cool = silky matte (target look). Slow cool = dry, stony matte, prone to cutlery marking. Do not use a slow-cool program for this base.
+
+KEY NOTES FROM SOURCE (Digitalfire, Tony Hansen):
+- Frit 3249 is specifically why this variant works -- it releases MgO much more readily than dolomite, giving lower LOI (3.8 vs 13.6), a smoother surface, and better melt fluidity as a stain host.
+- Real documented batch for reference: G2934Y + 10% stain weighed 5045g, water weighed 5450g, settled 3 days, then brought to final SG 1.43 (~48% powder / 52% water by weight). Useful as a rough sanity check against your own first batch.
+- Very low thermal expansion -- resists crazing, but on some clay bodies could risk dunting if too extreme. Worth a compatibility check on the actual tile clay body.
+- If too matte / cutlery marks: blend in 10-20% G2926B glossy (documented fix, cheaper than reformulating).
+- Chrome-tin pink/maroon stains (Mason 6006 and similar) do not develop color in this chemistry family -- confirmed caveat, not a guess.
+
 ## Base Slurry Batch Records
 
 ### G2926B (1 batch)
@@ -134,6 +146,9 @@ No batches recorded yet.
 
 
 ### G1214M (0 batches)
+No batches recorded yet.
+
+### G2934Y (0 batches)
 No batches recorded yet.
 
 ## Recent Firing Records
