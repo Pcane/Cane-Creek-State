@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/11/2026, 3:28:19 PM
+Last updated: 7/11/2026, 3:28:25 PM
 
 ## Glaze Library
 
@@ -178,7 +178,7 @@ No batches recorded yet.
 
 ### T10 - Jul26 - A
 - Recipe: mason 6003: 8.39g per 600g, tin oxide: 4.69g per 600g
-- Base: G3806C | SG: -- | Method: --
+- Base: G3806C | SG: 1.35 | Method: --
 
 ---
 
