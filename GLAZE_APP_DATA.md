@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/11/2026, 2:50:27 PM
+Last updated: 7/11/2026, 2:52:07 PM
 
 ## Glaze Library
 
@@ -176,6 +176,12 @@ No batches recorded yet.
 
 ## Recent Firing Records
 
+### T4 - Jul26 - A
+- Recipe: Mason 6304: 60g per 600g
+- Base: G2926B | SG: -- | Method: --
+
+---
+
 ### G53v2 - Jul26 - A
 - Recipe: G-200 EU Feldspar: 240g per 600g, Ferro Frit 3124: 54g per 600g, Whiting: 96g per 600g, Talc: 54g per 600g, Tile 6: 60g per 600g, Silica: 96g per 600g, Spanish Red Iron Oxide: 12.12g per 600g, Light Rutile: 2.424g per 600g
 - Base: G2926B | SG: -- | Method: --
@@ -338,12 +344,6 @@ No batches recorded yet.
 - Recipe: Spanish Red Iron Oxide: 39.4g per 600g, Light Rutile: 3.03g per 600g
 - Base: G2926B | SG: 1.53 | Method: Pour
 - Finish: Gloss
-
----
-
-### G38v2 - Jun26 - A
-- Recipe: Light Rutile: 19.392g per 600g
-- Base: G2926B | SG: 1.35 | Method: Pour
 
 
 ## Studio Constants
