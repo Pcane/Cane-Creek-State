@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/11/2026, 1:44:05 PM
+Last updated: 7/11/2026, 2:05:13 PM
 
 ## Glaze Library
 
@@ -217,6 +217,7 @@ No batches recorded yet.
 - Recipe: Chrome Oxide: 1.09g per 600g, Tin Oxide: 25.2g per 600g
 - Base: G1214M | SG: -- | Method: Pour
 - Fired: Jul 5, 2026 | Kiln 2 | --
+- Finish: Gloss
 - Rating: Poor
 - Notes: Split-coat chrome-tin pink test. Fired grey — atmosphere/redox failure, likely, possibly linked to kiln proximity to G47 (copper carbonate decomposition can create local reduction). Real Mason-stain documentation confirms chrome-tin pinks need oxidizing atmosphere throughout. Next step: retry with Mason 6001/6021/6003 (already in stock) instead of raw chrome-tin oxide.
 
@@ -266,16 +267,6 @@ No batches recorded yet.
 
 ---
 
-### G52 - Jul26 - A
-- Recipe: Ferro Frit 3134: 120g per 600g, Dolomite: 120g per 600g, Spodumene: 120g per 600g, Ball Clay: 120g per 600g, Silica: 120g per 600g, Tin Oxide: 18g per 600g, Spanish Red Iron Oxide: 12g per 600g
-- Base: G52-base (own base, not G2926B/G1214M/G3806C) | SG: 1.35 | Method: Pour
-- Fired: Jul 5, 2026 | Kiln 2 | Cone 6 -- full melt
-- Finish: Matte
-- Rating: Good
-- Notes: Pour, 1 coat — 2-coat rejected (rough, mottled, darker). First Matte glaze in the active lineup.
-
----
-
 ### G38v3 - Jul26 - A
 - Recipe: Light Rutile: 19.392g per 600g, Red Iron Oxide: 6.06g per 600g
 - Base: G2926B | SG: 1.30 | Method: Pour
@@ -305,27 +296,41 @@ No batches recorded yet.
 
 ---
 
+### G52 - Jul26 - A
+- Recipe: Ferro Frit 3134: 120g per 600g, Dolomite: 120g per 600g, Spodumene: 120g per 600g, Ball Clay: 120g per 600g, Silica: 120g per 600g, Tin Oxide: 18g per 600g, Spanish Red Iron Oxide: 12g per 600g
+- Base: G52-base (own base, not G2926B/G1214M/G3806C) | SG: 1.35 | Method: Pour
+- Fired: Jul 5, 2026 | Kiln 2 | Cone 6 -- full melt
+- Finish: Matte
+- Rating: Good
+- Notes: Pour, 1 coat — 2-coat rejected (rough, mottled, darker). First Matte glaze in the active lineup.
+
+---
+
 ### TG2 - Jun26 - A
 - Recipe: Copper Carbonate: 4.9g per 600g, Light Rutile: 4.09g per 600g
 - Base: G2926B | SG: -- | Method: --
+- Finish: Gloss
 
 ---
 
 ### G25v2 - Jun26 - A
 - Recipe: Chrome Oxide: 0.727g per 600g, Tin Oxide: 25.2g per 600g
 - Base: G1214M | SG: 1.4 | Method: Pour
+- Finish: Gloss
 
 ---
 
 ### G46 - Jun26 - A
 - Recipe: Copper Carbonate: 3.636g per 600g, Spanish Red Iron Oxide: 3.03g per 600g
 - Base: G2926B | SG: 1.35 | Method: Pour
+- Finish: Gloss
 
 ---
 
 ### G40v2 - Jun26 - A
 - Recipe: Spanish Red Iron Oxide: 39.4g per 600g, Light Rutile: 3.03g per 600g
 - Base: G2926B | SG: 1.53 | Method: Pour
+- Finish: Gloss
 
 ---
 
@@ -338,6 +343,7 @@ No batches recorded yet.
 ### G30v2 - Jun26 - A
 - Recipe: Cobalt Oxide: 2.424g per 600g, Light Rutile: 12.12g per 600g
 - Base: G2926B | SG: -- | Method: Pour
+- Finish: Gloss
 
 
 ## Studio Constants
