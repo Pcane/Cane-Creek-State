@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/10/2026, 9:11:18 PM
+Last updated: 7/10/2026, 9:25:15 PM
 
 ## Glaze Library
 
@@ -114,6 +114,14 @@ KEY NOTES FROM SOURCE (Digitalfire, Tony Hansen):
 - Very low thermal expansion -- resists crazing, but on some clay bodies could risk dunting if too extreme. Worth a compatibility check on the actual tile clay body.
 - If too matte / cutlery marks: blend in 10-20% G2926B glossy (documented fix, cheaper than reformulating).
 - Chrome-tin pink/maroon stains (Mason 6006 and similar) do not develop color in this chemistry family -- confirmed caveat, not a guess.
+
+SKUTT KM-1027 FIRING PROGRAM -- enter as "User 4":
+Seg 1: Rate 350F/hr -> 2100F, Hold 0 min
+Seg 2: Rate 108F/hr -> 2200F (cone 6), Hold 10 min
+Seg 3: Rate 9999 (max/free-fall) -> 2100F, Hold 30 min
+Seg 4: Rate 9999 (max/free-fall) -> 150F (or off)
+VERIFY the 9999 max-rate value and exact menu keystrokes against the printed KM-1027 manual before firing -- confirmed segment VALUES, not confirmed against this exact unit's menus.
+Fast/free-fall cool is required for the silky matte look -- do NOT use a slow-cool program.
 
 ## Base Slurry Batch Records
 
