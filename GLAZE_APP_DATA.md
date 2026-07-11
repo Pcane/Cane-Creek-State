@@ -1,9 +1,9 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/11/2026, 1:31:09 PM
+Last updated: 7/11/2026, 1:42:52 PM
 
 ## Glaze Library
 
-### Active (11)
+### Active (12)
 - **G11** -- G11 - Trans Dark Green — OX | Base: G2926B | Chrome Oxide 1.212g | Target SG: 1.29
 - **G16** -- G16 - White — OX | Base: G2926B | Tin Oxide 4.848g | Target SG: 1.32
 - **G40v2** -- G40v2 - Tenmoku - OX | Base: G2926B | Spanish Red Iron Oxide 39.4g, Light Rutile 3.03g | Target SG: 1.32
@@ -14,14 +14,12 @@ Last updated: 7/11/2026, 1:31:09 PM
 - **G47** -- G47 - Lime Green - OX | Base: G3806C | Copper Carbonate 4.9g, Light Rutile 4.09g | Target SG: 1.35
 - **G49** -- G49 - Floating Blue - OX | Base: G49-base (own base, not G2926B/G1214M/G3806C) | Nepheline Syenite 180g, Ferro Frit 3134 216g, Silica 84g, EPK Kaolin 120g, Spanish Red Iron Oxide 12g, Cobalt Oxide 7.2g, Light Rutile 24g
 - **G52** -- G52 - Holly's Gold - OX | Base: G52-base (own base, not G2926B/G1214M/G3806C) | Ferro Frit 3134 120g, Dolomite 120g, Spodumene 120g, Ball Clay 120g, Silica 120g, Tin Oxide 18g, Spanish Red Iron Oxide 12g
+- **G53** -- G53 - Satin Pearl Brown - OX | Base: G2926B | G-200 EU Feldspar 240g, Ferro Frit 3124 54g, Whiting 96g, Talc 54g, EPK Kaolin 60g, Silica 96g, Spanish Red Iron Oxide 12.12g, Light Rutile 2.424g
 - **G29v3** -- G29v3 - Dark Vanadium Yellow Iron Edge - OX | Base: G2926B | Vanadium Yellow 14.544g, Spanish Red Iron Oxide 9.09g | Target SG: 1.34
 
-### Test (27)
-- **G38v3** -- G38v3 - Rutile Amber - OX | Base: G2926B | Light Rutile 19.392g, Red Iron Oxide 6.06g | Target SG: 1.3
+### Test (24)
 - **G25v3** -- G25v3 - Chrome-Tin Coat Thickness Test - OX | Base: G1214M | Chrome Oxide 1.09g, Tin Oxide 25.2g
 - **G48** -- G48 - Copper-Iron on Copper Base - OX | Base: G3806C | Copper Carbonate 3.636g, Spanish Red Iron Oxide 3.03g | Target SG: 1.35
-- **G50** -- G50 - Celadon RIO Test - OX | Base: G2926B | Spanish Red Iron Oxide 6.06g
-- **G53** -- G53 - Satin Pearl Brown - OX | Base: G2926B | G-200 EU Feldspar 240g, Ferro Frit 3124 54g, Whiting 96g, Talc 54g, EPK Kaolin 60g, Silica 96g, Spanish Red Iron Oxide 12.12g, Light Rutile 2.424g
 - **T1** -- T1 - Mason Red 6003 with G3806C | Base: G3806C | Mason 6003 8.48g
 - **T2** -- T2 - Mason 6103 Golden Brown | Base: G3806C | Mason 6103 8.48g | Target SG: 1.35
 - **T3** -- T3 - Rutile orange | Base: G3806C | Light Rutile 26.2g | Target SG: 1.3
@@ -45,7 +43,7 @@ Last updated: 7/11/2026, 1:31:09 PM
 - **G53v2** -- G53v2 - Satin Pearl Brown - OX | Base: G2926B | G-200 EU Feldspar 240g, Ferro Frit 3124 54g, Whiting 96g, Talc 54g, Tile 6 60g, Silica 96g, Spanish Red Iron Oxide 12.12g, Light Rutile 2.424g
 - **G38v4** -- G38v4 - Rutile Amber - oxide | Base: G2926B | Light Rutile 13.392g, Red Iron Oxide 6.06g | Target SG: 1.3
 
-### Inactive (51)
+### Inactive (53)
 - **G1** -- G1 — Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 12.1g
 - **G2** -- G2 — Mid-Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 19.4g
 - **G3** -- G3 — Transparent UNC Blue — MS | Base: G2926B | Mason 6374 7.273g
@@ -94,8 +92,10 @@ Last updated: 7/11/2026, 1:31:09 PM
 - **G25v2** -- G25v2 - Chrome-Tin Cranberry Red - OX | Base: G1214M | Chrome Oxide 0.727g, Tin Oxide 25.2g | Target SG: 1.38
 - **G38v2** -- G38v2 - Orange Satin - OX | Base: G2926B | Light Rutile 19.392g | Target SG: 1.3
 - **G30v6** -- G30v6 - Transparent Blue, Darker Break - OX | Base: G2926B | Cobalt Oxide 2.424g, Red Iron Oxide 4.85g | Target SG: 1.32
+- **G38v3** -- G38v3 - Rutile Amber - OX | Base: G2926B | Light Rutile 19.392g, Red Iron Oxide 6.06g | Target SG: 1.3
 - **TG1** -- TG1 - v26v2 - TG | Base: G2926B | no colorant
 - **TG2** -- TG2 - G26v2 light green - TG | Base: G2926B | Copper Carbonate 4.9g, Light Rutile 4.09g | Target SG: 1.314
+- **G50** -- G50 - Celadon RIO Test - OX | Base: G2926B | Spanish Red Iron Oxide 6.06g
 - **G51** -- G51 - Nickel Carbonate Test - OX | Base: G2926B | Nickel Carbonate 6.06g
 
 ## Custom Bases
@@ -213,16 +213,6 @@ No batches recorded yet.
 
 ---
 
-### G53 - Jul26 - A
-- Recipe: G-200 EU Feldspar: 240g per 600g, Ferro Frit 3124: 54g per 600g, Whiting: 96g per 600g, Talc: 54g per 600g, EPK Kaolin: 60g per 600g, Silica: 96g per 600g, Spanish Red Iron Oxide: 12.12g per 600g, Light Rutile: 2.424g per 600g
-- Base: G53-base (own base, not G2926B/G1214M/G3806C) | SG: 1.37 | Method: Pour
-- Fired: Jul 5, 2026 | Kiln 2 | --
-- Finish: Matte
-- Rating: Fair
-- Notes: Pour, 1 or 2 coats (2 slightly darker, same hue). Similar to G52 but not as good — likely same low-iron/titanium-dominance pattern. Not promoted — set aside as lower priority.
-
----
-
 ### G25v3 - Jul26 - A
 - Recipe: Chrome Oxide: 1.09g per 600g, Tin Oxide: 25.2g per 600g
 - Base: G1214M | SG: -- | Method: Pour
@@ -286,6 +276,16 @@ No batches recorded yet.
 
 ---
 
+### G38v3 - Jul26 - A
+- Recipe: Light Rutile: 19.392g per 600g, Red Iron Oxide: 6.06g per 600g
+- Base: G2926B | SG: 1.30 | Method: Pour
+- Fired: Jul 5, 2026 | Kiln 2 | Cone 6 -- full melt
+- Color: Cream
+- Finish: Gloss
+- Rating: Fair
+
+---
+
 ### G50 - Jul26 - A
 - Recipe: Spanish Red Iron Oxide: 6.06g per 600g
 - Base: G2926B | SG: 1.31 | Method: Pour
@@ -296,12 +296,11 @@ No batches recorded yet.
 
 ---
 
-### G38v3 - Jul26 - A
-- Recipe: Light Rutile: 19.392g per 600g, Red Iron Oxide: 6.06g per 600g
-- Base: G2926B | SG: 1.30 | Method: Pour
-- Fired: Jul 5, 2026 | Kiln 2 | Cone 6 -- full melt
-- Color: Cream
-- Finish: Gloss
+### G53 - Jul26 - A
+- Recipe: G-200 EU Feldspar: 240g per 600g, Ferro Frit 3124: 54g per 600g, Whiting: 96g per 600g, Talc: 54g per 600g, EPK Kaolin: 60g per 600g, Silica: 96g per 600g, Spanish Red Iron Oxide: 12.12g per 600g, Light Rutile: 2.424g per 600g
+- Base:  | SG: 1.37 | Method: Pour
+- Fired: Jul 5, 2026 | Kiln 2 | --
+- Finish: Matte
 - Rating: Fair
 
 ---
