@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/11/2026, 7:26:59 PM
+Last updated: 7/11/2026, 7:27:03 PM
 
 ## Glaze Library
 
@@ -177,7 +177,7 @@ No batches recorded yet.
 
 ### T5 - Jul26 - A
 - Recipe: Cobalt Oxide: 7.8g per 600g, Chrome Oxide: 4.8g per 600g
-- Base: G2926B | SG: -- | Method: --
+- Base: G2926B | SG: 1.35 | Method: --
 
 ---
 
