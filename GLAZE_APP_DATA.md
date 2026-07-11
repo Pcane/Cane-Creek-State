@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/11/2026, 4:11:02 PM
+Last updated: 7/11/2026, 4:11:06 PM
 
 ## Glaze Library
 
@@ -178,7 +178,7 @@ No batches recorded yet.
 
 ### G60 - Jul26 - A
 - Recipe: Zircopax: 48g per 600g, Mason Praseodymium Yellow Stain: 36g per 600g
-- Base: G2926B | SG: -- | Method: --
+- Base: G2926B | SG: 1.35 | Method: --
 
 ---
 
