@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/11/2026, 7:14:42 PM
+Last updated: 7/11/2026, 7:26:59 PM
 
 ## Glaze Library
 
@@ -175,6 +175,12 @@ No batches recorded yet.
 
 ## Recent Firing Records
 
+### T5 - Jul26 - A
+- Recipe: Cobalt Oxide: 7.8g per 600g, Chrome Oxide: 4.8g per 600g
+- Base: G2926B | SG: -- | Method: --
+
+---
+
 ### T11 - Jul26 - A
 - Recipe: Light Rutile: 19.38g per 600g, Red Iron Oxide: 6.06g per 600g
 - Base: G2926B | SG: 1.35 | Method: --
@@ -317,13 +323,6 @@ No batches recorded yet.
 - Finish: Gloss
 - Rating: Good
 - Notes: Pour, 2 coats. "Perfect" — reconfirms existing Active glaze.
-
----
-
-### G48 - Jul26 - A
-- Recipe: Copper Carbonate: 3.636g per 600g, Spanish Red Iron Oxide: 3.03g per 600g
-- Base:  | SG: -- | Method: --
-- Fired: Jul 5, 2026 | Kiln 2 | --
 
 
 ## Studio Constants
