@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/11/2026, 7:00:14 PM
+Last updated: 7/11/2026, 7:14:38 PM
 
 ## Glaze Library
 
@@ -17,7 +17,7 @@ Last updated: 7/11/2026, 7:00:14 PM
 - **G53** -- G53 - Satin Pearl Brown - OX | Base: G2926B | G-200 EU Feldspar 240g, Ferro Frit 3124 54g, Whiting 96g, Talc 54g, EPK Kaolin 60g, Silica 96g, Spanish Red Iron Oxide 12.12g, Light Rutile 2.424g
 - **G29v3** -- G29v3 - Dark Vanadium Yellow Iron Edge - OX | Base: G2926B | Vanadium Yellow 14.544g, Spanish Red Iron Oxide 9.09g | Target SG: 1.34
 
-### Test (19)
+### Test (20)
 - **T1** -- T1 - Mason Red 6003 with G3806C | Base: G3806C | Mason 6003 8.48g
 - **T2** -- T2 - Mason 6103 Golden Brown | Base: G3806C | Mason 6103 8.48g | Target SG: 1.35
 - **T3** -- T3 - Rutile orange | Base: G3806C | Light Rutile 26.2g | Target SG: 1.3
@@ -37,6 +37,7 @@ Last updated: 7/11/2026, 7:00:14 PM
 - **G63** -- G63 - Red Gold Attempt - More Rutile - MX | Base: G2926B | Rutile 30g, Red Iron Oxide 12g
 - **G49v2** -- G49v2 - Floating Blue - OX | Base: G49-base (own base, not G2926B/G1214M/G3806C) | Nepheline Syenite 180g, Ferro Frit 3134 216g, Silica 84g, Tile 6 120g, Spanish Red Iron Oxide 12g, Cobalt Oxide 7.2g, Light Rutile 24g
 - **T10** -- T10 - Mason red 6003 transparent - T | Base: G3806C | mason 6003 8.39g, tin oxide 4.69g
+- **T11** -- T11 - G38v4 Rutile amber cloud - T | Base: G2926B | Light Rutile 19.38g, Red Iron Oxide 6.06g
 
 ### Inactive (56)
 - **G1** -- G1 — Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 12.1g
@@ -173,6 +174,12 @@ No batches recorded yet.
 No batches recorded yet.
 
 ## Recent Firing Records
+
+### T11 - Jul26 - A
+- Recipe: Light Rutile: 19.38g per 600g, Red Iron Oxide: 6.06g per 600g
+- Base: G2926B | SG: -- | Method: --
+
+---
 
 ### G60 - Jul26 - A
 - Recipe: Zircopax: 48g per 600g, Mason Praseodymium Yellow Stain: 36g per 600g
@@ -317,16 +324,6 @@ No batches recorded yet.
 - Recipe: Copper Carbonate: 3.636g per 600g, Spanish Red Iron Oxide: 3.03g per 600g
 - Base:  | SG: -- | Method: --
 - Fired: Jul 5, 2026 | Kiln 2 | --
-
----
-
-### G38v3 - Jul26 - A
-- Recipe: Light Rutile: 19.392g per 600g, Red Iron Oxide: 6.06g per 600g
-- Base: G2926B | SG: 1.30 | Method: Pour
-- Fired: Jul 5, 2026 | Kiln 2 | Cone 6 -- full melt
-- Color: Cream
-- Finish: Gloss
-- Rating: Fair
 
 
 ## Studio Constants
