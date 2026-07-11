@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/11/2026, 2:52:07 PM
+Last updated: 7/11/2026, 2:54:16 PM
 
 ## Glaze Library
 
@@ -17,13 +17,12 @@ Last updated: 7/11/2026, 2:52:07 PM
 - **G53** -- G53 - Satin Pearl Brown - OX | Base: G2926B | G-200 EU Feldspar 240g, Ferro Frit 3124 54g, Whiting 96g, Talc 54g, EPK Kaolin 60g, Silica 96g, Spanish Red Iron Oxide 12.12g, Light Rutile 2.424g
 - **G29v3** -- G29v3 - Dark Vanadium Yellow Iron Edge - OX | Base: G2926B | Vanadium Yellow 14.544g, Spanish Red Iron Oxide 9.09g | Target SG: 1.34
 
-### Test (23)
+### Test (22)
 - **G25v3** -- G25v3 - Chrome-Tin Coat Thickness Test - OX | Base: G1214M | Chrome Oxide 1.09g, Tin Oxide 25.2g
 - **G48** -- G48 - Copper-Iron on Copper Base - OX | Base: G3806C | Copper Carbonate 3.636g, Spanish Red Iron Oxide 3.03g | Target SG: 1.35
 - **T1** -- T1 - Mason Red 6003 with G3806C | Base: G3806C | Mason 6003 8.48g
 - **T2** -- T2 - Mason 6103 Golden Brown | Base: G3806C | Mason 6103 8.48g | Target SG: 1.35
 - **T3** -- T3 - Rutile orange | Base: G3806C | Light Rutile 26.2g | Target SG: 1.3
-- **T4** -- T4 - Purple - Mason 6304 - T | Base: G2926B | Mason 6304 60g
 - **T5** -- T5 - Blue-Green Cobalt-Chrome - T | Base: G2926B | Cobalt Oxide 7.8g, Chrome Oxide 4.8g
 - **T6** -- T6 - Green - Nickel Oxide - T | Base: G2926B | Nickel Oxide 15g
 - **T7** -- T7 - Mustard-Amber - Manganese Dioxide - T | Base: G2926B | Manganese Dioxide 12g
