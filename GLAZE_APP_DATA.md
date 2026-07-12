@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/12/2026, 3:44:05 PM
+Last updated: 7/12/2026, 3:50:58 PM
 
 ## Glaze Library
 
@@ -185,6 +185,12 @@ No batches recorded yet.
 
 ## Recent Firing Records
 
+### G65 - Jul26 - A
+- Recipe: Spanish RIO: 39g per 600g, Light Rutile: 7.5g per 600g
+- Base: G3806C | SG: -- | Method: --
+
+---
+
 ### G64 - Jul26 - A
 - Recipe: Copper Carbonate: 9g per 600g, Light Rutile: 27g per 600g
 - Base: G3806C | SG: 1.35 | Method: --
@@ -311,16 +317,6 @@ No batches recorded yet.
 - Recipe: No colorant
 - Base: G2926B | SG: 1.32 | Method: Pour
 - Fired: Jul 5, 2026 | Kiln 2 | --
-
----
-
-### G47 - Jul26 - A
-- Recipe: Copper Carbonate: 4.9g per 600g, Light Rutile: 4.09g per 600g
-- Base: G3806C | SG: 1.35 | Method: Pour
-- Fired: Jul 5, 2026 | Kiln 2 | --
-- Finish: Gloss
-- Rating: Good
-- Notes: Pour, 2 coats. Slight crazing — accepted, known G3806C thermal-expansion tradeoff. Transparent held despite deeper saturation vs. 1-coat. No running observed.
 
 
 ## Studio Constants
