@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/12/2026, 9:29:41 AM
+Last updated: 7/12/2026, 3:28:58 PM
 
 ## Glaze Library
 
@@ -18,8 +18,8 @@ Last updated: 7/12/2026, 9:29:41 AM
 - **G29v3** -- G29v3 - Dark Vanadium Yellow Iron Edge - OX | Base: G2926B | Vanadium Yellow 14.544g, Spanish Red Iron Oxide 9.09g | Target SG: 1.34
 
 ### Test (18)
-- **T1** -- T1 - Mason Red 6003 with G3806C | Base: G2926B | Mason 6003 8.48g
-- **T2** -- T2 - Mason 6103 Golden Brown | Base: G3806C | Mason 6103 8.48g | Target SG: 1.35
+- **T1** -- T1 - Mason 6003 | Base: G2926B | Mason 6003 8.48g
+- **T2** -- T2 - Mason 6103 Golden Brown | Base: G2926B | Mason 6103 8.48g | Target SG: 1.35
 - **T3** -- T3 - Rutile orange | Base: G2926B | Light Rutile 26.2g | Target SG: 1.3
 - **T5** -- T5 - Blue-Green Cobalt-Chrome - T | Base: G2926B | Cobalt Oxide 7.8g, Chrome Oxide 4.8g
 - **T6** -- T6 - Green - Nickel Oxide - T | Base: G2926B | Nickel Oxide 15g
@@ -153,8 +153,14 @@ EPK swapped to Tile 6, 2026-07-11 (EPK discontinued, no longer available). 1:1 b
 ### G1214M (0 batches)
 No batches recorded yet.
 
-### G3806C (0 batches)
-No batches recorded yet.
+### G3806C (1 batch)
+### G3806C-001 -- G3806C
+- Date: Jul 12, 2026
+- Dry: 2.19g | Water: 2.8g | SG: null
+- Calculated f factor: 0.438
+- Empirical f factor: 0.438
+- Notes: f-factor measured via evaporation method: 5.00g wet sample dried 2 days down to 2.19g dry residue. NOT a standard weigh-dry-then-weigh-total batch -- "water added" above actually reflects water lost to evaporation, not water added during mixing.
+
 
 ### G2926B (1 batch)
 ### G2926B-001 -- G2926B
@@ -281,16 +287,6 @@ No batches recorded yet.
 
 ---
 
-### G29v3 - Jul26 - A
-- Recipe: Vanadium Yellow: 14.544g per 600g, Spanish Red Iron Oxide: 9.09g per 600g
-- Base: G2926B | SG: 1.34 | Method: Pour
-- Fired: Jul 5, 2026 | Kiln 2 | --
-- Finish: Gloss
-- Rating: Good
-- Notes: Pour, 2 coats. Dark speckling — likely under-dissolved iron (sieving theory, untested). Genuinely distinct from G29v2, not a replacement for it.
-
----
-
 ### G25v3 - Jul26 - A
 - Recipe: Chrome Oxide: 1.09g per 600g, Tin Oxide: 25.2g per 600g
 - Base: G1214M | SG: -- | Method: Pour
@@ -315,6 +311,16 @@ No batches recorded yet.
 - Finish: Gloss
 - Rating: Good
 - Notes: Pour, 2 coats. Slight crazing — accepted, known G3806C thermal-expansion tradeoff. Transparent held despite deeper saturation vs. 1-coat. No running observed.
+
+---
+
+### G44 - Jul26 - A
+- Recipe: Light Rutile: 12.12g per 600g, Spanish Red Iron Oxide: 6.06g per 600g
+- Base: G2926B | SG: 1.33 | Method: Pour
+- Fired: Jul 5, 2026 | Kiln 2 | --
+- Finish: Gloss
+- Rating: Good
+- Notes: Pour, 1 or 2 coats — no difference between them. Opaque, uniform sand/amber. Field-tile candidate, not the usual transparency target.
 
 
 ## Studio Constants
