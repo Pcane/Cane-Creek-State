@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/12/2026, 3:50:58 PM
+Last updated: 7/12/2026, 3:59:16 PM
 
 ## Glaze Library
 
@@ -185,9 +185,15 @@ No batches recorded yet.
 
 ## Recent Firing Records
 
+### G66 - Jul26 - A
+- Recipe: Spanish RIO: 15g per 600g, Light Rutile: 27g per 600g
+- Base: G3806C | SG: -- | Method: --
+
+---
+
 ### G65 - Jul26 - A
 - Recipe: Spanish RIO: 39g per 600g, Light Rutile: 7.5g per 600g
-- Base: G3806C | SG: -- | Method: --
+- Base: G3806C | SG: 1.35 | Method: --
 
 ---
 
@@ -310,13 +316,6 @@ No batches recorded yet.
 - Finish: Gloss
 - Rating: Poor
 - Notes: Split-coat chrome-tin pink test. Fired grey — atmosphere/redox failure, likely, possibly linked to kiln proximity to G47 (copper carbonate decomposition can create local reduction). Real Mason-stain documentation confirms chrome-tin pinks need oxidizing atmosphere throughout. Next step: retry with Mason 6001/6021/6003 (already in stock) instead of raw chrome-tin oxide.
-
----
-
-### TG1 - Jul26 - A
-- Recipe: No colorant
-- Base: G2926B | SG: 1.32 | Method: Pour
-- Fired: Jul 5, 2026 | Kiln 2 | --
 
 
 ## Studio Constants
