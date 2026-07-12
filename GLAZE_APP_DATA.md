@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/11/2026, 7:27:03 PM
+Last updated: 7/12/2026, 7:39:27 AM
 
 ## Glaze Library
 
@@ -175,6 +175,12 @@ No batches recorded yet.
 
 ## Recent Firing Records
 
+### T6 - Jul26 - A
+- Recipe: Nickel Oxide: 15g per 600g
+- Base: G2926B | SG: -- | Method: --
+
+---
+
 ### T5 - Jul26 - A
 - Recipe: Cobalt Oxide: 7.8g per 600g, Chrome Oxide: 4.8g per 600g
 - Base: G2926B | SG: 1.35 | Method: --
@@ -313,16 +319,6 @@ No batches recorded yet.
 - Finish: Gloss
 - Rating: Good
 - Notes: Pour, 1 or 2 coats — no difference between them. Opaque, uniform sand/amber. Field-tile candidate, not the usual transparency target.
-
----
-
-### G49 - Jul26 - A
-- Recipe: Nepheline Syenite: 180g per 600g, Ferro Frit 3134: 216g per 600g, Silica: 84g per 600g, EPK Kaolin: 120g per 600g, Spanish Red Iron Oxide: 12g per 600g, Cobalt Oxide: 7.2g per 600g, Light Rutile: 24g per 600g
-- Base: G49-base (own base, not G2926B/G1214M/G3806C) | SG: 1.35 | Method: Pour
-- Fired: Jul 5, 2026 | Kiln 2 | Cone 6 -- full melt
-- Finish: Gloss
-- Rating: Good
-- Notes: Pour, 2 coats. "Perfect" — reconfirms existing Active glaze.
 
 
 ## Studio Constants
