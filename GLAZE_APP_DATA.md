@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/12/2026, 7:40:06 AM
+Last updated: 7/12/2026, 8:01:03 AM
 
 ## Glaze Library
 
@@ -17,15 +17,12 @@ Last updated: 7/12/2026, 7:40:06 AM
 - **G53** -- G53 - Satin Pearl Brown - OX | Base: G2926B | G-200 EU Feldspar 240g, Ferro Frit 3124 54g, Whiting 96g, Talc 54g, EPK Kaolin 60g, Silica 96g, Spanish Red Iron Oxide 12.12g, Light Rutile 2.424g
 - **G29v3** -- G29v3 - Dark Vanadium Yellow Iron Edge - OX | Base: G2926B | Vanadium Yellow 14.544g, Spanish Red Iron Oxide 9.09g | Target SG: 1.34
 
-### Test (20)
+### Test (18)
 - **T1** -- T1 - Mason Red 6003 with G3806C | Base: G3806C | Mason 6003 8.48g
 - **T2** -- T2 - Mason 6103 Golden Brown | Base: G3806C | Mason 6103 8.48g | Target SG: 1.35
 - **T3** -- T3 - Rutile orange | Base: G3806C | Light Rutile 26.2g | Target SG: 1.3
 - **T5** -- T5 - Blue-Green Cobalt-Chrome - T | Base: G2926B | Cobalt Oxide 7.8g, Chrome Oxide 4.8g
 - **T6** -- T6 - Green - Nickel Oxide - T | Base: G2926B | Nickel Oxide 15g
-- **T7** -- T7 - Mustard-Amber - Manganese Dioxide - T | Base: G2926B | Manganese Dioxide 12g
-- **T8** -- T8 - Red - Mason 6021 - T | Base: G2926B | Mason 6021 66g
-- **T9** -- T9 - Orange - Mason 6021 lower dose - T | Base: G2926B | Mason 6021 24g
 - **G54** -- G54 - Shino Base (control) - T | Base: G2926B | Tile 6 270g, Nepheline Syenite 180g, Spodumene 90g, Soda Ash 60g
 - **G55** -- G55 - Amber Shino - OX | Base: G2926B | Tile 6 270g, Nepheline Syenite 180g, Spodumene 90g, Soda Ash 60g, Red Iron Oxide 12g
 - **G56** -- G56 - Light Green Shino - Chrome Route - MX | Base: G2926B | Tile 6 270g, Nepheline Syenite 180g, Spodumene 90g, Soda Ash 60g, Chrome Oxide 0.9g, Red Iron Oxide 6g
@@ -38,8 +35,9 @@ Last updated: 7/12/2026, 7:40:06 AM
 - **G49v2** -- G49v2 - Floating Blue - OX | Base: G49-base (own base, not G2926B/G1214M/G3806C) | Nepheline Syenite 180g, Ferro Frit 3134 216g, Silica 84g, Tile 6 120g, Spanish Red Iron Oxide 12g, Cobalt Oxide 7.2g, Light Rutile 24g
 - **T10** -- T10 - Mason red 6003 transparent - T | Base: G3806C | mason 6003 8.39g, tin oxide 4.69g
 - **T11** -- T11 - G38v4 Rutile amber cloud - T | Base: G2926B | Light Rutile 19.38g, Red Iron Oxide 6.06g
+- **T12** -- T12 - Mason 6028 and RIO - T | Base: G2926B | Mason 6028 44.004g, RIO 8.251g
 
-### Inactive (56)
+### Inactive (58)
 - **G1** -- G1 — Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 12.1g
 - **G2** -- G2 — Mid-Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 19.4g
 - **G3** -- G3 — Transparent UNC Blue — MS | Base: G2926B | Mason 6374 7.273g
@@ -95,6 +93,8 @@ Last updated: 7/12/2026, 7:40:06 AM
 - **G48** -- G48 - Copper-Iron on Copper Base - OX | Base: G3806C | Copper Carbonate 3.636g, Spanish Red Iron Oxide 3.03g | Target SG: 1.35
 - **G50** -- G50 - Celadon RIO Test - OX | Base: G2926B | Spanish Red Iron Oxide 6.06g
 - **G51** -- G51 - Nickel Carbonate Test - OX | Base: G2926B | Nickel Carbonate 6.06g
+- **T7** -- T7 - Mustard-Amber - Manganese Dioxide - T | Base: G2926B | Manganese Dioxide 12g
+- **T8** -- T8 - Red - Mason 6021 - T | Base: G2926B | Mason 6021 66g
 - **G53v2** -- G53v2 - Satin Pearl Brown - OX | Base: G2926B | G-200 EU Feldspar 240g, Ferro Frit 3124 54g, Whiting 96g, Talc 54g, Tile 6 60g, Silica 96g, Spanish Red Iron Oxide 12.12g, Light Rutile 2.424g
 
 ## Custom Bases
@@ -174,6 +174,12 @@ No batches recorded yet.
 No batches recorded yet.
 
 ## Recent Firing Records
+
+### T12 - Jul26 - A
+- Recipe: Mason 6028: 44.004g per 600g, RIO: 8.251g per 600g
+- Base: G2926B | SG: -- | Method: --
+
+---
 
 ### T6 - Jul26 - A
 - Recipe: Nickel Oxide: 15g per 600g
@@ -309,16 +315,6 @@ No batches recorded yet.
 - Finish: Gloss
 - Rating: Good
 - Notes: Pour, 2 coats. Slight crazing — accepted, known G3806C thermal-expansion tradeoff. Transparent held despite deeper saturation vs. 1-coat. No running observed.
-
----
-
-### G44 - Jul26 - A
-- Recipe: Light Rutile: 12.12g per 600g, Spanish Red Iron Oxide: 6.06g per 600g
-- Base: G2926B | SG: 1.33 | Method: Pour
-- Fired: Jul 5, 2026 | Kiln 2 | --
-- Finish: Gloss
-- Rating: Good
-- Notes: Pour, 1 or 2 coats — no difference between them. Opaque, uniform sand/amber. Field-tile candidate, not the usual transparency target.
 
 
 ## Studio Constants
