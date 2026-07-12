@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/12/2026, 3:28:57 PM
+Last updated: 7/12/2026, 3:44:01 PM
 
 ## Glaze Library
 
@@ -17,7 +17,7 @@ Last updated: 7/12/2026, 3:28:57 PM
 - **G53** -- G53 - Satin Pearl Brown - OX | Base: G2926B | G-200 EU Feldspar 240g, Ferro Frit 3124 54g, Whiting 96g, Talc 54g, EPK Kaolin 60g, Silica 96g, Spanish Red Iron Oxide 12.12g, Light Rutile 2.424g
 - **G29v3** -- G29v3 - Dark Vanadium Yellow Iron Edge - OX | Base: G2926B | Vanadium Yellow 14.544g, Spanish Red Iron Oxide 9.09g | Target SG: 1.34
 
-### Test (18)
+### Test (22)
 - **T1** -- T1 - Mason 6003 | Base: G2926B | Mason 6003 8.48g
 - **T2** -- T2 - Mason 6103 Golden Brown | Base: G2926B | Mason 6103 8.48g | Target SG: 1.35
 - **T3** -- T3 - Rutile orange | Base: G2926B | Light Rutile 26.2g | Target SG: 1.3
@@ -36,6 +36,10 @@ Last updated: 7/12/2026, 3:28:57 PM
 - **T10** -- T10 - Mason red 6003 transparent - T | Base: G2926B | mason 6003 8.39g, tin oxide 4.69g
 - **T11** -- T11 - G38v4 Rutile amber cloud - T | Base: G2926B | Light Rutile 19.38g, Red Iron Oxide 6.06g
 - **T12** -- T12 - Mason 6028 and RIO - T | Base: G2926B | Mason 6028 44.004g, RIO 8.251g
+- **G64** -- G64 - Yellow-Green Rutile Float - G | Base: G3806C | Copper Carbonate 9g, Light Rutile 27g
+- **G65** -- G65 - Deep Brown-Black Iron - G | Base: G3806C | Spanish RIO 39g, Light Rutile 7.5g
+- **G66** -- G66 - Yellow-Brown Rutile Float - G | Base: G3806C | Spanish RIO 15g, Light Rutile 27g
+- **G67** -- G67 - Blue-Green Floating Cobalt - G | Base: G3806C | Cobalt Oxide 3g, Copper Carbonate 10.5g, Light Rutile 24g
 
 ### Inactive (58)
 - **G1** -- G1 — Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 12.1g
@@ -181,6 +185,12 @@ No batches recorded yet.
 
 ## Recent Firing Records
 
+### G64 - Jul26 - A
+- Recipe: Copper Carbonate: 9g per 600g, Light Rutile: 27g per 600g
+- Base: G3806C | SG: -- | Method: --
+
+---
+
 ### T12 - Jul26 - A
 - Recipe: Mason 6028: 44.004g per 600g, RIO: 8.251g per 600g
 - Base: G2926B | SG: 1.35 | Method: --
@@ -311,16 +321,6 @@ No batches recorded yet.
 - Finish: Gloss
 - Rating: Good
 - Notes: Pour, 2 coats. Slight crazing — accepted, known G3806C thermal-expansion tradeoff. Transparent held despite deeper saturation vs. 1-coat. No running observed.
-
----
-
-### G44 - Jul26 - A
-- Recipe: Light Rutile: 12.12g per 600g, Spanish Red Iron Oxide: 6.06g per 600g
-- Base: G2926B | SG: 1.33 | Method: Pour
-- Fired: Jul 5, 2026 | Kiln 2 | --
-- Finish: Gloss
-- Rating: Good
-- Notes: Pour, 1 or 2 coats — no difference between them. Opaque, uniform sand/amber. Field-tile candidate, not the usual transparency target.
 
 
 ## Studio Constants
