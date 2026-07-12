@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/12/2026, 4:20:42 PM
+Last updated: 7/12/2026, 4:20:45 PM
 
 ## Glaze Library
 
@@ -187,7 +187,7 @@ No batches recorded yet.
 
 ### G67 - Jul26 - A
 - Recipe: Cobalt Oxide: 3g per 600g, Copper Carbonate: 10.5g per 600g, Light Rutile: 24g per 600g
-- Base: G3806C | SG: -- | Method: --
+- Base: G3806C | SG: 1.35 | Method: --
 
 ---
 
