@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/12/2026, 7:39:27 AM
+Last updated: 7/12/2026, 7:40:06 AM
 
 ## Glaze Library
 
@@ -177,7 +177,7 @@ No batches recorded yet.
 
 ### T6 - Jul26 - A
 - Recipe: Nickel Oxide: 15g per 600g
-- Base: G2926B | SG: -- | Method: --
+- Base: G2926B | SG: 1.36 | Method: --
 
 ---
 
