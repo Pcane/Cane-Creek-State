@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/12/2026, 8:01:03 AM
+Last updated: 7/12/2026, 8:01:07 AM
 
 ## Glaze Library
 
@@ -177,7 +177,7 @@ No batches recorded yet.
 
 ### T12 - Jul26 - A
 - Recipe: Mason 6028: 44.004g per 600g, RIO: 8.251g per 600g
-- Base: G2926B | SG: -- | Method: --
+- Base: G2926B | SG: 1.35 | Method: --
 
 ---
 
