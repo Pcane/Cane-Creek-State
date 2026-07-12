@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/12/2026, 3:44:01 PM
+Last updated: 7/12/2026, 3:44:05 PM
 
 ## Glaze Library
 
@@ -187,7 +187,7 @@ No batches recorded yet.
 
 ### G64 - Jul26 - A
 - Recipe: Copper Carbonate: 9g per 600g, Light Rutile: 27g per 600g
-- Base: G3806C | SG: -- | Method: --
+- Base: G3806C | SG: 1.35 | Method: --
 
 ---
 
