@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/14/2026, 10:09:53 AM
+Last updated: 7/14/2026, 10:14:02 AM
 
 ## Glaze Library
 
@@ -188,6 +188,13 @@ No batches recorded yet.
 
 ## Recent Firing Records
 
+### T1 - Jul26 - A
+- Recipe: Mason 6003: 8.48g per 600g
+- Base: G3806C | SG: 1.35 | Method: --
+- Fired: Jul 14, 2026 | -- | --
+
+---
+
 ### G67 - Jul26 - A
 - Recipe: Cobalt Oxide: 3g per 600g, Copper Carbonate: 10.5g per 600g, Light Rutile: 24g per 600g
 - Base: G3806C | SG: 1.35 | Method: --
@@ -262,12 +269,6 @@ No batches recorded yet.
 
 ### T2 - Jul26 - A
 - Recipe: Mason 6103: 8.48g per 600g
-- Base: G3806C | SG: 1.35 | Method: --
-
----
-
-### T1 - Jul26 - A
-- Recipe: Mason 6003: 8.48g per 600g
 - Base: G3806C | SG: 1.35 | Method: --
 
 ---
