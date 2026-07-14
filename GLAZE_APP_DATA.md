@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/14/2026, 10:14:04 AM
+Last updated: 7/14/2026, 10:14:07 AM
 
 ## Glaze Library
 
@@ -191,7 +191,7 @@ No batches recorded yet.
 ### T1 - Jul26 - A
 - Recipe: Mason 6003: 8.48g per 600g
 - Base: G3806C | SG: 1.35 | Method: --
-- Fired: Jul 14, 2026 | -- | --
+- Fired: Jul 14, 2026 | Kiln 2 | --
 
 ---
 
