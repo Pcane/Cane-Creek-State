@@ -1,11 +1,10 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/14/2026, 10:14:07 AM
+Last updated: 7/14/2026, 6:18:05 PM
 
 ## Glaze Library
 
-### Active (12)
+### Active (11)
 - **G11** -- G11 - Trans Dark Green — OX | Base: G2926B | Chrome Oxide 1.212g | Target SG: 1.29
-- **G16** -- G16 - White — OX | Base: G2926B | Tin Oxide 4.848g | Target SG: 1.32
 - **G40v2** -- G40v2 - Tenmoku - OX | Base: G2926B | Spanish Red Iron Oxide 39.4g, Light Rutile 3.03g | Target SG: 1.32
 - **G44** -- G44 - Sand - OX | Base: G2926B | Light Rutile 12.12g, Spanish Red Iron Oxide 6.06g | Target SG: 1.32
 - **G30v5** -- G30v5 - Uniform Transparent Blue - OX | Base: G2926B | Cobalt Oxide 2.424g, Light Rutile 6.06g | Target SG: 1.38
@@ -44,7 +43,7 @@ Last updated: 7/14/2026, 10:14:07 AM
 - **T14** -- T14 - cobalt blue with rutile break on G3806C - T | Base: G3806C | Cobalt Oxide 2.232g, Light Rutile 7.61g
 - **G68** -- G68 - Chrome-Tin Red -- Hansen Dose - G | Base: G1214M | Chrome Oxide 2.7g, Tin Oxide 45g
 
-### Inactive (58)
+### Inactive (59)
 - **G1** -- G1 — Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 12.1g
 - **G2** -- G2 — Mid-Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 19.4g
 - **G3** -- G3 — Transparent UNC Blue — MS | Base: G2926B | Mason 6374 7.273g
@@ -57,6 +56,7 @@ Last updated: 7/14/2026, 10:14:07 AM
 - **G13** -- G13 — Chartreuse — MS | Base: G2926B | Mason 6236 19.392g
 - **G14** -- G14 — Transparent Pink — MS | Base: G2926B | Mason 6001 19.392g
 - **G15** -- G15 — Transparent Red — MS | Base: G2926B | Mason 6021 6.06g
+- **G16** -- G16 - White — OX | Base: G2926B | Tin Oxide 4.848g | Target SG: 1.32
 - **G17** -- G17 — Light Tan — OX | Base: G2926B | Spanish Red Iron Oxide 1.26g
 - **G18** -- G18 — Dark Tan — OX | Base: G2926B | Spanish Red Iron Oxide 6.787g
 - **G19** -- G19 — Light Brown — MS | Base: G2926B | Mason 6103 16.968g
