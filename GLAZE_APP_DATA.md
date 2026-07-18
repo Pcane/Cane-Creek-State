@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/18/2026, 3:30:10 PM
+Last updated: 7/18/2026, 3:30:44 PM
 
 ## Glaze Library
 
@@ -149,7 +149,12 @@ EPK swapped to Tile 6, 2026-07-11 (EPK discontinued, no longer available). 1:1 b
 
 ## Base Slurry Batch Records
 
-### G2926B (1 batch)
+### G2926B (2 batches)
+### G2926B-002 -- G2926B
+- Date: Jul 18, 2026
+- Dry: nullg | Water: nullg | SG: null
+- Empirical f factor: 0.404
+
 ### G2926B-001 -- G2926B
 - Date: Jun 24, 2026
 - Dry: 2604g | Water: 1760g | SG: 1.39
@@ -172,7 +177,12 @@ No batches recorded yet.
 - Notes: f-factor measured via evaporation method: 5.00g wet sample dried 2 days down to 2.19g dry residue. NOT a standard weigh-dry-then-weigh-total batch -- "water added" above actually reflects water lost to evaporation, not water added during mixing.
 
 
-### G2926B (1 batch)
+### G2926B (2 batches)
+### G2926B-002 -- G2926B
+- Date: Jul 18, 2026
+- Dry: nullg | Water: nullg | SG: null
+- Empirical f factor: 0.404
+
 ### G2926B-001 -- G2926B
 - Date: Jun 24, 2026
 - Dry: 2604g | Water: 1760g | SG: 1.39
