@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/18/2026, 3:30:44 PM
+Last updated: 7/18/2026, 3:31:39 PM
 
 ## Glaze Library
 
@@ -165,8 +165,12 @@ EPK swapped to Tile 6, 2026-07-11 (EPK discontinued, no longer available). 1:1 b
 - Veegum: 0g
 
 
-### G1214M (0 batches)
-No batches recorded yet.
+### G1214M (1 batch)
+### G1214M-001 -- G1214M
+- Date: Jul 18, 2026
+- Dry: nullg | Water: nullg | SG: null
+- Empirical f factor: 0.404
+
 
 ### G3806C (1 batch)
 ### G3806C-001 -- G3806C
@@ -193,8 +197,12 @@ No batches recorded yet.
 - Veegum: 0g
 
 
-### G1214M (0 batches)
-No batches recorded yet.
+### G1214M (1 batch)
+### G1214M-001 -- G1214M
+- Date: Jul 18, 2026
+- Dry: nullg | Water: nullg | SG: null
+- Empirical f factor: 0.404
+
 
 ### G2934Y (0 batches)
 No batches recorded yet.
