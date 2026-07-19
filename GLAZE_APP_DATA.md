@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/19/2026, 10:08:40 AM
+Last updated: 7/19/2026, 10:10:56 AM
 
 ## Glaze Library
 
@@ -31,9 +31,9 @@ Last updated: 7/19/2026, 10:08:40 AM
 - **T15** -- T15 - Honey amber - T | Base: G2926B | Glaze G12 44.004g, Glaze G21v2 11.001g, Red Iron Oxide 8.251g
 - **G25v4** -- G25v4 - Chrome-Tin Pink Test | Base: G1214M | Chrome Oxide 0.36g, Tin Oxide 58.8g
 - **G25v5** -- G25v5 - Chrome-Tin Deep Red Test | Base: G1214M | Chrome Oxide 0.6g, Tin Oxide 66g
-- **G69** -- G69 - Base Comparison G2926B - MX | Base: G2926B | Copper Carbonate 4.9g, Light Rutile 4.09g
-- **G70** -- G70 - Base Comparison G3806C - MX | Base: G3806C | Copper Carbonate 4.9g, Light Rutile 4.09g
-- **G71** -- G71 - Base Comparison G1214M (diagnostic only) - MX | Base: G1214M | Copper Carbonate 4.9g, Light Rutile 4.09g
+- **G47v2** -- G47v2 - Base Comparison G2926B - MX | Base: G2926B | Copper Carbonate 4.9g, Light Rutile 4.09g
+- **G47v3** -- G47v3 - Base Comparison G3806C - MX | Base: G3806C | Copper Carbonate 4.9g, Light Rutile 4.09g
+- **G47v4** -- G47v4 - Base Comparison G1214M (diagnostic only) - MX | Base: G1214M | Copper Carbonate 4.9g, Light Rutile 4.09g
 
 ### Inactive (73)
 - **G1** -- G1 — Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 12.1g
