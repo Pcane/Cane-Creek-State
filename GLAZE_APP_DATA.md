@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/19/2026, 9:18:42 PM
+Last updated: 7/19/2026, 9:29:23 PM
 
 ## Glaze Library
 
@@ -8,11 +8,11 @@ Last updated: 7/19/2026, 9:18:42 PM
 - **G40v2** -- G40v2 - Tenmoku - OX | Base: G2926B | Spanish Red Iron Oxide 39.4g, Light Rutile 3.03g | Target SG: 1.32
 - **G44** -- G44 - Sand - OX | Base: G2926B | Light Rutile 12.12g, Spanish Red Iron Oxide 6.06g | Target SG: 1.32
 - **G30v5** -- G30v5 - Uniform Transparent Blue - OX | Base: G2926B | Cobalt Oxide 2.424g, Light Rutile 6.06g | Target SG: 1.38
+- **G29v2** -- G29v2 - Light Vanadium Yellow Iron Edge - OX | Base: G2926B | Vanadium Yellow 14.544g, Red Iron Oxide 4.545g | Target SG: 1.32
 - **G38v3** -- G38v3 - Rutile Amber - OX | Base: G2926B | Light Rutile 19.392g, Red Iron Oxide 6.06g | Target SG: 1.3
 - **G21v2** -- G21v2 - Light Gold-Amber - OX | Base: G2926B | Spanish Red Iron Oxide 12.12g, Light Rutile 6.06g
 - **G47** -- G47 - Lime Green - OX | Base: G3806C | Copper Carbonate 4.9g, Light Rutile 4.09g | Target SG: 1.35
 - **G49** -- G49 - Floating Blue - OX | Base: G49-base (own base, not G2926B/G1214M/G3806C) | Nepheline Syenite 180g, Ferro Frit 3134 216g, Silica 84g, EPK Kaolin 120g, Spanish Red Iron Oxide 12g, Cobalt Oxide 7.2g, Light Rutile 24g
-- **G29v3** -- G29v3 - Dark Vanadium Yellow Iron Edge - OX | Base: G2926B | Vanadium Yellow 14.544g, Spanish Red Iron Oxide 9.09g | Target SG: 1.34
 - **T5** -- T5 - Blue-Green Cobalt-Chrome - T | Base: G2926B | Cobalt Oxide 7.8g, Chrome Oxide 4.8g
 - **G59** -- G59 - Sage | Base: G2926B | Rutile 18g, Cobalt Carbonate 0.9g, Copper Carbonate 1.8g
 - **T11** -- T11 - G38v4 Rutile amber cloud - T | Base: G2926B | Light Rutile 19.38g, Red Iron Oxide 6.06g
@@ -20,7 +20,7 @@ Last updated: 7/19/2026, 9:18:42 PM
 - **G66** -- G66 - Yellow-Brown Rutile Float - G | Base: G3806C | Spanish RIO 15g, Light Rutile 27g
 - **G67** -- G67 - Blue-Green Floating Cobalt - G | Base: G3806C | Cobalt Oxide 3g, Copper Carbonate 10.5g, Light Rutile 24g
 
-### Test (16)
+### Test (14)
 - **G54** -- G54 - Shino Base (control) - T | Base: G2926B | Tile 6 270g, Nepheline Syenite 180g, Spodumene 90g, Soda Ash 60g
 - **G55** -- G55 - Amber Shino - OX | Base: G2926B | Tile 6 270g, Nepheline Syenite 180g, Spodumene 90g, Soda Ash 60g, Red Iron Oxide 12g
 - **G56** -- G56 - Light Green Shino - Chrome Route - MX | Base: G2926B | Tile 6 270g, Nepheline Syenite 180g, Spodumene 90g, Soda Ash 60g, Chrome Oxide 0.9g, Red Iron Oxide 6g
@@ -35,10 +35,8 @@ Last updated: 7/19/2026, 9:18:42 PM
 - **G47v3** -- G47v3 - Base Comparison G3806C - MX | Base: G3806C | Copper Carbonate 4.9g, Light Rutile 4.09g
 - **G47v4** -- G47v4 - Base Comparison G1214M (diagnostic only) - MX | Base: G1214M | Copper Carbonate 4.9g, Light Rutile 4.09g
 - **T2v2** -- T2v2 - Mason 6103 Golden Brown - stain | Base: G2926B | Mason 6103 8.48g | Target SG: 1.44
-- **G69** -- G69 - Mason 6404 Stain Test | Base: G2926B | Mason 6404 21g
-- **G70** -- G70 - Mason 6003 Stain Test | Base: G2926B | Mason 6003 21g
 
-### Inactive (73)
+### Inactive (75)
 - **G1** -- G1 — Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 12.1g
 - **G2** -- G2 — Mid-Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 19.4g
 - **G3** -- G3 — Transparent UNC Blue — MS | Base: G2926B | Mason 6374 7.273g
@@ -85,7 +83,6 @@ Last updated: 7/19/2026, 9:18:42 PM
 - **G30v2** -- G30v2 - Light Transparent Blue-Green, Break - OX | Base: G2926B | Cobalt Oxide 2.424g, Light Rutile 12.12g | Target SG: 1.32
 - **G30v3** -- G30v3 - Transparent Blue Wash - OX | Base: G2926B | Cobalt Oxide 2.424g, Light Rutile 6.06g | Target SG: 1.33
 - **G30v4** -- G30v4 - Transparent Medium Blue - OX | Base: G2926B | Cobalt Oxide 2.424g, Light Rutile 6.06g | Target SG: 1.36
-- **G29v2** -- G29v2 - Light Vanadium Yellow Iron Edge - OX | Base: G2926B | Vanadium Yellow 14.544g, Red Iron Oxide 4.545g | Target SG: 1.32
 - **G25v2** -- G25v2 - Chrome-Tin Cranberry Red - OX | Base: G1214M | Chrome Oxide 0.727g, Tin Oxide 25.2g | Target SG: 1.38
 - **G38v2** -- G38v2 - Orange Satin - OX | Base: G2926B | Light Rutile 19.392g | Target SG: 1.3
 - **G30v6** -- G30v6 - Transparent Blue, Darker Break - OX | Base: G2926B | Cobalt Oxide 2.424g, Red Iron Oxide 4.85g | Target SG: 1.32
@@ -97,6 +94,7 @@ Last updated: 7/19/2026, 9:18:42 PM
 - **G51** -- G51 - Nickel Carbonate Test - OX | Base: G2926B | Nickel Carbonate 6.06g
 - **G52** -- G52 - Holly's Gold - OX | Base: G52-base (own base, not G2926B/G1214M/G3806C) | Ferro Frit 3134 120g, Dolomite 120g, Spodumene 120g, Ball Clay 120g, Silica 120g, Tin Oxide 18g, Spanish Red Iron Oxide 12g
 - **G53** -- G53 - Satin Pearl Brown - OX | Base: G2926B | G-200 EU Feldspar 240g, Ferro Frit 3124 54g, Whiting 96g, Talc 54g, EPK Kaolin 60g, Silica 96g, Spanish Red Iron Oxide 12.12g, Light Rutile 2.424g
+- **G29v3** -- G29v3 - Dark Vanadium Yellow Iron Edge - OX | Base: G2926B | Vanadium Yellow 14.544g, Spanish Red Iron Oxide 9.09g | Target SG: 1.34
 - **T1** -- T1 - Mason 6003 | Base: G2926B | Mason 6003 8.48g
 - **T2** -- T2 - Mason 6103 Golden Brown | Base: G2926B | Mason 6103 8.48g | Target SG: 1.35
 - **T3** -- T3 - Rutile orange | Base: G2926B | Light Rutile 26.2g | Target SG: 1.3
@@ -112,6 +110,8 @@ Last updated: 7/19/2026, 9:18:42 PM
 - **G64** -- G64 - Frosted Light Green | Base: G3806C | Copper Carbonate 9g, Light Rutile 27g
 - **G65** -- G65 - Deep Brown-Black Iron - G | Base: G3806C | Spanish RIO 39g, Light Rutile 7.5g
 - **G68** -- G68 - Chrome-Tin Red -- Hansen Dose - G | Base: G1214M | Chrome Oxide 2.7g, Tin Oxide 45g
+- **G69** -- G69 - Nep Sye Red A (Britt) - MX | Base: G69-base (own base, not G2926B/G1214M/G3806C) | Nepheline Syenite 96g, Silica 192g, Whiting 120g, Kaolin 66g, Gerstley Borate 126g, Tin Oxide 30g, Chrome Oxide 0.9g, Cobalt Carbonate 1.5g
+- **G70** -- G70 - Nep Sye Red B (Britt) - MX | Base: G70-base (own base, not G2926B/G1214M/G3806C) | Nepheline Syenite 108g, Silica 180g, Whiting 120g, Ball Clay 108g, Ferro Frit 3134 84g, Tin Oxide 45g, Chrome Oxide 1.2g, Cobalt Carbonate 1.5g, Bentonite 12g
 
 ## Custom Bases
 ### G3806C -- Fluid Glossy Base Glaze
