@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/20/2026, 12:56:30 PM
+Last updated: 7/21/2026, 11:27:19 AM
 
 ## Glaze Library
 
@@ -20,12 +20,11 @@ Last updated: 7/20/2026, 12:56:30 PM
 - **G66** -- G66 - Yellow-Brown Rutile Float - G | Base: G3806C | Spanish RIO 15g, Light Rutile 27g
 - **G67** -- G67 - Blue-Green Floating Cobalt - G | Base: G3806C | Cobalt Oxide 3g, Copper Carbonate 10.5g, Light Rutile 24g
 
-### Test (18)
+### Test (17)
 - **G54** -- G54 - Shino Base (control) - T | Base: G2926B | Tile 6 270g, Nepheline Syenite 180g, Spodumene 90g, Soda Ash 60g
 - **G55** -- G55 - Amber Shino - OX | Base: G2926B | Tile 6 270g, Nepheline Syenite 180g, Spodumene 90g, Soda Ash 60g, Red Iron Oxide 12g
 - **G56** -- G56 - Light Green Shino - Chrome Route - MX | Base: G2926B | Tile 6 270g, Nepheline Syenite 180g, Spodumene 90g, Soda Ash 60g, Chrome Oxide 0.9g, Red Iron Oxide 6g
 - **G57** -- G57 - Light Green Shino - Copper Route - MX | Base: G2926B | Tile 6 270g, Nepheline Syenite 180g, Spodumene 90g, Soda Ash 60g, Copper Carbonate 1.8g, Red Iron Oxide 6g
-- **G60** -- G60 - Parakeet Yellow Attempt - MS | Base: G2926B | Zircopax 48g, Mason Praseodymium Yellow Stain 36g
 - **T13** -- T13 - Fluid Red Mason 6003 - T | Base: G3806C | Mason 6003 30.441g, rutile 13.09g
 - **T14** -- T14 - cobalt blue with rutile break on G3806C - T | Base: G3806C | Cobalt Oxide 2.232g, Light Rutile 7.61g
 - **T15** -- T15 - Honey amber - T | Base: Blend (no base pour) | Glaze G21 150g, Glaze G29v2 450g
@@ -40,7 +39,7 @@ Last updated: 7/20/2026, 12:56:30 PM
 - **G71** -- G71 - GA6-A Amber Honey (Digitalfire) - OX | Base: G71-base (own base, not G2926B/G1214M/G3806C) | Alberta Slip 480g, Ferro Frit 3134 120g, Iron Oxide 12g
 - **G72** -- G72 - GA6-B Amber Honey No-Variegation (Digitalfire) - OX | Base: G72-base (own base, not G2926B/G1214M/G3806C) | Alberta Slip 480g, Ferro Frit 3195 120g, Iron Oxide 12g
 
-### Inactive (73)
+### Inactive (74)
 - **G1** -- G1 — Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 12.1g
 - **G2** -- G2 — Mid-Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 19.4g
 - **G3** -- G3 — Transparent UNC Blue — MS | Base: G2926B | Mason 6374 7.273g
@@ -106,6 +105,7 @@ Last updated: 7/20/2026, 12:56:30 PM
 - **T7** -- T7 - Mustard-Amber - Manganese Dioxide - T | Base: G2926B | Manganese Dioxide 12g
 - **T8** -- T8 - Red - Mason 6021 - T | Base: G2926B | Mason 6021 66g
 - **G58** -- G58 - Grey | Base: G2926B | Rutile 18g, Cobalt Carbonate 1.8g
+- **G60** -- G60 - Parakeet Yellow Attempt - MS | Base: G2926B | Zircopax 48g, Mason Praseodymium Yellow Stain 36g
 - **G62** -- G62 - Red Gold Attempt - MX | Base: G2926B | Rutile 24g, Red Iron Oxide 18g
 - **G63** -- G63 - Red Gold Attempt - More Rutile - MX | Base: G2926B | Rutile 30g, Red Iron Oxide 12g
 - **G49v2** -- G49v2 - Floating Blue - OX | Base: G49-base (own base, not G2926B/G1214M/G3806C) | Nepheline Syenite 180g, Ferro Frit 3134 216g, Silica 84g, Tile 6 120g, Spanish Red Iron Oxide 12g, Cobalt Oxide 7.2g, Light Rutile 24g
