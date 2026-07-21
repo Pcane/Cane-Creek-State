@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/21/2026, 11:33:41 AM
+Last updated: 7/21/2026, 11:33:49 AM
 
 ## Glaze Library
 
@@ -233,6 +233,7 @@ No batches recorded yet.
 - Recipe: Mason 6103: 8.48g per 600g
 - Base: G2926B | SG: -- | Method: --
 - Fired: Jul 20, 2026 | Kiln 1 | Cone 6 -- full melt
+- Color: Brown
 - Finish: Gloss
 
 ---
