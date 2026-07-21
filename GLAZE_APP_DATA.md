@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/21/2026, 11:33:07 AM
+Last updated: 7/21/2026, 11:33:16 AM
 
 ## Glaze Library
 
@@ -218,12 +218,6 @@ No batches recorded yet.
 
 ## Recent Firing Records
 
-### T2v2 - Jul26 - A
-- Recipe: Mason 6103: 8.48g per 600g
-- Base: G2926B | SG: -- | Method: --
-
----
-
 ### G25v5 - Jul26 - A
 - Recipe: Chrome Oxide: 0.6g per 600g, Tin Oxide: 66g per 600g
 - Base: G1214M | SG: -- | Method: Dip - 2 coats
@@ -232,6 +226,13 @@ No batches recorded yet.
 - Finish: Gloss
 - Rating: Good
 - Notes: Dipped, 2 coats. Raspberry/deep pink-red with light showing through in transparent/thin areas, producing a light edge effect. Even mixing critical -- inconsistent mixing can produce grey scumming. Tile surface prep (smooth, clean) matters, as clay-body defects show through. First real red/pink result in the chrome-tin investigation.
+
+---
+
+### T2v2 - Jul26 - A
+- Recipe: Mason 6103: 8.48g per 600g
+- Base: G2926B | SG: -- | Method: --
+- Fired: Jul 20, 2026 | Kiln 1 | --
 
 ---
 
