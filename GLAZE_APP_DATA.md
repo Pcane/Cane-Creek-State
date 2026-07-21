@@ -1,9 +1,9 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/21/2026, 11:27:19 AM
+Last updated: 7/21/2026, 11:27:32 AM
 
 ## Glaze Library
 
-### Active (15)
+### Active (16)
 - **G11** -- G11 - Trans Dark Green — OX | Base: G2926B | Chrome Oxide 1.212g | Target SG: 1.29
 - **G40v2** -- G40v2 - Tenmoku - OX | Base: G2926B | Spanish Red Iron Oxide 39.4g, Light Rutile 3.03g | Target SG: 1.32
 - **G44** -- G44 - Sand - OX | Base: G2926B | Light Rutile 12.12g, Spanish Red Iron Oxide 6.06g | Target SG: 1.32
@@ -19,6 +19,7 @@ Last updated: 7/21/2026, 11:27:19 AM
 - **T12** -- T12 - Rust Orange Mason 6028 and RIO | Base: G2926B | Mason 6028 44.004g, RIO 8.251g
 - **G66** -- G66 - Yellow-Brown Rutile Float - G | Base: G3806C | Spanish RIO 15g, Light Rutile 27g
 - **G67** -- G67 - Blue-Green Floating Cobalt - G | Base: G3806C | Cobalt Oxide 3g, Copper Carbonate 10.5g, Light Rutile 24g
+- **G25v5** -- G25v5 - Chrome-Tin Deep Red Test | Base: G1214M | Chrome Oxide 0.6g, Tin Oxide 66g
 
 ### Test (17)
 - **G54** -- G54 - Shino Base (control) - T | Base: G2926B | Tile 6 270g, Nepheline Syenite 180g, Spodumene 90g, Soda Ash 60g
@@ -29,7 +30,6 @@ Last updated: 7/21/2026, 11:27:19 AM
 - **T14** -- T14 - cobalt blue with rutile break on G3806C - T | Base: G3806C | Cobalt Oxide 2.232g, Light Rutile 7.61g
 - **T15** -- T15 - Honey amber - T | Base: Blend (no base pour) | Glaze G21 150g, Glaze G29v2 450g
 - **G25v4** -- G25v4 - Chrome-Tin Pink Test | Base: G1214M | Chrome Oxide 0.36g, Tin Oxide 58.8g
-- **G25v5** -- G25v5 - Chrome-Tin Deep Red Test | Base: G1214M | Chrome Oxide 0.6g, Tin Oxide 66g
 - **G47v2** -- G47v2 - Base Comparison G2926B - MX | Base: G2926B | Copper Carbonate 4.9g, Light Rutile 4.09g
 - **G47v3** -- G47v3 - Base Comparison G3806C - MX | Base: G3806C | Copper Carbonate 4.9g, Light Rutile 4.09g
 - **G47v4** -- G47v4 - Base Comparison G1214M (diagnostic only) - MX | Base: G1214M | Copper Carbonate 4.9g, Light Rutile 4.09g
@@ -38,6 +38,7 @@ Last updated: 7/21/2026, 11:27:19 AM
 - **G70** -- G70 - Nep Sye Red B (Britt) - MX | Base: G70-base (own base, not G2926B/G1214M/G3806C) | Nepheline Syenite 108g, Silica 180g, Whiting 120g, Ball Clay 108g, Ferro Frit 3134 84g, Tin Oxide 45g, Chrome Oxide 1.2g, Cobalt Carbonate 1.5g, Bentonite 12g
 - **G71** -- G71 - GA6-A Amber Honey (Digitalfire) - OX | Base: G71-base (own base, not G2926B/G1214M/G3806C) | Alberta Slip 480g, Ferro Frit 3134 120g, Iron Oxide 12g
 - **G72** -- G72 - GA6-B Amber Honey No-Variegation (Digitalfire) - OX | Base: G72-base (own base, not G2926B/G1214M/G3806C) | Alberta Slip 480g, Ferro Frit 3195 120g, Iron Oxide 12g
+- **G25v6** -- G25v6 - Chrome-Tin Pink Test | Base: G1214M | Chrome Oxide 0.48g, Tin Oxide 61.5g
 
 ### Inactive (74)
 - **G1** -- G1 — Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 12.1g
@@ -217,6 +218,17 @@ No batches recorded yet.
 
 ## Recent Firing Records
 
+### G25v5 - Jul26 - A
+- Recipe: Chrome Oxide: 0.6g per 600g, Tin Oxide: 66g per 600g
+- Base: G1214M | SG: -- | Method: Dip - 2 coats
+- Fired: Jul 21, 2026 | Door Kiln (Kiln 1) | Cone 6 -- full melt
+- Color: Red
+- Finish: Gloss
+- Rating: Good
+- Notes: Dipped, 2 coats. Raspberry/deep pink-red with light showing through in transparent/thin areas, producing a light edge effect. Even mixing critical -- inconsistent mixing can produce grey scumming. Tile surface prep (smooth, clean) matters, as clay-body defects show through. First real red/pink result in the chrome-tin investigation.
+
+---
+
 ### T1 - Jul26 - A
 - Recipe: Mason 6003: 8.48g per 600g
 - Base: G3806C | SG: 1.35 | Method: --
@@ -335,16 +347,6 @@ No batches recorded yet.
 - Finish: Gloss
 - Rating: Good
 - Notes: Pour, 1 coat, application SG 1.34. Good, clean result — genuinely distinct from G29v3, NOT superseded (old notebook language was wrong).
-
----
-
-### G21v2 - Jul26 - A
-- Recipe: Spanish Red Iron Oxide: 12.12g per 600g, Light Rutile: 6.06g per 600g
-- Base: G2926B | SG: 1.35 | Method: Pour
-- Fired: Jul 5, 2026 | Kiln 2 | --
-- Finish: Gloss
-- Rating: Good
-- Notes: Pour, 2 coats, stock SG 1.45 diluted to application SG 1.35. Not replacing anything.
 
 
 ## Studio Constants
