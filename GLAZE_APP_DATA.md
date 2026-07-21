@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/21/2026, 11:27:32 AM
+Last updated: 7/21/2026, 11:32:55 AM
 
 ## Glaze Library
 
@@ -218,6 +218,12 @@ No batches recorded yet.
 
 ## Recent Firing Records
 
+### T2v2 - Jul26 - A
+- Recipe: Mason 6103: 8.48g per 600g
+- Base: G2926B | SG: -- | Method: --
+
+---
+
 ### G25v5 - Jul26 - A
 - Recipe: Chrome Oxide: 0.6g per 600g, Tin Oxide: 66g per 600g
 - Base: G1214M | SG: -- | Method: Dip - 2 coats
@@ -338,15 +344,6 @@ No batches recorded yet.
 - Base: G2926B | SG: -- | Method: Pour
 - Finish: Gloss
 - Rating: Fair
-
----
-
-### G29v2 - Jul26 - A
-- Recipe: Vanadium Yellow: 14.544g per 600g, Red Iron Oxide: 4.545g per 600g
-- Base: G2926B | SG: 1.34 | Method: Pour
-- Finish: Gloss
-- Rating: Good
-- Notes: Pour, 1 coat, application SG 1.34. Good, clean result — genuinely distinct from G29v3, NOT superseded (old notebook language was wrong).
 
 
 ## Studio Constants
