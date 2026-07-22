@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/22/2026, 7:36:50 AM
+Last updated: 7/22/2026, 7:42:38 AM
 
 ## Glaze Library
 
@@ -35,7 +35,7 @@ Last updated: 7/22/2026, 7:36:50 AM
 - **G71** -- G71 - GA6-A Amber Honey (Digitalfire) - OX | Base: G71-base (own base, not G2926B/G1214M/G3806C) | Alberta Slip 480g, Ferro Frit 3134 120g, Iron Oxide 12g
 - **G72** -- G72 - GA6-B Amber Honey No-Variegation (Digitalfire) - OX | Base: G72-base (own base, not G2926B/G1214M/G3806C) | Alberta Slip 480g, Ferro Frit 3195 120g, Iron Oxide 12g
 - **G25v6** -- G25v6 - Chrome-Tin Pink Test | Base: G1214M | Chrome Oxide 0.48g, Tin Oxide 61.5g
-- **G73** -- G73 - Mason 6088 Dark Red Stain Test | Base: G2926B | Mason 6088 60g
+- **G73** -- G73 - Mason 6088 Dark Red Stain Test | Base: G2926B | Mason 6088 27g
 - **G74** -- G74 - Mason 6238 Stain Test | Base: G2926B | Mason 6238 48g
 - **G75** -- G75 - Mason 6276 Stain Test | Base: G2926B | Mason 6276 12g
 
