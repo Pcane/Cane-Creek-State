@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/22/2026, 7:18:18 AM
+Last updated: 7/22/2026, 7:36:50 AM
 
 ## Glaze Library
 
@@ -23,7 +23,7 @@ Last updated: 7/22/2026, 7:18:18 AM
 - **G47v4** -- G47v4 - Base Comparison G1214M (diagnostic only) - MX | Base: G1214M | Copper Carbonate 4.9g, Light Rutile 4.09g
 - **T2v2** -- T2v2 - Mason 6103 Golden Brown - stain | Base: G2926B | Mason 6103 8.48g | Target SG: 1.44
 
-### Test (11)
+### Test (14)
 - **G54** -- G54 - Shino Base (control) - T | Base: G2926B | Tile 6 270g, Nepheline Syenite 180g, Spodumene 90g, Soda Ash 60g
 - **G55** -- G55 - Amber Shino - OX | Base: G2926B | Tile 6 270g, Nepheline Syenite 180g, Spodumene 90g, Soda Ash 60g, Red Iron Oxide 12g
 - **G56** -- G56 - Light Green Shino - Chrome Route - MX | Base: G2926B | Tile 6 270g, Nepheline Syenite 180g, Spodumene 90g, Soda Ash 60g, Chrome Oxide 0.9g, Red Iron Oxide 6g
@@ -35,6 +35,9 @@ Last updated: 7/22/2026, 7:18:18 AM
 - **G71** -- G71 - GA6-A Amber Honey (Digitalfire) - OX | Base: G71-base (own base, not G2926B/G1214M/G3806C) | Alberta Slip 480g, Ferro Frit 3134 120g, Iron Oxide 12g
 - **G72** -- G72 - GA6-B Amber Honey No-Variegation (Digitalfire) - OX | Base: G72-base (own base, not G2926B/G1214M/G3806C) | Alberta Slip 480g, Ferro Frit 3195 120g, Iron Oxide 12g
 - **G25v6** -- G25v6 - Chrome-Tin Pink Test | Base: G1214M | Chrome Oxide 0.48g, Tin Oxide 61.5g
+- **G73** -- G73 - Mason 6088 Dark Red Stain Test | Base: G2926B | Mason 6088 60g
+- **G74** -- G74 - Mason 6238 Stain Test | Base: G2926B | Mason 6238 48g
+- **G75** -- G75 - Mason 6276 Stain Test | Base: G2926B | Mason 6276 12g
 
 ### Inactive (77)
 - **G1** -- G1 — Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 12.1g
