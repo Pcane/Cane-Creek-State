@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/28/2026, 11:27:50 AM
+Last updated: 7/28/2026, 6:24:45 PM
 
 ## Glaze Library
 
@@ -29,16 +29,16 @@ Last updated: 7/28/2026, 11:27:50 AM
 - **T14** -- T14 - cobalt blue with rutile break on G3806C - T | Base: G3806C | Cobalt Oxide 2.232g, Light Rutile 7.61g
 - **G71** -- G71 - GA6-A Amber Honey (Digitalfire) - OX | Base: G71-base (own base, not G2926B/G1214M/G3806C) | Alberta Slip 480g, Ferro Frit 3134 120g, Iron Oxide 12g
 - **G72** -- G72 - GA6-B Amber Honey No-Variegation (Digitalfire) - OX | Base: G72-base (own base, not G2926B/G1214M/G3806C) | Alberta Slip 480g, Ferro Frit 3195 120g, Iron Oxide 12g
-- **G79** -- G79 - G67 Remake - 15% Silica Crystal Test - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | Cobalt Oxide 1.457g, Copper Carbonate 5.101g, Light Rutile 11.659g
-- **G80** -- G80 - Autumn Gold - Oatmeal - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | RIO 5.83g, Rutile 10.202g, Titanium Dioxide 5.83g
-- **G81** -- G81 - Classic Rutile Blue - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | Rutile 13.117g
-- **G82** -- G82 - Tomato Red - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | RIO 20.404g, Titanium Dioxide 5.83g
-- **G83** -- G83 - Floating Khaki - Tea Dust - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | RIO 13.117g, Rutile 8.745g
-- **G84** -- G84 - Frosted Copper - Oil Spot - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | RIO 2.186g, Rutile 2.915g, Titanium Dioxide 16.032g, Copper Carbonate 5.83g
-- **G85** -- G85 - Plum - Eggplant - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | RIO 4.372g, Titanium Dioxide 11.659g, Cobalt Carbonate 2.915g
-- **G86** -- G86 - Chun Blue - Celadon Mimic - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | RIO 0.583g, Titanium Dioxide 4.372g
-- **G87** -- G87 - Spearmint - Textured Sage - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | RIO 2.915g, Rutile 8.745g, Titanium Dioxide 5.83g, Chrome Oxide 5.83g
-- **G88** -- G88 - Classic Sapphire Float - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | Cobalt Carbonate 2.915g
+- **G79** -- G79 - G67 Remake - 15% Silica Crystal Test - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | Cobalt Oxide 3g, Copper Carbonate 10.5g, Light Rutile 24g
+- **G80** -- G80 - Autumn Gold - Oatmeal - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | RIO 12g, Rutile 21g, Titanium Dioxide 12g
+- **G81** -- G81 - Classic Rutile Blue - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | Rutile 27g
+- **G82** -- G82 - Tomato Red - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | RIO 42g, Titanium Dioxide 12g
+- **G83** -- G83 - Floating Khaki - Tea Dust - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | RIO 27g, Rutile 18g
+- **G84** -- G84 - Frosted Copper - Oil Spot - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | RIO 4.5g, Rutile 6g, Titanium Dioxide 33g, Copper Carbonate 12g
+- **G85** -- G85 - Plum - Eggplant - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | RIO 9g, Titanium Dioxide 24g, Cobalt Carbonate 6g
+- **G86** -- G86 - Chun Blue - Celadon Mimic - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | RIO 1.2g, Titanium Dioxide 9g
+- **G87** -- G87 - Spearmint - Textured Sage - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | RIO 6g, Rutile 18g, Titanium Dioxide 12g, Chrome Oxide 12g
+- **G88** -- G88 - Classic Sapphire Float - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | Cobalt Carbonate 6g
 
 ### Inactive (88)
 - **G1** -- G1 — Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 12.1g
