@@ -1,9 +1,9 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/28/2026, 8:55:15 PM
+Last updated: 7/29/2026, 7:06:59 AM
 
 ## Glaze Library
 
-### Active (20)
+### Active (19)
 - **G11** -- G11 - Trans Dark Green — OX | Base: G2926B | Chrome Oxide 1.212g | Target SG: 1.29
 - **G40v2** -- G40v2 - Tenmoku - OX | Base: G2926B | Spanish Red Iron Oxide 39.4g, Light Rutile 3.03g | Target SG: 1.32
 - **G44** -- G44 - Sand - OX | Base: G2926B | Light Rutile 12.12g, Spanish Red Iron Oxide 6.06g | Target SG: 1.32
@@ -23,7 +23,6 @@ Last updated: 7/28/2026, 8:55:15 PM
 - **G47v4** -- G47v4 - Base Comparison G1214M (diagnostic only) - MX | Base: G1214M | Copper Carbonate 4.9g, Light Rutile 4.09g
 - **T2v2** -- T2v2 - Mason 6103 Golden Brown - stain | Base: G2926B | Mason 6103 8.48g | Target SG: 1.44
 - **G73** -- G73 - Mason 6088 Dark Red Stain Test | Base: G2926B | Mason 6088 27g
-- **G78** -- G78 - Green - Nickel Oxide - G | Base: G2926B | Nickel Oxide 15g
 
 ### Test (14)
 - **T14** -- T14 - cobalt blue with rutile break on G3806C - T | Base: G3806C | Cobalt Oxide 2.232g, Light Rutile 7.61g
@@ -41,7 +40,7 @@ Last updated: 7/28/2026, 8:55:15 PM
 - **G81v2** -- G81v2 - Classic Rutile Blue, RIO Added - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | Rutile 27g, RIO 4.5g
 - **G86v2** -- G86v2 - Chun Blue - Celadon Mimic, RIO and Titanium Raised - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | RIO 6g, Titanium Dioxide 18g
 
-### Inactive (89)
+### Inactive (87)
 - **G1** -- G1 — Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 12.1g
 - **G2** -- G2 — Mid-Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 19.4g
 - **G3** -- G3 — Transparent UNC Blue — MS | Base: G2926B | Mason 6374 7.273g
@@ -128,8 +127,6 @@ Last updated: 7/28/2026, 8:55:15 PM
 - **G70** -- G70 - Nep Sye Red B (Britt) - MX | Base: G70-base (own base, not G2926B/G1214M/G3806C) | Nepheline Syenite 108g, Silica 180g, Whiting 120g, Ball Clay 108g, Ferro Frit 3134 84g, Tin Oxide 45g, Chrome Oxide 1.2g, Cobalt Carbonate 1.5g, Bentonite 12g
 - **G25v6** -- G25v6 - Chrome-Tin Pink Test | Base: G1214M | Chrome Oxide 0.48g, Tin Oxide 61.5g
 - **G74** -- G74 - Mason 6238 Stain Test | Base: G2926B | Mason 6238 48g
-- **G76** -- G76 - Green - Nickel Oxide - G | Base: G2926B | Nickel Oxide 15g
-- **G77** -- G77 - Green - Nickel Oxide - G | Base: G2926B | Nickel Oxide 15g
 - **G87** -- G87 - Spearmint - Textured Sage - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | RIO 6g, Rutile 18g, Titanium Dioxide 12g, Chrome Oxide 12g
 
 ## Custom Bases
