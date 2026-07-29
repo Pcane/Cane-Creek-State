@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/28/2026, 7:42:58 PM
+Last updated: 7/28/2026, 8:55:09 PM
 
 ## Glaze Library
 
@@ -25,7 +25,7 @@ Last updated: 7/28/2026, 7:42:58 PM
 - **G73** -- G73 - Mason 6088 Dark Red Stain Test | Base: G2926B | Mason 6088 27g
 - **G78** -- G78 - Green - Nickel Oxide - G | Base: G2926B | Nickel Oxide 15g
 
-### Test (13)
+### Test (14)
 - **T14** -- T14 - cobalt blue with rutile break on G3806C - T | Base: G3806C | Cobalt Oxide 2.232g, Light Rutile 7.61g
 - **G71** -- G71 - GA6-A Amber Honey (Digitalfire) - OX | Base: G71-base (own base, not G2926B/G1214M/G3806C) | Alberta Slip 480g, Ferro Frit 3134 120g, Iron Oxide 12g
 - **G72** -- G72 - GA6-B Amber Honey No-Variegation (Digitalfire) - OX | Base: G72-base (own base, not G2926B/G1214M/G3806C) | Alberta Slip 480g, Ferro Frit 3195 120g, Iron Oxide 12g
@@ -37,10 +37,11 @@ Last updated: 7/28/2026, 7:42:58 PM
 - **G84** -- G84 - Frosted Copper - Oil Spot - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | RIO 4.5g, Rutile 6g, Titanium Dioxide 33g, Copper Carbonate 12g
 - **G85** -- G85 - Plum - Eggplant - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | RIO 9g, Titanium Dioxide 24g, Cobalt Carbonate 6g
 - **G86** -- G86 - Chun Blue - Celadon Mimic - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | RIO 1.2g, Titanium Dioxide 9g
-- **G87** -- G87 - Spearmint - Textured Sage - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | RIO 6g, Rutile 18g, Titanium Dioxide 12g, Chrome Oxide 12g
 - **G88** -- G88 - Classic Sapphire Float - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | Cobalt Carbonate 6g
+- **G81v2** -- G81v2 - Classic Rutile Blue, RIO Added - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | Rutile 27g, RIO 4.5g
+- **G86v2** -- G86v2 - Chun Blue - Celadon Mimic, RIO and Titanium Raised - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | RIO 6g, Titanium Dioxide 18g
 
-### Inactive (88)
+### Inactive (89)
 - **G1** -- G1 — Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 12.1g
 - **G2** -- G2 — Mid-Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 19.4g
 - **G3** -- G3 — Transparent UNC Blue — MS | Base: G2926B | Mason 6374 7.273g
@@ -129,6 +130,7 @@ Last updated: 7/28/2026, 7:42:58 PM
 - **G74** -- G74 - Mason 6238 Stain Test | Base: G2926B | Mason 6238 48g
 - **G76** -- G76 - Green - Nickel Oxide - G | Base: G2926B | Nickel Oxide 15g
 - **G77** -- G77 - Green - Nickel Oxide - G | Base: G2926B | Nickel Oxide 15g
+- **G87** -- G87 - Spearmint - Textured Sage - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | RIO 6g, Rutile 18g, Titanium Dioxide 12g, Chrome Oxide 12g
 
 ## Custom Bases
 ### G3806C -- Fluid Glossy Base Glaze
