@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/28/2026, 8:55:09 PM
+Last updated: 7/28/2026, 8:55:15 PM
 
 ## Glaze Library
 
@@ -234,6 +234,69 @@ No batches recorded yet.
 
 ## Recent Firing Records
 
+### G79 - Jul27 - B
+- Recipe: undefined
+- Base: undefined | SG: -- | Method: --
+- Fired: Jul 27, 2026 | Door | --
+
+---
+
+### G80 - Jul27 - B
+- Recipe: undefined
+- Base: undefined | SG: -- | Method: --
+- Fired: Jul 27, 2026 | Door | --
+
+---
+
+### G82 - Jul27 - B
+- Recipe: undefined
+- Base: undefined | SG: -- | Method: --
+- Fired: Jul 27, 2026 | Door | --
+
+---
+
+### G83 - Jul27 - B
+- Recipe: undefined
+- Base: undefined | SG: -- | Method: --
+- Fired: Jul 27, 2026 | Door | --
+
+---
+
+### G84 - Jul27 - B
+- Recipe: undefined
+- Base: undefined | SG: -- | Method: --
+- Fired: Jul 27, 2026 | Door | --
+
+---
+
+### G85 - Jul27 - B
+- Recipe: undefined
+- Base: undefined | SG: -- | Method: --
+- Fired: Jul 27, 2026 | Door | --
+
+---
+
+### G88 - Jul27 - B
+- Recipe: undefined
+- Base: undefined | SG: -- | Method: --
+- Fired: Jul 27, 2026 | Door | --
+
+---
+
+### G81v2 - Jul27 - A
+- Recipe: undefined
+- Base: undefined | SG: -- | Method: --
+- Fired: Jul 27, 2026 | Door | --
+
+---
+
+### G86v2 - Jul27 - A
+- Recipe: undefined
+- Base: undefined | SG: -- | Method: --
+- Fired: Jul 27, 2026 | Door | --
+
+---
+
 ### G76 - Jul26 - A
 - Recipe: Nickel Oxide: 15g per 600g
 - Base: G2926B | SG: -- | Method: --
@@ -307,61 +370,6 @@ No batches recorded yet.
 ### T5 - Jul26 - A
 - Recipe: Cobalt Oxide: 7.8g per 600g, Chrome Oxide: 4.8g per 600g
 - Base: G2926B | SG: 1.35 | Method: --
-
----
-
-### T11 - Jul26 - A
-- Recipe: Light Rutile: 19.38g per 600g, Red Iron Oxide: 6.06g per 600g
-- Base: G2926B | SG: 1.35 | Method: --
-
----
-
-### G60 - Jul26 - A
-- Recipe: Zircopax: 48g per 600g, Mason Praseodymium Yellow Stain: 36g per 600g
-- Base: G2926B | SG: 1.35 | Method: --
-
----
-
-### G59 - Jul26 - A
-- Recipe: Rutile: 18g per 600g, Cobalt Carbonate: 0.9g per 600g, Copper Carbonate: 1.8g per 600g
-- Base: G2926B | SG: 1.35 | Method: --
-
----
-
-### T10 - Jul26 - A
-- Recipe: mason 6003: 8.39g per 600g, tin oxide: 4.69g per 600g
-- Base: G3806C | SG: 1.35 | Method: --
-
----
-
-### T3 - Jul26 - A
-- Recipe: Light Rutile: 26.2g per 600g
-- Base: G3806C | SG: 1.35 | Method: --
-
----
-
-### T2 - Jul26 - A
-- Recipe: Mason 6103: 8.48g per 600g
-- Base: G3806C | SG: 1.35 | Method: --
-
----
-
-### G58 - Jul26 - A
-- Recipe: Rutile: 18g per 600g, Cobalt Carbonate: 1.8g per 600g
-- Base: G2926B | SG: 1.35 | Method: --
-
----
-
-### T4 - Jul26 - A
-- Recipe: Mason 6304: 60g per 600g
-- Base: G2926B | SG: -- | Method: --
-
----
-
-### G53v2 - Jul26 - A
-- Recipe: G-200 EU Feldspar: 240g per 600g, Ferro Frit 3124: 54g per 600g, Whiting: 96g per 600g, Talc: 54g per 600g, Tile 6: 60g per 600g, Silica: 96g per 600g, Spanish Red Iron Oxide: 12.12g per 600g, Light Rutile: 2.424g per 600g
-- Base: G2926B | SG: -- | Method: --
-- Finish: Matte
 
 
 ## Studio Constants
