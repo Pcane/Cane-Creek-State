@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 7/29/2026, 7:10:29 AM
+Last updated: 7/29/2026, 11:06:31 AM
 
 ## Glaze Library
 
@@ -24,7 +24,7 @@ Last updated: 7/29/2026, 7:10:29 AM
 - **T2v2** -- T2v2 - Mason 6103 Golden Brown - stain | Base: G2926B | Mason 6103 8.48g | Target SG: 1.44
 - **G73** -- G73 - Mason 6088 Dark Red Stain Test | Base: G2926B | Mason 6088 27g
 
-### Test (14)
+### Test (16)
 - **T14** -- T14 - cobalt blue with rutile break on G3806C - T | Base: G3806C | Cobalt Oxide 2.232g, Light Rutile 7.61g
 - **G71** -- G71 - GA6-A Amber Honey (Digitalfire) - OX | Base: G71-base (own base, not G2926B/G1214M/G3806C) | Alberta Slip 480g, Ferro Frit 3134 120g, Iron Oxide 12g
 - **G72** -- G72 - GA6-B Amber Honey No-Variegation (Digitalfire) - OX | Base: G72-base (own base, not G2926B/G1214M/G3806C) | Alberta Slip 480g, Ferro Frit 3195 120g, Iron Oxide 12g
@@ -39,6 +39,8 @@ Last updated: 7/29/2026, 7:10:29 AM
 - **G88** -- G88 - Classic Sapphire Float - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | Cobalt Carbonate 6g
 - **G81v2** -- G81v2 - Classic Rutile Blue, RIO Added - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | Rutile 27g, RIO 4.5g
 - **G86v2** -- G86v2 - Chun Blue - Celadon Mimic, RIO and Titanium Raised - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | RIO 6g, Titanium Dioxide 18g
+- **G89** -- G89 - Floating Khaki - Tea Dust L - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | RIO 27g, Rutile 18g, Lithium Carbonate 6g
+- **G90** -- G90 - Plum - Eggplant L - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | RIO 9g, Titanium Dioxide 24g, Cobalt Carbonate 6g, Lithium Carbonate 6g
 
 ### Inactive (87)
 - **G1** -- G1 — Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 12.1g
@@ -127,7 +129,7 @@ Last updated: 7/29/2026, 7:10:29 AM
 - **G70** -- G70 - Nep Sye Red B (Britt) - MX | Base: G70-base (own base, not G2926B/G1214M/G3806C) | Nepheline Syenite 108g, Silica 180g, Whiting 120g, Ball Clay 108g, Ferro Frit 3134 84g, Tin Oxide 45g, Chrome Oxide 1.2g, Cobalt Carbonate 1.5g, Bentonite 12g
 - **G25v6** -- G25v6 - Chrome-Tin Pink Test | Base: G1214M | Chrome Oxide 0.48g, Tin Oxide 61.5g
 - **G74** -- G74 - Mason 6238 Stain Test | Base: G2926B | Mason 6238 48g
-- **G87** -- G87 - Spearmint - Textured Sage - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | RIO 6g, Rutile 18g, Titanium Dioxide 12g, Chrome Oxide 12g
+- **G87** -- G87 - Khaki Brown - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | RIO 6g, Rutile 18g, Titanium Dioxide 12g, Chrome Oxide 12g
 
 ## Custom Bases
 ### G3806C -- Fluid Glossy Base Glaze
@@ -233,63 +235,63 @@ No batches recorded yet.
 
 ### G79 - Jul27 - B
 - Recipe: undefined
-- Base: undefined | SG: -- | Method: --
+- Base: undefined | SG: 1.55 | Method: --
 - Fired: Jul 27, 2026 | Door | --
 
 ---
 
 ### G80 - Jul27 - B
 - Recipe: undefined
-- Base: undefined | SG: -- | Method: --
+- Base: undefined | SG: 1.5 | Method: --
 - Fired: Jul 27, 2026 | Door | --
 
 ---
 
 ### G82 - Jul27 - B
 - Recipe: undefined
-- Base: undefined | SG: -- | Method: --
+- Base: undefined | SG: 1.5 | Method: --
 - Fired: Jul 27, 2026 | Door | --
 
 ---
 
-### G83 - Jul27 - B
+### G89 - Jul27 - B
 - Recipe: undefined
-- Base: undefined | SG: -- | Method: --
+- Base: undefined | SG: 1.46 | Method: --
 - Fired: Jul 27, 2026 | Door | --
 
 ---
 
 ### G84 - Jul27 - B
 - Recipe: undefined
-- Base: undefined | SG: -- | Method: --
+- Base: undefined | SG: 1.5 | Method: --
 - Fired: Jul 27, 2026 | Door | --
 
 ---
 
-### G85 - Jul27 - B
+### G90 - Jul27 - B
 - Recipe: undefined
-- Base: undefined | SG: -- | Method: --
+- Base: undefined | SG: 1.45 | Method: --
 - Fired: Jul 27, 2026 | Door | --
 
 ---
 
 ### G88 - Jul27 - B
 - Recipe: undefined
-- Base: undefined | SG: -- | Method: --
+- Base: undefined | SG: 1.5 | Method: --
 - Fired: Jul 27, 2026 | Door | --
 
 ---
 
 ### G81v2 - Jul27 - A
 - Recipe: undefined
-- Base: undefined | SG: -- | Method: --
+- Base: undefined | SG: 1.5 | Method: --
 - Fired: Jul 27, 2026 | Door | --
 
 ---
 
 ### G86v2 - Jul27 - A
 - Recipe: undefined
-- Base: undefined | SG: -- | Method: --
+- Base: undefined | SG: 1.5 | Method: --
 - Fired: Jul 27, 2026 | Door | --
 
 ---
