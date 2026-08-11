@@ -1,31 +1,27 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 8/10/2026, 6:47:53 PM
+Last updated: 8/11/2026, 1:18:23 PM
 
 ## Glaze Library
 
-### Active (22)
+### Active (18)
 - **G11** -- G11 - Trans Dark Green — OX | Base: G2926B | Chrome Oxide 1.212g | Target SG: 1.29
 - **G40v2** -- G40v2 - Tenmoku - OX | Base: G2926B | Spanish Red Iron Oxide 39.4g, Light Rutile 3.03g | Target SG: 1.32
-- **G21v2** -- G21v2 - Light Gold-Amber - OX | Base: G2926B | Spanish Red Iron Oxide 12.12g, Light Rutile 6.06g
-- **G47** -- G47 - Lime Green - OX | Base: G3806C | Copper Carbonate 4.9g, Light Rutile 4.09g | Target SG: 1.35
-- **G29v3** -- G29v3 - Dark Vanadium Yellow Iron Edge - OX | Base: G2926B | Vanadium Yellow 14.544g, Spanish Red Iron Oxide 9.09g | Target SG: 1.34
-- **T5** -- T5 - Blue-Green Cobalt-Chrome - T | Base: G2926B | Cobalt Oxide 7.8g, Chrome Oxide 4.8g
-- **G55** -- G55 - Amber Shino - OX | Base: Own base | Tile 6 270g, Nepheline Syenite 180g, Spodumene 90g, Soda Ash 60g, Red Iron Oxide 12g
-- **G58** -- G58 - Grey | Base: G2926B | Rutile 18g, Cobalt Carbonate 1.8g
-- **G60** -- G60 - Parakeet Yellow Attempt - MS | Base: G2926B | Zircopax 48g, Mason Praseodymium Yellow Stain 36g
-- **T12** -- T12 - Rust Orange Mason 6028 and RIO | Base: G2926B | Mason 6028 44.004g, RIO 8.251g
-- **G67** -- G67 - Blue-Green Floating Cobalt - G | Base: G3806C | Cobalt Oxide 3g, Copper Carbonate 10.5g, Light Rutile 24g
-- **G25v5** -- G25v5 - Chrome-Tin Deep Red Test | Base: G1214M | Chrome Oxide 0.6g, Tin Oxide 66g
-- **G47v4** -- G47v4 - Base Comparison G1214M (diagnostic only) - MX | Base: G1214M | Copper Carbonate 4.9g, Light Rutile 4.09g
-- **G73** -- G73 - Mason 6088 Dark Red Stain Test | Base: G2926B | Mason 6088 27g
+- **G49** -- G49 - Floating Blue - OX | Base: G49-base (own base, not G2926B/G1214M/G3806C) | Nepheline Syenite 180g, Ferro Frit 3134 216g, Silica 84g, EPK Kaolin 120g, Spanish Red Iron Oxide 12g, Cobalt Oxide 7.2g, Light Rutile 24g
+- **G47v4** -- G47v4 Lime | Base: G1214M | Copper Carbonate 4.9g, Light Rutile 4.09g
 - **G79** -- G79 - G67 Remake - 15% Silica Crystal Test - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | Cobalt Oxide 3g, Copper Carbonate 10.5g, Light Rutile 24g
-- **G80** -- G80 - Autumn Gold - Oatmeal - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | RIO 12g, Rutile 21g, Titanium Dioxide 12g
-- **G84** -- G84 - Frosted Copper - Oil Spot - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | RIO 4.5g, Rutile 6g, Titanium Dioxide 33g, Copper Carbonate 12g
-- **G87** -- G87 - Khaki Brown - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | RIO 6g, Rutile 18g, Titanium Dioxide 12g, Chrome Oxide 12g
-- **G88** -- G88 - Classic Sapphire Float - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | Cobalt Carbonate 6g
-- **G89** -- G89 - Floating Khaki - Tea Dust L - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | RIO 27g, Rutile 18g, Lithium Carbonate 6g
-- **G90** -- G90 - Plum - Eggplant L - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | RIO 9g, Titanium Dioxide 24g, Cobalt Carbonate 6g, Lithium Carbonate 6g
-- **G91** -- G91 - G1214M Clear - OX | Base: G1214M | no colorant
+- **K3Gloss** -- K3Gloss - UNC Blue | Base: G2926B | Mason 6376 12g
+- **K4Gloss** -- K4Gloss - Sky Blue | Base: G2926B | Mason 6376 24g
+- **K5Gloss** -- K5Gloss - Dark Blue | Base: G2926B | Cobalt Oxide 6g
+- **K7Gloss** -- K7Gloss - Light Green Sage | Base: G2926B | Mason 6206 42g
+- **K8Gloss** -- K8Gloss - Yellow Green Chartreuse | Base: G2926B | Mason 6254 21g
+- **K11Gloss** -- K11Gloss - Dark Green | Base: G2926B | Mason 6255 21g
+- **K19Gloss** -- K19Gloss - Light Light Brown | Base: G2926B | RIO 8.4g
+- **K20Gloss** -- K20Gloss - Light Brown | Base: G2926B | RIO 16.8g
+- **K22Gloss** -- K22Gloss - Dark Brown | Base: G2926B | Mason 6108 21g
+- **K24Gloss** -- K24Gloss - Grey | Base: G2926B | Mason 6600 3.24g
+- **G12Gloss** -- G12Gloss - Yellow | Base: G2926B | Vanadium Yellow 36g
+- **G15Gloss** -- G15Gloss - Red | Base: G2926B | Mason 6021 15g
+- **G25Gloss** -- G25Gloss - Orange | Base: G2926B | Mason Orange Stain 42g
 
 ### Test (10)
 - **T14** -- T14 - cobalt blue with rutile break on G3806C - T | Base: G3806C | Cobalt Oxide 2.232g, Light Rutile 7.61g
@@ -39,7 +35,7 @@ Last updated: 8/10/2026, 6:47:53 PM
 - **G81v2** -- G81v2 - Classic Rutile Blue, RIO Added - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | Rutile 27g, RIO 4.5g
 - **G86v2** -- G86v2 - Chun Blue - Celadon Mimic, RIO and Titanium Raised - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | RIO 6g, Titanium Dioxide 18g
 
-### Inactive (91)
+### Inactive (108)
 - **G1** -- G1 — Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 12.1g
 - **G2** -- G2 — Mid-Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 19.4g
 - **G3** -- G3 — Transparent UNC Blue — MS | Base: G2926B | Mason 6374 7.273g
@@ -95,42 +91,59 @@ Last updated: 8/10/2026, 6:47:53 PM
 - **G38v3** -- G38v3 - Rutile Amber - OX | Base: G2926B | Light Rutile 19.392g, Red Iron Oxide 6.06g | Target SG: 1.3
 - **TG1** -- TG1 - v26v2 - TG | Base: G2926B | no colorant
 - **TG2** -- TG2 - G26v2 light green - TG | Base: G2926B | Copper Carbonate 4.9g, Light Rutile 4.09g | Target SG: 1.314
+- **G21v2** -- G21v2 - Light Gold-Amber - OX | Base: G2926B | Spanish Red Iron Oxide 12.12g, Light Rutile 6.06g
 - **G25v3** -- G25v3 - Chrome-Tin Coat Thickness Test - OX | Base: G1214M | Chrome Oxide 1.09g, Tin Oxide 25.2g
+- **G47** -- G47 - Lime Green - OX | Base: G3806C | Copper Carbonate 4.9g, Light Rutile 4.09g | Target SG: 1.35
 - **G48** -- G48 - Copper-Iron on Copper Base - OX | Base: G3806C | Copper Carbonate 3.636g, Spanish Red Iron Oxide 3.03g | Target SG: 1.35
-- **G49** -- G49 - Floating Blue - OX | Base: G49-base (own base, not G2926B/G1214M/G3806C) | Nepheline Syenite 180g, Ferro Frit 3134 216g, Silica 84g, EPK Kaolin 120g, Spanish Red Iron Oxide 12g, Cobalt Oxide 7.2g, Light Rutile 24g
 - **G50** -- G50 - Celadon RIO Test - OX | Base: G2926B | Spanish Red Iron Oxide 6.06g
 - **G51** -- G51 - Nickel Carbonate Test - OX | Base: G2926B | Nickel Carbonate 6.06g
 - **G52** -- G52 - Holly's Gold - OX | Base: G52-base (own base, not G2926B/G1214M/G3806C) | Ferro Frit 3134 120g, Dolomite 120g, Spodumene 120g, Ball Clay 120g, Silica 120g, Tin Oxide 18g, Spanish Red Iron Oxide 12g
 - **G53** -- G53 - Satin Pearl Brown - OX | Base: G2926B | G-200 EU Feldspar 240g, Ferro Frit 3124 54g, Whiting 96g, Talc 54g, EPK Kaolin 60g, Silica 96g, Spanish Red Iron Oxide 12.12g, Light Rutile 2.424g
+- **G29v3** -- G29v3 - Dark Vanadium Yellow Iron Edge - OX | Base: G2926B | Vanadium Yellow 14.544g, Spanish Red Iron Oxide 9.09g | Target SG: 1.34
 - **T1** -- T1 - Mason 6003 | Base: G2926B | Mason 6003 8.48g
 - **T2** -- T2 - Mason 6103 Golden Brown | Base: G2926B | Mason 6103 8.48g | Target SG: 1.35
 - **T3** -- T3 - Rutile orange | Base: G2926B | Light Rutile 26.2g | Target SG: 1.3
+- **T5** -- T5 - Blue-Green Cobalt-Chrome - T | Base: G2926B | Cobalt Oxide 7.8g, Chrome Oxide 4.8g
 - **T6** -- T6 - Green - Nickel Oxide - T | Base: G2926B | Nickel Oxide 15g
 - **T7** -- T7 - Mustard-Amber - Manganese Dioxide - T | Base: G2926B | Manganese Dioxide 12g
 - **T8** -- T8 - Red - Mason 6021 - T | Base: G2926B | Mason 6021 66g
 - **G54** -- G54 - Shino Base (control) - T | Base: Own base | Tile 6 270g, Nepheline Syenite 180g, Spodumene 90g, Soda Ash 60g
+- **G55** -- G55 - Amber Shino - OX | Base: Own base | Tile 6 270g, Nepheline Syenite 180g, Spodumene 90g, Soda Ash 60g, Red Iron Oxide 12g
 - **G56** -- G56 - Light Green Shino - Chrome Route - MX | Base: Own base | Tile 6 270g, Nepheline Syenite 180g, Spodumene 90g, Soda Ash 60g, Chrome Oxide 0.9g, Red Iron Oxide 6g
 - **G57** -- G57 - Light Green Shino - Copper Route - MX | Base: Own base | Tile 6 270g, Nepheline Syenite 180g, Spodumene 90g, Soda Ash 60g, Copper Carbonate 1.8g, Red Iron Oxide 6g
+- **G58** -- G58 - Grey | Base: G2926B | Rutile 18g, Cobalt Carbonate 1.8g
 - **G59** -- G59 - Sage | Base: G2926B | Rutile 18g, Cobalt Carbonate 0.9g, Copper Carbonate 1.8g
+- **G60** -- G60 - Parakeet Yellow Attempt - MS | Base: G2926B | Zircopax 48g, Mason Praseodymium Yellow Stain 36g
 - **G62** -- G62 - Red Gold Attempt - MX | Base: G2926B | Rutile 24g, Red Iron Oxide 18g
 - **G63** -- G63 - Red Gold Attempt - More Rutile - MX | Base: G2926B | Rutile 30g, Red Iron Oxide 12g
 - **G49v2** -- G49v2 - Floating Blue - OX | Base: G49-base (own base, not G2926B/G1214M/G3806C) | Nepheline Syenite 180g, Ferro Frit 3134 216g, Silica 84g, Tile 6 120g, Spanish Red Iron Oxide 12g, Cobalt Oxide 7.2g, Light Rutile 24g
 - **G53v2** -- G53v2 - Satin Pearl Brown - OX | Base: G2926B | G-200 EU Feldspar 240g, Ferro Frit 3124 54g, Whiting 96g, Talc 54g, Tile 6 60g, Silica 96g, Spanish Red Iron Oxide 12.12g, Light Rutile 2.424g
 - **T10** -- T10 - Mason red 6003 transparent - T | Base: G2926B | mason 6003 8.39g, tin oxide 4.69g
 - **T11** -- T11 - G38v4 Rutile amber cloud - T | Base: G2926B | Light Rutile 19.38g, Red Iron Oxide 6.06g
+- **T12** -- T12 - Rust Orange Mason 6028 and RIO | Base: G2926B | Mason 6028 44.004g, RIO 8.251g
 - **G64** -- G64 - Frosted Light Green | Base: G3806C | Copper Carbonate 9g, Light Rutile 27g
 - **G65** -- G65 - Deep Brown-Black Iron - G | Base: G3806C | Spanish RIO 39g, Light Rutile 7.5g
 - **G66** -- G66 - Yellow-Brown Rutile Float - G | Base: G3806C | Spanish RIO 15g, Light Rutile 27g
+- **G67** -- G67 - Blue-Green Floating Cobalt - G | Base: G3806C | Cobalt Oxide 3g, Copper Carbonate 10.5g, Light Rutile 24g
 - **G68** -- G68 - Chrome-Tin Red -- Hansen Dose - G | Base: G1214M | Chrome Oxide 2.7g, Tin Oxide 45g
 - **T15** -- T15 - Honey amber - T | Base: Blend (no base pour) | Glaze G12 150g, Glaze G29v2 450g
 - **G25v4** -- G25v4 - Chrome-Tin Pink Test | Base: G1214M | Chrome Oxide 0.36g, Tin Oxide 58.8g
+- **G25v5** -- G25v5 - Chrome-Tin Deep Red Test | Base: G1214M | Chrome Oxide 0.6g, Tin Oxide 66g
 - **G47v2** -- G47v2 - Base Comparison G2926B - MX | Base: G2926B | Copper Carbonate 4.9g, Light Rutile 4.09g
 - **G47v3** -- G47v3 - Base Comparison G3806C - MX | Base: G3806C | Copper Carbonate 4.9g, Light Rutile 4.09g
 - **T2v2** -- T2v2 - Mason 6103 Golden Brown - stain | Base: G2926B | Mason 6103 8.48g | Target SG: 1.44
 - **G69** -- G69 - Nep Sye Red A (Britt) - MX | Base: G69-base (own base, not G2926B/G1214M/G3806C) | Nepheline Syenite 96g, Silica 192g, Whiting 120g, EPK Kaolin 66g, Gerstley Borate 126g, Tin Oxide 30g, Chrome Oxide 0.9g, Cobalt Carbonate 1.5g
 - **G70** -- G70 - Nep Sye Red B (Britt) - MX | Base: G70-base (own base, not G2926B/G1214M/G3806C) | Nepheline Syenite 108g, Silica 180g, Whiting 120g, Ball Clay 108g, Ferro Frit 3134 84g, Tin Oxide 45g, Chrome Oxide 1.2g, Cobalt Carbonate 1.5g, Bentonite 12g
 - **G25v6** -- G25v6 - Chrome-Tin Pink Test | Base: G1214M | Chrome Oxide 0.48g, Tin Oxide 61.5g
+- **G73** -- G73 - Mason 6088 Dark Red Stain Test | Base: G2926B | Mason 6088 27g
 - **G74** -- G74 - Mason 6238 Stain Test | Base: G2926B | Mason 6238 48g
+- **G80** -- G80 - Autumn Gold - Oatmeal - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | RIO 12g, Rutile 21g, Titanium Dioxide 12g
+- **G84** -- G84 - Frosted Copper - Oil Spot - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | RIO 4.5g, Rutile 6g, Titanium Dioxide 33g, Copper Carbonate 12g
+- **G87** -- G87 - Khaki Brown - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | RIO 6g, Rutile 18g, Titanium Dioxide 12g, Chrome Oxide 12g
+- **G88** -- G88 - Classic Sapphire Float - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | Cobalt Carbonate 6g
+- **G89** -- G89 - Floating Khaki - Tea Dust L - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | RIO 27g, Rutile 18g, Lithium Carbonate 6g
+- **G90** -- G90 - Plum - Eggplant L - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | RIO 9g, Titanium Dioxide 24g, Cobalt Carbonate 6g, Lithium Carbonate 6g
+- **G91** -- G91 - G1214M Clear - OX | Base: G1214M | no colorant
 
 ## Custom Bases
 ### G3806C -- Fluid Glossy Base Glaze
