@@ -1,9 +1,9 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 8/11/2026, 3:44:18 PM
+Last updated: 8/11/2026, 3:51:21 PM
 
 ## Glaze Library
 
-### Active (18)
+### Active (20)
 - **G11** -- G11 - Trans Dark Green — OX | Base: G2926B | Chrome Oxide 1.212g | Target SG: 1.29
 - **G40v2** -- G40v2 - Tenmoku - OX | Base: G2926B | Spanish Red Iron Oxide 39.4g, Light Rutile 3.03g | Target SG: 1.32
 - **G49** -- G49 - Floating Blue - OX | Base: G49-base (own base, not G2926B/G1214M/G3806C) | Nepheline Syenite 180g, Ferro Frit 3134 216g, Silica 84g, EPK Kaolin 120g, Spanish Red Iron Oxide 12g, Cobalt Oxide 7.2g, Light Rutile 24g
@@ -22,6 +22,8 @@ Last updated: 8/11/2026, 3:44:18 PM
 - **G12Gloss** -- G12Gloss - Yellow | Base: G2926B | Vanadium Yellow 36g
 - **G15Gloss** -- G15Gloss - Red | Base: G2926B | Mason 6021 15g
 - **G25Gloss** -- G25Gloss - Orange | Base: G2926B | Mason Orange Stain 42g
+- **G92** -- G92 - Chartreuse | Base: G2926B | Mason 6236 48g
+- **G93** -- G93 - Tan | Base: G2926B | RIO 3.12g
 
 ### Test (10)
 - **T14** -- T14 - cobalt blue with rutile break on G3806C - T | Base: G3806C | Cobalt Oxide 2.232g, Light Rutile 7.61g
