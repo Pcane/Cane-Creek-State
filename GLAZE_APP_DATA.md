@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 8/11/2026, 2:18:10 PM
+Last updated: 8/11/2026, 2:19:39 PM
 
 ## Glaze Library
 
@@ -8,7 +8,7 @@ Last updated: 8/11/2026, 2:18:10 PM
 - **G40v2** -- G40v2 - Tenmoku - OX | Base: G2926B | Spanish Red Iron Oxide 39.4g, Light Rutile 3.03g | Target SG: 1.32
 - **G49** -- G49 - Floating Blue - OX | Base: G49-base (own base, not G2926B/G1214M/G3806C) | Nepheline Syenite 180g, Ferro Frit 3134 216g, Silica 84g, EPK Kaolin 120g, Spanish Red Iron Oxide 12g, Cobalt Oxide 7.2g, Light Rutile 24g
 - **G47v4** -- G47v4 Lime | Base: G1214M | Copper Carbonate 4.9g, Light Rutile 4.09g
-- **G79** -- G79 - G67 Remake - 15% Silica Crystal Test - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | Cobalt Oxide 3g, Copper Carbonate 10.5g, Light Rutile 24g
+- **G79** -- G79 - G67 Remake - 15% Silica Crystal Test - MX | Base: G3806C+15Sil | Cobalt Oxide 3g, Copper Carbonate 10.5g, Light Rutile 24g
 - **K3Gloss** -- K3Gloss - UNC Blue | Base: G2926B | Mason 6376 12g
 - **K4Gloss** -- K4Gloss - Sky Blue | Base: G2926B | Mason 6376 24g
 - **K5Gloss** -- K5Gloss - Dark Blue | Base: G2926B | Cobalt Oxide 6g
@@ -27,13 +27,13 @@ Last updated: 8/11/2026, 2:18:10 PM
 - **T14** -- T14 - cobalt blue with rutile break on G3806C - T | Base: G3806C | Cobalt Oxide 2.232g, Light Rutile 7.61g
 - **G71** -- G71 - GA6-A Amber Honey (Digitalfire) - OX | Base: G71-base (own base, not G2926B/G1214M/G3806C) | Alberta Slip 480g, Ferro Frit 3134 120g, Iron Oxide 12g
 - **G72** -- G72 - GA6-B Amber Honey No-Variegation (Digitalfire) - OX | Base: G72-base (own base, not G2926B/G1214M/G3806C) | Alberta Slip 480g, Ferro Frit 3195 120g, Iron Oxide 12g
-- **G81** -- G81 - Classic Rutile Blue - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | Rutile 27g
-- **G82** -- G82 - Tomato Red - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | RIO 42g, Titanium Dioxide 12g
-- **G83** -- G83 - Floating Khaki - Tea Dust - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | RIO 27g, Rutile 18g
-- **G85** -- G85 - Plum - Eggplant - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | RIO 9g, Titanium Dioxide 24g, Cobalt Carbonate 6g
-- **G86** -- G86 - Chun Blue - Celadon Mimic - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | RIO 1.2g, Titanium Dioxide 9g
-- **G81v2** -- G81v2 - Classic Rutile Blue, RIO Added - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | Rutile 27g, RIO 4.5g
-- **G86v2** -- G86v2 - Chun Blue - Celadon Mimic, RIO and Titanium Raised - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | RIO 6g, Titanium Dioxide 18g
+- **G81** -- G81 - Classic Rutile Blue - MX | Base: G3806C+15Sil | Rutile 27g
+- **G82** -- G82 - Tomato Red - MX | Base: G3806C+15Sil | RIO 42g, Titanium Dioxide 12g
+- **G83** -- G83 - Floating Khaki - Tea Dust - MX | Base: G3806C+15Sil | RIO 27g, Rutile 18g
+- **G85** -- G85 - Plum - Eggplant - MX | Base: G3806C+15Sil | RIO 9g, Titanium Dioxide 24g, Cobalt Carbonate 6g
+- **G86** -- G86 - Chun Blue - Celadon Mimic - MX | Base: G3806C+15Sil | RIO 1.2g, Titanium Dioxide 9g
+- **G81v2** -- G81v2 - Classic Rutile Blue, RIO Added - MX | Base: G3806C+15Sil | Rutile 27g, RIO 4.5g
+- **G86v2** -- G86v2 - Chun Blue - Celadon Mimic, RIO and Titanium Raised - MX | Base: G3806C+15Sil | RIO 6g, Titanium Dioxide 18g
 
 ### Inactive (108)
 - **G1** -- G1 — Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 12.1g
@@ -137,12 +137,12 @@ Last updated: 8/11/2026, 2:18:10 PM
 - **G25v6** -- G25v6 - Chrome-Tin Pink Test | Base: G1214M | Chrome Oxide 0.48g, Tin Oxide 61.5g
 - **G73** -- G73 - Mason 6088 Dark Red Stain Test | Base: G2926B | Mason 6088 27g
 - **G74** -- G74 - Mason 6238 Stain Test | Base: G2926B | Mason 6238 48g
-- **G80** -- G80 - Autumn Gold - Oatmeal - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | RIO 12g, Rutile 21g, Titanium Dioxide 12g
-- **G84** -- G84 - Frosted Copper - Oil Spot - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | RIO 4.5g, Rutile 6g, Titanium Dioxide 33g, Copper Carbonate 12g
-- **G87** -- G87 - Khaki Brown - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | RIO 6g, Rutile 18g, Titanium Dioxide 12g, Chrome Oxide 12g
-- **G88** -- G88 - Classic Sapphire Float - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | Cobalt Carbonate 6g
-- **G89** -- G89 - Floating Khaki - Tea Dust L - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | RIO 27g, Rutile 18g, Lithium Carbonate 6g
-- **G90** -- G90 - Plum - Eggplant L - MX | Base: G3806C + 15% Silica (test batch, own-derived base) | RIO 9g, Titanium Dioxide 24g, Cobalt Carbonate 6g, Lithium Carbonate 6g
+- **G80** -- G80 - Autumn Gold - Oatmeal - MX | Base: G3806C+15Sil | RIO 12g, Rutile 21g, Titanium Dioxide 12g
+- **G84** -- G84 - Frosted Copper - Oil Spot - MX | Base: G3806C+15Sil | RIO 4.5g, Rutile 6g, Titanium Dioxide 33g, Copper Carbonate 12g
+- **G87** -- G87 - Khaki Brown - MX | Base: G3806C+15Sil | RIO 6g, Rutile 18g, Titanium Dioxide 12g, Chrome Oxide 12g
+- **G88** -- G88 - Classic Sapphire Float - MX | Base: G3806C+15Sil | Cobalt Carbonate 6g
+- **G89** -- G89 - Floating Khaki - Tea Dust L - MX | Base: G3806C+15Sil | RIO 27g, Rutile 18g, Lithium Carbonate 6g
+- **G90** -- G90 - Plum - Eggplant L - MX | Base: G3806C+15Sil | RIO 9g, Titanium Dioxide 24g, Cobalt Carbonate 6g, Lithium Carbonate 6g
 - **G91** -- G91 - G1214M Clear - OX | Base: G1214M | no colorant
 
 ## Custom Bases
@@ -184,6 +184,11 @@ VERIFY the 9999 max-rate value and exact menu keystrokes against the printed KM-
 Fast/free-fall cool is required for the silky matte look -- do NOT use a slow-cool program.
 
 EPK swapped to Tile 6, 2026-07-11 (EPK discontinued, no longer available). 1:1 by percent.
+
+### G3806C+15Sil -- G3806C + 15% Silica (Crystal Growth Series)
+- Target SG: 1.35 | Dry lb/gal: 5.737
+- Ingredients: Silica 35.82%, Kaolin (Tile 6) 17.13%, Dolomite 7.57%, Strontium Carbonate 3.83%, Ferro Frit 3110 27.04%, Ferro Frit 3134 5.74%, Zinc Oxide 2.87%
+- Notes: Standard G3806C recipe + 15% additional dry silica by weight, then renormalized to 100%. Targets a SiO2:flux ratio closer to G49-base. Built for the G79-G88 crystal-growth series. Dry-mix only -- no separate wet-stock jar, mixed fresh from raw powder each batch.
 
 ## Base Slurry Batch Records
 
@@ -243,6 +248,9 @@ EPK swapped to Tile 6, 2026-07-11 (EPK discontinued, no longer available). 1:1 b
 
 
 ### G2934Y (0 batches)
+No batches recorded yet.
+
+### G3806C+15Sil (0 batches)
 No batches recorded yet.
 
 ## Recent Firing Records
