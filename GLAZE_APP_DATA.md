@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 8/12/2026, 3:18:38 PM
+Last updated: 8/12/2026, 3:19:13 PM
 
 ## Glaze Library
 
@@ -258,6 +258,12 @@ No batches recorded yet.
 
 ## Recent Firing Records
 
+### T16 - Aug26 - A
+- Recipe: mason  dark brown 6107: 267.987g per 600g
+- Base: G2926B | SG: -- | Method: --
+
+---
+
 ### G79 - Jul27 - B
 - Recipe: undefined
 - Base: undefined | SG: 1.55 | Method: --
@@ -388,12 +394,6 @@ No batches recorded yet.
 ### T6 - Jul26 - A
 - Recipe: Nickel Oxide: 15g per 600g
 - Base: G2926B | SG: 1.36 | Method: --
-
----
-
-### T5 - Jul26 - A
-- Recipe: Cobalt Oxide: 7.8g per 600g, Chrome Oxide: 4.8g per 600g
-- Base: G2926B | SG: 1.35 | Method: --
 
 
 ## Studio Constants
