@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 8/12/2026, 3:19:48 PM
+Last updated: 8/12/2026, 3:19:53 PM
 
 ## Glaze Library
 
@@ -34,7 +34,7 @@ Last updated: 8/12/2026, 3:19:48 PM
 - **G86** -- G86 - Chun Blue - Celadon Mimic - MX | Base: G3806C+15Sil | RIO 1.2g, Titanium Dioxide 9g
 - **G81v2** -- G81v2 - Classic Rutile Blue, RIO Added - MX | Base: G3806C+15Sil | Rutile 27g, RIO 4.5g
 - **G86v2** -- G86v2 - Chun Blue - Celadon Mimic, RIO and Titanium Raised - MX | Base: G3806C+15Sil | RIO 6g, Titanium Dioxide 18g
-- **T16** -- T16 - Dark Brown - T | Base: G2926B | mason  dark brown 6107 267.987g
+- **T16** -- T16 - Dark Brown - T | Base: G2926B | mason  dark brown 6107 54g
 
 ### Inactive (110)
 - **G1** -- G1 — Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 12.1g
