@@ -1,9 +1,9 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 8/12/2026, 3:19:53 PM
+Last updated: 8/12/2026, 3:29:50 PM
 
 ## Glaze Library
 
-### Active (17)
+### Active (18)
 - **G11** -- G11 - Trans Dark Green — OX | Base: G2926B | Chrome Oxide 1.212g | Target SG: 1.29
 - **G40v2** -- G40v2 - Tenmoku - OX | Base: G2926B | Spanish Red Iron Oxide 39.4g, Light Rutile 3.03g | Target SG: 1.32
 - **G49** -- G49 - Floating Blue - OX | Base: G49-base (own base, not G2926B/G1214M/G3806C) | Nepheline Syenite 180g, Ferro Frit 3134 216g, Silica 84g, EPK Kaolin 120g, Spanish Red Iron Oxide 12g, Cobalt Oxide 7.2g, Light Rutile 24g
@@ -15,6 +15,7 @@ Last updated: 8/12/2026, 3:19:53 PM
 - **K11Gloss** -- K11Gloss - Dark Green | Base: G2926B | Mason 6255 21g
 - **K19Gloss** -- K19Gloss - Light Light Brown | Base: G2926B | RIO 8.4g
 - **K20Gloss** -- K20Gloss - Light Brown | Base: G2926B | RIO 16.8g
+- **K22Gloss** -- K22Gloss - Dark Brown | Base: G2926B | Mason 6107 54g
 - **K24Gloss** -- K24Gloss - Grey | Base: G2926B | Mason 6600 3.24g
 - **G12Gloss** -- G12Gloss - Yellow | Base: G2926B | Vanadium Yellow 36g
 - **G15Gloss** -- G15Gloss - Red | Base: G2926B | Mason 6021 15g
@@ -22,7 +23,7 @@ Last updated: 8/12/2026, 3:19:53 PM
 - **G92** -- G92 - Chartreuse | Base: G2926B | Mason 6236 48g
 - **G93** -- G93 - Tan | Base: G2926B | RIO 3.12g
 
-### Test (12)
+### Test (11)
 - **T14** -- T14 - cobalt blue with rutile break on G3806C - T | Base: G3806C | Cobalt Oxide 2.232g, Light Rutile 7.61g
 - **G71** -- G71 - GA6-A Amber Honey (Digitalfire) - OX | Base: G71-base (own base, not G2926B/G1214M/G3806C) | Alberta Slip 480g, Ferro Frit 3134 120g, Iron Oxide 12g
 - **G72** -- G72 - GA6-B Amber Honey No-Variegation (Digitalfire) - OX | Base: G72-base (own base, not G2926B/G1214M/G3806C) | Alberta Slip 480g, Ferro Frit 3195 120g, Iron Oxide 12g
@@ -34,9 +35,8 @@ Last updated: 8/12/2026, 3:19:53 PM
 - **G86** -- G86 - Chun Blue - Celadon Mimic - MX | Base: G3806C+15Sil | RIO 1.2g, Titanium Dioxide 9g
 - **G81v2** -- G81v2 - Classic Rutile Blue, RIO Added - MX | Base: G3806C+15Sil | Rutile 27g, RIO 4.5g
 - **G86v2** -- G86v2 - Chun Blue - Celadon Mimic, RIO and Titanium Raised - MX | Base: G3806C+15Sil | RIO 6g, Titanium Dioxide 18g
-- **T16** -- T16 - Dark Brown - T | Base: G2926B | mason  dark brown 6107 54g
 
-### Inactive (110)
+### Inactive (111)
 - **G1** -- G1 — Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 12.1g
 - **G2** -- G2 — Mid-Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 19.4g
 - **G3** -- G3 — Transparent UNC Blue — MS | Base: G2926B | Mason 6374 7.273g
@@ -146,7 +146,8 @@ Last updated: 8/12/2026, 3:19:53 PM
 - **G90** -- G90 - Plum - Eggplant L - MX | Base: G3806C+15Sil | RIO 9g, Titanium Dioxide 24g, Cobalt Carbonate 6g, Lithium Carbonate 6g
 - **G91** -- G91 - G1214M Clear - OX | Base: G1214M | no colorant
 - **K8Gloss** -- K8Gloss - Yellow Green Chartreuse | Base: G2926B | Mason 6254 21g
-- **K22Gloss** -- K22Gloss - Dark Brown | Base: G2926B | Mason 6108 21g
+- **T16** -- T16 - Dark Brown - T | Base: G2926B | mason  dark brown 6107 54g
+- **G94** -- G94 - Dark Brown - G | Base: G2926B | mason  dark brown 6107 54g
 
 ## Custom Bases
 ### G3806C -- Fluid Glossy Base Glaze
