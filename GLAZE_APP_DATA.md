@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 8/13/2026, 12:23:30 PM
+Last updated: 8/13/2026, 12:51:31 PM
 
 ## Glaze Library
 
@@ -269,8 +269,13 @@ No batches recorded yet.
 ### G3806C+15Sil (0 batches)
 No batches recorded yet.
 
-### RAVSUB (0 batches)
-No batches recorded yet.
+### RAVSUB (1 batch)
+### RAVSUB-001 -- RAVSUB
+- Date: Aug 13, 2026
+- Dry: 2602g | Water: 2377.12g | SG: 1.35
+- Calculated f factor: 0.5226
+- Notes: Real measured batch, brought down from an initial thicker mix (SG 1.676, 1105.6g water) by adding 1271.52g more water in increments until hydrometer read 1.35. Total water 2377.12g. Supersedes an earlier calculated-conversion estimate (0.4511) that assumed constant solid volume across dilution -- real measured water needed was 789g less than that model predicted, confirming the calculated approach was not reliable for this recipe.
+
 
 ## Recent Firing Records
 
