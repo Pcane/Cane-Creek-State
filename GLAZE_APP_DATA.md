@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 8/13/2026, 7:31:35 AM
+Last updated: 8/13/2026, 7:42:57 AM
 
 ## Glaze Library
 
@@ -23,15 +23,14 @@ Last updated: 8/13/2026, 7:31:35 AM
 - **G92** -- G92 - Chartreuse | Base: G2926B | Mason 6236 48g
 - **G93** -- G93 - Tan | Base: G2926B | RIO 3.12g
 
-### Test (8)
-- **G95** -- G95 - Cane Creek Ravenscrag Substitute | Base: Own base | G-200 EU Feldspar 138.12g, Ferro Frit 3134 120g, Silica 115.5g, EPK Kaolin 103.08g, Wollastonite W-20 82.86g, Dolomite 38.94g, Barium Carbonate 1.56g
-- **G96** -- G96 - Ravenscrag Sub Red (Mason 6021) | Base: G95 | Mason 6021 60g
-- **G97** -- G97 - Ravenscrag Sub Blue (Mason 6376) | Base: G95 | Mason 6376 24g
-- **G98** -- G98 - Ravenscrag Sub Green (Mason 6206) | Base: G95 | Mason 6206 36g
-- **G99** -- G99 - Ravenscrag Sub Yellow (Mason 6404) | Base: G95 | Mason 6404 60g
-- **G100** -- G100 - Ravenscrag Sub Orange (Mason 6028) | Base: G95 | Mason 6028 42g
-- **G101** -- G101 - Ravenscrag Sub Light Brown (Mason 6103) | Base: G95 | Mason 6103 36g
-- **G102** -- G102 - Ravenscrag Sub Dark Brown (Mason 6108) | Base: G95 | Mason 6108 48g
+### Test (7)
+- **G96** -- G96 - Ravenscrag Sub Red (Mason 6021) | Base: RAVSUB | Mason 6021 60g
+- **G97** -- G97 - Ravenscrag Sub Blue (Mason 6376) | Base: RAVSUB | Mason 6376 24g
+- **G98** -- G98 - Ravenscrag Sub Green (Mason 6206) | Base: RAVSUB | Mason 6206 36g
+- **G99** -- G99 - Ravenscrag Sub Yellow (Mason 6404) | Base: RAVSUB | Mason 6404 60g
+- **G100** -- G100 - Ravenscrag Sub Orange (Mason 6028) | Base: RAVSUB | Mason 6028 42g
+- **G101** -- G101 - Ravenscrag Sub Light Brown (Mason 6103) | Base: RAVSUB | Mason 6103 36g
+- **G102** -- G102 - Ravenscrag Sub Dark Brown (Mason 6108) | Base: RAVSUB | Mason 6108 48g
 
 ### Inactive (122)
 - **G1** -- G1 — Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 12.1g
@@ -202,6 +201,11 @@ EPK swapped to Tile 6, 2026-07-11 (EPK discontinued, no longer available). 1:1 b
 - Ingredients: Silica 35.82%, Kaolin (Tile 6) 17.13%, Dolomite 7.57%, Strontium Carbonate 3.83%, Ferro Frit 3110 27.04%, Ferro Frit 3134 5.74%, Zinc Oxide 2.87%
 - Notes: Standard G3806C recipe + 15% additional dry silica by weight, then renormalized to 100%. Targets a SiO2:flux ratio closer to G49-base. Built for the G79-G88 crystal-growth series. Dry-mix only -- no separate wet-stock jar, mixed fresh from raw powder each batch.
 
+### RAVSUB -- Ravenscrag Slip Sub
+- Target SG: 1.35 | Dry lb/gal: 5.737
+- Ingredients: G-200 EU Feldspar 23.02%, Ferro Frit 3134 20%, Silica 19.25%, EPK Kaolin 17.18%, Wollastonite W-20 13.81%, Dolomite 6.49%, Barium Carbonate 0.26%
+- Notes: Solved via non-negative least squares against Ravenscrag Slip's real oxide analysis -- major oxides (SiO2/Al2O3/CaO/K2O/MgO) match closely; Fe2O3/TiO2 run low since this uses clean studio materials instead of a natural iron-bearing clay.
+
 ## Base Slurry Batch Records
 
 ### G2926B (2 batches)
@@ -263,6 +267,9 @@ EPK swapped to Tile 6, 2026-07-11 (EPK discontinued, no longer available). 1:1 b
 No batches recorded yet.
 
 ### G3806C+15Sil (0 batches)
+No batches recorded yet.
+
+### RAVSUB (0 batches)
 No batches recorded yet.
 
 ## Recent Firing Records
