@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 8/12/2026, 8:02:33 PM
+Last updated: 8/12/2026, 8:04:52 PM
 
 ## Glaze Library
 
@@ -23,20 +23,17 @@ Last updated: 8/12/2026, 8:02:33 PM
 - **G92** -- G92 - Chartreuse | Base: G2926B | Mason 6236 48g
 - **G93** -- G93 - Tan | Base: G2926B | RIO 3.12g
 
-### Test (11)
-- **T14** -- T14 - cobalt blue with rutile break on G3806C - T | Base: G3806C | Cobalt Oxide 2.232g, Light Rutile 7.61g
-- **G71** -- G71 - GA6-A Amber Honey (Digitalfire) - OX | Base: G71-base (own base, not G2926B/G1214M/G3806C) | Alberta Slip 480g, Ferro Frit 3134 120g, Iron Oxide 12g
-- **G72** -- G72 - GA6-B Amber Honey No-Variegation (Digitalfire) - OX | Base: G72-base (own base, not G2926B/G1214M/G3806C) | Alberta Slip 480g, Ferro Frit 3195 120g, Iron Oxide 12g
-- **G79** -- G79 - G67 Remake - 15% Silica Crystal Test - MX | Base: G3806C+15Sil | Cobalt Oxide 3g, Copper Carbonate 10.5g, Light Rutile 24g
-- **G81** -- G81 - Classic Rutile Blue - MX | Base: G3806C+15Sil | Rutile 27g
-- **G82** -- G82 - Tomato Red - MX | Base: G3806C+15Sil | RIO 42g, Titanium Dioxide 12g
-- **G83** -- G83 - Floating Khaki - Tea Dust - MX | Base: G3806C+15Sil | RIO 27g, Rutile 18g
-- **G85** -- G85 - Plum - Eggplant - MX | Base: G3806C+15Sil | RIO 9g, Titanium Dioxide 24g, Cobalt Carbonate 6g
-- **G86** -- G86 - Chun Blue - Celadon Mimic - MX | Base: G3806C+15Sil | RIO 1.2g, Titanium Dioxide 9g
-- **G81v2** -- G81v2 - Classic Rutile Blue, RIO Added - MX | Base: G3806C+15Sil | Rutile 27g, RIO 4.5g
-- **G86v2** -- G86v2 - Chun Blue - Celadon Mimic, RIO and Titanium Raised - MX | Base: G3806C+15Sil | RIO 6g, Titanium Dioxide 18g
+### Test (8)
+- **G95** -- G95 - Cane Creek Ravenscrag Substitute | Base: Own base | G-200 EU Feldspar 138.12g, Ferro Frit 3134 120g, Silica 115.5g, EPK Kaolin 103.08g, Wollastonite W-20 82.86g, Dolomite 38.94g, Barium Carbonate 1.56g
+- **G96** -- G96 - Ravenscrag Sub Red (Mason 6021) | Base: G95 | Mason 6021 60g
+- **G97** -- G97 - Ravenscrag Sub Blue (Mason 6376) | Base: G95 | Mason 6376 24g
+- **G98** -- G98 - Ravenscrag Sub Green (Mason 6206) | Base: G95 | Mason 6206 36g
+- **G99** -- G99 - Ravenscrag Sub Yellow (Mason 6404) | Base: G95 | Mason 6404 60g
+- **G100** -- G100 - Ravenscrag Sub Orange (Mason 6028) | Base: G95 | Mason 6028 42g
+- **G101** -- G101 - Ravenscrag Sub Light Brown (Mason 6103) | Base: G95 | Mason 6103 36g
+- **G102** -- G102 - Ravenscrag Sub Dark Brown (Mason 6108) | Base: G95 | Mason 6108 48g
 
-### Inactive (111)
+### Inactive (122)
 - **G1** -- G1 — Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 12.1g
 - **G2** -- G2 — Mid-Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 19.4g
 - **G3** -- G3 — Transparent UNC Blue — MS | Base: G2926B | Mason 6374 7.273g
@@ -126,6 +123,7 @@ Last updated: 8/12/2026, 8:02:33 PM
 - **G65** -- G65 - Deep Brown-Black Iron - G | Base: G3806C | Spanish RIO 39g, Light Rutile 7.5g
 - **G66** -- G66 - Yellow-Brown Rutile Float - G | Base: G3806C | Spanish RIO 15g, Light Rutile 27g
 - **G67** -- G67 - Blue-Green Floating Cobalt - G | Base: G3806C | Cobalt Oxide 3g, Copper Carbonate 10.5g, Light Rutile 24g
+- **T14** -- T14 - cobalt blue with rutile break on G3806C - T | Base: G3806C | Cobalt Oxide 2.232g, Light Rutile 7.61g
 - **G68** -- G68 - Chrome-Tin Red -- Hansen Dose - G | Base: G1214M | Chrome Oxide 2.7g, Tin Oxide 45g
 - **T15** -- T15 - Honey amber - T | Base: Blend (no base pour) | Glaze G12 150g, Glaze G29v2 450g
 - **G25v4** -- G25v4 - Chrome-Tin Pink Test | Base: G1214M | Chrome Oxide 0.36g, Tin Oxide 58.8g
@@ -135,13 +133,23 @@ Last updated: 8/12/2026, 8:02:33 PM
 - **T2v2** -- T2v2 - Mason 6103 Golden Brown - stain | Base: G2926B | Mason 6103 8.48g | Target SG: 1.44
 - **G69** -- G69 - Nep Sye Red A (Britt) - MX | Base: G69-base (own base, not G2926B/G1214M/G3806C) | Nepheline Syenite 96g, Silica 192g, Whiting 120g, EPK Kaolin 66g, Gerstley Borate 126g, Tin Oxide 30g, Chrome Oxide 0.9g, Cobalt Carbonate 1.5g
 - **G70** -- G70 - Nep Sye Red B (Britt) - MX | Base: G70-base (own base, not G2926B/G1214M/G3806C) | Nepheline Syenite 108g, Silica 180g, Whiting 120g, Ball Clay 108g, Ferro Frit 3134 84g, Tin Oxide 45g, Chrome Oxide 1.2g, Cobalt Carbonate 1.5g, Bentonite 12g
+- **G71** -- G71 - GA6-A Amber Honey (Digitalfire) - OX | Base: G71-base (own base, not G2926B/G1214M/G3806C) | Alberta Slip 480g, Ferro Frit 3134 120g, Iron Oxide 12g
+- **G72** -- G72 - GA6-B Amber Honey No-Variegation (Digitalfire) - OX | Base: G72-base (own base, not G2926B/G1214M/G3806C) | Alberta Slip 480g, Ferro Frit 3195 120g, Iron Oxide 12g
 - **G25v6** -- G25v6 - Chrome-Tin Pink Test | Base: G1214M | Chrome Oxide 0.48g, Tin Oxide 61.5g
 - **G73** -- G73 - Mason 6088 Dark Red Stain Test | Base: G2926B | Mason 6088 27g
 - **G74** -- G74 - Mason 6238 Stain Test | Base: G2926B | Mason 6238 48g
+- **G79** -- G79 - G67 Remake - 15% Silica Crystal Test - MX | Base: G3806C+15Sil | Cobalt Oxide 3g, Copper Carbonate 10.5g, Light Rutile 24g
 - **G80** -- G80 - Autumn Gold - Oatmeal - MX | Base: G3806C+15Sil | RIO 12g, Rutile 21g, Titanium Dioxide 12g
+- **G81** -- G81 - Classic Rutile Blue - MX | Base: G3806C+15Sil | Rutile 27g
+- **G82** -- G82 - Tomato Red - MX | Base: G3806C+15Sil | RIO 42g, Titanium Dioxide 12g
+- **G83** -- G83 - Floating Khaki - Tea Dust - MX | Base: G3806C+15Sil | RIO 27g, Rutile 18g
 - **G84** -- G84 - Frosted Copper - Oil Spot - MX | Base: G3806C+15Sil | RIO 4.5g, Rutile 6g, Titanium Dioxide 33g, Copper Carbonate 12g
+- **G85** -- G85 - Plum - Eggplant - MX | Base: G3806C+15Sil | RIO 9g, Titanium Dioxide 24g, Cobalt Carbonate 6g
+- **G86** -- G86 - Chun Blue - Celadon Mimic - MX | Base: G3806C+15Sil | RIO 1.2g, Titanium Dioxide 9g
 - **G87** -- G87 - Khaki Brown - MX | Base: G3806C+15Sil | RIO 6g, Rutile 18g, Titanium Dioxide 12g, Chrome Oxide 12g
 - **G88** -- G88 - Classic Sapphire Float - MX | Base: G3806C+15Sil | Cobalt Carbonate 6g
+- **G81v2** -- G81v2 - Classic Rutile Blue, RIO Added - MX | Base: G3806C+15Sil | Rutile 27g, RIO 4.5g
+- **G86v2** -- G86v2 - Chun Blue - Celadon Mimic, RIO and Titanium Raised - MX | Base: G3806C+15Sil | RIO 6g, Titanium Dioxide 18g
 - **G89** -- G89 - Floating Khaki - Tea Dust L - MX | Base: G3806C+15Sil | RIO 27g, Rutile 18g, Lithium Carbonate 6g
 - **G90** -- G90 - Plum - Eggplant L - MX | Base: G3806C+15Sil | RIO 9g, Titanium Dioxide 24g, Cobalt Carbonate 6g, Lithium Carbonate 6g
 - **G91** -- G91 - G1214M Clear - OX | Base: G1214M | no colorant
