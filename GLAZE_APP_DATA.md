@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 8/14/2026, 2:32:29 PM
+Last updated: 8/14/2026, 2:50:30 PM
 
 ## Glaze Library
 
@@ -278,6 +278,176 @@ No batches recorded yet.
 
 ## Recent Firing Records
 
+### G47 - Aug26 - A
+- Recipe: Copper Carbonate: 4.9g per 600g, Light Rutile: 4.09g per 600g
+- Base: G3806C | SG: -- | Method: --
+- Fired: Aug 13, 2026 | Door Kiln | Cone 6 -- full melt
+- Finish: Gloss
+- Rating: Fair
+- Notes: Color good, glossy transparent, edge break, light in thin areas -- slightly bubbly.
+
+---
+
+### G88 - Aug26 - A
+- Recipe: Cobalt Carbonate: 6g per 600g
+- Base: G3806C+15Sil | SG: -- | Method: --
+- Fired: Aug 13, 2026 | Door Kiln | Cone 6 -- full melt
+- Finish: Gloss
+- Rating: Fair
+- Notes: Dark blue, glossy transparent, slight edge breaking, bubbly.
+
+---
+
+### G38v3 - Aug26 - A
+- Recipe: Light Rutile: 19.392g per 600g, Red Iron Oxide: 6.06g per 600g
+- Base: G2926B | SG: -- | Method: --
+- Fired: Aug 13, 2026 | Door Kiln | Cone 6 -- full melt
+- Finish: Gloss
+- Rating: Poor
+- Notes: Very light scum look in the center, dark on edges -- not useful.
+
+---
+
+### G65 - Aug26 - A
+- Recipe: Spanish RIO: 39g per 600g, Light Rutile: 7.5g per 600g
+- Base: G3806C | SG: -- | Method: --
+- Fired: Aug 13, 2026 | Door Kiln | Cone 6 -- full melt
+- Finish: Gloss
+- Rating: Fair
+- Notes: Glossy brown, water-spot crystal growth -- not a great look. Dark on edges, lighter in shallows.
+
+---
+
+### G90 - Aug26 - A
+- Recipe: RIO: 9g per 600g, Titanium Dioxide: 24g per 600g, Cobalt Carbonate: 6g per 600g, Lithium Carbonate: 6g per 600g
+- Base: G3806C+15Sil | SG: -- | Method: --
+- Fired: Aug 13, 2026 | Door Kiln | Cone 6 -- full melt
+- Finish: Gloss
+- Rating: Poor
+- Notes: Glossy, small white crystal growth, almost a starry look -- but also has sedimentation lines.
+
+---
+
+### G29v3 - Aug26 - A
+- Recipe: Vanadium Yellow: 14.544g per 600g, Spanish Red Iron Oxide: 9.09g per 600g
+- Base: G2926B | SG: -- | Method: --
+- Fired: Aug 13, 2026 | Door Kiln | Cone 6 -- full melt
+- Finish: Gloss
+- Rating: Good
+- Notes: Nice corn yellow with darker edging, glossy.
+
+---
+
+### G21v2 - Aug26 - A
+- Recipe: Spanish Red Iron Oxide: 12.12g per 600g, Light Rutile: 6.06g per 600g
+- Base: G2926B | SG: -- | Method: --
+- Fired: Aug 13, 2026 | Door Kiln | Cone 6 -- full melt
+- Finish: Gloss
+- Rating: Good
+- Notes: Very thin brown with very dark edges -- high contrast.
+
+---
+
+### G30v2 - Aug26 - A
+- Recipe: Cobalt Oxide: 2.424g per 600g, Light Rutile: 12.12g per 600g
+- Base: G2926B | SG: -- | Method: --
+- Fired: Aug 13, 2026 | Door Kiln | Cone 6 -- full melt
+- Finish: Gloss
+- Rating: Good
+- Notes: Middle dark blue, good dark edge break.
+
+---
+
+### G40v2 - Aug26 - A
+- Recipe: Spanish Red Iron Oxide: 39.4g per 600g, Light Rutile: 3.03g per 600g
+- Base: G2926B | SG: -- | Method: --
+- Fired: Aug 13, 2026 | Door Kiln | Cone 6 -- full melt
+- Finish: Gloss
+- Rating: Fair
+- Notes: Near black, no edge -- could use thinning.
+
+---
+
+### T6 - Aug26 - A
+- Recipe: Nickel Oxide: 15g per 600g
+- Base: G2926B | SG: -- | Method: --
+- Fired: Aug 13, 2026 | Door Kiln | Cone 6 -- full melt
+- Finish: Gloss
+- Rating: Fair
+- Notes: Brown, transparent -- slight amount of crawling around the edges.
+
+---
+
+### G73 - Aug26 - A
+- Recipe: Mason 6088: 27g per 600g
+- Base: G2926B | SG: -- | Method: --
+- Fired: Aug 13, 2026 | Door Kiln | Cone 6 -- full melt
+- Finish: Gloss
+- Rating: Fair
+- Notes: Light red, small amount of edging.
+
+---
+
+### G58 - Aug26 - A
+- Recipe: Rutile: 18g per 600g, Cobalt Carbonate: 1.8g per 600g
+- Base: G2926B | SG: -- | Method: --
+- Fired: Aug 13, 2026 | Door Kiln | Cone 6 -- full melt
+- Finish: Gloss
+- Rating: Fair
+- Notes: Light blue, transparent -- appears to have a small amount of crawling.
+
+---
+
+### G79 - Aug26 - A
+- Recipe: Cobalt Oxide: 3g per 600g, Copper Carbonate: 10.5g per 600g, Light Rutile: 24g per 600g
+- Base: G3806C+15Sil | SG: -- | Method: --
+- Fired: Aug 13, 2026 | Door Kiln | Cone 6 -- full melt
+- Finish: Gloss
+- Rating: Fair
+- Notes: Blue with light crystal growth, dark edging.
+
+---
+
+### G59 - Aug26 - A
+- Recipe: Rutile: 18g per 600g, Cobalt Carbonate: 0.9g per 600g, Copper Carbonate: 1.8g per 600g
+- Base: G2926B | SG: -- | Method: --
+- Fired: Aug 13, 2026 | Door Kiln | Cone 6 -- full melt
+- Finish: Gloss
+- Rating: Good
+- Notes: Transparent, no edging, very light green.
+
+---
+
+### G49 - Aug26 - A
+- Recipe: Nepheline Syenite: 180g per 600g, Ferro Frit 3134: 216g per 600g, Silica: 84g per 600g, EPK Kaolin: 120g per 600g, Spanish Red Iron Oxide: 12g per 600g, Cobalt Oxide: 7.2g per 600g, Light Rutile: 24g per 600g
+- Base: G49-base (own base, not G2926B/G1214M/G3806C) | SG: -- | Method: --
+- Fired: Aug 13, 2026 | Door Kiln | Cone 6 -- full melt
+- Finish: Gloss
+- Rating: Fair
+- Notes: Nearly black, slight large white blotches.
+
+---
+
+### T12 - Aug26 - A
+- Recipe: Mason 6028: 44.004g per 600g, RIO: 8.251g per 600g
+- Base: G2926B | SG: -- | Method: --
+- Fired: Aug 13, 2026 | Door Kiln | Cone 6 -- full melt
+- Finish: Gloss
+- Rating: Good
+- Notes: Dark orange, no edging.
+
+---
+
+### G84 - Aug26 - A
+- Recipe: RIO: 4.5g per 600g, Rutile: 6g per 600g, Titanium Dioxide: 33g per 600g, Copper Carbonate: 12g per 600g
+- Base: G3806C+15Sil | SG: -- | Method: --
+- Fired: Aug 13, 2026 | Door Kiln | Cone 6 -- full melt
+- Finish: Gloss
+- Rating: Poor
+- Notes: Not usable.
+
+---
+
 ### T16 - Aug26 - A
 - Recipe: mason  dark brown 6107: 267.987g per 600g
 - Base: G2926B | SG: -- | Method: --
@@ -295,125 +465,6 @@ No batches recorded yet.
 - Recipe: undefined
 - Base: undefined | SG: 1.5 | Method: --
 - Fired: Jul 27, 2026 | Door | --
-
----
-
-### G82 - Jul27 - B
-- Recipe: undefined
-- Base: undefined | SG: 1.5 | Method: --
-- Fired: Jul 27, 2026 | Door | --
-
----
-
-### G89 - Jul27 - B
-- Recipe: undefined
-- Base: undefined | SG: 1.46 | Method: --
-- Fired: Jul 27, 2026 | Door | --
-
----
-
-### G84 - Jul27 - B
-- Recipe: undefined
-- Base: undefined | SG: 1.5 | Method: --
-- Fired: Jul 27, 2026 | Door | --
-
----
-
-### G90 - Jul27 - B
-- Recipe: undefined
-- Base: undefined | SG: 1.45 | Method: --
-- Fired: Jul 27, 2026 | Door | --
-
----
-
-### G88 - Jul27 - B
-- Recipe: undefined
-- Base: undefined | SG: 1.5 | Method: --
-- Fired: Jul 27, 2026 | Door | --
-
----
-
-### G81v2 - Jul27 - A
-- Recipe: undefined
-- Base: undefined | SG: 1.5 | Method: --
-- Fired: Jul 27, 2026 | Door | --
-
----
-
-### G86v2 - Jul27 - A
-- Recipe: undefined
-- Base: undefined | SG: 1.5 | Method: --
-- Fired: Jul 27, 2026 | Door | --
-
----
-
-### G76 - Jul26 - A
-- Recipe: Nickel Oxide: 15g per 600g
-- Base: G2926B | SG: -- | Method: --
-- Finish: Gloss
-
----
-
-### G25v5 - Jul26 - A
-- Recipe: Chrome Oxide: 0.6g per 600g, Tin Oxide: 66g per 600g
-- Base: G1214M | SG: -- | Method: Dip - 2 coats
-- Fired: Jul 21, 2026 | Door Kiln (Kiln 1) | Cone 6 -- full melt
-- Color: Red
-- Finish: Gloss
-- Rating: Good
-- Notes: Dipped, 2 coats. Raspberry/deep pink-red with light showing through in transparent/thin areas, producing a light edge effect. Even mixing critical -- inconsistent mixing can produce grey scumming. Tile surface prep (smooth, clean) matters, as clay-body defects show through. First real red/pink result in the chrome-tin investigation.
-
----
-
-### T2v2 - Jul26 - A
-- Recipe: Mason 6103: 8.48g per 600g
-- Base: G2926B | SG: -- | Method: --
-- Fired: Jul 20, 2026 | Door Kiln | Cone 6 -- full melt
-- Color: Brown
-- Finish: Gloss
-
----
-
-### T1 - Jul26 - A
-- Recipe: Mason 6003: 8.48g per 600g
-- Base: G3806C | SG: 1.35 | Method: --
-- Fired: Jul 14, 2026 | Window Kiln | --
-
----
-
-### G67 - Jul26 - A
-- Recipe: Cobalt Oxide: 3g per 600g, Copper Carbonate: 10.5g per 600g, Light Rutile: 24g per 600g
-- Base: G3806C | SG: 1.35 | Method: --
-
----
-
-### G66 - Jul26 - A
-- Recipe: Spanish RIO: 15g per 600g, Light Rutile: 27g per 600g
-- Base: G3806C | SG: 1.35 | Method: --
-
----
-
-### G65 - Jul26 - A
-- Recipe: Spanish RIO: 39g per 600g, Light Rutile: 7.5g per 600g
-- Base: G3806C | SG: 1.35 | Method: --
-
----
-
-### G64 - Jul26 - A
-- Recipe: Copper Carbonate: 9g per 600g, Light Rutile: 27g per 600g
-- Base: G3806C | SG: 1.35 | Method: --
-
----
-
-### T12 - Jul26 - A
-- Recipe: Mason 6028: 44.004g per 600g, RIO: 8.251g per 600g
-- Base: G2926B | SG: 1.35 | Method: --
-
----
-
-### T6 - Jul26 - A
-- Recipe: Nickel Oxide: 15g per 600g
-- Base: G2926B | SG: 1.36 | Method: --
 
 
 ## Studio Constants
