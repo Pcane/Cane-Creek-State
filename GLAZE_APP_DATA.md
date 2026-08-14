@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 8/13/2026, 1:15:38 PM
+Last updated: 8/14/2026, 10:26:55 AM
 
 ## Glaze Library
 
@@ -23,14 +23,11 @@ Last updated: 8/13/2026, 1:15:38 PM
 - **G92** -- G92 - Chartreuse | Base: G2926B | Mason 6236 48g
 - **G93** -- G93 - Tan | Base: G2926B | RIO 3.12g
 
-### Test (7)
-- **G96** -- G96 - Ravenscrag Sub Red (Mason 6021) | Base: RAVSUB | Mason 6021 60g
-- **G97** -- G97 - Ravenscrag Sub Blue (Mason 6376) | Base: RAVSUB | Mason 6376 24g
-- **G98** -- G98 - Ravenscrag Sub Green (Mason 6206) | Base: RAVSUB | Mason 6206 36g
-- **G99** -- G99 - Ravenscrag Sub Yellow (Mason 6404) | Base: RAVSUB | Mason 6404 60g
-- **G100** -- G100 - Ravenscrag Sub Orange (Mason 6028) | Base: RAVSUB | Mason 6028 42g
-- **G101** -- G101 - Ravenscrag Sub Light Brown (Mason 6103) | Base: RAVSUB | Mason 6103 36g
-- **G102** -- G102 - Ravenscrag Sub Dark Brown (Mason 6108) | Base: RAVSUB | Mason 6108 48g
+### Test (4)
+- **G95** -- G95 - Raven Rose Pink (Mason 6001) 5% | Base: RAVSUB | Mason 6001 30g
+- **G96** -- G96 - Raven Rose Pink (Mason 6001) 10% | Base: RAVSUB | Mason 6001 60g
+- **G97** -- G97 - Raven Crimson (Mason 6003) 5% | Base: RAVSUB | Mason 6003 30g
+- **G98** -- G98 - Raven Crimson (Mason 6003) 10% | Base: RAVSUB | Mason 6003 60g
 
 ### Inactive (122)
 - **G1** -- G1 — Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 12.1g
