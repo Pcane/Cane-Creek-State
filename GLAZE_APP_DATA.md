@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 8/14/2026, 2:31:56 PM
+Last updated: 8/14/2026, 2:32:29 PM
 
 ## Glaze Library
 
@@ -23,12 +23,13 @@ Last updated: 8/14/2026, 2:31:56 PM
 - **G92** -- G92 - Chartreuse | Base: G2926B | Mason 6236 48g
 - **G93** -- G93 - Tan | Base: G2926B | RIO 3.12g
 
-### Test (5)
+### Test (6)
 - **G95** -- G95 - Raven Rose Pink (Mason 6001) 5% | Base: RAVSUB | Mason 6001 30g
 - **G96** -- G96 - Raven Rose Pink (Mason 6001) 10% | Base: RAVSUB | Mason 6001 60g
 - **G97** -- G97 - Raven Crimson (Mason 6003) 5% | Base: RAVSUB | Mason 6003 30g
 - **G98** -- G98 - Raven Crimson (Mason 6003) 10% | Base: RAVSUB | Mason 6003 60g
 - **G99** -- G99 - K3 Light Blue (Mason 6376 1.5%) | Base: G2926B | Mason 6376 9g
+- **G100** -- G100 - K3 Light Blue (Mason 6376 1.5%) | Base: G2926B | Mason 6376 9g
 
 ### Inactive (122)
 - **G1** -- G1 — Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 12.1g
