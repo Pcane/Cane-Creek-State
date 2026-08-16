@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 8/16/2026, 5:52:47 PM
+Last updated: 8/16/2026, 7:36:11 PM
 
 ## Glaze Library
 
@@ -23,13 +23,52 @@ Last updated: 8/16/2026, 5:52:47 PM
 - **G92** -- G92 - Chartreuse | Base: G2926B | Mason 6236 48g
 - **G93** -- G93 - Tan | Base: G2926B | RIO 3.12g
 
-### Test (6)
-- **G95** -- G95 - Raven Rose Pink (Mason 6001) 5% | Base: RAVSUB | Mason 6001 30g
-- **G96** -- G96 - Raven Rose Pink (Mason 6001) 10% | Base: RAVSUB | Mason 6001 60g
-- **G97** -- G97 - Raven Crimson (Mason 6003) 5% | Base: RAVSUB | Mason 6003 30g
-- **G98** -- G98 - Raven Crimson (Mason 6003) 10% | Base: RAVSUB | Mason 6003 60g
+### Test (45)
 - **G99** -- G99 - K3 Light Blue (Mason 6376 1.5%) | Base: G2926B | Mason 6376 9g
 - **G100** -- G100 - K3 Light Blue (Mason 6376 1.5%) | Base: G2926B | Mason 6376 9g
+- **B-1** -- B-1 - Chrome Oxide 0.15% (test) | Base: G2926B | Chrome Oxide 0.8999999999999999g
+- **B-2** -- B-2 - Chrome Oxide 0.25% (test) | Base: G2926B | Chrome Oxide 1.5g
+- **B-3** -- B-3 - Chrome Oxide 0.35% (test) | Base: G2926B | Chrome Oxide 2.0999999999999996g
+- **B-4** -- B-4 - Cobalt Oxide 0.1% (test) | Base: G2926B | Cobalt Oxide 0.6000000000000001g
+- **B-5** -- B-5 - Cobalt Oxide 0.2% (test) | Base: G2926B | Cobalt Oxide 1.2000000000000002g
+- **B-6** -- B-6 - Cobalt Oxide 0.3% (test) | Base: G2926B | Cobalt Oxide 1.7999999999999998g
+- **B-7** -- B-7 - Copper Carbonate 0.4% (test) | Base: G2926B | Copper Carbonate 2.4000000000000004g
+- **B-8** -- B-8 - Copper Carbonate 0.7% (test) | Base: G2926B | Copper Carbonate 4.199999999999999g
+- **B-9** -- B-9 - Copper Carbonate 1% (test) | Base: G2926B | Copper Carbonate 6g
+- **B-10** -- B-10 - Manganese Dioxide 2% (test) | Base: G2926B | Manganese Dioxide 12g
+- **B-11** -- B-11 - Manganese Dioxide 3% (test) | Base: G2926B | Manganese Dioxide 18g
+- **B-12** -- B-12 - Manganese Dioxide 4% (test) | Base: G2926B | Manganese Dioxide 24g
+- **B-13** -- B-13 - Spanish Red Iron Oxide 1% (test) | Base: G2926B | Spanish Red Iron Oxide 6g
+- **B-14** -- B-14 - Spanish Red Iron Oxide 2% (test) | Base: G2926B | Spanish Red Iron Oxide 12g
+- **B-15** -- B-15 - Spanish Red Iron Oxide 3.5% (test) | Base: G2926B | Spanish Red Iron Oxide 21g
+- **B-16** -- B-16 - Vanadium Yellow 1.5% (test) | Base: G2926B | Vanadium Yellow 9g
+- **B-17** -- B-17 - Vanadium Yellow 2.5% (test) | Base: G2926B | Vanadium Yellow 15g
+- **B-18** -- B-18 - Vanadium Yellow 3.5% (test) | Base: G2926B | Vanadium Yellow 21g
+- **B-19** -- B-19 - Yellow Ochre 2% (test) | Base: G2926B | Yellow Ochre 12g
+- **B-20** -- B-20 - Yellow Ochre 4% (test) | Base: G2926B | Yellow Ochre 24g
+- **B-21** -- B-21 - Yellow Ochre 6% (test) | Base: G2926B | Yellow Ochre 36g
+- **B-22** -- B-22 - Mason 6021 1.5% (test) | Base: G2926B | Mason 6021 9g
+- **B-23** -- B-23 - Mason 6021 2.5% (test) | Base: G2926B | Mason 6021 15g
+- **B-24** -- B-24 - Mason 6021 3.5% (test) | Base: G2926B | Mason 6021 21g
+- **B-25** -- B-25 - Mason 6206 1.5% (test) | Base: G2926B | Mason 6206 9g
+- **B-26** -- B-26 - Mason 6206 2.5% (test) | Base: G2926B | Mason 6206 15g
+- **B-27** -- B-27 - Mason 6206 3.5% (test) | Base: G2926B | Mason 6206 21g
+- **B-28** -- B-28 - Mason 6376 1.5% (test) | Base: G2926B | Mason 6376 9g
+- **B-29** -- B-29 - Mason 6376 2.5% (test) | Base: G2926B | Mason 6376 15g
+- **B-30** -- B-30 - Mason 6376 3.5% (test) | Base: G2926B | Mason 6376 21g
+- **B-31** -- B-31 - Mason 6376 + Cobalt Oxide hybrid (test) | Base: G2926B | Mason 6376 9g, Cobalt Oxide 0.30000000000000004g
+- **B-32** -- B-32 - Mason 6206 + Chrome Oxide hybrid (test) | Base: G2926B | Mason 6206 9g, Chrome Oxide 0.48g
+- **B-33** -- B-33 - Mason 6236 + Chrome Oxide hybrid (test) | Base: G2926B | Mason 6236 15g, Chrome Oxide 0.48g
+- **B-34** -- B-34 - T5-family Turquoise, Cobalt 0.7%/Chrome 0.4% (test) | Base: G2926B | Cobalt Oxide 4.199999999999999g, Chrome Oxide 2.4000000000000004g
+- **B-35** -- B-35 - T5-family Turquoise, Cobalt 0.5%/Chrome 0.3% (test) | Base: G2926B | Cobalt Oxide 3g, Chrome Oxide 1.7999999999999998g
+- **B-36** -- B-36 - T5-family Turquoise, Cobalt 0.35%/Chrome 0.2% (test) | Base: G2926B | Cobalt Oxide 2.0999999999999996g, Chrome Oxide 1.2000000000000002g
+- **B-37** -- B-37 - Alberta Slip Amber, Iron 1% (test) | Base: Own base | Alberta Slip 480g, Ferro Frit 3195 120g, Iron Oxide 6g
+- **B-38** -- B-38 - Alberta Slip Amber, Iron 2% (test) | Base: Own base | Alberta Slip 480g, Ferro Frit 3195 120g, Iron Oxide 12g
+- **B-39** -- B-39 - Alberta Slip Amber, Iron 3% (test) | Base: Own base | Alberta Slip 480g, Ferro Frit 3195 120g, Iron Oxide 18g
+- **G101** -- G101 - Raven Rose Pink (Mason 6001) 2.5% | Base: RAVSUB | Mason 6001 15g
+- **G102** -- G102 - Raven Rose Pink (Mason 6001) 5% | Base: RAVSUB | Mason 6001 30g
+- **G103** -- G103 - Raven Crimson (Mason 6003) 2.5% | Base: RAVSUB | Mason 6003 15g
+- **G104** -- G104 - Raven Crimson (Mason 6003) 5% | Base: RAVSUB | Mason 6003 30g
 
 ### Inactive (122)
 - **G1** -- G1 — Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 12.1g
