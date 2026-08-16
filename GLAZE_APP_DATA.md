@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 8/14/2026, 2:50:30 PM
+Last updated: 8/16/2026, 5:18:05 PM
 
 ## Glaze Library
 
