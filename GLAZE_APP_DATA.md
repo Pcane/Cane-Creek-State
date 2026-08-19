@@ -1,29 +1,20 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 8/19/2026, 12:31:49 PM
+Last updated: 8/19/2026, 1:07:12 PM
 
 ## Glaze Library
 
-### Active (18)
+### Active (9)
 - **G11** -- G11 - Trans Dark Green — OX | Base: G2926B | Chrome Oxide 1.212g | Target SG: 1.29
 - **G40v2** -- G40v2 - Tenmoku - OX | Base: G2926B | Spanish Red Iron Oxide 39.4g, Light Rutile 3.03g | Target SG: 1.32
 - **G49** -- G49 - Floating Blue - OX | Base: G49-base (own base, not G2926B/G1214M/G3806C) | Nepheline Syenite 180g, Ferro Frit 3134 216g, Silica 84g, EPK Kaolin 120g, Spanish Red Iron Oxide 12g, Cobalt Oxide 7.2g, Light Rutile 24g
 - **G47v4** -- G47v4 Lime | Base: G1214M | Copper Carbonate 4.9g, Light Rutile 4.09g
-- **K3Gloss** -- K3Gloss - UNC Blue | Base: G2926B | Mason 6376 12g
-- **K4Gloss** -- K4Gloss - Sky Blue | Base: G2926B | Mason 6376 24g
 - **K5Gloss** -- K5Gloss - Dark Blue | Base: G2926B | Cobalt Oxide 6g
-- **K7Gloss** -- K7Gloss - Light Green Sage | Base: G2926B | Mason 6206 42g
-- **K11Gloss** -- K11Gloss - Dark Green | Base: G2926B | Mason 6255 21g
 - **K19Gloss** -- K19Gloss - Light Light Brown | Base: G2926B | RIO 8.4g
 - **K20Gloss** -- K20Gloss - Light Brown | Base: G2926B | RIO 16.8g
-- **K22Gloss** -- K22Gloss - Dark Brown | Base: G2926B | Mason 6107 54g
-- **K24Gloss** -- K24Gloss - Grey | Base: G2926B | Mason 6600 3.24g
 - **G12Gloss** -- G12Gloss - Yellow | Base: G2926B | Vanadium Yellow 36g
-- **G15Gloss** -- G15Gloss - Red | Base: G2926B | Mason 6021 15g
-- **G25Gloss** -- G25Gloss - Orange | Base: G2926B | Mason Orange Stain 42g
-- **G92** -- G92 - Chartreuse | Base: G2926B | Mason 6236 48g
 - **G93** -- G93 - Tan | Base: G2926B | RIO 3.12g
 
-### Test (45)
+### Test (48)
 - **G99** -- G99 - K3 Light Blue (Mason 6376 1.5%) | Base: G2926B | Mason 6376 9g
 - **G100** -- G100 - K3 Light Blue (Mason 6376 1.5%) | Base: G2926B | Mason 6376 9g
 - **G101** -- G101 - Raven Rose Pink (Mason 6001) 2.5% | Base: RAVSUB | Mason 6001 15g
@@ -51,15 +42,6 @@ Last updated: 8/19/2026, 12:31:49 PM
 - **B-19** -- B-19 - Yellow Ochre 2% | Base: G2926B | Yellow Ochre 12g
 - **B-20** -- B-20 - Yellow Ochre 4% | Base: G2926B | Yellow Ochre 24g
 - **B-21** -- B-21 - Yellow Ochre 6% | Base: G2926B | Yellow Ochre 36g
-- **B-22** -- B-22 - Mason 6021 1.5% | Base: G2926B | Mason 6021 9g
-- **B-23** -- B-23 - Mason 6021 2.5% | Base: G2926B | Mason 6021 15g
-- **B-24** -- B-24 - Mason 6021 3.5% | Base: G2926B | Mason 6021 21g
-- **B-25** -- B-25 - Mason 6206 1.5% | Base: G2926B | Mason 6206 9g
-- **B-26** -- B-26 - Mason 6206 2.5% | Base: G2926B | Mason 6206 15g
-- **B-27** -- B-27 - Mason 6206 3.5% | Base: G2926B | Mason 6206 21g
-- **B-28** -- B-28 - Mason 6376 1.5% | Base: G2926B | Mason 6376 9g
-- **B-29** -- B-29 - Mason 6376 2.5% | Base: G2926B | Mason 6376 15g
-- **B-30** -- B-30 - Mason 6376 3.5% | Base: G2926B | Mason 6376 21g
 - **B-31** -- B-31 - Mason 6376 + Cobalt Oxide hybrid | Base: G2926B | Mason 6376 9g, Cobalt Oxide 0.30000000000000004g
 - **B-32** -- B-32 - Mason 6206 + Chrome Oxide hybrid | Base: G2926B | Mason 6206 9g, Chrome Oxide 0.48g
 - **B-33** -- B-33 - Mason 6236 + Chrome Oxide hybrid | Base: G2926B | Mason 6236 15g, Chrome Oxide 0.48g
@@ -69,6 +51,18 @@ Last updated: 8/19/2026, 12:31:49 PM
 - **B-37** -- B-37 - Alberta Slip Amber, Iron 1% | Base: Own base | Alberta Slip 480g, Ferro Frit 3195 120g, Iron Oxide 6g
 - **B-38** -- B-38 - Alberta Slip Amber, Iron 2% | Base: Own base | Alberta Slip 480g, Ferro Frit 3195 120g, Iron Oxide 12g
 - **B-39** -- B-39 - Alberta Slip Amber, Iron 3% | Base: Own base | Alberta Slip 480g, Ferro Frit 3195 120g, Iron Oxide 18g
+- **G106** -- G106 - Fake Celadon, Copper Carbonate 0.5% | Base: FAKECELADON | Copper Carbonate 3g
+- **G107** -- G107 - Fake Celadon, Copper Carbonate 1% | Base: FAKECELADON | Copper Carbonate 6g
+- **G108** -- G108 - Fake Celadon, Copper Carbonate 2% | Base: FAKECELADON | Copper Carbonate 12g
+- **G109** -- G109 - Fake Celadon, Cobalt Oxide 0.05% | Base: FAKECELADON | Cobalt Oxide 0.30000000000000004g
+- **G110** -- G110 - Fake Celadon, Cobalt Oxide 0.1% | Base: FAKECELADON | Cobalt Oxide 0.6000000000000001g
+- **G111** -- G111 - Fake Celadon, Cobalt Oxide 0.2% | Base: FAKECELADON | Cobalt Oxide 1.2000000000000002g
+- **G112** -- G112 - Fake Celadon, Chrome Oxide 0.1% | Base: FAKECELADON | Chrome Oxide 0.6000000000000001g
+- **G113** -- G113 - Fake Celadon, Chrome Oxide 0.2% | Base: FAKECELADON | Chrome Oxide 1.2000000000000002g
+- **G114** -- G114 - Fake Celadon, Chrome Oxide 0.3% | Base: FAKECELADON | Chrome Oxide 1.7999999999999998g
+- **G115** -- G115 - Fake Celadon, Manganese Dioxide 1.5% | Base: FAKECELADON | Manganese Dioxide 9g
+- **G116** -- G116 - Fake Celadon, Manganese Dioxide 2.5% | Base: FAKECELADON | Manganese Dioxide 15g
+- **G117** -- G117 - Fake Celadon, Manganese Dioxide 3.5% | Base: FAKECELADON | Manganese Dioxide 21g
 
 ### Inactive (122)
 - **G1** -- G1 — Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 12.1g
@@ -244,6 +238,11 @@ EPK swapped to Tile 6, 2026-07-11 (EPK discontinued, no longer available). 1:1 b
 - Ingredients: G-200 EU Feldspar 23.02%, Ferro Frit 3134 20%, Silica 19.25%, EPK Kaolin 17.18%, Wollastonite W-20 13.81%, Dolomite 6.49%, Barium Carbonate 0.26%
 - Notes: Solved via non-negative least squares against Ravenscrag Slip's real oxide analysis -- major oxides (SiO2/Al2O3/CaO/K2O/MgO) match closely; Fe2O3/TiO2 run low since this uses clean studio materials instead of a natural iron-bearing clay.
 
+### FAKECELADON -- Fake Celadon Base
+- Target SG: 1.35 | Dry lb/gal: 5.737
+- Ingredients: Nepheline Syenite 16.6%, Ferro Frit 3134 23.1%, Grolleg Kaolin 17.8%, Wollastonite W-20 6.3%, Silica 325 mesh 34.2%, Talc 2.1%
+- Notes: fFactor 0.404 borrowed from G2926B as a working estimate, not yet independently measured -- reasonable starting point since only the kaolin changed (Tile 6 -> Grolleg, same 17.8% share), everything else in the recipe identical. Grolleg has somewhat lower plasticity than Tile 6 per Digitalfire, so the real f-factor could differ modestly -- log a real batch and measure directly once mixed, per this studio's standing rule.
+
 ## Base Slurry Batch Records
 
 ### G2926B (2 batches)
@@ -314,6 +313,9 @@ No batches recorded yet.
 - Calculated f factor: 0.5226
 - Notes: Real measured batch, brought down from an initial thicker mix (SG 1.676, 1105.6g water) by adding 1271.52g more water in increments until hydrometer read 1.35. Total water 2377.12g. Supersedes an earlier calculated-conversion estimate (0.4511) that assumed constant solid volume across dilution -- real measured water needed was 789g less than that model predicted, confirming the calculated approach was not reliable for this recipe.
 
+
+### FAKECELADON (0 batches)
+No batches recorded yet.
 
 ## Recent Firing Records
 
