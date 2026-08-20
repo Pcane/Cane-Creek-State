@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 8/19/2026, 1:07:52 PM
+Last updated: 8/19/2026, 8:16:54 PM
 
 ## Glaze Library
 
@@ -14,28 +14,13 @@ Last updated: 8/19/2026, 1:07:52 PM
 - **G12Gloss** -- G12Gloss - Yellow | Base: G2926B | Vanadium Yellow 36g
 - **G93** -- G93 - Tan | Base: G2926B | RIO 3.12g
 
-### Test (48)
+### Test (37)
 - **G99** -- G99 - K3 Light Blue (Mason 6376 1.5%) | Base: G2926B | Mason 6376 9g
 - **G100** -- G100 - K3 Light Blue (Mason 6376 1.5%) | Base: G2926B | Mason 6376 9g
 - **G101** -- G101 - Raven Rose Pink (Mason 6001) 2.5% | Base: RAVSUB | Mason 6001 15g
 - **G102** -- G102 - Raven Rose Pink (Mason 6001) 5% | Base: RAVSUB | Mason 6001 30g
 - **G103** -- G103 - Raven Crimson (Mason 6003) 2.5% | Base: RAVSUB | Mason 6003 15g
 - **G104** -- G104 - Raven Crimson (Mason 6003) 5% | Base: RAVSUB | Mason 6003 30g
-- **B-01** -- B-01 - Chrome Oxide 0.15% | Base: G2926B | Chrome Oxide 0.8999999999999999g
-- **B-02** -- B-02 - Chrome Oxide 0.25% | Base: G2926B | Chrome Oxide 1.5g
-- **B-03** -- B-03 - Chrome Oxide 0.35% | Base: G2926B | Chrome Oxide 2.0999999999999996g
-- **B-04** -- B-04 - Cobalt Oxide 0.1% | Base: G2926B | Cobalt Oxide 0.6000000000000001g
-- **B-05** -- B-05 - Cobalt Oxide 0.2% | Base: G2926B | Cobalt Oxide 1.2000000000000002g
-- **B-06** -- B-06 - Cobalt Oxide 0.3% | Base: G2926B | Cobalt Oxide 1.7999999999999998g
-- **B-07** -- B-07 - Copper Carbonate 0.4% | Base: G2926B | Copper Carbonate 2.4000000000000004g
-- **B-08** -- B-08 - Copper Carbonate 0.7% | Base: G2926B | Copper Carbonate 4.199999999999999g
-- **B-09** -- B-09 - Copper Carbonate 1% | Base: G2926B | Copper Carbonate 6g
-- **B-10** -- B-10 - Manganese Dioxide 2% | Base: G2926B | Manganese Dioxide 12g
-- **B-11** -- B-11 - Manganese Dioxide 3% | Base: G2926B | Manganese Dioxide 18g
-- **B-12** -- B-12 - Manganese Dioxide 4% | Base: G2926B | Manganese Dioxide 24g
-- **B-13** -- B-13 - Spanish Red Iron Oxide 1% | Base: G2926B | Spanish Red Iron Oxide 6g
-- **B-14** -- B-14 - Spanish Red Iron Oxide 2% | Base: G2926B | Spanish Red Iron Oxide 12g
-- **B-15** -- B-15 - Spanish Red Iron Oxide 3.5% | Base: G2926B | Spanish Red Iron Oxide 21g
 - **B-16** -- B-16 - Vanadium Yellow 1.5% | Base: G2926B | Vanadium Yellow 9g
 - **B-17** -- B-17 - Vanadium Yellow 2.5% | Base: G2926B | Vanadium Yellow 15g
 - **B-18** -- B-18 - Vanadium Yellow 3.5% | Base: G2926B | Vanadium Yellow 21g
@@ -63,8 +48,12 @@ Last updated: 8/19/2026, 1:07:52 PM
 - **G115** -- G115 - Fake Celadon, Manganese Dioxide 1.5% | Base: FAKECELADON | Manganese Dioxide 9g
 - **G116** -- G116 - Fake Celadon, Manganese Dioxide 2.5% | Base: FAKECELADON | Manganese Dioxide 15g
 - **G117** -- G117 - Fake Celadon, Manganese Dioxide 3.5% | Base: FAKECELADON | Manganese Dioxide 21g
+- **G118** -- G118 - Fake Celadon, RIO 0.5% | Base: FAKECELADON | Spanish Red Iron Oxide 3g
+- **G119** -- G119 - Fake Celadon, RIO 1% | Base: FAKECELADON | Spanish Red Iron Oxide 6g
+- **G120** -- G120 - Fake Celadon, RIO 1.5% | Base: FAKECELADON | Spanish Red Iron Oxide 9g
+- **G121** -- G121 - Fake Celadon, RIO 2.5% | Base: FAKECELADON | Spanish Red Iron Oxide 15g
 
-### Inactive (122)
+### Inactive (137)
 - **G1** -- G1 — Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 12.1g
 - **G2** -- G2 — Mid-Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 19.4g
 - **G3** -- G3 — Transparent UNC Blue — MS | Base: G2926B | Mason 6374 7.273g
@@ -187,6 +176,21 @@ Last updated: 8/19/2026, 1:07:52 PM
 - **K8Gloss** -- K8Gloss - Yellow Green Chartreuse | Base: G2926B | Mason 6254 21g
 - **T16** -- T16 - Dark Brown - T | Base: G2926B | mason  dark brown 6107 54g
 - **G94** -- G94 - Dark Brown - G | Base: G2926B | mason  dark brown 6107 54g
+- **B-01** -- B-01 - Chrome Oxide 0.15% | Base: G2926B | Chrome Oxide 0.8999999999999999g
+- **B-02** -- B-02 - Chrome Oxide 0.25% | Base: G2926B | Chrome Oxide 1.5g
+- **B-03** -- B-03 - Chrome Oxide 0.35% | Base: G2926B | Chrome Oxide 2.0999999999999996g
+- **B-04** -- B-04 - Cobalt Oxide 0.1% | Base: G2926B | Cobalt Oxide 0.6000000000000001g
+- **B-05** -- B-05 - Cobalt Oxide 0.2% | Base: G2926B | Cobalt Oxide 1.2000000000000002g
+- **B-06** -- B-06 - Cobalt Oxide 0.3% | Base: G2926B | Cobalt Oxide 1.7999999999999998g
+- **B-07** -- B-07 - Copper Carbonate 0.4% | Base: G2926B | Copper Carbonate 2.4000000000000004g
+- **B-08** -- B-08 - Copper Carbonate 0.7% | Base: G2926B | Copper Carbonate 4.199999999999999g
+- **B-09** -- B-09 - Copper Carbonate 1% | Base: G2926B | Copper Carbonate 6g
+- **B-10** -- B-10 - Manganese Dioxide 2% | Base: G2926B | Manganese Dioxide 12g
+- **B-11** -- B-11 - Manganese Dioxide 3% | Base: G2926B | Manganese Dioxide 18g
+- **B-12** -- B-12 - Manganese Dioxide 4% | Base: G2926B | Manganese Dioxide 24g
+- **B-13** -- B-13 - Spanish Red Iron Oxide 1% | Base: G2926B | Spanish Red Iron Oxide 6g
+- **B-14** -- B-14 - Spanish Red Iron Oxide 2% | Base: G2926B | Spanish Red Iron Oxide 12g
+- **B-15** -- B-15 - Spanish Red Iron Oxide 3.5% | Base: G2926B | Spanish Red Iron Oxide 21g
 
 ## Custom Bases
 ### G3806C -- Fluid Glossy Base Glaze
