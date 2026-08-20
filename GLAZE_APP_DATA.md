@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 8/19/2026, 8:16:54 PM
+Last updated: 8/19/2026, 8:40:11 PM
 
 ## Glaze Library
 
@@ -14,44 +14,33 @@ Last updated: 8/19/2026, 8:16:54 PM
 - **G12Gloss** -- G12Gloss - Yellow | Base: G2926B | Vanadium Yellow 36g
 - **G93** -- G93 - Tan | Base: G2926B | RIO 3.12g
 
-### Test (37)
-- **G99** -- G99 - K3 Light Blue (Mason 6376 1.5%) | Base: G2926B | Mason 6376 9g
-- **G100** -- G100 - K3 Light Blue (Mason 6376 1.5%) | Base: G2926B | Mason 6376 9g
-- **G101** -- G101 - Raven Rose Pink (Mason 6001) 2.5% | Base: RAVSUB | Mason 6001 15g
-- **G102** -- G102 - Raven Rose Pink (Mason 6001) 5% | Base: RAVSUB | Mason 6001 30g
-- **G103** -- G103 - Raven Crimson (Mason 6003) 2.5% | Base: RAVSUB | Mason 6003 15g
-- **G104** -- G104 - Raven Crimson (Mason 6003) 5% | Base: RAVSUB | Mason 6003 30g
-- **B-16** -- B-16 - Vanadium Yellow 1.5% | Base: G2926B | Vanadium Yellow 9g
-- **B-17** -- B-17 - Vanadium Yellow 2.5% | Base: G2926B | Vanadium Yellow 15g
-- **B-18** -- B-18 - Vanadium Yellow 3.5% | Base: G2926B | Vanadium Yellow 21g
-- **B-19** -- B-19 - Yellow Ochre 2% | Base: G2926B | Yellow Ochre 12g
-- **B-20** -- B-20 - Yellow Ochre 4% | Base: G2926B | Yellow Ochre 24g
-- **B-21** -- B-21 - Yellow Ochre 6% | Base: G2926B | Yellow Ochre 36g
-- **B-31** -- B-31 - Mason 6376 + Cobalt Oxide hybrid | Base: G2926B | Mason 6376 9g, Cobalt Oxide 0.30000000000000004g
-- **B-32** -- B-32 - Mason 6206 + Chrome Oxide hybrid | Base: G2926B | Mason 6206 9g, Chrome Oxide 0.48g
-- **B-33** -- B-33 - Mason 6236 + Chrome Oxide hybrid | Base: G2926B | Mason 6236 15g, Chrome Oxide 0.48g
-- **B-34** -- B-34 - T5-family Turquoise, Cobalt 0.7%/Chrome 0.4% | Base: G2926B | Cobalt Oxide 4.199999999999999g, Chrome Oxide 2.4000000000000004g
-- **B-35** -- B-35 - T5-family Turquoise, Cobalt 0.5%/Chrome 0.3% | Base: G2926B | Cobalt Oxide 3g, Chrome Oxide 1.7999999999999998g
-- **B-36** -- B-36 - T5-family Turquoise, Cobalt 0.35%/Chrome 0.2% | Base: G2926B | Cobalt Oxide 2.0999999999999996g, Chrome Oxide 1.2000000000000002g
-- **B-37** -- B-37 - Alberta Slip Amber, Iron 1% | Base: Own base | Alberta Slip 480g, Ferro Frit 3195 120g, Iron Oxide 6g
-- **B-38** -- B-38 - Alberta Slip Amber, Iron 2% | Base: Own base | Alberta Slip 480g, Ferro Frit 3195 120g, Iron Oxide 12g
-- **B-39** -- B-39 - Alberta Slip Amber, Iron 3% | Base: Own base | Alberta Slip 480g, Ferro Frit 3195 120g, Iron Oxide 18g
-- **G106** -- G106 - Fake Celadon, Copper Carbonate 0.5% | Base: FAKECELADON | Copper Carbonate 3g
-- **G107** -- G107 - Fake Celadon, Copper Carbonate 1% | Base: FAKECELADON | Copper Carbonate 6g
-- **G108** -- G108 - Fake Celadon, Copper Carbonate 2% | Base: FAKECELADON | Copper Carbonate 12g
-- **G109** -- G109 - Fake Celadon, Cobalt Oxide 0.05% | Base: FAKECELADON | Cobalt Oxide 0.30000000000000004g
-- **G110** -- G110 - Fake Celadon, Cobalt Oxide 0.1% | Base: FAKECELADON | Cobalt Oxide 0.6000000000000001g
-- **G111** -- G111 - Fake Celadon, Cobalt Oxide 0.2% | Base: FAKECELADON | Cobalt Oxide 1.2000000000000002g
-- **G112** -- G112 - Fake Celadon, Chrome Oxide 0.1% | Base: FAKECELADON | Chrome Oxide 0.6000000000000001g
-- **G113** -- G113 - Fake Celadon, Chrome Oxide 0.2% | Base: FAKECELADON | Chrome Oxide 1.2000000000000002g
-- **G114** -- G114 - Fake Celadon, Chrome Oxide 0.3% | Base: FAKECELADON | Chrome Oxide 1.7999999999999998g
-- **G115** -- G115 - Fake Celadon, Manganese Dioxide 1.5% | Base: FAKECELADON | Manganese Dioxide 9g
-- **G116** -- G116 - Fake Celadon, Manganese Dioxide 2.5% | Base: FAKECELADON | Manganese Dioxide 15g
-- **G117** -- G117 - Fake Celadon, Manganese Dioxide 3.5% | Base: FAKECELADON | Manganese Dioxide 21g
-- **G118** -- G118 - Fake Celadon, RIO 0.5% | Base: FAKECELADON | Spanish Red Iron Oxide 3g
-- **G119** -- G119 - Fake Celadon, RIO 1% | Base: FAKECELADON | Spanish Red Iron Oxide 6g
-- **G120** -- G120 - Fake Celadon, RIO 1.5% | Base: FAKECELADON | Spanish Red Iron Oxide 9g
-- **G121** -- G121 - Fake Celadon, RIO 2.5% | Base: FAKECELADON | Spanish Red Iron Oxide 15g
+### Test (26)
+- **G100** -- G100 - Light Blue | Base: G2926B | Mason 6376 9g
+- **B-31** -- B-31 - Light Blue | Base: G2926B | Mason 6376 9g, Cobalt Oxide 0.30000000000000004g
+- **B-32** -- B-32 - Light Green | Base: G2926B | Mason 6206 9g, Chrome Oxide 0.48g
+- **B-33** -- B-33 - Muted Yellow-Green | Base: G2926B | Mason 6236 15g, Chrome Oxide 0.48g
+- **B-34** -- B-34 - Turquoise Dark | Base: G2926B | Cobalt Oxide 4.199999999999999g, Chrome Oxide 2.4000000000000004g
+- **B-35** -- B-35 - Turquoise Medium | Base: G2926B | Cobalt Oxide 3g, Chrome Oxide 1.7999999999999998g
+- **B-36** -- B-36 - Turquoise Light | Base: G2926B | Cobalt Oxide 2.0999999999999996g, Chrome Oxide 1.2000000000000002g
+- **B-37** -- B-37 - Amber Pale | Base: Own base | Alberta Slip 480g, Ferro Frit 3195 120g, Iron Oxide 6g
+- **B-38** -- B-38 - Amber Medium-Red | Base: Own base | Alberta Slip 480g, Ferro Frit 3195 120g, Iron Oxide 12g
+- **B-39** -- B-39 - Amber Dark | Base: Own base | Alberta Slip 480g, Ferro Frit 3195 120g, Iron Oxide 18g
+- **G106** -- G106 - Green Pale | Base: FAKECELADON | Copper Carbonate 3g
+- **G107** -- G107 - Green Medium | Base: FAKECELADON | Copper Carbonate 6g
+- **G108** -- G108 - Green-Blue Dark | Base: FAKECELADON | Copper Carbonate 12g
+- **G109** -- G109 - Blue Pale | Base: FAKECELADON | Cobalt Oxide 0.30000000000000004g
+- **G110** -- G110 - Blue Light-Medium | Base: FAKECELADON | Cobalt Oxide 0.6000000000000001g
+- **G111** -- G111 - Blue Medium | Base: FAKECELADON | Cobalt Oxide 1.2000000000000002g
+- **G112** -- G112 - Green Pale | Base: FAKECELADON | Chrome Oxide 0.6000000000000001g
+- **G113** -- G113 - Green Light-Medium | Base: FAKECELADON | Chrome Oxide 1.2000000000000002g
+- **G114** -- G114 - Green Medium | Base: FAKECELADON | Chrome Oxide 1.7999999999999998g
+- **G115** -- G115 - Pink Pale | Base: FAKECELADON | Manganese Dioxide 9g
+- **G116** -- G116 - Pink-Purple Medium | Base: FAKECELADON | Manganese Dioxide 15g
+- **G117** -- G117 - Purple Dark | Base: FAKECELADON | Manganese Dioxide 21g
+- **G118** -- G118 - Amber Pale | Base: FAKECELADON | Spanish Red Iron Oxide 3g
+- **G119** -- G119 - Amber-Sage Light | Base: FAKECELADON | Spanish Red Iron Oxide 6g
+- **G120** -- G120 - Amber-Sage Medium | Base: FAKECELADON | Spanish Red Iron Oxide 9g
+- **G121** -- G121 - Amber-Sage Dark | Base: FAKECELADON | Spanish Red Iron Oxide 15g
 
 ### Inactive (137)
 - **G1** -- G1 — Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 12.1g
