@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 8/19/2026, 8:40:11 PM
+Last updated: 8/22/2026, 11:25:59 AM
 
 ## Glaze Library
 
@@ -14,8 +14,7 @@ Last updated: 8/19/2026, 8:40:11 PM
 - **G12Gloss** -- G12Gloss - Yellow | Base: G2926B | Vanadium Yellow 36g
 - **G93** -- G93 - Tan | Base: G2926B | RIO 3.12g
 
-### Test (26)
-- **G100** -- G100 - Light Blue | Base: G2926B | Mason 6376 9g
+### Test (29)
 - **B-31** -- B-31 - Light Blue | Base: G2926B | Mason 6376 9g, Cobalt Oxide 0.30000000000000004g
 - **B-32** -- B-32 - Light Green | Base: G2926B | Mason 6206 9g, Chrome Oxide 0.48g
 - **B-33** -- B-33 - Muted Yellow-Green | Base: G2926B | Mason 6236 15g, Chrome Oxide 0.48g
@@ -41,8 +40,12 @@ Last updated: 8/19/2026, 8:40:11 PM
 - **G119** -- G119 - Amber-Sage Light | Base: FAKECELADON | Spanish Red Iron Oxide 6g
 - **G120** -- G120 - Amber-Sage Medium | Base: FAKECELADON | Spanish Red Iron Oxide 9g
 - **G121** -- G121 - Amber-Sage Dark | Base: FAKECELADON | Spanish Red Iron Oxide 15g
+- **G122** -- G122 - Raven Rose Pink (Mason 6001) 2.5% | Base: RAVSUB | Mason 6001 15g
+- **G123** -- G123 - Raven Rose Pink (Mason 6001) 5% | Base: RAVSUB | Mason 6001 30g
+- **G124** -- G124 - Raven Crimson (Mason 6003) 2.5% | Base: RAVSUB | Mason 6003 15g
+- **G125** -- G125 - Raven Crimson (Mason 6003) 5% | Base: RAVSUB | Mason 6003 30g
 
-### Inactive (137)
+### Inactive (138)
 - **G1** -- G1 — Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 12.1g
 - **G2** -- G2 — Mid-Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 19.4g
 - **G3** -- G3 — Transparent UNC Blue — MS | Base: G2926B | Mason 6374 7.273g
@@ -165,6 +168,7 @@ Last updated: 8/19/2026, 8:40:11 PM
 - **K8Gloss** -- K8Gloss - Yellow Green Chartreuse | Base: G2926B | Mason 6254 21g
 - **T16** -- T16 - Dark Brown - T | Base: G2926B | mason  dark brown 6107 54g
 - **G94** -- G94 - Dark Brown - G | Base: G2926B | mason  dark brown 6107 54g
+- **G100** -- G100 - Light Blue | Base: G2926B | Mason 6376 9g
 - **B-01** -- B-01 - Chrome Oxide 0.15% | Base: G2926B | Chrome Oxide 0.8999999999999999g
 - **B-02** -- B-02 - Chrome Oxide 0.25% | Base: G2926B | Chrome Oxide 1.5g
 - **B-03** -- B-03 - Chrome Oxide 0.35% | Base: G2926B | Chrome Oxide 2.0999999999999996g
@@ -235,6 +239,8 @@ EPK swapped to Tile 6, 2026-07-11 (EPK discontinued, no longer available). 1:1 b
 - Target SG: 1.35 | Dry lb/gal: 5.737
 - Ingredients: Nepheline Syenite 16.6%, Ferro Frit 3134 23.1%, Grolleg Kaolin 17.8%, Wollastonite W-20 6.3%, Silica 325 mesh 34.2%, Talc 2.1%
 - Notes: fFactor 0.404 borrowed from G2926B as a working estimate, not yet independently measured -- reasonable starting point since only the kaolin changed (Tile 6 -> Grolleg, same 17.8% share), everything else in the recipe identical. Grolleg has somewhat lower plasticity than Tile 6 per Digitalfire, so the real f-factor could differ modestly -- log a real batch and measure directly once mixed, per this studio's standing rule.
+
+[2026-08-22] f-factor corrected from 0.404 (borrowed G2926B estimate) to 0.5053 (real value from actual dry/water mix amounts).
 
 ## Base Slurry Batch Records
 
