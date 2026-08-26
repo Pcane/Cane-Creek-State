@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 8/25/2026, 11:24:11 PM
+Last updated: 8/26/2026, 8:04:17 AM
 
 ## Glaze Library
 
@@ -19,7 +19,7 @@ Last updated: 8/25/2026, 11:24:11 PM
 - **G124** -- G124 - Raven Crimson (Mason 6003) 2.5% | Base: RAVSUB | Mason 6003 15g
 - **G125** -- G125 - Raven Crimson (Mason 6003) 5% | Base: RAVSUB | Mason 6003 30g
 
-### Test (27)
+### Test (24)
 - **B-31** -- B-31 - Light Blue | Base: RAVSUB | Mason 6376 9g, Cobalt Oxide 0.30000000000000004g
 - **B-32** -- B-32 - Light Green | Base: RAVSUB | Mason 6206 9g, Chrome Oxide 0.48g
 - **B-33** -- B-33 - Muted Yellow-Green | Base: RAVSUB | Mason 6236 15g, Chrome Oxide 0.48g
@@ -31,10 +31,7 @@ Last updated: 8/25/2026, 11:24:11 PM
 - **B-39** -- B-39 - Amber Dark | Base: Own base | Alberta Slip 480g, Ferro Frit 3195 120g, Iron Oxide 18g
 - **G110** -- G110 - Blue Light-Medium | Base: FAKECELADON | Cobalt Oxide 0.6000000000000001g
 - **G111** -- G111 - Blue Medium | Base: FAKECELADON | Cobalt Oxide 1.2000000000000002g
-- **T6v2** -- T6v2 - Amber (Frit +4%) | Base: G2926B | Nickel Oxide 15g, Ferro Frit 3134 24g
-- **T6v3** -- T6v3 - Amber (Frit +6%) | Base: G2926B | Nickel Oxide 15g, Ferro Frit 3134 36g
-- **T12v2** -- T12v2 - Orange (Frit +4%) | Base: G2926B | Mason 6028 43.980000000000004g, Spanish Red Iron Oxide 8.28g, Ferro Frit 3134 24g
-- **T12v3** -- T12v3 - Orange (Frit +6%) | Base: G2926B | Mason 6028 43.980000000000004g, Spanish Red Iron Oxide 8.28g, Ferro Frit 3134 36g
+- **T12v2** -- T12v2 - Orange (RAVSUB test) | Base: RAVSUB | Mason 6028 43.980000000000004g, Spanish Red Iron Oxide 8.28g
 - **T6-Rav** -- T6-Rav - Nickel (RAVSUB test) | Base: RAVSUB | Nickel Oxide 15g
 - **T11-Rav** -- T11-Rav - Rutile+Iron (RAVSUB test) | Base: RAVSUB | Light Rutile 19.38g, Spanish Red Iron Oxide 6.0600000000000005g
 - **G11-Rav** -- G11-Rav - Dark Green (RAVSUB test) | Base: RAVSUB | Chrome Oxide 3g
@@ -344,6 +341,16 @@ No batches recorded yet.
 
 ---
 
+### G88 - Aug26 - A
+- Recipe: Cobalt Carbonate: 6g per 600g
+- Base: G3806C+15Sil | SG: -- | Method: --
+- Fired: Aug 13, 2026 | Door Kiln | Cone 6 -- full melt
+- Finish: Gloss
+- Rating: Fair
+- Notes: Dark blue, glossy transparent, slight edge breaking, bubbly.
+
+---
+
 ### G38v3 - Aug26 - A
 - Recipe: Light Rutile: 19.392g per 600g, Red Iron Oxide: 6.06g per 600g
 - Base: G2926B | SG: -- | Method: --
@@ -424,6 +431,16 @@ No batches recorded yet.
 
 ---
 
+### G73 - Aug26 - A
+- Recipe: Mason 6088: 27g per 600g
+- Base: G2926B | SG: -- | Method: --
+- Fired: Aug 13, 2026 | Door Kiln | Cone 6 -- full melt
+- Finish: Gloss
+- Rating: Fair
+- Notes: Light red, small amount of edging.
+
+---
+
 ### G58 - Aug26 - A
 - Recipe: Rutile: 18g per 600g, Cobalt Carbonate: 1.8g per 600g
 - Base: G2926B | SG: -- | Method: --
@@ -481,26 +498,6 @@ No batches recorded yet.
 - Finish: Gloss
 - Rating: Poor
 - Notes: Not usable.
-
----
-
-### G88 - Aug26 - A
-- Recipe: Cobalt Carbonate: 6g per 600g
-- Base: G3806C+15Sil | SG: -- | Method: --
-- Fired: Aug 13, 2026 | Door Kiln | Cone 6 -- full melt
-- Finish: Gloss
-- Rating: Fair
-- Notes: Dark blue, glossy transparent, slight edge breaking, bubbly.
-
----
-
-### G73 - Aug26 - A
-- Recipe: Mason 6088: 27g per 600g
-- Base: G2926B | SG: -- | Method: --
-- Fired: Aug 13, 2026 | Door Kiln | Cone 6 -- full melt
-- Finish: Gloss
-- Rating: Fair
-- Notes: Light red, small amount of edging.
 
 ---
 
