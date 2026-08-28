@@ -1,9 +1,9 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 8/28/2026, 7:44:15 AM
+Last updated: 8/28/2026, 10:41:01 AM
 
 ## Glaze Library
 
-### Active (30)
+### Active (28)
 - **G40v2** -- Tenmoku - OX | Base: G2926B | Spanish Red Iron Oxide 39.4g, Light Rutile 3.03g | Target SG: 1.32
 - **G49** -- Floating Blue - OX | Base: G49-base (own base, not G2926B/G1214M/G3806C) | Nepheline Syenite 180g, Ferro Frit 3134 216g, Silica 84g, EPK Kaolin 120g, Spanish Red Iron Oxide 12g, Cobalt Oxide 7.2g, Light Rutile 24g
 - **G47v4** -- G47v4 Lime | Base: G1214M | Copper Carbonate 4.9g, Light Rutile 4.09g
@@ -14,22 +14,20 @@ Last updated: 8/28/2026, 7:44:15 AM
 - **G113** -- Medium Green | Base: FAKECELADON | Chrome Oxide 1.2000000000000002g
 - **G120** -- Light Amber | Base: FAKECELADON | Spanish Red Iron Oxide 9g
 - **G121** -- Medium Amber | Base: FAKECELADON | Spanish Red Iron Oxide 15g
-- **G123** -- Pink | Base: RAVSUB | Mason 6001 30g
+- **G123-Rav** -- Pink | Base: RAVSUB | Mason 6001 30g
 - **G124-Rav** -- Light Red | Base: RAVSUB | Mason 6003 15g
 - **G125-Rav** -- Middle Red | Base: RAVSUB | Mason 6003 30g
-- **T12-Rav** -- Orange | Base: RAVSUB | Mason 6028 43.980000000000004g, Spanish Red Iron Oxide 8.28g
+- **T12v2-Rav** -- Orange | Base: RAVSUB | Mason 6028 43.980000000000004g, Spanish Red Iron Oxide 8.28g
 - **G30v2-Rav** -- Dark Blue | Base: RAVSUB | Cobalt Oxide 2.4240000000000004g, Light Rutile 12.120000000000001g
 - **G112-Rav** -- Very Light Green | Base: RAVSUB | Chrome Oxide 0.6000000000000001g
 - **G113-Rav** -- Medium Green | Base: RAVSUB | Chrome Oxide 1.2000000000000002g
 - **G107-Rav** -- Medium Green | Base: RAVSUB | Copper Carbonate 6g
 - **G108-Rav** -- Medium Lime | Base: RAVSUB | Copper Carbonate 12g
-- **G11-Rav** -- Dark Green | Base: RAVSUB | Chrome Oxide 3g
+- **G11-Rav** -- Light Green | Base: RAVSUB | Chrome Oxide 3g
 - **G117-Rav** -- Dark Brown | Base: RAVSUB | Manganese Dioxide 21g
 - **G124v2-Rav** -- Darkest Red | Base: RAVSUB | Mason 6003 36g
-- **G73-Rav** -- Dark Red | Base: RAVSUB | Mason 6088 27g
-- **G88v2** -- Dark Blue | Base: RAVSUB | Cobalt Carbonate 6g
+- **G88v2-Rav** -- Dark Blue | Base: RAVSUB | Cobalt Carbonate 6g
 - **G29v3-Rav** -- Corn Yellow | Base: RAVSUB | Vanadium Yellow 14.52g, Spanish Red Iron Oxide 9.120000000000001g
-- **G30v2-RavX** -- Dark Blue (mixing error) | Base: RAVSUB | Cobalt Oxide 12.110400000000002g, Light Rutile 12.110400000000002g
 - **G109-RavX** -- Light Blue (mixing error) | Base: RAVSUB | Cobalt Oxide 1.4969999999999999g
 - **B-37-Alt** -- Amber Pale (altered ratio) | Base: Own base | Alberta Slip 393.44262295081967g, Ferro Frit 3195 196.72131147540983g, Iron Oxide 9.836065573770492g
 - **G11-G88-Blend** -- Blend Test (G11-Rav + G88v2-Rav) | Base: Own base | G11-Rav (pre-mixed glaze slurry) nullg, G88v2-Rav (pre-mixed glaze slurry) nullg
@@ -43,7 +41,7 @@ Last updated: 8/28/2026, 7:44:15 AM
 - **B-37v2** -- Amber (higher slip, RIO) | Base: Own base | Alberta Slip 466.0194174757281g, Ferro Frit 3195 116.50485436893203g, Spanish Red Iron Oxide 17.475728155339805g
 - **B-37v3** -- Amber with Manganese | Base: Own base | Alberta Slip 460.4890777746865g, Ferro Frit 3195 115.12226944367163g, Spanish Red Iron Oxide 17.268340416550746g, Manganese Dioxide 7.10649769275785g
 
-### Inactive (165)
+### Inactive (167)
 - **G1** -- G1 — Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 12.1g
 - **G2** -- G2 — Mid-Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 19.4g
 - **G3** -- G3 — Transparent UNC Blue — MS | Base: G2926B | Mason 6374 7.273g
@@ -205,10 +203,12 @@ Last updated: 8/28/2026, 7:44:15 AM
 - **G117** -- Purple Dark | Base: FAKECELADON | Manganese Dioxide 21g
 - **G118** -- Amber Pale | Base: FAKECELADON | Spanish Red Iron Oxide 3g
 - **G119** -- Amber-Sage Light | Base: FAKECELADON | Spanish Red Iron Oxide 6g
-- **G122** -- Very Light Pink | Base: RAVSUB | Mason 6001 15g
+- **G122-Rav** -- Very Light Pink | Base: RAVSUB | Mason 6001 15g
 - **G109-Rav** -- Light Blue | Base: RAVSUB | Cobalt Oxide 0.30000000000000004g
 - **G106-Rav** -- Light Green | Base: RAVSUB | Copper Carbonate 3g
 - **G116-Rav** -- Light Brown | Base: RAVSUB | Manganese Dioxide 15g
+- **G73-Rav** -- Dark Red | Base: RAVSUB | Mason 6088 27g
+- **G30v2-RavX** -- Dark Blue (mixing error) | Base: RAVSUB | Cobalt Oxide 12.110400000000002g, Light Rutile 12.110400000000002g
 
 ## Custom Bases
 ### G3806C -- Fluid Glossy Base Glaze
