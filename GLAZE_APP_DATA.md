@@ -1,14 +1,12 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 8/28/2026, 2:25:10 PM
+Last updated: 8/28/2026, 2:33:21 PM
 
 ## Glaze Library
 
-### Active (28)
+### Active (26)
 - **G40v2** -- Tenmoku - OX | Base: G2926B | Spanish Red Iron Oxide 39.4g, Light Rutile 3.03g | Target SG: 1.32
 - **G49** -- Floating Blue - OX | Base: G49-base (own base, not G2926B/G1214M/G3806C) | Nepheline Syenite 180g, Ferro Frit 3134 216g, Silica 84g, EPK Kaolin 120g, Spanish Red Iron Oxide 12g, Cobalt Oxide 7.2g, Light Rutile 24g
-- **G47v4** -- G47v4 Lime | Base: G1214M | Copper Carbonate 4.9g, Light Rutile 4.09g
 - **G79** -- Crystallized Blue | Base: G3806C+15Sil | Cobalt Oxide 3g, Copper Carbonate 10.5g, Light Rutile 24g
-- **G12Gloss** -- Yellow | Base: G2926B | Vanadium Yellow 36g
 - **G109** -- Blue Pale | Base: FAKECELADON | Cobalt Oxide 0.30000000000000004g
 - **G112** -- Very Light Green | Base: FAKECELADON | Chrome Oxide 0.6000000000000001g
 - **G113** -- Medium Green | Base: FAKECELADON | Chrome Oxide 1.2000000000000002g
@@ -41,7 +39,7 @@ Last updated: 8/28/2026, 2:25:10 PM
 - **B-37v2** -- Amber (higher slip, RIO) | Base: Own base | Alberta Slip 466.0194174757281g, Ferro Frit 3195 116.50485436893203g, Spanish Red Iron Oxide 17.475728155339805g
 - **B-37v3** -- Amber with Manganese | Base: Own base | Alberta Slip 460.4890777746865g, Ferro Frit 3195 115.12226944367163g, Spanish Red Iron Oxide 17.268340416550746g, Manganese Dioxide 7.10649769275785g
 
-### Inactive (167)
+### Inactive (169)
 - **G1** -- G1 — Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 12.1g
 - **G2** -- G2 — Mid-Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 19.4g
 - **G3** -- G3 — Transparent UNC Blue — MS | Base: G2926B | Mason 6374 7.273g
@@ -138,6 +136,7 @@ Last updated: 8/28/2026, 2:25:10 PM
 - **G25v5** -- Chrome-Tin Deep Red Test | Base: G1214M | Chrome Oxide 0.6g, Tin Oxide 66g
 - **G47v2** -- Base Comparison G2926B - MX | Base: G2926B | Copper Carbonate 4.9g, Light Rutile 4.09g
 - **G47v3** -- Base Comparison G3806C - MX | Base: G3806C | Copper Carbonate 4.9g, Light Rutile 4.09g
+- **G47v4** -- G47v4 Lime | Base: G1214M | Copper Carbonate 4.9g, Light Rutile 4.09g
 - **T2v2** -- Mason 6103 Golden Brown - stain | Base: G2926B | Mason 6103 8.48g | Target SG: 1.44
 - **G69** -- Nep Sye Red A (Britt) - MX | Base: G69-base (own base, not G2926B/G1214M/G3806C) | Nepheline Syenite 96g, Silica 192g, Whiting 120g, EPK Kaolin 66g, Gerstley Borate 126g, Tin Oxide 30g, Chrome Oxide 0.9g, Cobalt Carbonate 1.5g
 - **G70** -- Nep Sye Red B (Britt) - MX | Base: G70-base (own base, not G2926B/G1214M/G3806C) | Nepheline Syenite 108g, Silica 180g, Whiting 120g, Ball Clay 108g, Ferro Frit 3134 84g, Tin Oxide 45g, Chrome Oxide 1.2g, Cobalt Carbonate 1.5g, Bentonite 12g
@@ -164,6 +163,7 @@ Last updated: 8/28/2026, 2:25:10 PM
 - **K8Gloss** -- Yellow Green Chartreuse | Base: G2926B | Mason 6254 21g
 - **K19Gloss** -- Light Light Brown | Base: G2926B | RIO 8.4g
 - **K20Gloss** -- Light Brown | Base: G2926B | RIO 16.8g
+- **G12Gloss** -- Yellow | Base: G2926B | Vanadium Yellow 36g
 - **G93** -- Tan | Base: G2926B | RIO 3.12g
 - **T16** -- Dark Brown - T | Base: G2926B | mason  dark brown 6107 54g
 - **G94** -- Dark Brown - G | Base: G2926B | mason  dark brown 6107 54g
