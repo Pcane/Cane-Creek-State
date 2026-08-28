@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 8/28/2026, 2:33:21 PM
+Last updated: 8/28/2026, 2:35:47 PM
 
 ## Glaze Library
 
@@ -7,7 +7,7 @@ Last updated: 8/28/2026, 2:33:21 PM
 - **G40v2** -- Tenmoku - OX | Base: G2926B | Spanish Red Iron Oxide 39.4g, Light Rutile 3.03g | Target SG: 1.32
 - **G49** -- Floating Blue - OX | Base: G49-base (own base, not G2926B/G1214M/G3806C) | Nepheline Syenite 180g, Ferro Frit 3134 216g, Silica 84g, EPK Kaolin 120g, Spanish Red Iron Oxide 12g, Cobalt Oxide 7.2g, Light Rutile 24g
 - **G79** -- Crystallized Blue | Base: G3806C+15Sil | Cobalt Oxide 3g, Copper Carbonate 10.5g, Light Rutile 24g
-- **G109** -- Blue Pale | Base: FAKECELADON | Cobalt Oxide 0.30000000000000004g
+- **G109** -- Very Light Pale Blue | Base: FAKECELADON | Cobalt Oxide 0.30000000000000004g
 - **G112** -- Very Light Green | Base: FAKECELADON | Chrome Oxide 0.6000000000000001g
 - **G113** -- Medium Green | Base: FAKECELADON | Chrome Oxide 1.2000000000000002g
 - **G120** -- Light Amber | Base: FAKECELADON | Spanish Red Iron Oxide 9g
