@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 8/27/2026, 8:15:03 PM
+Last updated: 8/28/2026, 7:43:33 AM
 
 ## Glaze Library
 
@@ -15,9 +15,9 @@ Last updated: 8/27/2026, 8:15:03 PM
 - **G120** -- Light Amber | Base: FAKECELADON | Spanish Red Iron Oxide 9g
 - **G121** -- Medium Amber | Base: FAKECELADON | Spanish Red Iron Oxide 15g
 - **G123** -- Pink | Base: RAVSUB | Mason 6001 30g
-- **G124** -- Transparent Red | Base: RAVSUB | Mason 6003 15g
-- **G125** -- Deeper Red | Base: RAVSUB | Mason 6003 30g
-- **T12v2** -- Orange | Base: RAVSUB | Mason 6028 43.980000000000004g, Spanish Red Iron Oxide 8.28g
+- **G124-Rav** -- Light Red | Base: RAVSUB | Mason 6003 15g
+- **G125-Rav** -- Middle Red | Base: RAVSUB | Mason 6003 30g
+- **T12-Rav** -- Orange | Base: RAVSUB | Mason 6028 43.980000000000004g, Spanish Red Iron Oxide 8.28g
 - **G30v2-Rav** -- Dark Blue | Base: RAVSUB | Cobalt Oxide 2.4240000000000004g, Light Rutile 12.120000000000001g
 - **G112-Rav** -- Very Light Green | Base: RAVSUB | Chrome Oxide 0.6000000000000001g
 - **G113-Rav** -- Medium Green | Base: RAVSUB | Chrome Oxide 1.2000000000000002g
@@ -25,7 +25,7 @@ Last updated: 8/27/2026, 8:15:03 PM
 - **G108-Rav** -- Medium Lime | Base: RAVSUB | Copper Carbonate 12g
 - **G11-Rav** -- Dark Green | Base: RAVSUB | Chrome Oxide 3g
 - **G117-Rav** -- Dark Brown | Base: RAVSUB | Manganese Dioxide 21g
-- **G124-6** -- Deep Red | Base: RAVSUB | Mason 6003 36g
+- **G124v2-Rav** -- Darkest Red | Base: RAVSUB | Mason 6003 36g
 - **G73-Rav** -- Dark Red | Base: RAVSUB | Mason 6088 27g
 - **G88v2** -- Dark Blue | Base: RAVSUB | Cobalt Carbonate 6g
 - **G29v3-Rav** -- Corn Yellow | Base: RAVSUB | Vanadium Yellow 14.52g, Spanish Red Iron Oxide 9.120000000000001g
