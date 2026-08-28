@@ -1,9 +1,9 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 8/28/2026, 2:35:47 PM
+Last updated: 8/28/2026, 2:45:13 PM
 
 ## Glaze Library
 
-### Active (26)
+### Active (25)
 - **G40v2** -- Tenmoku - OX | Base: G2926B | Spanish Red Iron Oxide 39.4g, Light Rutile 3.03g | Target SG: 1.32
 - **G49** -- Floating Blue - OX | Base: G49-base (own base, not G2926B/G1214M/G3806C) | Nepheline Syenite 180g, Ferro Frit 3134 216g, Silica 84g, EPK Kaolin 120g, Spanish Red Iron Oxide 12g, Cobalt Oxide 7.2g, Light Rutile 24g
 - **G79** -- Crystallized Blue | Base: G3806C+15Sil | Cobalt Oxide 3g, Copper Carbonate 10.5g, Light Rutile 24g
@@ -12,7 +12,6 @@ Last updated: 8/28/2026, 2:35:47 PM
 - **G113** -- Medium Green | Base: FAKECELADON | Chrome Oxide 1.2000000000000002g
 - **G120** -- Light Amber | Base: FAKECELADON | Spanish Red Iron Oxide 9g
 - **G121** -- Medium Amber | Base: FAKECELADON | Spanish Red Iron Oxide 15g
-- **G123-Rav** -- Pink | Base: RAVSUB | Mason 6001 30g
 - **G124-Rav** -- Light Red | Base: RAVSUB | Mason 6003 15g
 - **G125-Rav** -- Middle Red | Base: RAVSUB | Mason 6003 30g
 - **T12v2-Rav** -- Orange | Base: RAVSUB | Mason 6028 43.980000000000004g, Spanish Red Iron Oxide 8.28g
@@ -39,7 +38,7 @@ Last updated: 8/28/2026, 2:35:47 PM
 - **B-37v2** -- Amber (higher slip, RIO) | Base: Own base | Alberta Slip 466.0194174757281g, Ferro Frit 3195 116.50485436893203g, Spanish Red Iron Oxide 17.475728155339805g
 - **B-37v3** -- Amber with Manganese | Base: Own base | Alberta Slip 460.4890777746865g, Ferro Frit 3195 115.12226944367163g, Spanish Red Iron Oxide 17.268340416550746g, Manganese Dioxide 7.10649769275785g
 
-### Inactive (169)
+### Inactive (170)
 - **G1** -- G1 — Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 12.1g
 - **G2** -- G2 — Mid-Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 19.4g
 - **G3** -- G3 — Transparent UNC Blue — MS | Base: G2926B | Mason 6374 7.273g
@@ -204,6 +203,7 @@ Last updated: 8/28/2026, 2:35:47 PM
 - **G118** -- Amber Pale | Base: FAKECELADON | Spanish Red Iron Oxide 3g
 - **G119** -- Amber-Sage Light | Base: FAKECELADON | Spanish Red Iron Oxide 6g
 - **G122-Rav** -- Very Light Pink | Base: RAVSUB | Mason 6001 15g
+- **G123-Rav** -- Pink | Base: RAVSUB | Mason 6001 30g
 - **G109-Rav** -- Light Blue | Base: RAVSUB | Cobalt Oxide 0.30000000000000004g
 - **G106-Rav** -- Light Green | Base: RAVSUB | Copper Carbonate 3g
 - **G116-Rav** -- Light Brown | Base: RAVSUB | Manganese Dioxide 15g
