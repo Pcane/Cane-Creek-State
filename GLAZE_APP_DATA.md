@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 8/30/2026, 2:17:15 PM
+Last updated: 8/30/2026, 2:22:32 PM
 
 ## Glaze Library
 
@@ -25,7 +25,7 @@ Last updated: 8/30/2026, 2:17:15 PM
 - **G124v2-Rav** -- Dark Red | Base: RAVSUB | Mason 6003 36g
 - **G29v3-Rav** -- Corn Yellow | Base: RAVSUB | Vanadium Yellow 14.52g, Spanish Red Iron Oxide 9.120000000000001g
 - **G109-RavX** -- Light Blue (mixing error) | Base: RAVSUB | Cobalt Oxide 1.4969999999999999g
-- **MYS1** -- MYS1 | Base: Own base | G11-Rav (pre-mixed glaze slurry, 10g of the blend) 141.0769g, G88v2-Rav (pre-mixed glaze slurry, 32.53g of the blend) 458.9231g
+- **BLD1** -- Dark Blue with White Break | Base: Own base | G11-Rav (pre-mixed glaze slurry, 10g of the blend) 141.0769g, G88v2-Rav (pre-mixed glaze slurry, 32.53g of the blend) 458.9231g
 - **G111-Rav** -- Blue Medium (RAVSUB) | Base: RAVSUB | Cobalt Oxide 1.2g
 - **G128-Rav** -- G128 - Mason 6236 3% | Base: RAVSUB | Mason 6236 18g
 
