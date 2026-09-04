@@ -1,9 +1,9 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 9/2/2026, 10:07:49 PM
+Last updated: 9/4/2026, 1:19:01 PM
 
 ## Glaze Library
 
-### Active (24)
+### Active (25)
 - **G40v2** -- Tenmoku - OX | Base: G2926B | Spanish Red Iron Oxide 39.4g, Light Rutile 3.03g | Target SG: 1.32
 - **G49** -- Floating Blue - OX | Base: G49-base (own base, not G2926B/G1214M/G3806C) | Nepheline Syenite 180g, Ferro Frit 3134 216g, Silica 84g, EPK Kaolin 120g, Spanish Red Iron Oxide 12g, Cobalt Oxide 7.2g, Light Rutile 24g
 - **G79** -- Crystallized Blue | Base: G3806C+15Sil | Cobalt Oxide 3g, Copper Carbonate 10.5g, Light Rutile 24g
@@ -28,6 +28,7 @@ Last updated: 9/2/2026, 10:07:49 PM
 - **BLD1** -- Dark Blue with White Break | Base: Own base | G11-Rav (pre-mixed glaze slurry, 10g of the blend) 141.0769g, G88v2-Rav (pre-mixed glaze slurry, 32.53g of the blend) 458.9231g
 - **G111-Rav** -- Blue Medium (RAVSUB) | Base: RAVSUB | Cobalt Oxide 1.2g
 - **G128-Rav** -- G128 - Mason 6236 3% | Base: RAVSUB | Mason 6236 18g
+- **G143-Rav** -- Dark Corn | Base: RAVSUB | Vanadium Yellow 29.04g, Spanish Red Iron Oxide 18.24g
 
 ### Test (21)
 - **G11** -- Dark Green | Base: G2926B | Chrome Oxide 3g | Target SG: 1.29
