@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 10/15/2026, 11:33:02 AM
+Last updated: 10/15/2026, 11:33:40 AM
 
 ## Glaze Library
 
@@ -325,10 +325,12 @@ EPK swapped to Tile 6, 2026-07-11 (EPK discontinued, no longer available). 1:1 b
 - Ingredients: Silica 35.82%, Kaolin (Tile 6) 17.13%, Dolomite 7.57%, Strontium Carbonate 3.83%, Ferro Frit 3110 27.04%, Ferro Frit 3134 5.74%, Zinc Oxide 2.87%
 - Notes: Standard G3806C recipe + 15% additional dry silica by weight, then renormalized to 100%. Targets a SiO2:flux ratio closer to G49-base. Built for the G79-G88 crystal-growth series. Dry-mix only -- no separate wet-stock jar, mixed fresh from raw powder each batch.
 
-### RAVSUB -- Ravenscrag Slip Sub
+### RAVSUB -- Ravenscrag Slip Sub -- EPK version (do not mix)
 - Target SG: 1.35 | Dry lb/gal: 5.737
 - Ingredients: G-200 EU Feldspar 23.02%, Ferro Frit 3134 20%, Silica 19.25%, EPK Kaolin 17.18%, Wollastonite W-20 13.81%, Dolomite 6.49%, Barium Carbonate 0.26%
 - Notes: Solved via non-negative least squares against Ravenscrag Slip's real oxide analysis -- major oxides (SiO2/Al2O3/CaO/K2O/MgO) match closely; Fe2O3/TiO2 run low since this uses clean studio materials instead of a natural iron-bearing clay. | Actively being expanded as the preferred base for new colorant testing (2026-08-21) -- chosen specifically for its barium-driven brightness and gloss quality, which Peter prefers over G2926B/FAKECELADON's character. Also being used to retest known problem glazes (crawling on T6/T11, pinholing on copper/manganese-family colorants) to see if RAVSUB's different flux chemistry resolves them.
+
+EPK VERSION -- no longer mixed as of 2026-10-15 (EPK discontinued). Use RAVSUB-NE (NON-EPK, Grolleg) for all new batches. Kept for the record: every -Rav glaze and RAVSUB walk-test square was fired on this EPK version.
 
 ### FAKECELADON -- Fake Celadon Base
 - Target SG: 1.35 | Dry lb/gal: 5.737
@@ -336,6 +338,11 @@ EPK swapped to Tile 6, 2026-07-11 (EPK discontinued, no longer available). 1:1 b
 - Notes: fFactor 0.404 borrowed from G2926B as a working estimate, not yet independently measured -- reasonable starting point since only the kaolin changed (Tile 6 -> Grolleg, same 17.8% share), everything else in the recipe identical. Grolleg has somewhat lower plasticity than Tile 6 per Digitalfire, so the real f-factor could differ modestly -- log a real batch and measure directly once mixed, per this studio's standing rule.
 
 [2026-08-22] f-factor corrected from 0.404 (borrowed G2926B estimate) to 0.5053 (real value from actual dry/water mix amounts).
+
+### RAVSUB-NE -- Ravenscrag Slip Sub -- NON-EPK (Grolleg)
+- Target SG: 1.35 | Dry lb/gal: 5.737
+- Ingredients: G-200 EU Feldspar 23.02%, Ferro Frit 3134 20%, Silica 19.25%, Grolleg Kaolin 17.18%, Wollastonite W-20 13.81%, Dolomite 6.49%, Barium Carbonate 0.26%
+- Notes: NON-EPK BASE, created 2026-10-15. Grolleg Kaolin swapped 1:1 for EPK Kaolin; every other material and percentage unchanged from RAVSUB. UMF check before switching: every oxide within 2% of the EPK version except K2O +9.8% (Grolleg carries ~1.9% K2O; total KNaO only +3%), Fe2O3 -11%, TiO2 -88%. Si:Al 9.45 vs 9.33. Expected melt/gloss essentially unchanged; slightly lower titanium may help iron color. Not fired-tested before adoption (no EPK left to keep the old version). Grolleg is less plastic than EPK -- watch for settling/hard-packing. f-factor 0.5226 is CARRIED OVER from the EPK batch as a starting value -- log the first real batch to replace it. Glazes on this base use the -RavNE suffix. All -Rav glazes and RAVSUB walk-test squares were fired on the EPK version (RAVSUB).
 
 ## Base Slurry Batch Records
 
@@ -409,6 +416,9 @@ No batches recorded yet.
 
 
 ### FAKECELADON (0 batches)
+No batches recorded yet.
+
+### RAVSUB-NE (0 batches)
 No batches recorded yet.
 
 ## Recent Firing Records
