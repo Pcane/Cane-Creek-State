@@ -1,21 +1,23 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 9/22/2026, 9:01:13 AM
+Last updated: 10/15/2026, 10:39:58 AM
 
 ## Glaze Library
 
-### Active (7)
+### Active (9)
 - **T1S1** -- G-T1S1-Light Blue | Base: RAVSUB | Cobalt Oxide 0.6g
 - **T1S5** -- G-T1S5-Dark Blue | Base: RAVSUB | Cobalt Oxide 3.264g
 - **T1S11** -- G-T1S11-Medium Yellow | Base: RAVSUB | Vanadium Yellow 19.31g
+- **T1S20** -- G-T1S20-Chrome Oxide 0.24% | Base: RAVSUB | Chrome Oxide 1.457g
 - **T1S32** -- G-T1S32-Mottled Dark Brown | Base: RAVSUB | Manganese Dioxide 18g
 - **T2S9** -- G-T2S9-Medium Lime | Base: RAVSUB | Copper Carbonate 6.75g
 - **T2S11** -- G-T2S11-Dark Green | Base: RAVSUB | Copper Carbonate 14.25g
+- **T2S19** -- G-T2S19-Light Rutile 3.5% | Base: G2926B | Light Rutile 21g
 - **T2S24** -- G-T2S24-Light Speckled Brown | Base: G2926B | Iron Oxide 9.428g
 
 ### Test (0)
 None
 
-### Inactive (263)
+### Inactive (261)
 - **G1** -- G1 — Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 12.1g
 - **G2** -- G2 — Mid-Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 19.4g
 - **G3** -- G3 — Transparent UNC Blue — MS | Base: G2926B | Mason 6374 7.273g
@@ -231,7 +233,6 @@ None
 - **T1S17** -- G-T1S17-Chrome Oxide 0.05% | Base: RAVSUB | Chrome Oxide 0.3g
 - **T1S18** -- G-T1S18-Chrome Oxide 0.11% | Base: RAVSUB | Chrome Oxide 0.686g
 - **T1S19** -- G-T1S19-Chrome Oxide 0.18% | Base: RAVSUB | Chrome Oxide 1.072g
-- **T1S20** -- G-T1S20-Chrome Oxide 0.24% | Base: RAVSUB | Chrome Oxide 1.457g
 - **T1S21** -- G-T1S21-Chrome Oxide 0.31% | Base: RAVSUB | Chrome Oxide 1.843g
 - **T1S22** -- G-T1S22-Chrome Oxide 0.37% | Base: RAVSUB | Chrome Oxide 2.228g
 - **T1S23** -- G-T1S23-Chrome Oxide 0.44% | Base: RAVSUB | Chrome Oxide 2.614g
@@ -263,7 +264,6 @@ None
 - **T2S16** -- G-T2S16-Light Rutile 2.0% | Base: G2926B | Light Rutile 12g
 - **T2S17** -- G-T2S17-Light Rutile 2.5% | Base: G2926B | Light Rutile 15g
 - **T2S18** -- G-T2S18-Light Rutile 3.0% | Base: G2926B | Light Rutile 18g
-- **T2S19** -- G-T2S19-Light Rutile 3.5% | Base: G2926B | Light Rutile 21g
 - **T2S20** -- G-T2S20-Light Rutile 4.0% | Base: G2926B | Light Rutile 24g
 - **T2S21** -- G-T2S21-Iron Oxide 0.5% | Base: G2926B | Iron Oxide 3g
 - **T2S23** -- G-T2S23-Iron Oxide 1.21% | Base: G2926B | Iron Oxide 7.286g
