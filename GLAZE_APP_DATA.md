@@ -1,23 +1,19 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 10/20/2026, 9:56:51 AM
+Last updated: 10/20/2026, 10:33:39 AM
 
 ## Glaze Library
 
-### Active (9)
-- **T1S1** -- G-T1S1-Light Blue | Base: RAVSUB | Cobalt Oxide 0.6g
-- **T1S5** -- G-T1S5-Dark Blue | Base: RAVSUB | Cobalt Oxide 3.264g
-- **T1S11** -- G-T1S11-Medium Yellow | Base: RAVSUB | Vanadium Yellow 19.31g
-- **T1S20** -- G-T1S20-Chrome Oxide 0.24% | Base: RAVSUB | Chrome Oxide 1.457g
-- **T1S32** -- G-T1S32-Mottled Dark Brown | Base: RAVSUB | Manganese Dioxide 18g
-- **T2S9** -- G-T2S9-Medium Lime | Base: RAVSUB | Copper Carbonate 6.75g
-- **T2S11** -- G-T2S11-Dark Green | Base: RAVSUB | Copper Carbonate 14.25g
-- **T2S19** -- G-T2S19-Light Rutile 3.5% | Base: G2926B | Light Rutile 21g
+### Active (5)
+- **T2S20** -- G-T2S20-Light Rutile 4.0% | Base: G2926B | Light Rutile 24g
 - **T2S24** -- G-T2S24-Light Speckled Brown | Base: G2926B | Iron Oxide 9.428g
+- **T1S24-RavNEPK** -- G-T1S24-RavNEPK-Green | Base: RAVSUB-NEPK | Chrome Oxide 3g
+- **T1S32-RavNEPK** -- G-T1S32-RavNEPK-Mid Brown | Base: RAVSUB-NEPK | Manganese Dioxide 18g
+- **T2S7-RavNEPK** -- G-T2S7-RavNEPK-Mid Green | Base: RAVSUB-NEPK | Nickel Oxide 26g
 
 ### Test (0)
 None
 
-### Inactive (261)
+### Inactive (269)
 - **G1** -- G1 — Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 12.1g
 - **G2** -- G2 — Mid-Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 19.4g
 - **G3** -- G3 — Transparent UNC Blue — MS | Base: G2926B | Mason 6374 7.273g
@@ -216,15 +212,19 @@ None
 - **B-37-Alt** -- Amber Pale (altered ratio) | Base: Own base | Alberta Slip 393.44262295081967g, Ferro Frit 3195 196.72131147540983g, Iron Oxide 9.836065573770492g
 - **BLD1** -- Dark Blue with White Break | Base: Own base | G11-Rav (pre-mixed glaze slurry, 10g of the blend) 141.0769g, G88v2-Rav (pre-mixed glaze slurry, 32.53g of the blend) 458.9231g
 - **G111-Rav** -- Blue Medium (RAVSUB) | Base: RAVSUB | Cobalt Oxide 1.2g
+- **G128-Rav** -- G128 - Mason 6236 3% | Base: RAVSUB | Mason 6236 18g
 - **G143-Rav** -- Dark Corn | Base: RAVSUB | Vanadium Yellow 29.04g, Spanish Red Iron Oxide 18.24g
+- **T1S1** -- G-T1S1-Light Blue | Base: RAVSUB | Cobalt Oxide 0.6g
 - **T1S2** -- G-T1S2-Cobalt Oxide 0.21% | Base: RAVSUB | Cobalt Oxide 1.266g
 - **T1S3** -- G-T1S3-Cobalt Oxide 0.32% | Base: RAVSUB | Cobalt Oxide 1.932g
 - **T1S4** -- G-T1S4-Cobalt Oxide 0.43% | Base: RAVSUB | Cobalt Oxide 2.598g
+- **T1S5** -- G-T1S5-Dark Blue | Base: RAVSUB | Cobalt Oxide 3.264g
 - **T1S6** -- G-T1S6-Cobalt Oxide 0.66% | Base: RAVSUB | Cobalt Oxide 3.93g
 - **T1S7** -- G-T1S7-Cobalt Oxide 0.77% | Base: RAVSUB | Cobalt Oxide 4.596g
 - **T1S8** -- G-T1S8-Cobalt Oxide 0.88% | Base: RAVSUB | Cobalt Oxide 5.262g
 - **T1S9** -- G-T1S9-Cobalt Oxide 0.99% | Base: RAVSUB | Cobalt Oxide 5.928g
 - **T1S10** -- G-T1S10-Vanadium Yellow 2.66% | Base: RAVSUB | Vanadium Yellow 15.972g
+- **T1S11** -- G-T1S11-Medium Yellow | Base: RAVSUB | Vanadium Yellow 19.31g
 - **T1S12** -- G-T1S12-Vanadium Yellow 3.77% | Base: RAVSUB | Vanadium Yellow 22.648g
 - **T1S13** -- G-T1S13-Vanadium Yellow 4.33% | Base: RAVSUB | Vanadium Yellow 25.986g
 - **T1S14** -- G-T1S14-Vanadium Yellow 4.89% | Base: RAVSUB | Vanadium Yellow 29.324g
@@ -233,6 +233,7 @@ None
 - **T1S17** -- G-T1S17-Chrome Oxide 0.05% | Base: RAVSUB | Chrome Oxide 0.3g
 - **T1S18** -- G-T1S18-Chrome Oxide 0.11% | Base: RAVSUB | Chrome Oxide 0.686g
 - **T1S19** -- G-T1S19-Chrome Oxide 0.18% | Base: RAVSUB | Chrome Oxide 1.072g
+- **T1S20** -- G-T1S20-Chrome Oxide 0.24% | Base: RAVSUB | Chrome Oxide 1.457g
 - **T1S21** -- G-T1S21-Chrome Oxide 0.31% | Base: RAVSUB | Chrome Oxide 1.843g
 - **T1S22** -- G-T1S22-Chrome Oxide 0.37% | Base: RAVSUB | Chrome Oxide 2.228g
 - **T1S23** -- G-T1S23-Chrome Oxide 0.44% | Base: RAVSUB | Chrome Oxide 2.614g
@@ -244,6 +245,7 @@ None
 - **T1S29** -- G-T1S29-Cobalt Carbonate 1.5% | Base: RAVSUB | Cobalt Carbonate 9g
 - **T1S30** -- G-T1S30-Cobalt Carbonate 1.75% | Base: RAVSUB | Cobalt Carbonate 10.5g
 - **T1S31** -- G-T1S31-Cobalt Carbonate 2.0% | Base: RAVSUB | Cobalt Carbonate 12g
+- **T1S32** -- G-T1S32-Mottled Dark Brown | Base: RAVSUB | Manganese Dioxide 18g
 - **T1S33** -- G-T1S33-Manganese Dioxide 3.5% | Base: RAVSUB | Manganese Dioxide 21g
 - **T1S34** -- G-T1S34-Manganese Dioxide 4.0% | Base: RAVSUB | Manganese Dioxide 24g
 - **T1S35** -- G-T1S35-Manganese Dioxide 4.5% | Base: RAVSUB | Manganese Dioxide 27g
@@ -256,7 +258,9 @@ None
 - **T2S6** -- G-T2S6-Nickel Oxide 3.5% | Base: RAVSUB | Nickel Oxide 21g
 - **T2S7** -- G-T2S7-Nickel Oxide 4.33% | Base: RAVSUB | Nickel Oxide 26g
 - **T2S8** -- G-T2S8-Copper Carbonate 0.5% | Base: RAVSUB | Copper Carbonate 3g
+- **T2S9** -- G-T2S9-Medium Lime | Base: RAVSUB | Copper Carbonate 6.75g
 - **T2S10** -- G-T2S10-Copper Carbonate 1.75% | Base: RAVSUB | Copper Carbonate 10.5g
+- **T2S11** -- G-T2S11-Dark Green | Base: RAVSUB | Copper Carbonate 14.25g
 - **T2S12** -- G-T2S12-Copper Carbonate 3.0% | Base: RAVSUB | Copper Carbonate 18g
 - **T2S13** -- G-T2S13-Light Rutile 0.5% | Base: G2926B | Light Rutile 3g
 - **T2S14** -- G-T2S14-Light Rutile 1.0% | Base: G2926B | Light Rutile 6g
@@ -264,7 +268,7 @@ None
 - **T2S16** -- G-T2S16-Light Rutile 2.0% | Base: G2926B | Light Rutile 12g
 - **T2S17** -- G-T2S17-Light Rutile 2.5% | Base: G2926B | Light Rutile 15g
 - **T2S18** -- G-T2S18-Light Rutile 3.0% | Base: G2926B | Light Rutile 18g
-- **T2S20** -- G-T2S20-Light Rutile 4.0% | Base: G2926B | Light Rutile 24g
+- **T2S19** -- G-T2S19-Light Rutile 3.5% | Base: G2926B | Light Rutile 21g
 - **T2S21** -- G-T2S21-Iron Oxide 0.5% | Base: G2926B | Iron Oxide 3g
 - **T2S23** -- G-T2S23-Iron Oxide 1.21% | Base: G2926B | Iron Oxide 7.286g
 - **T2S25** -- G-T2S25-Iron Oxide 1.93% | Base: G2926B | Iron Oxide 11.572g
