@@ -1,14 +1,15 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 10/20/2026, 10:33:39 AM
+Last updated: 10/22/2026, 1:35:23 PM
 
 ## Glaze Library
 
-### Active (5)
+### Active (6)
 - **T2S20** -- G-T2S20-Light Rutile 4.0% | Base: G2926B | Light Rutile 24g
 - **T2S24** -- G-T2S24-Light Speckled Brown | Base: G2926B | Iron Oxide 9.428g
 - **T1S24-RavNEPK** -- G-T1S24-RavNEPK-Green | Base: RAVSUB-NEPK | Chrome Oxide 3g
 - **T1S32-RavNEPK** -- G-T1S32-RavNEPK-Mid Brown | Base: RAVSUB-NEPK | Manganese Dioxide 18g
 - **T2S7-RavNEPK** -- G-T2S7-RavNEPK-Mid Green | Base: RAVSUB-NEPK | Nickel Oxide 26g
+- **G144** -- G144 - Violet | Base: G2926B | Mason 6304 Violet 36g
 
 ### Test (0)
 None
