@@ -1,20 +1,19 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 10/22/2026, 1:35:23 PM
+Last updated: 10/26/2026, 11:24:25 AM
 
 ## Glaze Library
 
-### Active (6)
-- **T2S20** -- G-T2S20-Light Rutile 4.0% | Base: G2926B | Light Rutile 24g
-- **T2S24** -- G-T2S24-Light Speckled Brown | Base: G2926B | Iron Oxide 9.428g
-- **T1S24-RavNEPK** -- G-T1S24-RavNEPK-Green | Base: RAVSUB-NEPK | Chrome Oxide 3g
-- **T1S32-RavNEPK** -- G-T1S32-RavNEPK-Mid Brown | Base: RAVSUB-NEPK | Manganese Dioxide 18g
-- **T2S7-RavNEPK** -- G-T2S7-RavNEPK-Mid Green | Base: RAVSUB-NEPK | Nickel Oxide 26g
-- **G144** -- G144 - Violet | Base: G2926B | Mason 6304 Violet 36g
+### Active (5)
+- **T1S24v2-RavNEPK** -- G-T1S24v2-RavNEPK-Dark Green | Base: RAVSUB-NEPK | Chrome Oxide 4.8g
+- **T1S12-RavNEPK** -- G-T1S12-RavNEPK-Transparent Yellow | Base: RAVSUB-NEPK | Vanadium Yellow 24g
+- **T2S7v2-RavNEPK** -- G-T2S7v2-RavNEPK-Light Green | Base: RAVSUB-NEPK | Nickel Oxide 36g
+- **T1S36-RavNEPK** -- G-T1S36-RavNEPK-Dark Brown | Base: RAVSUB-NEPK | Manganese Dioxide 30g
+- **G124v3-RavNEPK** -- Dark Red | Base: RAVSUB-NEPK | Mason 6003 48g
 
 ### Test (0)
 None
 
-### Inactive (269)
+### Inactive (275)
 - **G1** -- G1 — Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 12.1g
 - **G2** -- G2 — Mid-Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 19.4g
 - **G3** -- G3 — Transparent UNC Blue — MS | Base: G2926B | Mason 6374 7.273g
@@ -270,8 +269,10 @@ None
 - **T2S17** -- G-T2S17-Light Rutile 2.5% | Base: G2926B | Light Rutile 15g
 - **T2S18** -- G-T2S18-Light Rutile 3.0% | Base: G2926B | Light Rutile 18g
 - **T2S19** -- G-T2S19-Light Rutile 3.5% | Base: G2926B | Light Rutile 21g
+- **T2S20** -- G-T2S20-Light Rutile 4.0% | Base: G2926B | Light Rutile 24g
 - **T2S21** -- G-T2S21-Iron Oxide 0.5% | Base: G2926B | Iron Oxide 3g
 - **T2S23** -- G-T2S23-Iron Oxide 1.21% | Base: G2926B | Iron Oxide 7.286g
+- **T2S24** -- G-T2S24-Light Speckled Brown | Base: G2926B | Iron Oxide 9.428g
 - **T2S25** -- G-T2S25-Iron Oxide 1.93% | Base: G2926B | Iron Oxide 11.572g
 - **T2S26** -- G-T2S26-Iron Oxide 2.29% | Base: G2926B | Iron Oxide 13.714g
 - **T2S27** -- G-T2S27-Iron Oxide 2.64% | Base: G2926B | Iron Oxide 15.857g
@@ -284,6 +285,10 @@ None
 - **T2S34** -- G-T2S34-Copper Carbonate 3.64% | Base: G3806C | Copper Carbonate 21.84g
 - **T2S35** -- G-T2S35-Copper Carbonate 4.27% | Base: G3806C | Copper Carbonate 25.62g
 - **T2S36** -- G-T2S36-Copper Carbonate 4.89% | Base: G3806C | Copper Carbonate 29.34g
+- **T1S24-RavNEPK** -- G-T1S24-RavNEPK-Green | Base: RAVSUB-NEPK | Chrome Oxide 3g
+- **T1S32-RavNEPK** -- G-T1S32-RavNEPK-Mid Brown | Base: RAVSUB-NEPK | Manganese Dioxide 18g
+- **T2S7-RavNEPK** -- G-T2S7-RavNEPK-Mid Green | Base: RAVSUB-NEPK | Nickel Oxide 26g
+- **G144** -- G144 - Violet | Base: G2926B | Mason 6304 Violet 36g
 
 ## Custom Bases
 ### G3806C -- Fluid Glossy Base Glaze
