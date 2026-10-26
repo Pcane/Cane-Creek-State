@@ -1,19 +1,28 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 10/26/2026, 11:24:25 AM
+Last updated: 10/26/2026, 2:45:16 PM
 
 ## Glaze Library
 
-### Active (5)
+### Active (10)
+- **G21** -- Trans Earthy Brown — OX | Base: G2926B | Spanish Red Iron Oxide 12.12g, Light Rutile 2.424g | Target SG: 1.45
+- **G40v2** -- Tenmoku - OX | Base: G2926B | Spanish Red Iron Oxide 39.4g, Light Rutile 3.03g | Target SG: 1.32
+- **T6** -- Green - Nickel Oxide - T | Base: G2926B | Nickel Oxide 15g
+- **G58** -- Grey | Base: G2926B | Rutile 18g, Cobalt Carbonate 1.8g
+- **G79** -- Crystallized Blue | Base: G3806C+15Sil | Cobalt Oxide 3g, Copper Carbonate 10.5g, Light Rutile 24g
 - **T1S24v2-RavNEPK** -- G-T1S24v2-RavNEPK-Dark Green | Base: RAVSUB-NEPK | Chrome Oxide 4.8g
 - **T1S12-RavNEPK** -- G-T1S12-RavNEPK-Transparent Yellow | Base: RAVSUB-NEPK | Vanadium Yellow 24g
 - **T2S7v2-RavNEPK** -- G-T2S7v2-RavNEPK-Light Green | Base: RAVSUB-NEPK | Nickel Oxide 36g
 - **T1S36-RavNEPK** -- G-T1S36-RavNEPK-Dark Brown | Base: RAVSUB-NEPK | Manganese Dioxide 30g
 - **G124v3-RavNEPK** -- Dark Red | Base: RAVSUB-NEPK | Mason 6003 48g
 
-### Test (0)
-None
+### Test (5)
+- **G30v2-RavNEPK** -- Dark Blue | Base: RAVSUB-NEPK | Cobalt Oxide 2.4240000000000004g, Light Rutile 12.120000000000001g
+- **G29v3-RavNEPK** -- Corn Yellow | Base: RAVSUB-NEPK | Vanadium Yellow 14.52g, Spanish Red Iron Oxide 9.120000000000001g
+- **G111-RavNEPK** -- Very Light Blue | Base: RAVSUB-NEPK | Cobalt Oxide 1.2g
+- **G107-RavNEPK** -- Lime Green | Base: RAVSUB-NEPK | Copper Carbonate 6g
+- **G113-RavNEPK** -- Trans Light Green | Base: RAVSUB-NEPK | Chrome Oxide 1.2000000000000002g
 
-### Inactive (275)
+### Inactive (270)
 - **G1** -- G1 — Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 12.1g
 - **G2** -- G2 — Mid-Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 19.4g
 - **G3** -- G3 — Transparent UNC Blue — MS | Base: G2926B | Mason 6374 7.273g
@@ -32,7 +41,6 @@ None
 - **G18** -- G18 — Dark Tan — OX | Base: G2926B | Spanish Red Iron Oxide 6.787g
 - **G19** -- G19 — Light Brown — MS | Base: G2926B | Mason 6103 16.968g
 - **G20** -- G20 — Light-Dark Brown (olive/golden) — MS | Base: G2926B | Mason 6108 8.484g
-- **G21** -- Trans Earthy Brown — OX | Base: G2926B | Spanish Red Iron Oxide 12.12g, Light Rutile 2.424g | Target SG: 1.45
 - **G22** -- G22 — Grey — MS | Base: G2926B | Mason 6600 1.309g
 - **G23** -- G23 — Black — MS | Base: G2926B | Mason 6600 12.12g
 - **G24** -- G24 — Clear Gloss — OX | Base: G2926B | no colorant | Target SG: 1.32
@@ -56,7 +64,6 @@ None
 - **G41** -- G41 — Deep Teal — OX | Base: G2926B | Cobalt Carbonate 1.212g, Copper Carbonate 2.424g | Target SG: 1.32
 - **G42** -- G42 — Warm Amber — OX | Base: G2926B | Manganese Dioxide 4.848g, Spanish Red Iron Oxide 2.424g | Target SG: 1.32
 - **G43** -- G43 — Celadon Grey-Green — OX | Base: G2926B | Spanish Red Iron Oxide 0.727g, Titanium Dioxide 4.848g | Target SG: 1.32
-- **G40v2** -- Tenmoku - OX | Base: G2926B | Spanish Red Iron Oxide 39.4g, Light Rutile 3.03g | Target SG: 1.32
 - **G44** -- Sand - OX | Base: G2926B | Light Rutile 12.12g, Spanish Red Iron Oxide 6.06g | Target SG: 1.32
 - **G45** -- Olive Brown - OX | Base: G2926B | Spanish Red Iron Oxide 18.18g, Chrome Oxide 1.818g | Target SG: 1.32
 - **G46** -- Copper Blue-Green - OX | Base: G2926B | Copper Carbonate 3.636g, Spanish Red Iron Oxide 3.03g | Target SG: 1.35
@@ -85,14 +92,12 @@ None
 - **T2** -- Mason 6103 Golden Brown | Base: G2926B | Mason 6103 8.48g | Target SG: 1.35
 - **T3** -- Rutile orange | Base: G2926B | Light Rutile 26.2g | Target SG: 1.3
 - **T5** -- Blue-Green Cobalt-Chrome - T | Base: G2926B | Cobalt Oxide 7.8g, Chrome Oxide 4.8g
-- **T6** -- Green - Nickel Oxide - T | Base: G2926B | Nickel Oxide 15g
 - **T7** -- Mustard-Amber - Manganese Dioxide - T | Base: G2926B | Manganese Dioxide 12g
 - **T8** -- Red - Mason 6021 - T | Base: G2926B | Mason 6021 66g
 - **G54** -- Shino Base (control) - T | Base: Own base | Tile 6 270g, Nepheline Syenite 180g, Spodumene 90g, Soda Ash 60g
 - **G55** -- Amber Shino - OX | Base: Own base | Tile 6 270g, Nepheline Syenite 180g, Spodumene 90g, Soda Ash 60g, Red Iron Oxide 12g
 - **G56** -- Light Green Shino - Chrome Route - MX | Base: Own base | Tile 6 270g, Nepheline Syenite 180g, Spodumene 90g, Soda Ash 60g, Chrome Oxide 0.9g, Red Iron Oxide 6g
 - **G57** -- Light Green Shino - Copper Route - MX | Base: Own base | Tile 6 270g, Nepheline Syenite 180g, Spodumene 90g, Soda Ash 60g, Copper Carbonate 1.8g, Red Iron Oxide 6g
-- **G58** -- Grey | Base: G2926B | Rutile 18g, Cobalt Carbonate 1.8g
 - **G59** -- Light Lime | Base: G2926B | Rutile 18g, Cobalt Carbonate 0.9g, Copper Carbonate 1.8g
 - **G60** -- Parakeet Yellow Attempt - MS | Base: G2926B | Zircopax 48g, Mason Praseodymium Yellow Stain 36g
 - **G62** -- Red Gold Attempt - MX | Base: G2926B | Rutile 24g, Red Iron Oxide 18g
@@ -122,7 +127,6 @@ None
 - **G25v6** -- Chrome-Tin Pink Test | Base: G1214M | Chrome Oxide 0.48g, Tin Oxide 61.5g
 - **G73** -- Mason 6088 Dark Red Stain Test | Base: G2926B | Mason 6088 27g
 - **G74** -- Mason 6238 Stain Test | Base: G2926B | Mason 6238 48g
-- **G79** -- Crystallized Blue | Base: G3806C+15Sil | Cobalt Oxide 3g, Copper Carbonate 10.5g, Light Rutile 24g
 - **G80** -- Autumn Gold - Oatmeal - MX | Base: G3806C+15Sil | RIO 12g, Rutile 21g, Titanium Dioxide 12g
 - **G81** -- Classic Rutile Blue - MX | Base: G3806C+15Sil | Rutile 27g
 - **G82** -- Tomato Red - MX | Base: G3806C+15Sil | RIO 42g, Titanium Dioxide 12g
@@ -350,9 +354,9 @@ EPK VERSION -- no longer mixed as of 2026-10-15 (EPK discontinued). Use RAVSUB-N
 [2026-08-22] f-factor corrected from 0.404 (borrowed G2926B estimate) to 0.5053 (real value from actual dry/water mix amounts).
 
 ### RAVSUB-NEPK -- Ravenscrag Slip Sub -- NON-EPK (Grolleg)
-- Target SG: 1.35 | Dry lb/gal: 5.737
+- Target SG: 1.35 | Dry lb/gal: 4.868
 - Ingredients: G-200 EU Feldspar 23.02%, Ferro Frit 3134 20%, Silica 19.25%, Grolleg Kaolin 17.18%, Wollastonite W-20 13.81%, Dolomite 6.49%, Barium Carbonate 0.26%
-- Notes: NON-EPK BASE, created 2026-10-15. Grolleg Kaolin swapped 1:1 for EPK Kaolin; every other material and percentage unchanged from RAVSUB. UMF check before switching: every oxide within 2% of the EPK version except K2O +9.8% (Grolleg carries ~1.9% K2O; total KNaO only +3%), Fe2O3 -11%, TiO2 -88%. Si:Al 9.45 vs 9.33. Expected melt/gloss essentially unchanged; slightly lower titanium may help iron color. Not fired-tested before adoption (no EPK left to keep the old version). Grolleg is less plastic than EPK -- watch for settling/hard-packing. f-factor 0.5226 is CARRIED OVER from the EPK batch as a starting value -- log the first real batch to replace it. Glazes on this base use the -RavNEPK suffix. All -Rav glazes and RAVSUB walk-test squares were fired on the EPK version (RAVSUB).
+- Notes: NON-EPK BASE, created 2026-10-15. Grolleg Kaolin swapped 1:1 for EPK Kaolin; every other material and percentage unchanged from RAVSUB. UMF check before switching: every oxide within 2% of the EPK version except K2O +9.8% (Grolleg carries ~1.9% K2O; total KNaO only +3%), Fe2O3 -11%, TiO2 -88%. Si:Al 9.45 vs 9.33. Expected melt/gloss essentially unchanged; slightly lower titanium may help iron color. Not fired-tested before adoption (no EPK left to keep the old version). Grolleg is less plastic than EPK -- watch for settling/hard-packing. Glazes on this base use the -RavNEPK suffix. All -Rav glazes and RAVSUB walk-test squares were fired on the EPK version (RAVSUB). [2026-10-26] Real f-factor measured: 0.40 (was 0.5226 carried over from EPK). Per gallon at SG 1.35: 4.87 lb dry (2208g) + ~2902g water. Grolleg version needs far more water than the EPK version did.
 
 ## Base Slurry Batch Records
 
@@ -428,8 +432,13 @@ No batches recorded yet.
 ### FAKECELADON (0 batches)
 No batches recorded yet.
 
-### RAVSUB-NEPK (0 batches)
-No batches recorded yet.
+### RAVSUB-NEPK (1 batch)
+### RAVSUB-NEPK-001 -- RAVSUB-NEPK
+- Date: Oct 26, 2026
+- Dry: 5205g | Water: 4750g | SG: 1.46
+- Calculated f factor: 0.4
+- Notes: First real RAVSUB-NEPK (non-EPK, Grolleg) batch, mixed 2026-10-26, no CMC/Veegum. 5205g dry. Hydrometer readings at confirmed water amounts: 4000g water -> SG 1.525 (f 0.391); 4750g water -> SG 1.46 (f 0.397). f-factor set to 0.40. Replaces the 0.5226 carried over from the EPK version -- Grolleg holds much more water than EPK did. Batch was still being thinned toward 1.35 when logged.
+
 
 ## Recent Firing Records
 
