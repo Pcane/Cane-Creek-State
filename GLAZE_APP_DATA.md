@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 10/30/2026, 3:14:02 PM
+Last updated: 11/3/2026, 11:29:36 AM
 
 ## Glaze Library
 
@@ -15,12 +15,16 @@ Last updated: 10/30/2026, 3:14:02 PM
 - **T1S36-RavNEPK** -- G-T1S36-RavNEPK-Dark Brown | Base: RAVSUB-NEPK | Manganese Dioxide 30g
 - **G124v3-RavNEPK** -- Dark Red | Base: RAVSUB-NEPK | Mason 6003 48g
 
-### Test (5)
+### Test (9)
 - **G30v2-RavNEPK** -- Dark Blue | Base: RAVSUB-NEPK | Cobalt Oxide 2.4240000000000004g, Light Rutile 12.120000000000001g
 - **G29v3-RavNEPK** -- Corn Yellow | Base: RAVSUB-NEPK | Vanadium Yellow 14.52g, Spanish Red Iron Oxide 9.120000000000001g
 - **G111-RavNEPK** -- Very Light Blue | Base: RAVSUB-NEPK | Cobalt Oxide 1.2g
 - **G107-RavNEPK** -- Lime Green | Base: RAVSUB-NEPK | Copper Carbonate 6g
 - **G113-RavNEPK** -- Trans Light Green | Base: RAVSUB-NEPK | Chrome Oxide 1.2000000000000002g
+- **T2S11-RavNEPK** -- G-T2S11-RavNEPK-Dark Green | Base: RAVSUB-NEPK | Copper Carbonate 14.25g
+- **T2S9-RavNEPK** -- G-T2S9-RavNEPK-Medium Lime | Base: RAVSUB-NEPK | Copper Carbonate 6.75g
+- **T1S5-RavNEPK** -- G-T1S5-RavNEPK-Dark Blue | Base: RAVSUB-NEPK | Cobalt Oxide 3.264g
+- **T1S1-RavNEPK** -- G-T1S1-RavNEPK-Light Blue | Base: RAVSUB-NEPK | Cobalt Oxide 0.6g
 
 ### Inactive (270)
 - **G1** -- G1 — Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 12.1g
