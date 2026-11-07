@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 11/7/2026, 4:37:07 PM
+Last updated: 11/7/2026, 4:42:00 PM
 
 ## Glaze Library
 
@@ -637,6 +637,6 @@ No batches recorded yet.
 
 ## Studio Constants
 - Bases: G2926B (standard gloss, SG 1.35) and G1214M (chrome-tin only, UNTESTED)
-- Firing: Cone 6 oxidation, User 3 (drop-and-soak, 2185F peak, 30 min soak)
+- Firing: Cone 6 oxidation, User 3 (peak 2232F, 15 min hold, drop to 2100F, 30 min hold)
 - Benchmark: G21 Dark Brown (RIO 5% + Light Rutile 1% in G2926B)
 - Confirmed clean: G11, G16, G21, G24
