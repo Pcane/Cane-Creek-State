@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 11/7/2026, 4:42:00 PM
+Last updated: 11/7/2026, 4:42:08 PM
 
 ## Glaze Library
 
@@ -446,6 +446,12 @@ No batches recorded yet.
 
 ## Recent Firing Records
 
+### G113-RavNEPK - Nov26 - A
+- Recipe: Chrome Oxide: 1.2000000000000002g per 600g
+- Base: RAVSUB-NEPK | SG: -- | Method: --
+
+---
+
 ### G47 - Aug26 - A
 - Recipe: Copper Carbonate: 4.9g per 600g, Light Rutile: 4.09g per 600g
 - Base: G3806C | SG: -- | Method: --
@@ -625,13 +631,6 @@ No batches recorded yet.
 ### G79 - Jul27 - B
 - Recipe: undefined
 - Base: undefined | SG: 1.55 | Method: --
-- Fired: Jul 27, 2026 | Door | --
-
----
-
-### G80 - Jul27 - B
-- Recipe: undefined
-- Base: undefined | SG: 1.5 | Method: --
 - Fired: Jul 27, 2026 | Door | --
 
 
