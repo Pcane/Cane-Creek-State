@@ -1,9 +1,9 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 11/7/2026, 4:42:08 PM
+Last updated: 11/9/2026, 12:53:27 PM
 
 ## Glaze Library
 
-### Active (10)
+### Active (11)
 - **G21** -- Trans Earthy Brown — OX | Base: G2926B | Spanish Red Iron Oxide 12.12g, Light Rutile 2.424g | Target SG: 1.45
 - **G40v2** -- Tenmoku - OX | Base: G2926B | Spanish Red Iron Oxide 39.4g, Light Rutile 3.03g | Target SG: 1.32
 - **T6** -- Green - Nickel Oxide - T | Base: G2926B | Nickel Oxide 15g
@@ -14,6 +14,7 @@ Last updated: 11/7/2026, 4:42:08 PM
 - **T2S7v2-RavNEPK** -- G-T2S7v2-RavNEPK-Light Green | Base: RAVSUB-NEPK | Nickel Oxide 36g
 - **T1S36-RavNEPK** -- G-T1S36-RavNEPK-Dark Brown | Base: RAVSUB-NEPK | Manganese Dioxide 30g
 - **G124v3-RavNEPK** -- Dark Red | Base: RAVSUB-NEPK | Mason 6003 48g
+- **G90v2** -- Plum-Eggplant | Base: G3806C | RIO 9g, Titanium Dioxide 24g, Cobalt Carbonate 6g, Lithium Carbonate 6g
 
 ### Test (9)
 - **G30v2-RavNEPK** -- Dark Blue | Base: RAVSUB-NEPK | Cobalt Oxide 2.4240000000000004g, Light Rutile 12.120000000000001g
