@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 11/13/2026, 10:20:06 AM
+Last updated: 11/13/2026, 10:20:15 AM
 
 ## Glaze Library
 
@@ -311,6 +311,8 @@ Last updated: 11/13/2026, 10:20:06 AM
 - Ingredients: Ferro Frit 3110 31.1%, Silica 26.3%, Tile 6 Kaolin 19.7%, Dolomite 8.7%, Strontium Carbonate 4.4%, Ferro Frit 3134 6.6%, Zinc Oxide 3.3%
 - Notes: Fluid-melt by design — runs more than G2926B or G1214M. Apply thinner than usual as a starting caution (currently run at SG 1.35 for G47/G48, which is on the thicker side of that caution — worth watching). Higher thermal expansion accepted deliberately for non-functional wall/art tiles. Kaolin substituted with Tile 6 Kaolin, matching studio stock (same substitution used in G2926B).
 
+[2026-11-13] Batch logged: 2602g dry + 3010g water -> SG 1.36 (f-factor 0.4541 at SG 1.35). Trusted f-factor 0.438 -> 0.4434. Water estimate for 2602g dry corrected 3440 -> 3270g (the 3440g figure was a default, not measured; 3440g would give about SG 1.33).
+
 ### G2926B -- Standard Clear Gloss
 - Target SG: 1.35 | Dry lb/gal: 5.737
 - Ingredients: Nepheline Syenite 16.6%, Ferro Frit 3134 23.1%, Tile 6 Kaolin 17.8%, Wollastonite W-20 6.3%, Silica 325 mesh 34.2%, Talc 2.1%
@@ -369,6 +371,8 @@ EPK VERSION -- no longer mixed as of 2026-10-15 (EPK discontinued). Use RAVSUB-N
 - Ingredients: G-200 EU Feldspar 23.02%, Ferro Frit 3134 20%, Silica 19.25%, Grolleg Kaolin 17.18%, Wollastonite W-20 13.81%, Dolomite 6.49%, Barium Carbonate 0.26%
 - Notes: NON-EPK BASE, created 2026-10-15. Grolleg Kaolin swapped 1:1 for EPK Kaolin; every other material and percentage unchanged from RAVSUB. UMF check before switching: every oxide within 2% of the EPK version except K2O +9.8% (Grolleg carries ~1.9% K2O; total KNaO only +3%), Fe2O3 -11%, TiO2 -88%. Si:Al 9.45 vs 9.33. Expected melt/gloss essentially unchanged; slightly lower titanium may help iron color. Not fired-tested before adoption (no EPK left to keep the old version). Grolleg is less plastic than EPK -- watch for settling/hard-packing. Glazes on this base use the -RavNEPK suffix. All -Rav glazes and RAVSUB walk-test squares were fired on the EPK version (RAVSUB). [2026-10-26] Real f-factor measured: 0.40 (was 0.5226 carried over from EPK). Per gallon at SG 1.35: 4.87 lb dry (2208g) + ~2902g water. Grolleg version needs far more water than the EPK version did.
 
+[2026-11-13 CORRECTION] f-factor 0.40 -> 0.4302. The 0.40 set on 2026-10-26 was the wrong kind of number (a water-displacement factor). The app needs the dry fraction of the slurry at SG 1.35, which from the same 2026-10-26 readings is 0.430. Effect: NEPK colorant weights mixed between 2026-10-26 and 2026-11-13 were about 7% below the stated recipe percentages (about 93% of the intended colorant). Recipes unchanged; new mixes now weigh out the stated amounts.
+
 ## Base Slurry Batch Records
 
 ### G2926B (2 batches)
@@ -394,7 +398,16 @@ EPK VERSION -- no longer mixed as of 2026-10-15 (EPK discontinued). Use RAVSUB-N
 - Empirical f factor: 0.404
 
 
-### G3806C (1 batch)
+### G3806C (2 batches)
+### G3806C-002 -- G3806C
+- Date: Nov 13, 2026
+- Dry: 2602g | Water: 3010g | SG: 1.36
+- Calculated f factor: 0.4541
+- CMC: 0g
+- Epsom: 0g
+- Veegum: 0g
+- Notes: [2026-11-13 batch] 1 gal G3806C, no CMC/Veegum. 2602g dry + 3010g water = SG 1.36 (large-volume hydrometer reading; left at 1.36, close enough, will shift as it settles). f-factor here is the app's dry fraction corrected to SG 1.35: 0.4541 (raw dry fraction at 1.36 = 0.4636). Earlier small-sample reading of 1.40 at 2222g water was unreliable; a larger sample read 1.46.
+
 ### G3806C-001 -- G3806C
 - Date: Jul 12, 2026
 - Dry: 2.19g | Water: 2.8g | SG: null
@@ -447,8 +460,8 @@ No batches recorded yet.
 ### RAVSUB-NEPK-001 -- RAVSUB-NEPK
 - Date: Oct 26, 2026
 - Dry: 5205g | Water: 4750g | SG: 1.46
-- Calculated f factor: 0.4
-- Notes: First real RAVSUB-NEPK (non-EPK, Grolleg) batch, mixed 2026-10-26, no CMC/Veegum. 5205g dry. Hydrometer readings at confirmed water amounts: 4000g water -> SG 1.525 (f 0.391); 4750g water -> SG 1.46 (f 0.397). f-factor set to 0.40. Replaces the 0.5226 carried over from the EPK version -- Grolleg holds much more water than EPK did. Batch was still being thinned toward 1.35 when logged.
+- Calculated f factor: 0.4302
+- Notes: First real RAVSUB-NEPK (non-EPK, Grolleg) batch, mixed 2026-10-26, no CMC/Veegum. 5205g dry. Hydrometer readings at confirmed water amounts: 4000g water -> SG 1.525 (f 0.391); 4750g water -> SG 1.46 (f 0.397). f-factor set to 0.40. Replaces the 0.5226 carried over from the EPK version -- Grolleg holds much more water than EPK did. Batch was still being thinned toward 1.35 when logged. [2026-11-13 CORRECTION] fFactor 0.40 -> 0.4302. The 0.40 was a water-displacement factor, not the app's f-factor (dry fraction of the slurry at SG 1.35). Same readings, converted correctly.
 
 
 ## Recent Firing Records
