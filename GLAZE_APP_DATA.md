@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 11/12/2026, 8:05:21 PM
+Last updated: 11/13/2026, 8:59:17 AM
 
 ## Glaze Library
 
@@ -16,8 +16,8 @@ Last updated: 11/12/2026, 8:05:21 PM
 - **G124v3-RavNEPK** -- Dark Red | Base: RAVSUB-NEPK | Mason 6003 48g
 - **G90v2** -- Slate Green, Amber Break | Base: G3806C | RIO 9g, Titanium Dioxide 24g, Cobalt Carbonate 6g, Lithium Carbonate 6g
 
-### Test (12)
-- **G65** -- Deep Brown-Black Iron - G | Base: G3806C | Spanish RIO 39g, Light Rutile 7.5g
+### Test (17)
+- **G65** -- Saddle Brown | Base: G3806C | Spanish RIO 39g, Light Rutile 7.5g
 - **G67** -- Blue-Green Floating Cobalt - G | Base: G3806C | Cobalt Oxide 3g, Copper Carbonate 10.5g, Light Rutile 24g
 - **G30v2-RavNEPK** -- Dark Blue | Base: RAVSUB-NEPK | Cobalt Oxide 2.4240000000000004g, Light Rutile 12.120000000000001g
 - **G29v3-RavNEPK** -- Corn Yellow | Base: RAVSUB-NEPK | Vanadium Yellow 14.52g, Spanish Red Iron Oxide 9.120000000000001g
@@ -29,6 +29,11 @@ Last updated: 11/12/2026, 8:05:21 PM
 - **T1S5-RavNEPK** -- G-T1S5-RavNEPK-Dark Blue | Base: RAVSUB-NEPK | Cobalt Oxide 3.264g
 - **T1S1-RavNEPK** -- G-T1S1-RavNEPK-Light Blue | Base: RAVSUB-NEPK | Cobalt Oxide 0.6g
 - **G84v2** -- Frosted Copper | Base: G3806C | RIO 4.5g, Rutile 6g, Titanium Dioxide 33g, Copper Carbonate 12g
+- **G84v3** -- Olive Copper | Base: G3806C | RIO 5.1g, Titanium Dioxide 38.4g, Copper Carbonate 12g
+- **G84v3-D** -- Companion to G84v3 | Base: G3806C | RIO 12g, Titanium Dioxide 38.4g, Copper Carbonate 21g
+- **G65v2** -- Saddle Brown - Cobalt | Base: G3806C | Spanish RIO 39g, Light Rutile 7.5g, Cobalt Carbonate 1.5g
+- **G65v3** -- Saddle Brown - Manganese | Base: G3806C | Spanish RIO 39g, Light Rutile 7.5g, Manganese Dioxide 6g
+- **G155** -- Light Blue, Dark Recess | Base: G3806C | Cobalt Carbonate 1.8g, Titanium Dioxide 24g, Lithium Carbonate 6g
 
 ### Inactive (268)
 - **G1** -- G1 — Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 12.1g
