@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 11/9/2026, 12:53:27 PM
+Last updated: 11/12/2026, 8:04:47 PM
 
 ## Glaze Library
 
@@ -14,9 +14,11 @@ Last updated: 11/9/2026, 12:53:27 PM
 - **T2S7v2-RavNEPK** -- G-T2S7v2-RavNEPK-Light Green | Base: RAVSUB-NEPK | Nickel Oxide 36g
 - **T1S36-RavNEPK** -- G-T1S36-RavNEPK-Dark Brown | Base: RAVSUB-NEPK | Manganese Dioxide 30g
 - **G124v3-RavNEPK** -- Dark Red | Base: RAVSUB-NEPK | Mason 6003 48g
-- **G90v2** -- Plum-Eggplant | Base: G3806C | RIO 9g, Titanium Dioxide 24g, Cobalt Carbonate 6g, Lithium Carbonate 6g
+- **G90v2** -- Slate Green, Amber Break | Base: G3806C | RIO 9g, Titanium Dioxide 24g, Cobalt Carbonate 6g, Lithium Carbonate 6g
 
-### Test (9)
+### Test (12)
+- **G65** -- Deep Brown-Black Iron - G | Base: G3806C | Spanish RIO 39g, Light Rutile 7.5g
+- **G67** -- Blue-Green Floating Cobalt - G | Base: G3806C | Cobalt Oxide 3g, Copper Carbonate 10.5g, Light Rutile 24g
 - **G30v2-RavNEPK** -- Dark Blue | Base: RAVSUB-NEPK | Cobalt Oxide 2.4240000000000004g, Light Rutile 12.120000000000001g
 - **G29v3-RavNEPK** -- Corn Yellow | Base: RAVSUB-NEPK | Vanadium Yellow 14.52g, Spanish Red Iron Oxide 9.120000000000001g
 - **G111-RavNEPK** -- Very Light Blue | Base: RAVSUB-NEPK | Cobalt Oxide 1.2g
@@ -26,8 +28,9 @@ Last updated: 11/9/2026, 12:53:27 PM
 - **T2S9-RavNEPK** -- G-T2S9-RavNEPK-Medium Lime | Base: RAVSUB-NEPK | Copper Carbonate 6.75g
 - **T1S5-RavNEPK** -- G-T1S5-RavNEPK-Dark Blue | Base: RAVSUB-NEPK | Cobalt Oxide 3.264g
 - **T1S1-RavNEPK** -- G-T1S1-RavNEPK-Light Blue | Base: RAVSUB-NEPK | Cobalt Oxide 0.6g
+- **G84v2** -- Frosted Copper | Base: G3806C | RIO 4.5g, Rutile 6g, Titanium Dioxide 33g, Copper Carbonate 12g
 
-### Inactive (270)
+### Inactive (268)
 - **G1** -- G1 — Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 12.1g
 - **G2** -- G2 — Mid-Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 19.4g
 - **G3** -- G3 — Transparent UNC Blue — MS | Base: G2926B | Mason 6374 7.273g
@@ -113,9 +116,7 @@ Last updated: 11/9/2026, 12:53:27 PM
 - **T11** -- G38v4 Rutile amber cloud - T | Base: G2926B | Light Rutile 19.38g, Red Iron Oxide 6.06g
 - **T12** -- Orange | Base: G2926B | Mason 6028 44.004g, RIO 8.251g
 - **G64** -- Frosted Light Green | Base: G3806C | Copper Carbonate 9g, Light Rutile 27g
-- **G65** -- Deep Brown-Black Iron - G | Base: G3806C | Spanish RIO 39g, Light Rutile 7.5g
 - **G66** -- Yellow-Brown Rutile Float - G | Base: G3806C | Spanish RIO 15g, Light Rutile 27g
-- **G67** -- Blue-Green Floating Cobalt - G | Base: G3806C | Cobalt Oxide 3g, Copper Carbonate 10.5g, Light Rutile 24g
 - **T14** -- cobalt blue with rutile break on G3806C - T | Base: G3806C | Cobalt Oxide 2.232g, Light Rutile 7.61g
 - **G68** -- Chrome-Tin Red -- Hansen Dose - G | Base: G1214M | Chrome Oxide 2.7g, Tin Oxide 45g
 - **T15** -- Honey amber - T | Base: Blend (no base pour) | Glaze G12 150g, Glaze G29v2 450g
