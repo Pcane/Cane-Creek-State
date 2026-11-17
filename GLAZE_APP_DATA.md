@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 11/17/2026, 9:03:44 AM
+Last updated: 11/17/2026, 9:15:58 AM
 
 ## Glaze Library
 
@@ -16,7 +16,7 @@ Last updated: 11/17/2026, 9:03:44 AM
 - **G124v3-RavNEPK** -- Dark Red | Base: RAVSUB-NEPK | Mason 6003 48g
 - **G90v2** -- Slate Green, Amber Break | Base: G3806C | RIO 9g, Titanium Dioxide 24g, Cobalt Carbonate 6g, Lithium Carbonate 6g
 
-### Test (17)
+### Test (20)
 - **G65** -- Saddle Brown | Base: G3806C | Spanish RIO 39g, Light Rutile 7.5g
 - **G67** -- Blue-Green Floating Cobalt - G | Base: G3806C | Cobalt Oxide 3g, Copper Carbonate 10.5g, Light Rutile 24g
 - **G30v2-RavNEPK** -- Dark Blue | Base: RAVSUB-NEPK | Cobalt Oxide 2.4240000000000004g, Light Rutile 12.120000000000001g
@@ -34,6 +34,9 @@ Last updated: 11/17/2026, 9:03:44 AM
 - **G65v2** -- Saddle Brown - Cobalt | Base: G3806C | Spanish RIO 32.1g, Light Rutile 7.5g, Cobalt Carbonate 1.5g
 - **G65v3** -- Saddle Brown - Manganese | Base: G3806C | Spanish RIO 39g, Light Rutile 7.5g, Manganese Dioxide 6g
 - **G155** -- Light Blue, Dark Recess | Base: G3806C | Cobalt Carbonate 1.8g, Titanium Dioxide 24g, Lithium Carbonate 6g
+- **T11v2** -- Cedar A | Base: G2926B | Red Iron Oxide 9g, Light Rutile 12g
+- **T11v3** -- Cedar B | Base: G2926B | Red Iron Oxide 10.5g, Light Rutile 9g
+- **T11v4** -- Cedar C | Base: G2926B | Red Iron Oxide 9g, Light Rutile 12g, Vanadium Yellow 6g
 
 ### Inactive (268)
 - **G1** -- G1 — Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 12.1g
@@ -466,9 +469,156 @@ No batches recorded yet.
 
 ## Recent Firing Records
 
+### T11v2 - Nov26 - A
+- Recipe: Red Iron Oxide: 9g per 600g, Light Rutile: 12g per 600g
+- Base: G2926B | SG: -- | Method: Dip
+- Color: Honey Gold
+- Finish: Gloss
+- Notes: [2026-11-17 photo result] Cedar A, 4-second dip, flat tile. Honey-gold straw with darker amber at the edges. Warmer and stronger than Cedar B despite the shorter dip -- more rutile (2% vs 1.5%) turns the iron golder. Context: bisque was water-dipped before glazing (thinner coat). From now on: damp-wipe only, no water dip.
+
+---
+
+### T11v3 - Nov26 - A
+- Recipe: Red Iron Oxide: 10.5g per 600g, Light Rutile: 9g per 600g
+- Base: G2926B | SG: -- | Method: Dip
+- Color: Cream
+- Finish: Gloss
+- Notes: [2026-11-17 photo result] Cedar B, 8-second dip, flat tile. Pale straw / cream-yellow, even, light speckle. Palest of the three. Context: bisque was water-dipped before glazing (thinner coat). From now on: damp-wipe only, no water dip.
+
+---
+
+### T11v4 - Nov26 - A
+- Recipe: Red Iron Oxide: 9g per 600g, Light Rutile: 12g per 600g, Vanadium Yellow: 6g per 600g
+- Base: G2926B | SG: -- | Method: Dip
+- Color: Honey Gold
+- Finish: Gloss
+- Notes: [2026-11-17 photo result] Cedar C, flat tile. Mustard / khaki-tan, more opaque and browner than A and B -- the 1% vanadium yellow. Context: bisque was water-dipped before glazing (thinner coat). From now on: damp-wipe only, no water dip.
+
+---
+
+### G49 - Nov26 - A
+- Recipe: Nepheline Syenite: 180g per 600g, Ferro Frit 3134: 216g per 600g, Silica: 84g per 600g, EPK Kaolin: 120g per 600g, Spanish Red Iron Oxide: 12g per 600g, Cobalt Oxide: 7.2g per 600g, Light Rutile: 24g per 600g
+- Base: G49-base (own base, not G2926B/G1214M/G3806C) | SG: -- | Method: Dip
+- Color: Cobalt Blue
+- Finish: Gloss
+- Notes: [2026-11-17 photo result] 2 dips. Deep variegated navy-indigo with a lighter blue cloud and streaks; brown/amber break on the thin edges. Classic Floating Blue. Peter: remake without EPK (on RAVSUB-NEPK or G3806C) -- G90v2 (G3806C) is already close to that. Context: bisque was water-dipped before glazing (thinner coat). From now on: damp-wipe only, no water dip.
+
+---
+
+### G30v2-RavNEPK - Nov26 - A
+- Recipe: Cobalt Oxide: 2.4240000000000004g per 600g, Light Rutile: 12.120000000000001g per 600g
+- Base: RAVSUB-NEPK | SG: -- | Method: Dip
+- Color: Sky Blue
+- Finish: Gloss
+- Notes: [2026-11-17 photo result] Pale, milky grey-blue with blotchy streaks -- nothing like the deep blue G30v2 gives on G2926B. Context: bisque was water-dipped before glazing (thinner coat), and this batch was mixed while the RAVSUB-NEPK f-factor was wrong (0.40 instead of 0.43), so it got about 93% of the stated colorant -- both make it paler than the recipe intends. From now on: damp-wipe only, no water dip.
+
+---
+
+### G29v3-RavNEPK - Nov26 - A
+- Recipe: Vanadium Yellow: 14.52g per 600g, Spanish Red Iron Oxide: 9.120000000000001g per 600g
+- Base: RAVSUB-NEPK | SG: -- | Method: Dip
+- Color: Honey Gold
+- Finish: Gloss
+- Notes: [2026-11-17 photo result] Pale lemon / chartreuse yellow (app has no Yellow option), even, with dark specks. Context: bisque was water-dipped before glazing (thinner coat), and this batch was mixed while the RAVSUB-NEPK f-factor was wrong (0.40 instead of 0.43), so it got about 93% of the stated colorant -- both make it paler than the recipe intends. From now on: damp-wipe only, no water dip.
+
+---
+
 ### G113-RavNEPK - Nov26 - A
 - Recipe: Chrome Oxide: 1.2000000000000002g per 600g
-- Base: RAVSUB-NEPK | SG: -- | Method: --
+- Base: RAVSUB-NEPK | SG: -- | Method: Dip
+- Color: Off-White
+- Finish: Gloss
+- Notes: [2026-11-17 photo result] Off-white with a faint grey-green tint; uneven, rippled sheen. Chrome 0.2% barely shows at this thickness. Context: bisque was water-dipped before glazing (thinner coat), and this batch was mixed while the RAVSUB-NEPK f-factor was wrong (0.40 instead of 0.43), so it got about 93% of the stated colorant -- both make it paler than the recipe intends. From now on: damp-wipe only, no water dip.
+
+---
+
+### G111-RavNEPK - Nov26 - A
+- Recipe: Cobalt Oxide: 1.2g per 600g
+- Base: RAVSUB-NEPK | SG: -- | Method: Dip
+- Color: Sky Blue
+- Finish: Gloss
+- Notes: [2026-11-17 photo result] Milky off-white with only a faint blue cast; the cobalt shows as darker blue streaks where glaze collected at the edges and drips. Thin, uneven coat -- much lighter than intended. Context: bisque was water-dipped before glazing (thinner coat), and this batch was mixed while the RAVSUB-NEPK f-factor was wrong (0.40 instead of 0.43), so it got about 93% of the stated colorant -- both make it paler than the recipe intends. From now on: damp-wipe only, no water dip.
+
+---
+
+### T2S7-RavNEPK - Nov26 - A
+- Recipe: Nickel Oxide: 26g per 600g
+- Base: RAVSUB-NEPK | SG: -- | Method: Dip
+- Color: Olive
+- Finish: Gloss
+- Notes: [2026-11-17 photo result] Khaki-olive leaning brown rather than green. Darker in the recesses, cream on the raised lines. Context: bisque was water-dipped before glazing (thinner coat), and this batch was mixed while the RAVSUB-NEPK f-factor was wrong (0.40 instead of 0.43), so it got about 93% of the stated colorant -- both make it paler than the recipe intends. From now on: damp-wipe only, no water dip.
+
+---
+
+### T2S7v2-RavNEPK - Nov26 - A
+- Recipe: Nickel Oxide: 36g per 600g
+- Base: RAVSUB-NEPK | SG: -- | Method: Dip
+- Color: Green
+- Finish: Gloss
+- Notes: [2026-11-17 photo result] Light yellow-green / chartreuse, glossy this time (an earlier tile came out matte). Greener pooling in the recesses, cream raised lines. Lighter and greener than T2S7-RavNEPK at 4.33% nickel, even though this has 6%. Context: bisque was water-dipped before glazing (thinner coat), and this batch was mixed while the RAVSUB-NEPK f-factor was wrong (0.40 instead of 0.43), so it got about 93% of the stated colorant -- both make it paler than the recipe intends. From now on: damp-wipe only, no water dip.
+
+---
+
+### G107-RavNEPK - Nov26 - A
+- Recipe: Copper Carbonate: 6g per 600g
+- Base: RAVSUB-NEPK | SG: -- | Method: Dip
+- Color: Green
+- Finish: Gloss
+- Notes: [2026-11-17 photo result] Relief tile: glossy pale celadon / sea green. Greener pooling in the recesses and around the circle, white raised lines. Context: bisque was water-dipped before glazing (thinner coat), and this batch was mixed while the RAVSUB-NEPK f-factor was wrong (0.40 instead of 0.43), so it got about 93% of the stated colorant -- both make it paler than the recipe intends. From now on: damp-wipe only, no water dip.
+
+---
+
+### G107-RavNEPK - Nov26 - B
+- Recipe: Copper Carbonate: 6g per 600g
+- Base: RAVSUB-NEPK | SG: -- | Method: Dip
+- Color: Off-White
+- Finish: Gloss
+- Notes: [2026-11-17 photo result] Flat tile, same glaze as the relief tile: near off-white and speckled, only a very, very faint green tint. Likely the jar was not stirred enough (copper carbonate is heavy and settles fast) plus a thin coat. Context: bisque was water-dipped before glazing (thinner coat), and this batch was mixed while the RAVSUB-NEPK f-factor was wrong (0.40 instead of 0.43), so it got about 93% of the stated colorant -- both make it paler than the recipe intends. From now on: damp-wipe only, no water dip.
+
+---
+
+### T1S5-RavNEPK - Nov26 - A
+- Recipe: Cobalt Oxide: 3.264g per 600g
+- Base: RAVSUB-NEPK | SG: -- | Method: Dip
+- Color: Cobalt Blue
+- Finish: Gloss
+- Notes: [2026-11-17 photo result] Outer field of a shared tile (center circle = T2S9-RavNEPK). Intense, deep, glossy cobalt blue; fluid and well pooled. Context: bisque was water-dipped before glazing (thinner coat), and this batch was mixed while the RAVSUB-NEPK f-factor was wrong (0.40 instead of 0.43), so it got about 93% of the stated colorant -- both make it paler than the recipe intends. From now on: damp-wipe only, no water dip.
+
+---
+
+### T2S9-RavNEPK - Nov26 - A
+- Recipe: Copper Carbonate: 6.75g per 600g
+- Base: RAVSUB-NEPK | SG: -- | Method: Dip
+- Color: Teal
+- Finish: Gloss
+- Notes: [2026-11-17 photo result] Center circle of a shared tile with T1S5-RavNEPK (tile labelled "T1S9"; recorded here because the pale aqua-green is copper and T2S9-RavNEPK was made alongside T1S5-RavNEPK -- confirmed with Peter). Glossy pale aqua / sea green. Context: bisque was water-dipped before glazing (thinner coat), and this batch was mixed while the RAVSUB-NEPK f-factor was wrong (0.40 instead of 0.43), so it got about 93% of the stated colorant -- both make it paler than the recipe intends. From now on: damp-wipe only, no water dip.
+
+---
+
+### T1S32-RavNEPK - Nov26 - A
+- Recipe: Manganese Dioxide: 18g per 600g
+- Base: RAVSUB-NEPK | SG: -- | Method: Dip
+- Color: Amber
+- Finish: Gloss
+- Notes: [2026-11-17 photo result] Transparent amber-caramel. Deep brown in the recesses, honey mid-tones, cream raised lines. Peter: T1S36 (manganese 5%) was the better result. Context: bisque was water-dipped before glazing (thinner coat), and this batch was mixed while the RAVSUB-NEPK f-factor was wrong (0.40 instead of 0.43), so it got about 93% of the stated colorant -- both make it paler than the recipe intends. From now on: damp-wipe only, no water dip.
+
+---
+
+### G21 - Nov26 - A
+- Recipe: Spanish Red Iron Oxide: 12.12g per 600g, Light Rutile: 2.424g per 600g
+- Base: G2926B | SG: -- | Method: Dip
+- Color: Amber
+- Finish: Gloss
+- Notes: [2026-11-17 photo result] On G2926B. Taupe / very light amber, darker in the recesses, pale on the edges, fine iron speckle. Peter would prefer a very slightly redder, warmer tint. Context: bisque was water-dipped before glazing (thinner coat). From now on: damp-wipe only, no water dip.
+
+---
+
+### T1S24v2-RavNEPK - Nov26 - A
+- Recipe: Chrome Oxide: 4.8g per 600g
+- Base: RAVSUB-NEPK | SG: -- | Method: Dip
+- Color: Olive
+- Finish: Gloss
+- Notes: [2026-11-17 photo result] Glossy transparent olive/moss green, medium-dark. Darker olive pools in the recesses, cream break on the raised lines. Clean and even. (Tile was labelled "T1S24 NEPK"; recorded as v2 because the 0.5% version was retired on 2026-10-23.) Context: bisque was water-dipped before glazing (thinner coat), and this batch was mixed while the RAVSUB-NEPK f-factor was wrong (0.40 instead of 0.43), so it got about 93% of the stated colorant -- both make it paler than the recipe intends. From now on: damp-wipe only, no water dip.
 
 ---
 
@@ -499,159 +649,6 @@ No batches recorded yet.
 - Finish: Gloss
 - Rating: Poor
 - Notes: Very light scum look in the center, dark on edges -- not useful.
-
----
-
-### G65 - Aug26 - A
-- Recipe: Spanish RIO: 39g per 600g, Light Rutile: 7.5g per 600g
-- Base: G3806C | SG: -- | Method: --
-- Fired: Aug 13, 2026 | Door Kiln | Cone 6 -- full melt
-- Finish: Gloss
-- Rating: Fair
-- Notes: Glossy brown, water-spot crystal growth -- not a great look. Dark on edges, lighter in shallows.
-
----
-
-### G90 - Aug26 - A
-- Recipe: RIO: 9g per 600g, Titanium Dioxide: 24g per 600g, Cobalt Carbonate: 6g per 600g, Lithium Carbonate: 6g per 600g
-- Base: G3806C+15Sil | SG: -- | Method: --
-- Fired: Aug 13, 2026 | Door Kiln | Cone 6 -- full melt
-- Finish: Gloss
-- Rating: Poor
-- Notes: Glossy, small white crystal growth, almost a starry look -- but also has sedimentation lines.
-
----
-
-### G29v3 - Aug26 - A
-- Recipe: Vanadium Yellow: 14.544g per 600g, Spanish Red Iron Oxide: 9.09g per 600g
-- Base: G2926B | SG: -- | Method: --
-- Fired: Aug 13, 2026 | Door Kiln | Cone 6 -- full melt
-- Finish: Gloss
-- Rating: Good
-- Notes: Nice corn yellow with darker edging, glossy.
-
----
-
-### G21v2 - Aug26 - A
-- Recipe: Spanish Red Iron Oxide: 12.12g per 600g, Light Rutile: 6.06g per 600g
-- Base: G2926B | SG: -- | Method: --
-- Fired: Aug 13, 2026 | Door Kiln | Cone 6 -- full melt
-- Finish: Gloss
-- Rating: Good
-- Notes: Very thin brown with very dark edges -- high contrast.
-
----
-
-### G30v2 - Aug26 - A
-- Recipe: Cobalt Oxide: 2.424g per 600g, Light Rutile: 12.12g per 600g
-- Base: G2926B | SG: -- | Method: --
-- Fired: Aug 13, 2026 | Door Kiln | Cone 6 -- full melt
-- Finish: Gloss
-- Rating: Good
-- Notes: Middle dark blue, good dark edge break.
-
----
-
-### G40v2 - Aug26 - A
-- Recipe: Spanish Red Iron Oxide: 39.4g per 600g, Light Rutile: 3.03g per 600g
-- Base: G2926B | SG: -- | Method: --
-- Fired: Aug 13, 2026 | Door Kiln | Cone 6 -- full melt
-- Finish: Gloss
-- Rating: Fair
-- Notes: Near black, no edge -- could use thinning.
-
----
-
-### T6 - Aug26 - A
-- Recipe: Nickel Oxide: 15g per 600g
-- Base: G2926B | SG: -- | Method: --
-- Fired: Aug 13, 2026 | Door Kiln | Cone 6 -- full melt
-- Finish: Gloss
-- Rating: Fair
-- Notes: Brown, transparent -- slight amount of crawling around the edges.
-
----
-
-### G73 - Aug26 - A
-- Recipe: Mason 6088: 27g per 600g
-- Base: G2926B | SG: -- | Method: --
-- Fired: Aug 13, 2026 | Door Kiln | Cone 6 -- full melt
-- Finish: Gloss
-- Rating: Fair
-- Notes: Light red, small amount of edging.
-
----
-
-### G58 - Aug26 - A
-- Recipe: Rutile: 18g per 600g, Cobalt Carbonate: 1.8g per 600g
-- Base: G2926B | SG: -- | Method: --
-- Fired: Aug 13, 2026 | Door Kiln | Cone 6 -- full melt
-- Finish: Gloss
-- Rating: Fair
-- Notes: Light blue, transparent -- appears to have a small amount of crawling.
-
----
-
-### G79 - Aug26 - A
-- Recipe: Cobalt Oxide: 3g per 600g, Copper Carbonate: 10.5g per 600g, Light Rutile: 24g per 600g
-- Base: G3806C+15Sil | SG: -- | Method: --
-- Fired: Aug 13, 2026 | Door Kiln | Cone 6 -- full melt
-- Finish: Gloss
-- Rating: Fair
-- Notes: Blue with light crystal growth, dark edging.
-
----
-
-### G59 - Aug26 - A
-- Recipe: Rutile: 18g per 600g, Cobalt Carbonate: 0.9g per 600g, Copper Carbonate: 1.8g per 600g
-- Base: G2926B | SG: -- | Method: --
-- Fired: Aug 13, 2026 | Door Kiln | Cone 6 -- full melt
-- Finish: Gloss
-- Rating: Good
-- Notes: Transparent, no edging, very light green.
-
----
-
-### G49 - Aug26 - A
-- Recipe: Nepheline Syenite: 180g per 600g, Ferro Frit 3134: 216g per 600g, Silica: 84g per 600g, EPK Kaolin: 120g per 600g, Spanish Red Iron Oxide: 12g per 600g, Cobalt Oxide: 7.2g per 600g, Light Rutile: 24g per 600g
-- Base: G49-base (own base, not G2926B/G1214M/G3806C) | SG: -- | Method: --
-- Fired: Aug 13, 2026 | Door Kiln | Cone 6 -- full melt
-- Finish: Gloss
-- Rating: Fair
-- Notes: Nearly black, slight large white blotches.
-
----
-
-### T12 - Aug26 - A
-- Recipe: Mason 6028: 44.004g per 600g, RIO: 8.251g per 600g
-- Base: G2926B | SG: -- | Method: --
-- Fired: Aug 13, 2026 | Door Kiln | Cone 6 -- full melt
-- Finish: Gloss
-- Rating: Good
-- Notes: Dark orange, no edging.
-
----
-
-### G84 - Aug26 - A
-- Recipe: RIO: 4.5g per 600g, Rutile: 6g per 600g, Titanium Dioxide: 33g per 600g, Copper Carbonate: 12g per 600g
-- Base: G3806C+15Sil | SG: -- | Method: --
-- Fired: Aug 13, 2026 | Door Kiln | Cone 6 -- full melt
-- Finish: Gloss
-- Rating: Poor
-- Notes: Not usable.
-
----
-
-### T16 - Aug26 - A
-- Recipe: mason  dark brown 6107: 267.987g per 600g
-- Base: G2926B | SG: -- | Method: --
-
----
-
-### G79 - Jul27 - B
-- Recipe: undefined
-- Base: undefined | SG: 1.55 | Method: --
-- Fired: Jul 27, 2026 | Door | --
 
 
 ## Studio Constants
