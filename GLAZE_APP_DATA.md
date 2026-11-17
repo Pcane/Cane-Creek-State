@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 11/13/2026, 10:20:15 AM
+Last updated: 11/17/2026, 9:03:44 AM
 
 ## Glaze Library
 
@@ -31,7 +31,7 @@ Last updated: 11/13/2026, 10:20:15 AM
 - **G84v2** -- Frosted Copper | Base: G3806C | RIO 4.5g, Rutile 6g, Titanium Dioxide 33g, Copper Carbonate 12g
 - **G84v3** -- Olive Copper | Base: G3806C | RIO 5.1g, Titanium Dioxide 38.4g, Copper Carbonate 12g
 - **G84v3-D** -- Companion to G84v3 | Base: G3806C | RIO 12g, Titanium Dioxide 38.4g, Copper Carbonate 21g
-- **G65v2** -- Saddle Brown - Cobalt | Base: G3806C | Spanish RIO 39g, Light Rutile 7.5g, Cobalt Carbonate 1.5g
+- **G65v2** -- Saddle Brown - Cobalt | Base: G3806C | Spanish RIO 32.1g, Light Rutile 7.5g, Cobalt Carbonate 1.5g
 - **G65v3** -- Saddle Brown - Manganese | Base: G3806C | Spanish RIO 39g, Light Rutile 7.5g, Manganese Dioxide 6g
 - **G155** -- Light Blue, Dark Recess | Base: G3806C | Cobalt Carbonate 1.8g, Titanium Dioxide 24g, Lithium Carbonate 6g
 
