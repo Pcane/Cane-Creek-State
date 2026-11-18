@@ -1,5 +1,5 @@
 # GLAZE_APP_DATA.md -- Cane Creek Glaze Studio
-Last updated: 11/17/2026, 9:15:58 AM
+Last updated: 11/18/2026, 2:26:52 PM
 
 ## Glaze Library
 
@@ -16,7 +16,7 @@ Last updated: 11/17/2026, 9:15:58 AM
 - **G124v3-RavNEPK** -- Dark Red | Base: RAVSUB-NEPK | Mason 6003 48g
 - **G90v2** -- Slate Green, Amber Break | Base: G3806C | RIO 9g, Titanium Dioxide 24g, Cobalt Carbonate 6g, Lithium Carbonate 6g
 
-### Test (20)
+### Test (17)
 - **G65** -- Saddle Brown | Base: G3806C | Spanish RIO 39g, Light Rutile 7.5g
 - **G67** -- Blue-Green Floating Cobalt - G | Base: G3806C | Cobalt Oxide 3g, Copper Carbonate 10.5g, Light Rutile 24g
 - **G30v2-RavNEPK** -- Dark Blue | Base: RAVSUB-NEPK | Cobalt Oxide 2.4240000000000004g, Light Rutile 12.120000000000001g
@@ -34,9 +34,6 @@ Last updated: 11/17/2026, 9:15:58 AM
 - **G65v2** -- Saddle Brown - Cobalt | Base: G3806C | Spanish RIO 32.1g, Light Rutile 7.5g, Cobalt Carbonate 1.5g
 - **G65v3** -- Saddle Brown - Manganese | Base: G3806C | Spanish RIO 39g, Light Rutile 7.5g, Manganese Dioxide 6g
 - **G155** -- Light Blue, Dark Recess | Base: G3806C | Cobalt Carbonate 1.8g, Titanium Dioxide 24g, Lithium Carbonate 6g
-- **T11v2** -- Cedar A | Base: G2926B | Red Iron Oxide 9g, Light Rutile 12g
-- **T11v3** -- Cedar B | Base: G2926B | Red Iron Oxide 10.5g, Light Rutile 9g
-- **T11v4** -- Cedar C | Base: G2926B | Red Iron Oxide 9g, Light Rutile 12g, Vanadium Yellow 6g
 
 ### Inactive (268)
 - **G1** -- G1 — Light Transparent Blue — OX | Base: G2926B | Cobalt Oxide 12.1g
